@@ -17,7 +17,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   await rm(dist, { recursive: true, force: true });
   await cp(resolve(root, 'src'), dist, { recursive: true });
   await mkdir(resolve(dist, 'api'), { recursive: true });
-  await cp(resolve(root, 'api/report.php'), resolve(dist, 'api/report.php'));
+  for (const f of ['report.php', 'auth.php', 'progress.php', 'lib.php']) await cp(resolve(root, 'api', f), resolve(dist, 'api', f));
   await cp(resolve(root, 'api/.htaccess'), resolve(dist, 'api/.htaccess'));
   await mkdir(resolve(dist, 'data'), { recursive: true });
   const data = await buildData();

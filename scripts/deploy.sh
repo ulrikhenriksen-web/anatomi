@@ -13,7 +13,7 @@ DRY=${DRY_RUN:+--dry-run}
 lftp -u "$SIMPLY_FTP_USER","$SIMPLY_FTP_PASSWORD" "ftp://$SIMPLY_FTP_HOST:${SIMPLY_FTP_PORT:-21}" -e "
   set ftp:ssl-force true; set ftp:passive-mode true; set net:max-retries 2; set net:timeout 30; set ftp:ssl-protect-data true; set ssl:verify-certificate yes;
   mkdir -fp $SIMPLY_REMOTE_DIR/_data;
-  ${EXTRA_DIR:+put -O $SIMPLY_REMOTE_DIR/api $EXTRA_DIR/api/config.php; put -O $SIMPLY_REMOTE_DIR/_data $EXTRA_DIR/_data/.htaccess;}
-  mirror -R --delete --verbose $DRY --exclude-glob api/config.php --exclude _data/ dist/ $SIMPLY_REMOTE_DIR/;
+  ${EXTRA_DIR:+put -O $SIMPLY_REMOTE_DIR/api $EXTRA_DIR/api/config.php; }
+  mirror -R --delete --verbose $DRY --exclude-glob api/config.php --exclude-glob '_data/*.sqlite*' dist/ $SIMPLY_REMOTE_DIR/;
   cls -lR $SIMPLY_REMOTE_DIR; bye"
 echo "Deployed. Smoke test:"; curl -fsS -o /dev/null -w "%{http_code}\n" "https://knoglequiz.emiltram.dk/" || true

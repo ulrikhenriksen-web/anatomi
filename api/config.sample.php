@@ -1,9 +1,8 @@
 <?php
-// Copy to api/config.php on the server (never commit). Omit db_dsn to use SQLite outside the web root.
+// Server-only (never commit). Upload to /knoglequiz/api/config.php.
 return [
-  'db_dsn'  => 'mysql:host=mysqlXX.unoeuro.com;dbname=emiltram_dk_db;charset=utf8mb4',
-  'db_user' => 'CHANGE_ME',
-  'db_pass' => 'CHANGE_ME',
-  'salt'    => 'CHANGE_ME_random_string',
-  // 'sqlite_path' => '/path/outside/public_html/reports.sqlite',
+  'sqlite_path'      => dirname(__DIR__) . '/_data/knoglequiz.sqlite', // _data/ is deny-all via .htaccess
+  'salt'             => 'CHANGE_ME_random_string',
+  'google_client_id' => '', // e.g. 1234-abc.apps.googleusercontent.com; empty = guest mode only
+  // 'cookie_secure' => true,
 ];

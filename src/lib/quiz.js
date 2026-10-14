@@ -40,12 +40,12 @@ export function regionsOf(item) {
 export function matchesRegion(item, region) {
   return !region || item.region === region || regionsOf(item).includes(region);
 }
-export function filterItems(items, { topic, region, query, testMode } = {}) {
+export function filterItems(items, { topic, region, query, testMode, quizMode } = {}) {
   const q = (query || '').trim().toLowerCase();
   return items.filter((it) =>
     (!topic || it.topic === topic) &&
     matchesRegion(it, region) &&
-    (!testMode || !it.needs_review) && // decision: needs_review excluded from Test
+    (!(testMode || quizMode) || !it.needs_review) && // needs_review excluded from ALL quiz modes; browsable in Udforsk
     (!q || [it.name_da, it.name_la_ta2, it.name_en].some((s) => s && s.toLowerCase().includes(q))));
 }
 
@@ -87,7 +87,7 @@ export function makeQuestion(item, kind, pool, rnd = Math.random, nOptions = 4) 
   const getter = kind === 'naming' ? FACETS.navn.get : FACETS[kind].get;
   const correct = getter(item);
   if (!correct) return null;
-  const same = (o) => o.id !== item.id && o.topic === item.topic && getter(o) && getter(o) !== correct;
+  const same = (o) => !o.needs_review && o.id !== item.id && o.topic === item.topic && getter(o) && getter(o) !== correct;
   // prefer distractors from the same region for difficulty
   const near = shuffle(pool.filter((o) => same(o) && regionsOf(o).some((r) => regionsOf(item).includes(r))), rnd);
   const far = shuffle(pool.filter((o) => same(o)), rnd);
@@ -130,7 +130,8 @@ export function isDue(s, now = Date.now()) { return !s || s.due <= now; }
 export const key = (itemId, facet) => `${itemId}::${facet}`;
 
 /** Pick the next cards for a drill session: due/new first, then soonest. */
-export function pickDrill(items, progress, facets, n = 10, now = Date.now(), rnd = Math.random) {
+export function pickDrill(itemsIn, progress, facets, n = 10, now = Date.now(), rnd = Math.random) {
+  const items = itemsIn.filter((i) => !i.needs_review);
   const cards = [];
   for (const it of items) for (const f of facetsFor(it, facets)) cards.push({ item: it, facet: f, s: progress[key(it.id, f)] });
   const due = shuffle(cards.filter((c) => c.s && isDue(c.s, now)), rnd);
@@ -158,4 +159,34 @@ export function validateReport(r) {
   if (!r || typeof r.message !== 'string' || r.message.trim().length < 3 || r.message.length > 2000) errors.push('message');
   if (r && r.field != null && (typeof r.field !== 'string' || r.field.length > 60)) errors.push('field');
   return errors;
+}
+
+// ---- v2 image hotspots (schema reserved, no feature yet) ----
+/** Normalised media: { image: url|null, hotspots: [{id, item_id, x, y, r}] } with x/y/r in 0..1. */
+export function mediaOf(item) {
+  const hs = Array.isArray(item?.hotspots) ? item.hotspots : [];
+  const ok = (n) => typeof n === 'number' && n >= 0 && n <= 1;
+  return {
+    image: typeof item?.image === 'string' && /^(https:\/\/|\/|[\w-]+\/)/.test(item.image) ? item.image : null,
+    hotspots: hs.filter((h) => h && typeof h.item_id === 'string' && ok(h.x) && ok(h.y)).map((h, i) => ({ id: h.id || `h${i}`, item_id: h.item_id, x: h.x, y: h.y, r: ok(h.r) ? h.r : 0.04 })),
+  };
+}
+
+// ---- Server sync: merge progress (per card: newest `last` wins) ----
+export function mergeProgress(a = {}, b = {}) {
+  const out = { ...a };
+  for (const [k, v] of Object.entries(b || {})) if (!out[k] || (v && (v.last || 0) > (out[k].last || 0))) out[k] = v;
+  return out;
+}
+export function mergeMeta(a = {}, b = {}) {
+  a = a || {}; b = b || {};
+  const newer = (a.lastDay || '') >= (b.lastDay || '') ? a : b;
+  const tests = [...(a.tests || []), ...(b.tests || [])];
+  const seen = new Set();
+  return {
+    xp: Math.max(a.xp || 0, b.xp || 0),
+    streak: newer.streak || 0,
+    lastDay: newer.lastDay || null,
+    tests: tests.filter((t) => t && !seen.has(t.at) && seen.add(t.at)).sort((x, y) => x.at - y.at).slice(-20),
+  };
 }

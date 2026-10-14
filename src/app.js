@@ -1,21 +1,98 @@
 import {
   TOPICS, FACETS, DEFAULT_FACETS, normalize, regionsOf, filterItems, describe, facetsFor,
-  makeQuestion, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
+  makeQuestion, mediaOf, mergeProgress, mergeMeta, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
 } from './lib/quiz.js';
 
 const $main = document.getElementById('main');
 const $live = document.getElementById('live');
 const $sheet = document.getElementById('sheet');
-const LS = { progress: 'kq.progress.v1', meta: 'kq.meta.v1', settings: 'kq.settings.v1', reports: 'kq.pendingReports.v1' };
+const LS = { progress: 'kq.progress.v1', meta: 'kq.meta.v1', settings: 'kq.settings.v1', reports: 'kq.pendingReports.v1', dirty: 'kq.dirty.v1', owner: 'kq.owner.v1' };
 const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
-const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* quota/private */ } };
+const save = (k, v) => {
+  try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* quota/private */ }
+  if (k === LS.progress || k === LS.meta) scheduleSync();
+};
 
 let ITEMS = [];
 let BY_ID = new Map();
+let QUIZ_ITEMS = [];
 let progress = load(LS.progress, {});
 let meta = load(LS.meta, { xp: 0, streak: 0, lastDay: null, tests: [] });
 let settings = load(LS.settings, { facets: DEFAULT_FACETS, timer: 45, theme: 'system', motion: 'system', shortcuts: true });
 let session = null;
+// ---------- Account + server sync (localStorage stays the offline cache) ----------
+let auth = { clientId: null, user: null, syncing: false, lastSync: null, error: null };
+let syncTimer = null;
+const api = async (path, opts = {}) => {
+  const r = await fetch(path, { credentials: 'same-origin', ...opts, headers: { 'Content-Type': 'application/json', 'X-KQ': '1', ...(opts.headers || {}) } });
+  const body = await r.json().catch(() => ({}));
+  if (!r.ok) throw Object.assign(new Error(body.error || r.status), { status: r.status });
+  return body;
+};
+function scheduleSync() { if (!auth.user) return; save(LS.dirty, true); clearTimeout(syncTimer); syncTimer = setTimeout(pushProgress, 1500); }
+async function pushProgress(mergeLocal = false) {
+  if (!auth.user || !navigator.onLine) return;
+  auth.syncing = true;
+  try {
+    const r = await api('api/progress.php', { method: 'PUT', body: JSON.stringify({ progress, meta, merge_local: mergeLocal }) });
+    progress = mergeProgress(progress, r.progress); meta = mergeMeta(meta, r.meta);
+    localStorage.setItem(LS.progress, JSON.stringify(progress)); localStorage.setItem(LS.meta, JSON.stringify(meta));
+    localStorage.removeItem(LS.dirty); auth.lastSync = Date.now(); auth.error = null;
+  } catch (e) { auth.error = e.status === 401 ? null : 'Kunne ikke synkronisere'; if (e.status === 401) auth.user = null; }
+  auth.syncing = false;
+}
+/** After login: first time -> merge local guest progress into account; later -> server is source, local unsynced changes merged. */
+async function afterLogin(mergedBefore) {
+  const r = await api('api/progress.php');
+  const dirty = load(LS.dirty, false);
+  if (!mergedBefore && !r.merged_local) {
+    progress = mergeProgress(r.progress, progress); meta = mergeMeta(r.meta, meta);
+    await pushProgress(true);
+    toast('Dit lokale fremskridt er flettet ind i din konto');
+  } else if (dirty && load(LS.owner, null) === auth.user.id) {
+    progress = mergeProgress(r.progress, progress); meta = mergeMeta(r.meta, meta); await pushProgress();
+  } else {
+    progress = r.progress || {}; meta = { xp: 0, streak: 0, lastDay: null, tests: [], ...(r.meta || {}) };
+    localStorage.setItem(LS.progress, JSON.stringify(progress)); localStorage.setItem(LS.meta, JSON.stringify(meta));
+    auth.lastSync = Date.now();
+  }
+  save(LS.owner, auth.user.id);
+}
+async function initAuth() {
+  try { auth.clientId = (await api('api/auth.php?action=config')).google_client_id; } catch { auth.clientId = null; }
+  if (!auth.clientId) return; // guest mode
+  try { auth.user = (await api('api/auth.php?action=me')).user; } catch { auth.user = null; }
+  if (auth.user) { try { await afterLogin(true); } catch { /* offline: keep cache */ } }
+}
+function loadGis() {
+  if (window.google?.accounts?.id) return Promise.resolve();
+  return new Promise((res, rej) => { const s = document.createElement('script'); s.src = 'https://accounts.google.com/gsi/client'; s.async = true; s.onload = res; s.onerror = rej; document.head.append(s); });
+}
+async function renderGoogleButton(el) {
+  try {
+    await loadGis();
+    google.accounts.id.initialize({ client_id: auth.clientId, callback: onCredential, ux_mode: 'popup', use_fedcm_for_prompt: true });
+    google.accounts.id.renderButton(el, { theme: document.documentElement.dataset.theme === 'dark' || matchMedia('(prefers-color-scheme: dark)').matches ? 'filled_black' : 'outline', size: 'large', text: 'signin_with', shape: 'pill', locale: 'da' });
+  } catch { el.textContent = 'Google-login kunne ikke indlæses.'; }
+}
+async function onCredential(resp) {
+  try {
+    const r = await api('api/auth.php?action=login', { method: 'POST', body: JSON.stringify({ credential: resp.credential }) });
+    const prevOwner = load(LS.owner, null);
+    auth.user = r.user;
+    if (prevOwner && prevOwner !== r.user.id) { progress = {}; meta = { xp: 0, streak: 0, lastDay: null, tests: [] }; } // different account on this device
+    await afterLogin(r.merged_local || (prevOwner && prevOwner !== r.user.id));
+    toast(`Logget ind som ${r.user.name || r.user.email}`); route();
+  } catch { toast('Login mislykkedes'); }
+}
+async function logout() {
+  try { await pushProgress(); await api('api/auth.php?action=logout', { method: 'POST', body: '{}' }); } catch { /* ignore */ }
+  try { window.google?.accounts?.id?.disableAutoSelect(); } catch { /* */ }
+  auth.user = null; progress = {}; meta = { xp: 0, streak: 0, lastDay: null, tests: [] };
+  [LS.progress, LS.meta, LS.dirty, LS.owner].forEach((k) => localStorage.removeItem(k));
+  toast('Logget ud'); route();
+}
+
 let timerId = null;
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -63,12 +140,12 @@ function route() {
 
 // ---------- Views ----------
 function home() {
-  const all = ITEMS.flatMap((it) => facetsFor(it, settings.facets).map((f) => progress[key(it.id, f)]));
+  const all = QUIZ_ITEMS.flatMap((it) => facetsFor(it, settings.facets).map((f) => progress[key(it.id, f)]));
   const due = all.filter((s) => s && isDue(s)).length;
   const mastered = all.filter(isMastered).length;
   const last = meta.tests?.[meta.tests.length - 1];
   const rings = Object.entries(TOPICS).map(([t, def]) => {
-    const its = ITEMS.filter((i) => i.topic === t);
+    const its = QUIZ_ITEMS.filter((i) => i.topic === t);
     const done = its.filter((i) => itemMastery(i).state === 'full').length;
     const p = its.length ? Math.round((done / its.length) * 100) : 0;
     return `<a class="tile row" href="#/udforsk?topic=${t}"><div class="ring" style="--p:${p}" role="img" aria-label="${def.label}: ${done} af ${its.length} mestret">${p}%</div>
@@ -124,8 +201,10 @@ function detail(id) {
     <div class="spread"><span class="badge">${TOPICS[it.topic].singular}</span>${it.needs_review ? `<button class="pill-review" data-review="${esc(it.id)}">ⓘ Under faglig gennemgang</button>` : ''}</div>
     <h1>${esc(it.name_da)}<br><span class="la" lang="la" style="font-size:20px;font-weight:600">${esc(it.name_la_ta2)}</span></h1>
     <div class="card"><dl class="facts">${rows.join('')}</dl></div>
-    <p class="muted">${m.mastered}/${m.total} facetter mestret</p>
-    <div class="row"><a class="btn" href="#/session?mode=drill&ids=${esc(it.id)}">Terp dette kort</a>
+    ${it.needs_review ? '' : `<p class="muted">${m.mastered}/${m.total} facetter mestret</p>`}
+    ${hotspotSlot(it)}
+    ${it.needs_review ? '<p class="muted">Kortet indgår ikke i quizzer, før det er fagligt gennemgået.</p>' : ''}
+    <div class="row">${it.needs_review ? '' : `<a class="btn" href="#/session?mode=drill&ids=${esc(it.id)}">Terp dette kort</a>`}
       <button class="btn secondary" data-report="${esc(it.id)}">Rapportér fejl</button></div>
     <details class="card"><summary>Kilder</summary><ul>${(it.sources || []).map((s) => `<li>${esc(s)}</li>`).join('')}
       ${(it.source_urls || []).map((u) => /^https?:\/\//.test(u) ? `<li><a href="${esc(u)}" rel="noopener" target="_blank">${esc(u)}</a></li>` : '').join('')}</ul>
@@ -186,6 +265,14 @@ function testSetup() {
   bindSetup('#tsetup', 'test');
 }
 
+function accountHtml() {
+  if (!auth.clientId) return '<p class="muted">Login er ikke slået til endnu – du bruger Knoglequiz som gæst.</p>';
+  if (!auth.user) return '<p>Log ind for at gemme dit fremskridt på tværs af enheder. Dit nuværende fremskridt flyttes med første gang.</p><div id="gbtn"></div>';
+  const u = auth.user;
+  return `<div class="account">${u.picture && /^https:\/\//.test(u.picture) ? `<img src="${esc(u.picture)}" alt="" referrerpolicy="no-referrer">` : ''}<div><b>${esc(u.name || '')}</b><br><span class="muted">${esc(u.email || '')}</span></div></div>
+    <p class="muted sync">${auth.error ? esc(auth.error) : auth.lastSync ? `Synkroniseret ${new Date(auth.lastSync).toLocaleTimeString('da-DK', { hour: '2-digit', minute: '2-digit' })}` : 'Ikke synkroniseret endnu'}</p>
+    <div class="row"><button class="btn secondary" id="syncnow">Synkronisér nu</button><button class="btn ghost" id="logout">Log ud</button></div>`;
+}
 function profile() {
   const pending = load(LS.reports, []).length;
   $main.innerHTML = `<div class="stack"><h1>Profil</h1>
@@ -193,10 +280,14 @@ function profile() {
       <label class="field">Tema<select id="theme">${[['system', 'Følg system'], ['light', 'Lyst'], ['dark', 'Mørkt']].map(([v, l]) => `<option value="${v}" ${settings.theme === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
       <label class="field">Bevægelse<select id="motion">${[['system', 'Følg system'], ['reduce', 'Reducér animationer']].map(([v, l]) => `<option value="${v}" ${settings.motion === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
       <label class="row"><input type="checkbox" id="sc" ${settings.shortcuts ? 'checked' : ''} style="width:24px;height:24px"> Tastaturgenveje 1–4 og Enter i quiz</label></div>
-    <div class="card stack"><h2>Fremskridt</h2><p class="muted">Gemmes lokalt i denne browser (login kommer senere). ${pending ? `${pending} fejlrapport(er) venter på at blive sendt.` : ''}</p>
+    <div class="card stack"><h2>Konto</h2>${accountHtml()}</div>
+    <div class="card stack"><h2>Fremskridt</h2><p class="muted">${auth.user ? 'Gemmes på din konto og i browseren (offline).' : 'Gemmes lokalt i denne browser.'} ${pending ? `${pending} fejlrapport(er) venter på at blive sendt.` : ''}</p>
       <div class="row"><button class="btn secondary" id="export">Eksportér</button><button class="btn ghost" id="reset">Nulstil fremskridt</button></div></div>
     <div class="card"><h2>Hvad betyder mestret?</h2><p>En facet er mestret, når intervallet er mindst 7 dage, og du har svaret rigtigt 3 gange i træk fordelt på mindst 2 dage.</p></div>
     <p class="muted">Data: Knoglequiz research v0.3 · ${ITEMS.length} strukturer.</p></div>`;
+  const gb = document.getElementById('gbtn'); if (gb) renderGoogleButton(gb);
+  const lo = document.getElementById('logout'); if (lo) lo.onclick = logout;
+  const sn = document.getElementById('syncnow'); if (sn) sn.onclick = async () => { await pushProgress(); profile(); };
   const s = (k, v) => { settings[k] = v; save(LS.settings, settings); applyPrefs(); };
   document.getElementById('theme').onchange = (e) => s('theme', e.target.value);
   document.getElementById('motion').onchange = (e) => s('motion', e.target.value);
@@ -206,7 +297,7 @@ function profile() {
     a.href = URL.createObjectURL(new Blob([JSON.stringify({ progress, meta, settings }, null, 2)], { type: 'application/json' }));
     a.download = 'knoglequiz-fremskridt.json'; a.click();
   };
-  document.getElementById('reset').onclick = () => { if (confirm('Slet alt fremskridt på denne enhed?')) { progress = {}; meta = { xp: 0, streak: 0, lastDay: null, tests: [] }; save(LS.progress, progress); save(LS.meta, meta); toast('Fremskridt nulstillet'); } };
+  document.getElementById('reset').onclick = () => { if (confirm(auth.user ? 'Nulstil fremskridt på denne enhed? (Kontoens fremskridt hentes igen ved næste login.)' : 'Slet alt fremskridt på denne enhed?')) { progress = {}; meta = { xp: 0, streak: 0, lastDay: null, tests: [] }; save(LS.progress, progress); save(LS.meta, meta); toast('Fremskridt nulstillet'); } };
 }
 
 // ---------- Session runner (naming / drill / test) ----------
@@ -219,11 +310,11 @@ function buildSession(params) {
   if (mode === 'test') {
     cards = shuffle(testPool(topic, region, params.get('pool') === 'all')).slice(0, n);
   } else {
-    let items = ids ? ids.map((i) => BY_ID.get(i)).filter(Boolean) : filterItems(ITEMS, { topic, region });
+    let items = (ids ? ids.map((i) => BY_ID.get(i)).filter(Boolean) : filterItems(ITEMS, { topic, region })).filter((i) => !i.needs_review);
     if (mode === 'naming') cards = shuffle(items).slice(0, n).map((it) => ({ item: it, facet: 'naming' }));
     else cards = pickDrill(items, progress, settings.facets, ids ? 20 : n);
   }
-  const questions = cards.map((c) => makeQuestion(c.item, c.facet, ITEMS)).filter((q) => q && q.options.length >= 2);
+  const questions = cards.map((c) => makeQuestion(c.item, c.facet, QUIZ_ITEMS)).filter((q) => q && q.options.length >= 2);
   return { mode, questions, i: 0, score: 0, xp: 0, wrong: [], timer: mode === 'test' ? settings.timer : 0, params: params.toString() };
 }
 function runSession(_, params) {
@@ -245,13 +336,11 @@ function renderQuestion() {
     <div class="spread"><button class="btn ghost" id="quit" aria-label="Afslut session">✕</button>
       <div class="progress" style="flex:1" role="progressbar" aria-label="Fremskridt" aria-valuemin="0" aria-valuemax="${s.questions.length}" aria-valuenow="${s.i}"><i style="width:${pct}%"></i></div>
       ${s.timer ? `<span class="timer" id="timer" role="timer" aria-live="off">${s.timer}</span>` : `<span class="badge">${modeLabel[s.mode]}</span>`}</div>
-    <div class="media-slot" id="media" aria-hidden="true"></div>
+    ${hotspotSlot(it, true)}
     ${q.kind === 'naming' ? `<ul class="clue">${q.prompt.map((p) => `<li><b>${esc(p.label)}</b>${esc(p.value)}</li>`).join('')}</ul>` : ''}
     <fieldset><legend id="qlegend">${legend} ${reviewIcon(it)}</legend>
       <div class="options">${q.options.map((o, k) => `<button class="opt" data-k="${k}" aria-describedby="qlegend"><span class="n" aria-hidden="true">${k + 1}</span><span>${optLabel(q, o)}</span></button>`).join('')}</div></fieldset>
     <div id="fb"></div></div>`;
-  // Image-ready: future data may provide item.image (url) – rendered here.
-  if (it.image) { const m = document.getElementById('media'); m.classList.add('has-image'); m.removeAttribute('aria-hidden'); m.innerHTML = `<img src="${esc(it.image)}" alt="">`; }
   $main.querySelectorAll('.opt').forEach((b) => b.addEventListener('click', () => answer(Number(b.dataset.k))));
   document.getElementById('quit').onclick = () => { if (s.i === 0 || confirm('Afslut sessionen?')) { session = null; location.hash = '#/traen'; } };
   $main.querySelector('.opt').focus({ preventScroll: true });
@@ -308,6 +397,14 @@ function next() {
       <a class="btn secondary" href="#/session?${s.params}" id="again">Igen</a><a class="btn ghost" href="#/">Hjem</a></div></div>`;
   document.getElementById('again').onclick = () => { session = null; };
   $main.querySelector('h1').setAttribute('tabindex', '-1'); $main.querySelector('h1').focus();
+}
+
+// ---------- v2 hotspot placeholder (layout reserved; no interaction yet) ----------
+function hotspotSlot(it, compact = false) {
+  const m = mediaOf(it);
+  if (!m.image) return compact ? '' : `<figure class="hotspot-slot" aria-hidden="true"><span>Billede med klikbare strukturer kommer i v2</span></figure>`;
+  return `<figure class="hotspot-slot has-image"><img src="${esc(m.image)}" alt="Illustration: ${esc(it.name_da)}">
+    ${m.hotspots.map((h) => `<span class="hotspot" data-hotspot="${esc(h.id)}" style="left:${h.x * 100}%;top:${h.y * 100}%;width:${h.r * 200}%" aria-hidden="true"></span>`).join('')}</figure>`;
 }
 
 // ---------- Sheets: needs_review info + report ----------
@@ -369,12 +466,14 @@ async function boot() {
     if (!r.ok) throw new Error(r.status);
     ITEMS = normalize(await r.json());
     BY_ID = new Map(ITEMS.map((i) => [i.id, i]));
+    QUIZ_ITEMS = ITEMS.filter((i) => !i.needs_review);
   } catch (err) {
     $main.innerHTML = '<div class="empty card"><h1>Kunne ikke indlæse data</h1><p class="muted">Tjek din forbindelse og prøv igen.</p><button class="btn" onclick="location.reload()">Prøv igen</button></div>';
     return;
   }
   window.addEventListener('hashchange', route);
-  window.addEventListener('online', flushReports);
+  window.addEventListener('online', () => { flushReports(); if (load(LS.dirty, false)) pushProgress(); });
+  await initAuth();
   route(); flushReports();
 }
 boot();

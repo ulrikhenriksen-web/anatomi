@@ -111,3 +111,31 @@ test('report.php stores reports in SQLite and validates', { skip: !hasPhp && 'ph
     assert.equal(rows.trim(), '1');
   } finally { srv.kill(); }
 });
+
+test('needs_review excluded from ALL quiz modes but browsable', () => {
+  const nr = items.filter((i) => i.needs_review);
+  assert.ok(nr.length > 0);
+  assert.ok(Q.filterItems(items, {}).some((i) => i.needs_review), 'browsable in Udforsk');
+  assert.ok(Q.filterItems(items, { quizMode: true }).every((i) => !i.needs_review));
+  const cards = Q.pickDrill(items, {}, Q.DEFAULT_FACETS, 5000, Date.now(), rnd);
+  assert.ok(cards.length > 0 && cards.every((c) => !c.item.needs_review), 'drill');
+  const quizItems = items.filter((i) => !i.needs_review);
+  for (const it of quizItems.slice(0, 200)) {
+    const q = Q.makeQuestion(it, 'naming', items, rnd);
+    for (const o of q.options) assert.ok(!nr.some((n) => n.name_da === o && n.topic === it.topic && !quizItems.some((v) => v.name_da === o)), 'no needs_review distractors');
+  }
+  const app = readFileSync(new URL('../src/app.js', import.meta.url), 'utf8');
+  assert.match(app, /\.filter\(\(i\) => !i\.needs_review\)/);
+});
+test('mergeProgress newest wins; mergeMeta', () => {
+  const m = Q.mergeProgress({ a: { last: 1, v: 'old' }, b: { last: 5 } }, { a: { last: 2, v: 'new' }, b: { last: 3 }, c: { last: 1 } });
+  assert.equal(m.a.v, 'new'); assert.equal(m.b.last, 5); assert.ok(m.c);
+  const mm = Q.mergeMeta({ xp: 10, streak: 3, lastDay: '2026-10-14', tests: [{ at: 1 }] }, { xp: 20, streak: 9, lastDay: '2026-10-01', tests: [{ at: 1 }, { at: 2 }] });
+  assert.deepEqual(mm, { xp: 20, streak: 3, lastDay: '2026-10-14', tests: [{ at: 1 }, { at: 2 }] });
+});
+test('mediaOf: v2 hotspot schema normalisation', () => {
+  assert.deepEqual(Q.mediaOf({}), { image: null, hotspots: [] });
+  const m = Q.mediaOf({ image: 'https://x/y.png', hotspots: [{ item_id: 'muscle_a', x: 0.5, y: 0.2 }, { item_id: 'b', x: 2, y: 0 }] });
+  assert.equal(m.image, 'https://x/y.png'); assert.equal(m.hotspots.length, 1); assert.equal(m.hotspots[0].r, 0.04);
+  assert.equal(Q.mediaOf({ image: 'javascript:alert(1)' }).image, null);
+});
