@@ -30,7 +30,7 @@ try {
     $pdo = new PDO($cfg['db_dsn'], $cfg['db_user'] ?? null, $cfg['db_pass'] ?? null, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
     $driver = $pdo->getAttribute(PDO::ATTR_DRIVER_NAME);
   } else {
-    $path = $cfg['sqlite_path'] ?? (dirname(__DIR__, 2) . '/knoglequiz-data/reports.sqlite');
+    $path = $cfg['sqlite_path'] ?? (dirname(__DIR__) . '/_data/reports.sqlite');
     if (!is_dir(dirname($path))) @mkdir(dirname($path), 0700, true);
     $pdo = new PDO('sqlite:' . $path, null, null, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
     $driver = 'sqlite';
