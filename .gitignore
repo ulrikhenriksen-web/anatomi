@@ -3,3 +3,4 @@ dist/
 api/config.php
 *.sqlite
 .env
+knoglequiz-data/
