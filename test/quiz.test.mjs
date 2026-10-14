@@ -148,3 +148,27 @@ test('branding: user-visible copy says Anatomi, not Knoglequiz', () => {
   assert.match(readFileSync(new URL('../src/.htaccess', import.meta.url), 'utf8'), /knoglequiz\\\.emiltram\\\.dk\$ \[NC\][\s\S]*https:\/\/anatomi\.emiltram\.dk%\{REQUEST_URI\} \[L,R=301/);
   assert.ok(!/Knoglequiz/.test(app));
 });
+
+test('privacy: exact text in SPA and static page; linked from Profil, login area, footer', async () => {
+  const { PRIVACY_TEXT, PRIVACY_TITLE } = await import('../src/lib/privacy.js');
+  const expected = 'Anatomi gemmer kun det, der skal til for at appen virker. Logger du ind med Google, gemmer vi dit navn, din e-mail og dit Google-id samt din træningsfremgang, så den følger dig på tværs af enheder. Bruger du appen uden login, gemmes fremgangen kun lokalt i din browser. Fejlrapporter gemmes med den tekst, du skriver, og tidspunktet. Vi bruger ingen reklame- eller sporingscookies og deler ikke data med andre. Data ligger hos Simply.com i EU. Du kan til enhver tid få indsigt i eller sletning af dine data ved at skrive til ulrik.henriksen@gmail.com. Dataansvarlig: Ulrik Henriksen.';
+  assert.equal(PRIVACY_TITLE, 'Privatliv');
+  assert.equal(PRIVACY_TEXT, expected);
+  const stat = readFileSync(new URL('../src/privatliv.html', import.meta.url), 'utf8');
+  const body = stat.match(/<p id="privacy-text">([\s\S]*?)<\/p>/)[1].replace(/<[^>]+>/g, '');
+  assert.equal(body, expected);
+  assert.match(stat, /<h1>Privatliv<\/h1>/);
+  const app = readFileSync(new URL('../src/app.js', import.meta.url), 'utf8');
+  assert.match(app, /\[\/\^#\\\/privatliv\$\/, privacy\]/);
+  assert.match(app, /const legalLinks = '<a href="\/privatliv">Privatliv<\/a> · <a href="\/vilkaar">Vilkår<\/a>'/);
+  assert.ok((app.match(/\$\{legalLinks\}/g) || []).length >= 2, 'login area (signed in + out)');
+  assert.match(app, /href="\/privatliv"><h2>Privatliv/); assert.match(app, /href="\/vilkaar"><h2>Vilkår/);
+  assert.match(readFileSync(new URL('../src/index.html', import.meta.url), 'utf8'), /<footer[^>]*><a href="\/privatliv">Privatliv<\/a> · <a href="\/vilkaar">Vilkår<\/a>/);
+  const ht = readFileSync(new URL('../src/.htaccess', import.meta.url), 'utf8');
+  assert.match(ht, /RewriteRule \^\(privatliv\|vilkaar\)\/\?\$ \$1\.html \[L\]/);
+  assert.match(stat, /canonical" href="https:\/\/anatomi\.emiltram\.dk\/privatliv"/);
+  const { TERMS_TEXT } = await import('../src/lib/privacy.js');
+  for (const w of ['gratis læringsværktøj', 'ingen garanti', 'ikke medicinsk rådgivning', 'eget ansvar', 'ulrik.henriksen@gmail.com']) assert.ok(TERMS_TEXT.includes(w), w);
+  const vt = readFileSync(new URL('../src/vilkaar.html', import.meta.url), 'utf8');
+  assert.equal(vt.match(/<p id="terms-text">([\s\S]*?)<\/p>/)[1].replace(/<[^>]+>/g, ''), TERMS_TEXT);
+});

@@ -2,6 +2,7 @@ import {
   TOPICS, FACETS, DEFAULT_FACETS, normalize, regionsOf, filterItems, describe, facetsFor,
   makeQuestion, mediaOf, mergeProgress, mergeMeta, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
 } from './lib/quiz.js';
+import { PRIVACY_TITLE, PRIVACY_TEXT, TERMS_TITLE, TERMS_TEXT } from './lib/privacy.js';
 
 const $main = document.getElementById('main');
 const $live = document.getElementById('live');
@@ -116,10 +117,11 @@ const reviewIcon = (it) => (it.needs_review ? `<button class="review" type="butt
 // ---------- Router ----------
 const routes = [
   [/^#?\/?$/, home], [/^#\/udforsk\/?$/, explore], [/^#\/udforsk\/([\w-]+)$/, detail],
-  [/^#\/traen$/, train], [/^#\/session$/, runSession], [/^#\/test$/, testSetup], [/^#\/profil$/, profile],
+  [/^#\/traen$/, train], [/^#\/session$/, runSession], [/^#\/test$/, testSetup], [/^#\/profil$/, profile], [/^#\/privatliv$/, privacy], [/^#\/vilkaar$/, terms],
 ];
 function route() {
   clearInterval(timerId);
+  document.title = 'Anatomi – anatomiquiz for fysioterapeutstuderende';
   const h = location.hash || '#/';
   const path = h.split('?')[0];
   const params = new URLSearchParams(h.split('?')[1] || '');
@@ -265,12 +267,24 @@ function testSetup() {
   bindSetup('#tsetup', 'test');
 }
 
+function privacy() {
+  const text = esc(PRIVACY_TEXT).replace('ulrik.henriksen@gmail.com', '<a href="mailto:ulrik.henriksen@gmail.com">ulrik.henriksen@gmail.com</a>');
+  $main.innerHTML = `<article class="stack"><a class="link" href="#/profil">← Profil</a><h1>${PRIVACY_TITLE}</h1><div class="card"><p id="privacy-text" style="margin:0">${text}</p></div></article>`;
+  document.title = 'Privatliv – Anatomi';
+}
+function terms() {
+  const text = esc(TERMS_TEXT).replace('ulrik.henriksen@gmail.com', '<a href="mailto:ulrik.henriksen@gmail.com">ulrik.henriksen@gmail.com</a>');
+  $main.innerHTML = `<article class="stack"><a class="link" href="#/profil">← Profil</a><h1>${TERMS_TITLE}</h1><div class="card"><p id="terms-text" style="margin:0">${text}</p></div></article>`;
+  document.title = 'Vilkår – Anatomi';
+}
+const legalLinks = '<a href="/privatliv">Privatliv</a> · <a href="/vilkaar">Vilkår</a>';
 function accountHtml() {
   if (!auth.clientId) return '<p class="muted">Login er ikke slået til endnu – du bruger Anatomi som gæst.</p>';
-  if (!auth.user) return '<p>Log ind for at gemme dit fremskridt på tværs af enheder. Dit nuværende fremskridt flyttes med første gang.</p><div id="gbtn"></div>';
+  if (!auth.user) return `<p>Log ind for at gemme dit fremskridt på tværs af enheder. Dit nuværende fremskridt flyttes med første gang.</p><div id="gbtn"></div><p class="muted sync">Ved at logge ind accepterer du vores ${legalLinks}.</p>`;
   const u = auth.user;
   return `<div class="account">${u.picture && /^https:\/\//.test(u.picture) ? `<img src="${esc(u.picture)}" alt="" referrerpolicy="no-referrer">` : ''}<div><b>${esc(u.name || '')}</b><br><span class="muted">${esc(u.email || '')}</span></div></div>
     <p class="muted sync">${auth.error ? esc(auth.error) : auth.lastSync ? `Synkroniseret ${new Date(auth.lastSync).toLocaleTimeString('da-DK', { hour: '2-digit', minute: '2-digit' })}` : 'Ikke synkroniseret endnu'}</p>
+    <p class="sync">${legalLinks}</p>
     <div class="row"><button class="btn secondary" id="syncnow">Synkronisér nu</button><button class="btn ghost" id="logout">Log ud</button></div>`;
 }
 function profile() {
@@ -284,6 +298,8 @@ function profile() {
     <div class="card stack"><h2>Fremskridt</h2><p class="muted">${auth.user ? 'Gemmes på din konto og i browseren (offline).' : 'Gemmes lokalt i denne browser.'} ${pending ? `${pending} fejlrapport(er) venter på at blive sendt.` : ''}</p>
       <div class="row"><button class="btn secondary" id="export">Eksportér</button><button class="btn ghost" id="reset">Nulstil fremskridt</button></div></div>
     <div class="card"><h2>Hvad betyder mestret?</h2><p>En facet er mestret, når intervallet er mindst 7 dage, og du har svaret rigtigt 3 gange i træk fordelt på mindst 2 dage.</p></div>
+    <div class="grid"><a class="tile" href="/privatliv"><h2>Privatliv</h2><p class="muted">Hvad Anatomi gemmer, og hvordan du får data slettet.</p></a>
+    <a class="tile" href="/vilkaar"><h2>Vilkår</h2><p class="muted">Gratis læringsværktøj – ikke medicinsk rådgivning.</p></a></div>
     <p class="muted">Data: Anatomi research v0.3 · ${ITEMS.length} strukturer.</p></div>`;
   const gb = document.getElementById('gbtn'); if (gb) renderGoogleButton(gb);
   const lo = document.getElementById('logout'); if (lo) lo.onclick = logout;
