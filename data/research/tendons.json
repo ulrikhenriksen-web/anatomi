@@ -1,0 +1,2061 @@
+{
+  "schema_version": "0.1",
+  "items": [
+    {
+      "id": "tendon_tendo_calcaneus",
+      "name_da": "Akillessenen",
+      "name_la_ta2": "Tendo calcaneus",
+      "ta2_id": "2662",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_gastrocnemius",
+        "muscle_soleus",
+        "muscle_plantaris"
+      ],
+      "attachment_da": "tuber calcanei",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Achilles tendon",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "Achilles tendon",
+          "wikidata": "http://www.wikidata.org/entity/Q223172",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Achilles_tendon"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Achilles_tendon",
+          "attachment_stems": [
+            "calcan"
+          ],
+          "found_in_page": [
+            "calcan"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q223172",
+        "https://en.wikipedia.org/wiki/Achilles_tendon"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_ligamentum_patellae",
+      "name_da": "Knæskalsbåndet (patellasenen)",
+      "name_la_ta2": "Ligamentum patellae",
+      "ta2_id": "2622",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_rectus_femoris",
+        "muscle_vastus_lateralis",
+        "muscle_vastus_medialis",
+        "muscle_vastus_intermedius"
+      ],
+      "attachment_da": "tuberositas tibiae",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum patellae",
+          "matched_label_en": "patellar tendon",
+          "wikidata": "http://www.wikidata.org/entity/Q1172095",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1172095"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_quadricipitis_femoris",
+      "name_da": "Quadricepssenen",
+      "name_la_ta2": "Tendo musculi quadricipitis femoris",
+      "ta2_id": "2621",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_rectus_femoris",
+        "muscle_vastus_lateralis",
+        "muscle_vastus_medialis",
+        "muscle_vastus_intermedius"
+      ],
+      "attachment_da": "basis patellae",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Quadriceps tendon",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "quadriceps tendon",
+          "wikidata": "http://www.wikidata.org/entity/Q7268395",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Quadriceps_tendon"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Quadriceps_tendon",
+          "attachment_stems": [
+            "patell"
+          ],
+          "found_in_page": [
+            "patell"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q7268395",
+        "https://en.wikipedia.org/wiki/Quadriceps_tendon"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_pes_anserinus",
+      "name_da": "Gåsefoden",
+      "name_la_ta2": "Pes anserinus",
+      "ta2_id": "2612",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_sartorius",
+        "muscle_gracilis",
+        "muscle_semitendinosus"
+      ],
+      "attachment_da": "proksimale mediale tibia",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Pes anserinus",
+          "matched_label_en": "pes anserinus",
+          "wikidata": "http://www.wikidata.org/entity/Q1640882",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1640882"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tractus_iliotibialis",
+      "name_da": "Iliotibialbåndet",
+      "name_la_ta2": "Tractus iliotibialis",
+      "ta2_id": "2690",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_tensor_fasciae_latae",
+        "muscle_gluteus_maximus"
+      ],
+      "attachment_da": "tuberculum tractus iliotibialis (Gerdys tuberkel), tibia",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Tractus iliotibialis",
+          "matched_label_en": "Iliotibial tract",
+          "wikidata": "http://www.wikidata.org/entity/Q2447635",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q2447635"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_tibialis_posterioris",
+      "name_da": "Senen fra bageste skinnebensmuskel",
+      "name_la_ta2": "Tendo musculi tibialis posterioris",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_tibialis_posterior"
+      ],
+      "attachment_da": "tuberositas ossis navicularis m.fl.",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Tibialis posterior muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Tibialis_posterior_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "navicul"
+          ],
+          "found_in_page": [
+            "navicul"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tibialis_posterior_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_tibialis_anterioris",
+      "name_da": "Senen fra forreste skinnebensmuskel",
+      "name_la_ta2": "Tendo musculi tibialis anterioris",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_tibialis_anterior"
+      ],
+      "attachment_da": "os cuneiforme mediale, basis metatarsi I",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Tibialis anterior muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Tibialis_anterior_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "cuneif",
+            "metatars"
+          ],
+          "found_in_page": [
+            "cuneif",
+            "metatars"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Tibialis_anterior_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_fibularis_longi",
+      "name_da": "Senen fra lange lægbensmuskel",
+      "name_la_ta2": "Tendo musculi fibularis longi",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_fibularis_longus"
+      ],
+      "attachment_da": "basis metatarsi I, os cuneiforme mediale",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Fibularis longus",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fibularis_longus",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "cuneif",
+            "metatars"
+          ],
+          "found_in_page": [
+            "cuneif",
+            "metatars"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fibularis_longus"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_fibularis_brevis",
+      "name_da": "Senen fra korte lægbensmuskel",
+      "name_la_ta2": "Tendo musculi fibularis brevis",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_fibularis_brevis"
+      ],
+      "attachment_da": "tuberositas ossis metatarsi quinti",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Fibularis brevis",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fibularis_brevis",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "metatars"
+          ],
+          "found_in_page": [
+            "metatars"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fibularis_brevis"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_flexoris_hallucis_longi",
+      "name_da": "Senen fra lange storetåbøjer",
+      "name_la_ta2": "Tendo musculi flexoris hallucis longi",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_flexor_hallucis_longus"
+      ],
+      "attachment_da": "distale phalanx på storetåen",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Flexor hallucis longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_hallucis_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Flexor_hallucis_longus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_aponeurosis_plantaris",
+      "name_da": "Fodsålens senehinde",
+      "name_la_ta2": "Aponeurosis plantaris",
+      "ta2_id": "2718",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [],
+      "attachment_da": "tuber calcanei til tæernes basis",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Plantar fascia",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "plantar fascia",
+          "wikidata": "http://www.wikidata.org/entity/Q383204",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Plantar_fascia"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Plantar_fascia",
+          "attachment_stems": [
+            "calcan"
+          ],
+          "found_in_page": [
+            "calcan"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q383204",
+        "https://en.wikipedia.org/wiki/Plantar_fascia"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_bicipitis_brachii_caput_longum",
+      "name_da": "Lange bicepssene",
+      "name_la_ta2": "Tendo musculi bicipitis brachii (caput longum)",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_biceps_brachii"
+      ],
+      "attachment_da": "tuberculum supraglenoidale (forløber i sulcus intertubercularis)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Biceps",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Biceps",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Biceps"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_tendo_musculi_bicipitis_brachii_distalis",
+      "name_da": "Distale bicepssene",
+      "name_la_ta2": "Tendo musculi bicipitis brachii (distalis)",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_biceps_brachii"
+      ],
+      "attachment_da": "tuberositas radii",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Biceps",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Biceps",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "radi"
+          ],
+          "found_in_page": [
+            "radi"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Biceps"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_aponeurosis_bicipitalis",
+      "name_da": "Lacertus fibrosus",
+      "name_la_ta2": "Aponeurosis bicipitalis",
+      "ta2_id": "2467",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_biceps_brachii"
+      ],
+      "attachment_da": "underarmens dybe fascie (medialt)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Bicipital aponeurosis",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "bicipital aponeurosis",
+          "wikidata": "http://www.wikidata.org/entity/Q4903640",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Bicipital_aponeurosis"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Bicipital_aponeurosis",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q4903640",
+        "https://en.wikipedia.org/wiki/Bicipital_aponeurosis"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_tendo_musculi_tricipitis_brachii",
+      "name_da": "Tricepssenen",
+      "name_la_ta2": "Tendo musculi tricipitis brachii",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_triceps_brachii"
+      ],
+      "attachment_da": "olecranon",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Triceps",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Triceps",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "olecran"
+          ],
+          "found_in_page": [
+            "olecran"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Triceps"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_cuff_musculotendinea_rotatorum",
+      "name_da": "Rotatormanchetten",
+      "name_la_ta2": "Cuff musculotendinea rotatorum",
+      "ta2_id": "2461",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_supraspinatus",
+        "muscle_infraspinatus",
+        "muscle_teres_minor",
+        "muscle_subscapularis"
+      ],
+      "attachment_da": "tuberculum majus et minus humeri",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Rotator cuff",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "musculotendinous cuff",
+          "wikidata": "http://www.wikidata.org/entity/Q1764136",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Rotator_cuff"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Rotator_cuff",
+          "attachment_stems": [
+            "humer"
+          ],
+          "found_in_page": [
+            "humer"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1764136",
+        "https://en.wikipedia.org/wiki/Rotator_cuff"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_communis_musculorum_extensorum",
+      "name_da": "Fælles ekstensorsene",
+      "name_la_ta2": "Tendo communis musculorum extensorum",
+      "ta2_id": "2498",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_extensor_carpi_radialis_brevis",
+        "muscle_extensor_digitorum",
+        "muscle_extensor_digiti_minimi",
+        "muscle_extensor_carpi_ulnaris"
+      ],
+      "attachment_da": "epicondylus lateralis humeri",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Common extensor tendon",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "common extensor tendon",
+          "wikidata": "http://www.wikidata.org/entity/Q5153540",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Common_extensor_tendon"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Common_extensor_tendon",
+          "attachment_stems": [
+            "humer"
+          ],
+          "found_in_page": [
+            "humer"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5153540",
+        "https://en.wikipedia.org/wiki/Common_extensor_tendon"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_communis_musculorum_flexorum",
+      "name_da": "Fælles fleksorsene",
+      "name_la_ta2": "Tendo communis musculorum flexorum",
+      "ta2_id": "2489",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_pronator_teres",
+        "muscle_flexor_carpi_radialis",
+        "muscle_palmaris_longus",
+        "muscle_flexor_carpi_ulnaris",
+        "muscle_flexor_digitorum_superficialis"
+      ],
+      "attachment_da": "epicondylus medialis humeri",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Common flexor tendon",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "common flexor tendon",
+          "wikidata": "http://www.wikidata.org/entity/Q3512919",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Common_flexor_tendon"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Common_flexor_tendon",
+          "attachment_stems": [
+            "humer"
+          ],
+          "found_in_page": [
+            "humer"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3512919",
+        "https://en.wikipedia.org/wiki/Common_flexor_tendon"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_aponeurosis_palmaris",
+      "name_da": "Håndfladens senehinde",
+      "name_la_ta2": "Aponeurosis palmaris",
+      "ta2_id": "2549",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_palmaris_longus"
+      ],
+      "attachment_da": "retinaculum flexorum til fingrenes basis",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "aponeurosis palmaris",
+          "matched_label_en": "palmar aponeurosis",
+          "wikidata": "http://www.wikidata.org/entity/Q1524395",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1524395"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_aponeurosis_dorsalis_digiti",
+      "name_da": "Dorsalaponeurosen",
+      "name_la_ta2": "Aponeurosis dorsalis digiti",
+      "ta2_id": "2502",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_extensor_digitorum",
+        "muscle_lumbricales_manus",
+        "muscle_interossei_dorsales_manus"
+      ],
+      "attachment_da": "midterste og distale phalanger",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Extensor expansion",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "Extensor expansion",
+          "wikidata": "http://www.wikidata.org/entity/Q1250448",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Extensor_expansion"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Extensor_expansion",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1250448",
+        "https://en.wikipedia.org/wiki/Extensor_expansion"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_extensoris_pollicis_longi",
+      "name_da": "Senen fra lange tommelstrækker",
+      "name_la_ta2": "Tendo musculi extensoris pollicis longi",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_extensor_pollicis_longus"
+      ],
+      "attachment_da": "distale phalanx på tommelen",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Extensor pollicis longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Extensor_pollicis_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Extensor_pollicis_longus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_centrum_tendineum_diaphragmatis",
+      "name_da": "Mellemgulvets senespejl",
+      "name_la_ta2": "Centrum tendineum diaphragmatis",
+      "ta2_id": "2340",
+      "region": "brystkasse",
+      "associated_muscles": [
+        "muscle_diaphragma"
+      ],
+      "attachment_da": "centralt i diaphragma",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Central tendon of diaphragm",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "central tendon of diaphragm",
+          "wikidata": "http://www.wikidata.org/entity/Q2946092",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Central_tendon_of_diaphragm"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Central_tendon_of_diaphragm",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q2946092",
+        "https://en.wikipedia.org/wiki/Central_tendon_of_diaphragm"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_linea_alba",
+      "name_da": "Den hvide linje",
+      "name_la_ta2": "Linea alba",
+      "ta2_id": "2377",
+      "region": "bug/bækken",
+      "associated_muscles": [
+        "muscle_obliquus_externus_abdominis",
+        "muscle_obliquus_internus_abdominis",
+        "muscle_transversus_abdominis"
+      ],
+      "attachment_da": "processus xiphoideus til symphysis pubica",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "linea alba",
+          "wikidata": "http://www.wikidata.org/entity/Q942068",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q942068"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_fascia_thoracolumbalis",
+      "name_da": "Ryg-lændefascien",
+      "name_la_ta2": "Fascia thoracolumbalis",
+      "ta2_id": "2242",
+      "region": "ryg",
+      "associated_muscles": [
+        "muscle_latissimus_dorsi",
+        "muscle_transversus_abdominis",
+        "muscle_obliquus_internus_abdominis"
+      ],
+      "attachment_da": "procc. spinosi, crista iliaca",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Thoracolumbar fascia",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "thoracolumbar fascia",
+          "wikidata": "http://www.wikidata.org/entity/Q1397352",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Thoracolumbar_fascia"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Thoracolumbar_fascia",
+          "attachment_stems": [
+            "ili",
+            "vert"
+          ],
+          "found_in_page": [
+            "ili",
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1397352",
+        "https://en.wikipedia.org/wiki/Thoracolumbar_fascia"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_supraspinati",
+      "name_da": "Supraspinatussenen",
+      "name_la_ta2": "Tendo musculi supraspinati",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_supraspinatus"
+      ],
+      "attachment_da": "tuberculum majus humeri (øvre facet)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Supraspinatus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Supraspinatus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "humer"
+          ],
+          "found_in_page": [
+            "humer"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Supraspinatus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_infraspinati",
+      "name_da": "Infraspinatussenen",
+      "name_la_ta2": "Tendo musculi infraspinati",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_infraspinatus"
+      ],
+      "attachment_da": "tuberculum majus humeri (midterste facet)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Infraspinatus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Infraspinatus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "humer"
+          ],
+          "found_in_page": [
+            "humer"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Infraspinatus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_subscapularis",
+      "name_da": "Subscapularissenen",
+      "name_la_ta2": "Tendo musculi subscapularis",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_subscapularis"
+      ],
+      "attachment_da": "tuberculum minus humeri",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Subscapularis muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Subscapularis_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "humer"
+          ],
+          "found_in_page": [
+            "humer"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Subscapularis_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_flexoris_digitorum_superficialis",
+      "name_da": "Overfladiske fingerbøjersener",
+      "name_la_ta2": "Tendo musculi flexoris digitorum superficialis",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_flexor_digitorum_superficialis"
+      ],
+      "attachment_da": "midterste phalanger 2.-5. finger",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Flexor digitorum superficialis muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_digitorum_superficialis_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Flexor_digitorum_superficialis_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_flexoris_digitorum_profundi",
+      "name_da": "Dybe fingerbøjersener",
+      "name_la_ta2": "Tendo musculi flexoris digitorum profundi",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_flexor_digitorum_profundus"
+      ],
+      "attachment_da": "distale phalanger 2.-5. finger",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Flexor digitorum profundus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_digitorum_profundus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Flexor_digitorum_profundus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_flexoris_pollicis_longi",
+      "name_da": "Senen fra lange tommelbøjer",
+      "name_la_ta2": "Tendo musculi flexoris pollicis longi",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_flexor_pollicis_longus"
+      ],
+      "attachment_da": "distale phalanx på tommelen",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Flexor pollicis longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_pollicis_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Flexor_pollicis_longus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_abductoris_pollicis_longi",
+      "name_da": "Senen fra lange tommelfraører",
+      "name_la_ta2": "Tendo musculi abductoris pollicis longi",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_abductor_pollicis_longus"
+      ],
+      "attachment_da": "basis metacarpi I (1. senefag, de Quervain)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Abductor pollicis longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Abductor_pollicis_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "metacarp"
+          ],
+          "found_in_page": [
+            "metacarp"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Abductor_pollicis_longus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_extensoris_pollicis_brevis",
+      "name_da": "Senen fra korte tommelstrækker",
+      "name_la_ta2": "Tendo musculi extensoris pollicis brevis",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_extensor_pollicis_brevis"
+      ],
+      "attachment_da": "proksimale phalanx på tommelen (1. senefag)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Extensor pollicis brevis muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Extensor_pollicis_brevis_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Extensor_pollicis_brevis_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_extensoris_carpi_ulnaris",
+      "name_da": "Senen fra ulnare håndledsstrækker",
+      "name_la_ta2": "Tendo musculi extensoris carpi ulnaris",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_extensor_carpi_ulnaris"
+      ],
+      "attachment_da": "basis metacarpi V",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Extensor carpi ulnaris muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "metacarp"
+          ],
+          "found_in_page": [
+            "metacarp"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_flexoris_carpi_radialis",
+      "name_da": "Senen fra radiale håndledsbøjer",
+      "name_la_ta2": "Tendo musculi flexoris carpi radialis",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_flexor_carpi_radialis"
+      ],
+      "attachment_da": "basis metacarpi II",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Flexor carpi radialis muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_carpi_radialis_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "metacarp"
+          ],
+          "found_in_page": [
+            "metacarp"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Flexor_carpi_radialis_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_palmaris_longi",
+      "name_da": "Palmaris longus-senen",
+      "name_la_ta2": "Tendo musculi palmaris longi",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "associated_muscles": [
+        "muscle_palmaris_longus"
+      ],
+      "attachment_da": "aponeurosis palmaris",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Palmaris longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Palmaris_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Palmaris_longus_muscle"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_retinaculum_musculorum_flexorum_manus",
+      "name_da": "Fleksorretinaklet (karpaltunnelens tag)",
+      "name_la_ta2": "Retinaculum musculorum flexorum manus",
+      "ta2_id": "2550",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [],
+      "attachment_da": "os pisiforme/hamatum til os scaphoideum/trapezium",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "retinaculum musculorum flexorum manus",
+          "matched_label_en": "flexor retinaculum of the hand",
+          "wikidata": "http://www.wikidata.org/entity/Q449457",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q449457"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_retinaculum_musculorum_extensorum_manus",
+      "name_da": "Ekstensorretinaklet (hånd)",
+      "name_la_ta2": "Retinaculum musculorum extensorum manus",
+      "ta2_id": "2546",
+      "region": "øvre ekstremitet",
+      "associated_muscles": [],
+      "attachment_da": "radius distalt til os pisiforme/triquetrum",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "retinaculum musculorum extensorum manus",
+          "matched_label_en": "extensor retinaculum of the hand",
+          "wikidata": "http://www.wikidata.org/entity/Q1425589",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1425589"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_semimembranosi",
+      "name_da": "Semimembranosussenen",
+      "name_la_ta2": "Tendo musculi semimembranosi",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_semimembranosus"
+      ],
+      "attachment_da": "condylus medialis tibiae",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Semimembranosus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Semimembranosus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "tibi"
+          ],
+          "found_in_page": [
+            "tibi"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Semimembranosus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_bicipitis_femoris",
+      "name_da": "Bicepssenen (lår)",
+      "name_la_ta2": "Tendo musculi bicipitis femoris",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_biceps_femoris"
+      ],
+      "attachment_da": "caput fibulae",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Biceps femoris muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Biceps_femoris_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "fibul"
+          ],
+          "found_in_page": [
+            "fibul"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Biceps_femoris_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_poplitei",
+      "name_da": "Popliteussenen",
+      "name_la_ta2": "Tendo musculi poplitei",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_popliteus"
+      ],
+      "attachment_da": "condylus lateralis femoris",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Popliteus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Popliteus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "femo"
+          ],
+          "found_in_page": [
+            "femo"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Popliteus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_extensoris_hallucis_longi",
+      "name_da": "Senen fra lange storetåstrækker",
+      "name_la_ta2": "Tendo musculi extensoris hallucis longi",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_extensor_hallucis_longus"
+      ],
+      "attachment_da": "distale phalanx på storetåen",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Extensor hallucis longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Extensor_hallucis_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Extensor_hallucis_longus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_musculi_extensoris_digitorum_longi",
+      "name_da": "Senerne fra lange tåstrækker",
+      "name_la_ta2": "Tendo musculi extensoris digitorum longi",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_extensor_digitorum_longus"
+      ],
+      "attachment_da": "dorsalaponeuroser 2.-5. tå",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Extensor digitorum longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Extensor_digitorum_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Extensor_digitorum_longus_muscle"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_tendo_musculi_flexoris_digitorum_longi",
+      "name_da": "Senerne fra lange tåbøjer",
+      "name_la_ta2": "Tendo musculi flexoris digitorum longi",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_flexor_digitorum_longus"
+      ],
+      "attachment_da": "distale phalanger 2.-5. tå",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Flexor digitorum longus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_digitorum_longus_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "phalan"
+          ],
+          "found_in_page": [
+            "phalan"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Flexor_digitorum_longus_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_retinaculum_musculorum_flexorum_pedis",
+      "name_da": "Fleksorretinaklet (tarsaltunnel)",
+      "name_la_ta2": "Retinaculum musculorum flexorum pedis",
+      "ta2_id": "2714",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [],
+      "attachment_da": "malleolus medialis til calcaneus",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Flexor retinaculum of foot",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "retinaculum musculorum flexorum",
+          "matched_label_en": "flexor retinaculum of foot",
+          "wikidata": "http://www.wikidata.org/entity/Q5459037",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_foot"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_foot",
+          "attachment_stems": [
+            "calcan"
+          ],
+          "found_in_page": [
+            "calcan"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5459037",
+        "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_foot"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_retinaculum_musculorum_extensorum_superius_pedis",
+      "name_da": "Øvre ekstensorretinakel (fod)",
+      "name_la_ta2": "Retinaculum musculorum extensorum superius pedis",
+      "ta2_id": "2712",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [],
+      "attachment_da": "tibia til fibula over ankelleddet",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Superior extensor retinaculum of foot",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "retinaculum superius musculorum extensorum",
+          "matched_label_en": "superior extensor retinaculum of foot",
+          "wikidata": "http://www.wikidata.org/entity/Q17044312",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Superior_extensor_retinaculum_of_foot"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Superior_extensor_retinaculum_of_foot",
+          "attachment_stems": [
+            "fibul",
+            "tibi"
+          ],
+          "found_in_page": [
+            "fibul",
+            "tibi"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q17044312",
+        "https://en.wikipedia.org/wiki/Superior_extensor_retinaculum_of_foot"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_retinaculum_musculorum_extensorum_inferius_pedis",
+      "name_da": "Nedre ekstensorretinakel (fod)",
+      "name_la_ta2": "Retinaculum musculorum extensorum inferius pedis",
+      "ta2_id": "2713",
+      "region": "nedre ekstremitet",
+      "associated_muscles": [],
+      "attachment_da": "calcaneus til malleolus medialis og aponeurosis plantaris",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Inferior extensor retinaculum of foot",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Retinaculum extensorum inferius pedis",
+          "matched_label_en": "inferior extensor retinaculum of foot",
+          "wikidata": "http://www.wikidata.org/entity/Q6029317",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Inferior_extensor_retinaculum_of_the_foot"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Inferior_extensor_retinaculum_of_the_foot",
+          "attachment_stems": [
+            "calcan"
+          ],
+          "found_in_page": [
+            "calcan"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q6029317",
+        "https://en.wikipedia.org/wiki/Inferior_extensor_retinaculum_of_the_foot"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_retinaculum_musculorum_fibularium_superius",
+      "name_da": "Øvre fibularisretinakel",
+      "name_la_ta2": "Retinaculum musculorum fibularium superius",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [],
+      "attachment_da": "malleolus lateralis til calcaneus",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Superior fibular retinaculum",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_tendo_musculi_obturatorii_interni",
+      "name_da": "Senen fra indre hoftehulsmuskel",
+      "name_la_ta2": "Tendo musculi obturatorii interni",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_obturatorius_internus",
+        "muscle_gemellus_superior",
+        "muscle_gemellus_inferior"
+      ],
+      "attachment_da": "trochanter major (medialt)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Obturator internus muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Internal_obturator_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Internal_obturator_muscle"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_tendo_musculi_iliopsoatis",
+      "name_da": "Iliopsoassenen",
+      "name_la_ta2": "Tendo musculi iliopsoatis",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "associated_muscles": [
+        "muscle_iliopsoas"
+      ],
+      "attachment_da": "trochanter minor",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Iliopsoas",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Iliopsoas",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Iliopsoas"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_tendo_intermedius_musculi_digastrici",
+      "name_da": "Digastricus' mellemsene",
+      "name_la_ta2": "Tendo intermedius musculi digastrici",
+      "ta2_id": null,
+      "region": "hals",
+      "associated_muscles": [
+        "muscle_digastricus"
+      ],
+      "attachment_da": "os hyoideum via fibrøs slynge",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Digastric muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Digastric_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "hyoid"
+          ],
+          "found_in_page": [
+            "hyoid"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Digastric_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_tendo_intermedius_musculi_omohyoidei",
+      "name_da": "Omohyoideus' mellemsene",
+      "name_la_ta2": "Tendo intermedius musculi omohyoidei",
+      "ta2_id": null,
+      "region": "hals",
+      "associated_muscles": [
+        "muscle_omohyoideus"
+      ],
+      "attachment_da": "fikseret til clavicula via fascie",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Omohyoid muscle",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Omohyoid_muscle",
+          "note": "Senens hæfte tjekket i musklens artikel; TA2-ID for selve senen ikke bekræftet",
+          "attachment_stems": [
+            "clavic"
+          ],
+          "found_in_page": [
+            "clavic"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Omohyoid_muscle"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_galea_aponeurotica",
+      "name_da": "Hjelmsenehinden",
+      "name_la_ta2": "Galea aponeurotica",
+      "ta2_id": "2059",
+      "region": "hoved",
+      "associated_muscles": [
+        "muscle_occipitofrontalis"
+      ],
+      "attachment_da": "forbinder venter frontalis og occipitalis",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "galea aponeurotica",
+          "wikidata": "http://www.wikidata.org/entity/Q1973755",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1973755"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_anulus_tendineus_communis",
+      "name_da": "Fælles seneringen (orbita)",
+      "name_la_ta2": "Anulus tendineus communis",
+      "ta2_id": "2047",
+      "region": "hoved",
+      "associated_muscles": [
+        "muscle_rectus_superior",
+        "muscle_rectus_inferior",
+        "muscle_rectus_medialis",
+        "muscle_rectus_lateralis"
+      ],
+      "attachment_da": "omkring canalis opticus",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "anulus tendineus communis",
+          "wikidata": "http://www.wikidata.org/entity/Q612431",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q612431"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_ligamentum_inguinale",
+      "name_da": "Lyskebåndet",
+      "name_la_ta2": "Ligamentum inguinale",
+      "ta2_id": "2365",
+      "region": "bug/bækken",
+      "associated_muscles": [
+        "muscle_obliquus_externus_abdominis"
+      ],
+      "attachment_da": "spina iliaca anterior superior til tuberculum pubicum",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum inguinale",
+          "matched_label_en": "inguinal ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q285715",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q285715"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "tendon_corpus_perineale",
+      "name_da": "Mellemkødslegemet",
+      "name_la_ta2": "Corpus perineale",
+      "ta2_id": "131",
+      "region": "bækken",
+      "associated_muscles": [
+        "muscle_bulbospongiosus",
+        "muscle_sphincter_ani_externus",
+        "muscle_transversus_perinei_superficialis",
+        "muscle_levator_ani"
+      ],
+      "attachment_da": "mellem anus og urogenitale strukturer",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Perineal body",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Perineum",
+          "matched_label_en": "perineum",
+          "wikidata": "http://www.wikidata.org/entity/Q105499",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Perineum"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Perineum",
+          "attachment_stems": [],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q105499",
+        "https://en.wikipedia.org/wiki/Perineum"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "tendon_ligamentum_nuchae",
+      "name_da": "Nakkebåndet",
+      "name_la_ta2": "Ligamentum nuchae",
+      "ta2_id": "1678",
+      "region": "ryg",
+      "associated_muscles": [
+        "muscle_trapezius",
+        "muscle_splenius_capitis",
+        "muscle_rhomboideus_minor"
+      ],
+      "attachment_da": "protuberantia occipitalis externa til procc. spinosi C7",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum nuchae",
+          "matched_label_en": "nuchal ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q519216",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q519216"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    }
+  ]
+}

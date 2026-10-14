@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Knoglequiz – anatomi for fysioterapeutstuderende</title>
+<meta name="description" content="Lær knogler, muskler, sener og ledbånd: navngivning, terping med spaced repetition og test.">
+<meta name="theme-color" content="#F7F5F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F141B" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script>try{var t=localStorage.getItem('kq.theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Spring til indhold</a>
+<div class="shell">
+  <nav class="nav" aria-label="Hovednavigation">
+    <a class="brand" href="#/"><span aria-hidden="true">🦴</span> Knoglequiz</a>
+    <a href="#/" data-nav="home"><span aria-hidden="true">⌂</span><span>Hjem</span></a>
+    <a href="#/udforsk" data-nav="udforsk"><span aria-hidden="true">◎</span><span>Udforsk</span></a>
+    <a href="#/traen" data-nav="traen"><span aria-hidden="true">✦</span><span>Træn</span></a>
+    <a href="#/test" data-nav="test"><span aria-hidden="true">◆</span><span>Test</span></a>
+    <a href="#/profil" data-nav="profil" class="nav-profile"><span aria-hidden="true">⚙</span><span>Profil</span></a>
+  </nav>
+  <main id="main" tabindex="-1"><p class="loading">Indlæser…</p></main>
+</div>
+<div id="live" class="sr-only" aria-live="polite"></div>
+<dialog id="sheet" aria-labelledby="sheet-title"></dialog>
+<noscript>Knoglequiz kræver JavaScript.</noscript>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1613 @@
+{
+  "schema_version": "0.1",
+  "items": [
+    {
+      "id": "ligament_ligamentum_cruciatum_anterius",
+      "name_da": "Forreste korsbånd",
+      "name_la_ta2": "Ligamentum cruciatum anterius",
+      "ta2_id": "1890",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "area intercondylaris anterior tibiae",
+      "attachment_to_da": "mediale flade af condylus lateralis femoris",
+      "function_da": "hindrer anterior translation af tibia",
+      "name_en": "Anterior cruciate ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum cruciatum anterius",
+          "matched_label_en": "anterior cruciate ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q611127",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q611127"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_cruciatum_posterius",
+      "name_da": "Bageste korsbånd",
+      "name_la_ta2": "Ligamentum cruciatum posterius",
+      "ta2_id": "1891",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "area intercondylaris posterior tibiae",
+      "attachment_to_da": "laterale flade af condylus medialis femoris",
+      "function_da": "hindrer posterior translation af tibia",
+      "name_en": "Posterior cruciate ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum decussatum posterius",
+          "matched_label_en": "posterior cruciate ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q735353",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Posterior_cruciate_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Posterior_cruciate_ligament",
+          "attachment_stems": [
+            "femo",
+            "tibi"
+          ],
+          "found_in_page": [
+            "femo",
+            "tibi"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q735353",
+        "https://en.wikipedia.org/wiki/Posterior_cruciate_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_collaterale_tibiale",
+      "name_da": "Mediale kollateralligament (knæ)",
+      "name_la_ta2": "Ligamentum collaterale tibiale",
+      "ta2_id": "1896",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "epicondylus medialis femoris",
+      "attachment_to_da": "mediale tibia",
+      "function_da": "modvirker valgus",
+      "name_en": "Medial collateral ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "medial collateral ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q3241072",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Medial_collateral_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Medial_collateral_ligament",
+          "attachment_stems": [
+            "femo",
+            "tibi"
+          ],
+          "found_in_page": [
+            "femo",
+            "tibi"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3241072",
+        "https://en.wikipedia.org/wiki/Medial_collateral_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_collaterale_fibulare",
+      "name_da": "Laterale kollateralligament (knæ)",
+      "name_la_ta2": "Ligamentum collaterale fibulare",
+      "ta2_id": "1895",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "epicondylus lateralis femoris",
+      "attachment_to_da": "caput fibulae",
+      "function_da": "modvirker varus",
+      "name_en": "Fibular collateral ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "fibular collateral ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q3266889",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Fibular_collateral_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fibular_collateral_ligament",
+          "attachment_stems": [
+            "femo",
+            "fibul"
+          ],
+          "found_in_page": [
+            "femo",
+            "fibul"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3266889",
+        "https://en.wikipedia.org/wiki/Fibular_collateral_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_patellae",
+      "name_da": "Knæskalsbåndet",
+      "name_la_ta2": "Ligamentum patellae",
+      "ta2_id": "2622",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "apex patellae",
+      "attachment_to_da": "tuberositas tibiae",
+      "function_da": "overfører quadricepskraft",
+      "name_en": "Patellar ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum patellae",
+          "matched_label_en": "patellar tendon",
+          "wikidata": "http://www.wikidata.org/entity/Q1172095",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1172095"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_iliofemorale",
+      "name_da": "Tarmben-lårbensbåndet (Y-båndet)",
+      "name_la_ta2": "Ligamentum iliofemorale",
+      "ta2_id": "1875",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "spina iliaca anterior inferior, acetabulumrand",
+      "attachment_to_da": "linea intertrochanterica",
+      "function_da": "hindrer hyperekstension i hoften",
+      "name_en": "Iliofemoral ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "Iliofemoral ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q5998330",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Iliofemoral_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Iliofemoral_ligament",
+          "attachment_stems": [
+            "ili",
+            "vert"
+          ],
+          "found_in_page": [
+            "ili",
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5998330",
+        "https://en.wikipedia.org/wiki/Iliofemoral_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_pubofemorale",
+      "name_da": "Skamben-lårbensbåndet",
+      "name_la_ta2": "Ligamentum pubofemorale",
+      "ta2_id": "1879",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "ramus superior ossis pubis",
+      "attachment_to_da": "linea intertrochanterica (nedre del)",
+      "function_da": "hindrer overdreven abduktion",
+      "name_en": "Pubofemoral ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "pubofemoral ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q7258155",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Pubofemoral_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Pubofemoral_ligament",
+          "attachment_stems": [
+            "pub"
+          ],
+          "found_in_page": [
+            "pub"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q7258155",
+        "https://en.wikipedia.org/wiki/Pubofemoral_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_ischiofemorale",
+      "name_da": "Sædeben-lårbensbåndet",
+      "name_la_ta2": "Ligamentum ischiofemorale",
+      "ta2_id": "1878",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "corpus ossis ischii bag acetabulum",
+      "attachment_to_da": "collum femoris/trochanter major",
+      "function_da": "hindrer overdreven indadrotation",
+      "name_en": "Ischiofemoral ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "Ischiofemoral ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q6079266",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Ischiofemoral_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Ischiofemoral_ligament",
+          "attachment_stems": [
+            "femo",
+            "ischi"
+          ],
+          "found_in_page": [
+            "femo",
+            "ischi"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q6079266",
+        "https://en.wikipedia.org/wiki/Ischiofemoral_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_capitis_femoris",
+      "name_da": "Lårbenshovedets bånd",
+      "name_la_ta2": "Ligamentum capitis femoris",
+      "ta2_id": "1882",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "fossa acetabuli/lig. transversum",
+      "attachment_to_da": "fovea capitis femoris",
+      "function_da": "fører a. lig. capitis femoris",
+      "name_en": "Ligament of head of femur",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "ligament of head of femur",
+          "wikidata": "http://www.wikidata.org/entity/Q6545844",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Ligament_of_head_of_femur"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Ligament_of_head_of_femur",
+          "attachment_stems": [
+            "femo"
+          ],
+          "found_in_page": [
+            "femo"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q6545844",
+        "https://en.wikipedia.org/wiki/Ligament_of_head_of_femur"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_talofibulare_anterius",
+      "name_da": "Forreste talofibulære ligament",
+      "name_la_ta2": "Ligamentum talofibulare anterius",
+      "ta2_id": "1919",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "malleolus lateralis",
+      "attachment_to_da": "collum tali",
+      "function_da": "hindrer inversion i plantarfleksion (oftest skadet)",
+      "name_en": "Anterior talofibular ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "ligamentum talofibulare anterius",
+          "matched_label_en": "anterior talofibular ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q3829591",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3829591"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_talofibulare_posterius",
+      "name_da": "Bageste talofibulære ligament",
+      "name_la_ta2": "Ligamentum talofibulare posterius",
+      "ta2_id": "1920",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "fossa malleoli lateralis",
+      "attachment_to_da": "processus posterior tali",
+      "function_da": "stabiliserer talus",
+      "name_en": "Posterior talofibular ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "posterior talofibular ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q7234249",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Posterior_talofibular_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Posterior_talofibular_ligament",
+          "attachment_stems": [
+            "vert"
+          ],
+          "found_in_page": []
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q7234249",
+        "https://en.wikipedia.org/wiki/Posterior_talofibular_ligament"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "ligament_ligamentum_calcaneofibulare",
+      "name_da": "Calcaneofibulære ligament",
+      "name_la_ta2": "Ligamentum calcaneofibulare",
+      "ta2_id": "1921",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "malleolus lateralis",
+      "attachment_to_da": "laterale flade af calcaneus",
+      "function_da": "hindrer inversion",
+      "name_en": "Calcaneofibular ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "ligamentum calcaneofibulare",
+          "matched_label_en": "calcaneofibular ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q5018678",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5018678"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_collaterale_mediale_articulationis_talocruralis",
+      "name_da": "Deltaligamentet",
+      "name_la_ta2": "Ligamentum collaterale mediale articulationis talocruralis",
+      "ta2_id": "1913",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "malleolus medialis",
+      "attachment_to_da": "talus, calcaneus, os naviculare",
+      "function_da": "hindrer eversion",
+      "name_en": "Deltoid ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "medial collateral ligament of ankle",
+          "wikidata": "http://www.wikidata.org/entity/Q288821",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Deltoid_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Deltoid_ligament",
+          "attachment_stems": [
+            "calcan",
+            "navicul"
+          ],
+          "found_in_page": [
+            "calcan",
+            "navicul"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q288821",
+        "https://en.wikipedia.org/wiki/Deltoid_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_calcaneonaviculare_plantare",
+      "name_da": "Springligamentet",
+      "name_la_ta2": "Ligamentum calcaneonaviculare plantare",
+      "ta2_id": "1937",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "sustentaculum tali",
+      "attachment_to_da": "os naviculare",
+      "function_da": "støtter caput tali og længdebuen",
+      "name_en": "Plantar calcaneonavicular ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "plantar calcaneonavicular ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1542293",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Plantar_calcaneonavicular_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Plantar_calcaneonavicular_ligament",
+          "attachment_stems": [
+            "navicul"
+          ],
+          "found_in_page": [
+            "navicul"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1542293",
+        "https://en.wikipedia.org/wiki/Plantar_calcaneonavicular_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_plantare_longum",
+      "name_da": "Lange plantare ligament",
+      "name_la_ta2": "Ligamentum plantare longum",
+      "ta2_id": "1934",
+      "region": "nedre ekstremitet",
+      "attachment_from_da": "calcaneus (plantart)",
+      "attachment_to_da": "os cuboideum, basis metatarsi II-V",
+      "function_da": "støtter længdebuen",
+      "name_en": "Long plantar ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "long plantar ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1704861",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Long_plantar_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Long_plantar_ligament",
+          "attachment_stems": [
+            "calcan",
+            "cuboid",
+            "metatars"
+          ],
+          "found_in_page": [
+            "calcan",
+            "cuboid",
+            "metatars"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1704861",
+        "https://en.wikipedia.org/wiki/Long_plantar_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_sacrotuberale",
+      "name_da": "Korsben-sædebensknudebåndet",
+      "name_la_ta2": "Ligamentum sacrotuberale",
+      "ta2_id": "1850",
+      "region": "bækken",
+      "attachment_from_da": "os sacrum, os coccygis, SIPS",
+      "attachment_to_da": "tuber ischiadicum",
+      "function_da": "stabiliserer SI-leddet",
+      "name_en": "Sacrotuberous ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum sacrotuberale",
+          "matched_label_en": "sacrotuberous ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1575134",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1575134"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_sacrospinale",
+      "name_da": "Korsben-sædebenstornbåndet",
+      "name_la_ta2": "Ligamentum sacrospinale",
+      "ta2_id": "1852",
+      "region": "bækken",
+      "attachment_from_da": "os sacrum, os coccygis",
+      "attachment_to_da": "spina ischiadica",
+      "function_da": "danner foramen ischiadicum majus/minus",
+      "name_en": "Sacrospinous ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "sacrospinous ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q2750165",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Sacrospinous_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Sacrospinous_ligament",
+          "attachment_stems": [
+            "coccy",
+            "ischi",
+            "sacr",
+            "vert"
+          ],
+          "found_in_page": [
+            "coccy",
+            "ischi",
+            "sacr",
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q2750165",
+        "https://en.wikipedia.org/wiki/Sacrospinous_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_inguinale",
+      "name_da": "Lyskebåndet",
+      "name_la_ta2": "Ligamentum inguinale",
+      "ta2_id": "2365",
+      "region": "bækken",
+      "attachment_from_da": "spina iliaca anterior superior",
+      "attachment_to_da": "tuberculum pubicum",
+      "function_da": "danner gulvet i canalis inguinalis",
+      "name_en": "Inguinal ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum inguinale",
+          "matched_label_en": "inguinal ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q285715",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q285715"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_iliolumbale",
+      "name_da": "Tarmben-lændebåndet",
+      "name_la_ta2": "Ligamentum iliolumbale",
+      "ta2_id": "1853",
+      "region": "bækken",
+      "attachment_from_da": "processus transversus L5",
+      "attachment_to_da": "crista iliaca (bageste del)",
+      "function_da": "stabiliserer L5 mod bækkenet",
+      "name_en": "Iliolumbar ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "iliolumbar ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q5998331",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Iliolumbar_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Iliolumbar_ligament",
+          "attachment_stems": [
+            "ili",
+            "vert"
+          ],
+          "found_in_page": [
+            "ili",
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5998331",
+        "https://en.wikipedia.org/wiki/Iliolumbar_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_longitudinale_anterius",
+      "name_da": "Forreste længdebånd",
+      "name_la_ta2": "Ligamentum longitudinale anterius",
+      "ta2_id": "1679",
+      "region": "ryg",
+      "attachment_from_da": "os occipitale/atlas",
+      "attachment_to_da": "os sacrum (forsider af hvirvellegemer)",
+      "function_da": "begrænser ekstension",
+      "name_en": "Anterior longitudinal ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "anterior longitudinal ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q669260",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Anterior_longitudinal_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Anterior_longitudinal_ligament",
+          "attachment_stems": [
+            "atlas",
+            "occipit",
+            "sacr"
+          ],
+          "found_in_page": [
+            "atlas",
+            "occipit",
+            "sacr"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q669260",
+        "https://en.wikipedia.org/wiki/Anterior_longitudinal_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_longitudinale_posterius",
+      "name_da": "Bageste længdebånd",
+      "name_la_ta2": "Ligamentum longitudinale posterius",
+      "ta2_id": "1680",
+      "region": "ryg",
+      "attachment_from_da": "axis (membrana tectoria)",
+      "attachment_to_da": "os sacrum (bagsider af hvirvellegemer)",
+      "function_da": "begrænser fleksion",
+      "name_en": "Posterior longitudinal ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "posterior longitudinal ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1824647",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Posterior_longitudinal_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Posterior_longitudinal_ligament",
+          "attachment_stems": [
+            "axis",
+            "sacr"
+          ],
+          "found_in_page": [
+            "axis",
+            "sacr"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1824647",
+        "https://en.wikipedia.org/wiki/Posterior_longitudinal_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_flavum",
+      "name_da": "Gule bånd",
+      "name_la_ta2": "Ligamentum flavum",
+      "ta2_id": "1675",
+      "region": "ryg",
+      "attachment_from_da": "lamina arcus vertebrae",
+      "attachment_to_da": "laminaen nedenfor",
+      "function_da": "elastisk; begrænser fleksion",
+      "name_en": "Ligamentum flavum",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "ligamenta flava",
+          "wikidata": "http://www.wikidata.org/entity/Q1468271",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Ligamenta_flava"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Ligamenta_flava",
+          "attachment_stems": [
+            "vert"
+          ],
+          "found_in_page": [
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1468271",
+        "https://en.wikipedia.org/wiki/Ligamenta_flava"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_supraspinale",
+      "name_da": "Overtornbåndet",
+      "name_la_ta2": "Ligamentum supraspinale",
+      "ta2_id": "1677",
+      "region": "ryg",
+      "attachment_from_da": "spidserne af procc. spinosi C7",
+      "attachment_to_da": "os sacrum",
+      "function_da": "begrænser fleksion",
+      "name_en": "Supraspinous ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "ligamentum supraspinale",
+          "matched_label_en": "supraspinous ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1471133",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1471133"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_interspinale",
+      "name_da": "Mellemtornbåndet",
+      "name_la_ta2": "Ligamentum interspinale",
+      "ta2_id": "1674",
+      "region": "ryg",
+      "attachment_from_da": "processus spinosus",
+      "attachment_to_da": "processus spinosus nedenfor",
+      "function_da": "begrænser fleksion",
+      "name_en": "Interspinous ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "Interspinal ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1824640",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Interspinous_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Interspinous_ligament",
+          "attachment_stems": [
+            "vert"
+          ],
+          "found_in_page": [
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1824640",
+        "https://en.wikipedia.org/wiki/Interspinous_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_nuchae",
+      "name_da": "Nakkebåndet",
+      "name_la_ta2": "Ligamentum nuchae",
+      "ta2_id": "1678",
+      "region": "hals",
+      "attachment_from_da": "protuberantia occipitalis externa",
+      "attachment_to_da": "processus spinosus C7",
+      "function_da": "muskeludspring, begrænser fleksion",
+      "name_en": "Nuchal ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ligamentum nuchae",
+          "matched_label_en": "nuchal ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q519216",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q519216"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_transversum_atlantis",
+      "name_da": "Atlas' tværbånd",
+      "name_la_ta2": "Ligamentum transversum atlantis",
+      "ta2_id": "1703",
+      "region": "hals",
+      "attachment_from_da": "massae laterales atlantis",
+      "attachment_to_da": "massae laterales atlantis (bag dens axis)",
+      "function_da": "fastholder dens axis",
+      "name_en": "Transverse ligament of atlas",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "transverse ligament of atlas",
+          "wikidata": "http://www.wikidata.org/entity/Q7835437",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Transverse_ligament_of_atlas"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Transverse_ligament_of_atlas",
+          "attachment_stems": [
+            "atlas",
+            "axis"
+          ],
+          "found_in_page": [
+            "atlas",
+            "axis"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q7835437",
+        "https://en.wikipedia.org/wiki/Transverse_ligament_of_atlas"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamenta_alaria",
+      "name_da": "Vingebåndene",
+      "name_la_ta2": "Ligamenta alaria",
+      "ta2_id": "1695",
+      "region": "hals",
+      "attachment_from_da": "dens axis",
+      "attachment_to_da": "condyli occipitales",
+      "function_da": "begrænser rotation af hovedet",
+      "name_en": "Alar ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "alar ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q941241",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Alar_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Alar_ligament",
+          "attachment_stems": [
+            "axis",
+            "occipit"
+          ],
+          "found_in_page": [
+            "axis",
+            "occipit"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q941241",
+        "https://en.wikipedia.org/wiki/Alar_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_coracoclaviculare",
+      "name_da": "Ravnenæb-kravebensbåndet",
+      "name_la_ta2": "Ligamentum coracoclaviculare",
+      "ta2_id": "1747",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "processus coracoideus",
+      "attachment_to_da": "clavicula (tuberculum conoideum, linea trapezoidea)",
+      "function_da": "stabiliserer AC-leddet",
+      "name_en": "Coracoclavicular ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "coracoclavicular ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q3329123",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Coracoclavicular_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Coracoclavicular_ligament",
+          "attachment_stems": [
+            "clavic",
+            "coraco",
+            "trapez",
+            "vert"
+          ],
+          "found_in_page": [
+            "clavic",
+            "coraco",
+            "trapez",
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3329123",
+        "https://en.wikipedia.org/wiki/Coracoclavicular_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_acromioclaviculare",
+      "name_da": "Skulderhøjde-kravebensbåndet",
+      "name_la_ta2": "Ligamentum acromioclaviculare",
+      "ta2_id": "1745",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "acromion",
+      "attachment_to_da": "extremitas acromialis claviculae",
+      "function_da": "stabiliserer AC-leddet",
+      "name_en": "Acromioclavicular ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "acromioclavicular ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q4676185",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Acromioclavicular_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Acromioclavicular_ligament",
+          "attachment_stems": [
+            "acrom",
+            "clavic"
+          ],
+          "found_in_page": [
+            "acrom",
+            "clavic"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q4676185",
+        "https://en.wikipedia.org/wiki/Acromioclavicular_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_coracoacromiale",
+      "name_da": "Ravnenæb-skulderhøjdebåndet",
+      "name_la_ta2": "Ligamentum coracoacromiale",
+      "ta2_id": "1740",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "processus coracoideus",
+      "attachment_to_da": "acromion",
+      "function_da": "danner tag over skulderleddet",
+      "name_en": "Coracoacromial ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "Coracoacromial ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1857678",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Coracoacromial_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Coracoacromial_ligament",
+          "attachment_stems": [
+            "acrom",
+            "coraco",
+            "vert"
+          ],
+          "found_in_page": [
+            "acrom",
+            "coraco",
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1857678",
+        "https://en.wikipedia.org/wiki/Coracoacromial_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamenta_glenohumeralia",
+      "name_da": "Glenohumerale bånd",
+      "name_la_ta2": "Ligamenta glenohumeralia",
+      "ta2_id": "1766",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "labrum glenoidale/cavitas glenoidalis",
+      "attachment_to_da": "collum anatomicum humeri",
+      "function_da": "forstærker ledkapslen anteriort",
+      "name_en": "Glenohumeral ligaments",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "Glenohumeral ligaments",
+          "wikidata": "http://www.wikidata.org/entity/Q5569232",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Glenohumeral_ligaments"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Glenohumeral_ligaments",
+          "attachment_stems": [
+            "humer"
+          ],
+          "found_in_page": [
+            "humer"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5569232",
+        "https://en.wikipedia.org/wiki/Glenohumeral_ligaments"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_collaterale_ulnare",
+      "name_da": "Ulnare kollateralligament (albue)",
+      "name_la_ta2": "Ligamentum collaterale ulnare",
+      "ta2_id": "1776",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "epicondylus medialis humeri",
+      "attachment_to_da": "processus coronoideus og olecranon",
+      "function_da": "modvirker valgus",
+      "name_en": "Ulnar collateral ligament of elbow joint",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "ulnar collateral ligament of elbow joint",
+          "wikidata": "http://www.wikidata.org/entity/Q7879707",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_elbow_joint"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_elbow_joint",
+          "attachment_stems": [
+            "humer",
+            "olecran",
+            "vert"
+          ],
+          "found_in_page": [
+            "humer",
+            "olecran",
+            "vert"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q7879707",
+        "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_elbow_joint"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_collaterale_radiale",
+      "name_da": "Radiale kollateralligament (albue)",
+      "name_la_ta2": "Ligamentum collaterale radiale",
+      "ta2_id": "1777",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "epicondylus lateralis humeri",
+      "attachment_to_da": "lig. anulare radii",
+      "function_da": "modvirker varus",
+      "name_en": "Radial collateral ligament of elbow joint",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "radial collateral ligament of elbow joint",
+          "wikidata": "http://www.wikidata.org/entity/Q7280266",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Radial_collateral_ligament_of_elbow_joint"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Radial_collateral_ligament_of_elbow_joint",
+          "attachment_stems": [
+            "humer",
+            "radi"
+          ],
+          "found_in_page": [
+            "humer",
+            "radi"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q7280266",
+        "https://en.wikipedia.org/wiki/Radial_collateral_ligament_of_elbow_joint"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_anulare_radii",
+      "name_da": "Ringbåndet",
+      "name_la_ta2": "Ligamentum anulare radii",
+      "ta2_id": "1778",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "incisura radialis ulnae (forkant)",
+      "attachment_to_da": "incisura radialis ulnae (bagkant)",
+      "function_da": "holder caput radii",
+      "name_en": "Annular ligament of radius",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "anular ligament of radius",
+          "wikidata": "http://www.wikidata.org/entity/Q4777779",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Annular_ligament_of_radius"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Annular_ligament_of_radius",
+          "attachment_stems": [
+            "radi",
+            "uln"
+          ],
+          "found_in_page": [
+            "radi",
+            "uln"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q4777779",
+        "https://en.wikipedia.org/wiki/Annular_ligament_of_radius"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_carpi_transversum",
+      "name_da": "Tværgående håndrodsbånd",
+      "name_la_ta2": "Ligamentum carpi transversum",
+      "ta2_id": "2550",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "os pisiforme, hamulus ossis hamati",
+      "attachment_to_da": "os scaphoideum, os trapezium",
+      "function_da": "tag over canalis carpi",
+      "name_en": "Flexor retinaculum of the hand",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "retinaculum musculorum flexorum manus",
+          "matched_label_en": "flexor retinaculum of the hand",
+          "wikidata": "http://www.wikidata.org/entity/Q449457",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_hand"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_hand",
+          "attachment_stems": [
+            "hamat",
+            "pisif",
+            "scaph",
+            "trapez"
+          ],
+          "found_in_page": [
+            "hamat",
+            "pisif",
+            "scaph",
+            "trapez"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q449457",
+        "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_hand"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_scapholunatum_interosseum",
+      "name_da": "Scapholunære ligament",
+      "name_la_ta2": "Ligamentum scapholunatum interosseum",
+      "ta2_id": "1819",
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "os scaphoideum",
+      "attachment_to_da": "os lunatum",
+      "function_da": "stabiliserer proksimale karpalrække",
+      "name_en": "Scapholunate ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "scapholunate interosseous ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q1130012",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Scapholunate_ligament_injury"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Scapholunate_ligament_injury",
+          "attachment_stems": [
+            "scaph"
+          ],
+          "found_in_page": [
+            "scaph"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q1130012",
+        "https://en.wikipedia.org/wiki/Scapholunate_ligament_injury"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_collaterale_ulnare_articulationis_metacarpophalangeae_pollicis",
+      "name_da": "Tommelens ulnare kollateralligament",
+      "name_la_ta2": "Ligamentum collaterale ulnare articulationis metacarpophalangeae pollicis",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "attachment_from_da": "caput metacarpi I (ulnart)",
+      "attachment_to_da": "basis phalangis proximalis pollicis",
+      "function_da": "stabiliserer tommelens MCP-led (skiløbertommel)",
+      "name_en": "Ulnar collateral ligament of thumb",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_thumb",
+          "attachment_stems": [
+            "metacarp",
+            "phalan",
+            "uln"
+          ],
+          "found_in_page": [
+            "metacarp",
+            "phalan",
+            "uln"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_thumb"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "ligament_ligamentum_costoclaviculare",
+      "name_da": "Ribben-kravebensbåndet",
+      "name_la_ta2": "Ligamentum costoclaviculare",
+      "ta2_id": "1756",
+      "region": "brystkasse",
+      "attachment_from_da": "1. ribben/costalbrusk",
+      "attachment_to_da": "underside af clavicula",
+      "function_da": "stabiliserer SC-leddet",
+      "name_en": "Costoclavicular ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "costoclavicular ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q5175169",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Costoclavicular_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Costoclavicular_ligament",
+          "attachment_stems": [
+            "clavic",
+            "rib"
+          ],
+          "found_in_page": [
+            "clavic",
+            "rib"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5175169",
+        "https://en.wikipedia.org/wiki/Costoclavicular_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    },
+    {
+      "id": "ligament_ligamentum_sacroiliacum_posterius",
+      "name_da": "Bageste sacroiliacale bånd",
+      "name_la_ta2": "Ligamentum sacroiliacum posterius",
+      "ta2_id": "1864",
+      "region": "bækken",
+      "attachment_from_da": "os ilium (SIPS)",
+      "attachment_to_da": "os sacrum",
+      "function_da": "stabiliserer SI-leddet",
+      "name_en": "Posterior sacroiliac ligament",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "posterior sacroiliac ligament",
+          "wikidata": "http://www.wikidata.org/entity/Q3238429",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Posterior_sacroiliac_ligament"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Posterior_sacroiliac_ligament",
+          "attachment_stems": [
+            "ili",
+            "sacr"
+          ],
+          "found_in_page": [
+            "ili",
+            "sacr"
+          ]
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3238429",
+        "https://en.wikipedia.org/wiki/Posterior_sacroiliac_ligament"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+    }
+  ]
+}

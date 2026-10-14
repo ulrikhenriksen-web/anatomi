@@ -1,0 +1,15 @@
+{
+  "name": "knoglequiz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Anatomiquiz for fysioterapeutstuderende",
+  "scripts": {
+    "sync-data": "bash scripts/sync-data.sh",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/",
+    "start": "node scripts/build.mjs && cd dist && php -S localhost:8080 || npx --yes serve dist",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "engines": { "node": ">=20" }
+}

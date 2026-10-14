@@ -1,0 +1,3308 @@
+{
+  "schema_version": "0.1",
+  "items": [
+    {
+      "id": "bone_clavicula",
+      "name_da": "Kraveben",
+      "name_la_ta2": "Clavicula",
+      "ta2_id": "1168",
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "extremitas sternalis",
+        "extremitas acromialis",
+        "tuberculum conoideum"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Clavicula",
+          "matched_label_en": "clavicle",
+          "wikidata": "http://www.wikidata.org/entity/Q16343",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16343"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_scapula",
+      "name_da": "Skulderblad",
+      "name_la_ta2": "Scapula",
+      "ta2_id": "1143",
+      "region": "øvre ekstremitet",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "acromion",
+        "processus coracoideus",
+        "cavitas glenoidalis",
+        "spina scapulae",
+        "fossa supra-/infraspinata"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Scapula",
+          "matched_label_en": "scapula",
+          "wikidata": "http://www.wikidata.org/entity/Q16336",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16336"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_humerus",
+      "name_da": "Overarmsknogle",
+      "name_la_ta2": "Humerus",
+      "ta2_id": "1180",
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput humeri",
+        "tuberculum majus/minus",
+        "sulcus intertubercularis",
+        "tuberositas deltoidea",
+        "epicondylus medialis/lateralis",
+        "trochlea",
+        "capitulum"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Humerus",
+          "matched_label_en": "humerus",
+          "wikidata": "http://www.wikidata.org/entity/Q162595",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q162595"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_radius",
+      "name_da": "Spoleben",
+      "name_la_ta2": "Radius",
+      "ta2_id": "1210",
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput radii",
+        "tuberositas radii",
+        "processus styloideus radii"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Radius",
+          "matched_label_en": "radius",
+          "wikidata": "http://www.wikidata.org/entity/Q178492",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q178492"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_ulna",
+      "name_da": "Albueben",
+      "name_la_ta2": "Ulna",
+      "ta2_id": "1230",
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "olecranon",
+        "processus coronoideus",
+        "incisura trochlearis",
+        "processus styloideus ulnae"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ulna",
+          "matched_label_en": "ulna",
+          "wikidata": "http://www.wikidata.org/entity/Q199507",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q199507"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_scaphoideum",
+      "name_da": "Bådben",
+      "name_la_ta2": "Os scaphoideum",
+      "ta2_id": "1250",
+      "region": "øvre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [
+        "tuberculum ossis scaphoidei"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os scaphoideum",
+          "matched_label_en": "scaphoid bone",
+          "wikidata": "http://www.wikidata.org/entity/Q13143",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q13143"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_lunatum",
+      "name_da": "Måneben",
+      "name_la_ta2": "Os lunatum",
+      "ta2_id": "1252",
+      "region": "øvre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os lunatum",
+          "matched_label_en": "lunate bone",
+          "wikidata": "http://www.wikidata.org/entity/Q13141",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q13141"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_triquetrum",
+      "name_da": "Trekantben",
+      "name_la_ta2": "Os triquetrum",
+      "ta2_id": "1253",
+      "region": "øvre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "os triquetrum",
+          "matched_label_en": "triquetral bone",
+          "wikidata": "http://www.wikidata.org/entity/Q278417",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q278417"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_pisiforme",
+      "name_da": "Ærteben",
+      "name_la_ta2": "Os pisiforme",
+      "ta2_id": "1254",
+      "region": "øvre ekstremitet",
+      "type": "sesamknogle",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os pisiforme",
+          "matched_label_en": "pisiform bone",
+          "wikidata": "http://www.wikidata.org/entity/Q691942",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q691942"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_trapezium",
+      "name_da": "Store mangekantben",
+      "name_la_ta2": "Os trapezium",
+      "ta2_id": "1255",
+      "region": "øvre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [
+        "tuberculum ossis trapezii"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os trapezium",
+          "matched_label_en": "trapezium",
+          "wikidata": "http://www.wikidata.org/entity/Q265617",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q265617"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_trapezoideum",
+      "name_da": "Lille mangekantben",
+      "name_la_ta2": "Os trapezoideum",
+      "ta2_id": "1257",
+      "region": "øvre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "os trapezoideum",
+          "matched_label_en": "trapezoid bone",
+          "wikidata": "http://www.wikidata.org/entity/Q847084",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q847084"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_capitatum",
+      "name_da": "Hovedben",
+      "name_la_ta2": "Os capitatum",
+      "ta2_id": "1258",
+      "region": "øvre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os capitatum",
+          "matched_label_en": "capitate bone",
+          "wikidata": "http://www.wikidata.org/entity/Q752369",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q752369"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_hamatum",
+      "name_da": "Hagebenet",
+      "name_la_ta2": "Os hamatum",
+      "ta2_id": "1259",
+      "region": "øvre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [
+        "hamulus ossis hamati"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os hamatum",
+          "matched_label_en": "hamate bone",
+          "wikidata": "http://www.wikidata.org/entity/Q54393",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q54393"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_coxae",
+      "name_da": "Hofteben",
+      "name_la_ta2": "Os coxae",
+      "ta2_id": "1307",
+      "region": "bækken",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [
+        "acetabulum",
+        "crista iliaca",
+        "SIAS",
+        "SIPS",
+        "tuber ischiadicum",
+        "spina ischiadica",
+        "foramen obturatum",
+        "symphysis-flade"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os coxae",
+          "matched_label_en": "hip bone",
+          "wikidata": "http://www.wikidata.org/entity/Q3356933",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3356933"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_ilium",
+      "name_da": "Tarmben",
+      "name_la_ta2": "Os ilium",
+      "ta2_id": "1317",
+      "region": "bækken",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "ala ossis ilii",
+        "crista iliaca",
+        "fossa iliaca"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os ilium",
+          "matched_label_en": "ilium",
+          "wikidata": "http://www.wikidata.org/entity/Q728889",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q728889"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_ischii",
+      "name_da": "Sædeben",
+      "name_la_ta2": "Os ischii",
+      "ta2_id": "1339",
+      "region": "bækken",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [
+        "tuber ischiadicum",
+        "spina ischiadica"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os ischii",
+          "matched_label_en": "ischium",
+          "wikidata": "http://www.wikidata.org/entity/Q531029",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q531029"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_pubis",
+      "name_da": "Skamben",
+      "name_la_ta2": "Os pubis",
+      "ta2_id": "1346",
+      "region": "bækken",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [
+        "tuberculum pubicum",
+        "pecten ossis pubis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os pubis",
+          "matched_label_en": "pubic bone",
+          "wikidata": "http://www.wikidata.org/entity/Q220815",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q220815"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_sacrum",
+      "name_da": "Korsben",
+      "name_la_ta2": "Os sacrum",
+      "ta2_id": "1071",
+      "region": "bækken",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "promontorium",
+        "foramina sacralia",
+        "facies auricularis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os sacrum",
+          "matched_label_en": "sacrum",
+          "wikidata": "http://www.wikidata.org/entity/Q233316",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q233316"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_coccygis",
+      "name_da": "Halebenet",
+      "name_la_ta2": "Os coccygis",
+      "ta2_id": "1092",
+      "region": "bækken",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os coccygis",
+          "matched_label_en": "coccyx",
+          "wikidata": "http://www.wikidata.org/entity/Q193176",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q193176"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_femur",
+      "name_da": "Lårben",
+      "name_la_ta2": "Femur",
+      "ta2_id": "160",
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput femoris",
+        "collum",
+        "trochanter major/minor",
+        "linea aspera",
+        "condylus medialis/lateralis",
+        "epicondyli"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "femur",
+          "matched_label_en": "thigh",
+          "wikidata": "http://www.wikidata.org/entity/Q129757",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q129757"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_patella",
+      "name_da": "Knæskal",
+      "name_la_ta2": "Patella",
+      "ta2_id": "1390",
+      "region": "nedre ekstremitet",
+      "type": "sesamknogle",
+      "count_in_body": 2,
+      "landmarks": [
+        "apex",
+        "basis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Patella",
+          "matched_label_en": "patella",
+          "wikidata": "http://www.wikidata.org/entity/Q229081",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q229081"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_tibia",
+      "name_da": "Skinneben",
+      "name_la_ta2": "Tibia",
+      "ta2_id": "1397",
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "condyli",
+        "tuberositas tibiae",
+        "malleolus medialis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Tibia",
+          "matched_label_en": "tibia",
+          "wikidata": "http://www.wikidata.org/entity/Q178366",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q178366"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_fibula",
+      "name_da": "Lægben",
+      "name_la_ta2": "Fibula",
+      "ta2_id": "1427",
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput fibulae",
+        "malleolus lateralis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Fibula",
+          "matched_label_en": "fibula",
+          "wikidata": "http://www.wikidata.org/entity/Q302896",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q302896"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_talus",
+      "name_da": "Springben",
+      "name_la_ta2": "Talus",
+      "ta2_id": "167",
+      "region": "nedre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [
+        "trochlea tali",
+        "caput",
+        "collum"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Talus",
+          "matched_label_en": "heel",
+          "wikidata": "http://www.wikidata.org/entity/Q174647",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q174647"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_calcaneus",
+      "name_da": "Hælben",
+      "name_la_ta2": "Calcaneus",
+      "ta2_id": "1468",
+      "region": "nedre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [
+        "tuber calcanei",
+        "sustentaculum tali"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Calcaneus",
+          "matched_label_en": "calcaneus",
+          "wikidata": "http://www.wikidata.org/entity/Q13075",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q13075"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_naviculare",
+      "name_da": "Bådben (fod)",
+      "name_la_ta2": "Os naviculare",
+      "ta2_id": "1484",
+      "region": "nedre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [
+        "tuberositas ossis navicularis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os naviculare",
+          "matched_label_en": "navicular bone",
+          "wikidata": "http://www.wikidata.org/entity/Q958194",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q958194"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_cuboideum",
+      "name_da": "Terningeben",
+      "name_la_ta2": "Os cuboideum",
+      "ta2_id": "1489",
+      "region": "nedre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [
+        "sulcus tendinis m. fibularis longi"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os cuboideum",
+          "matched_label_en": "cuboid bone",
+          "wikidata": "http://www.wikidata.org/entity/Q658424",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q658424"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_cuneiforme_mediale",
+      "name_da": "Mediale kileben",
+      "name_la_ta2": "Os cuneiforme mediale",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Medial cuneiform bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Cuneiform_bones"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Cuneiform_bones"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_cuneiforme_intermedium",
+      "name_da": "Mellemste kileben",
+      "name_la_ta2": "Os cuneiforme intermedium",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Intermediate cuneiform bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Cuneiform_bones"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Cuneiform_bones"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_cuneiforme_laterale",
+      "name_da": "Laterale kileben",
+      "name_la_ta2": "Os cuneiforme laterale",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Lateral cuneiform bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Cuneiform_bones"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Cuneiform_bones"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_atlas",
+      "name_da": "Atlas (1. halshvirvel)",
+      "name_la_ta2": "Atlas",
+      "ta2_id": "1038",
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "arcus anterior/posterior",
+        "massae laterales"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Atlas, vertebra cervicalis I",
+          "matched_label_en": "atlas",
+          "wikidata": "http://www.wikidata.org/entity/Q655357",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q655357"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_axis",
+      "name_da": "Axis (2. halshvirvel)",
+      "name_la_ta2": "Axis",
+      "ta2_id": "1050",
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "dens axis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Axis, vertebra cervicalis II",
+          "matched_label_en": "axis",
+          "wikidata": "http://www.wikidata.org/entity/Q792567",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q792567"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_sternum",
+      "name_da": "Brystben",
+      "name_la_ta2": "Sternum",
+      "ta2_id": "1129",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 1,
+      "landmarks": [
+        "manubrium",
+        "corpus",
+        "processus xiphoideus",
+        "angulus sterni",
+        "incisura jugularis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Sternum",
+          "matched_label_en": "sternum",
+          "wikidata": "http://www.wikidata.org/entity/Q8481",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q8481"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_frontale",
+      "name_da": "Pandeben",
+      "name_la_ta2": "Os frontale",
+      "ta2_id": "520",
+      "region": "hoved",
+      "type": "flad",
+      "count_in_body": 1,
+      "landmarks": [
+        "margo supraorbitalis",
+        "sinus frontalis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os frontale",
+          "matched_label_en": "frontal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q16295",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16295"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_parietale",
+      "name_da": "Isseben",
+      "name_la_ta2": "Os parietale",
+      "ta2_id": "504",
+      "region": "hoved",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "tuber parietale"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os parietale",
+          "matched_label_en": "parietal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q16298",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16298"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_occipitale",
+      "name_da": "Nakkeben",
+      "name_la_ta2": "Os occipitale",
+      "ta2_id": "552",
+      "region": "hoved",
+      "type": "flad",
+      "count_in_body": 1,
+      "landmarks": [
+        "foramen magnum",
+        "condyli occipitales",
+        "protuberantia occipitalis externa"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os occipitale",
+          "matched_label_en": "occipital bone",
+          "wikidata": "http://www.wikidata.org/entity/Q16317",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16317"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_temporale",
+      "name_da": "Tindingeben",
+      "name_la_ta2": "Os temporale",
+      "ta2_id": "641",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [
+        "processus mastoideus",
+        "processus styloideus",
+        "meatus acusticus externus",
+        "fossa mandibularis"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Temporal bone",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Ossa temporalia",
+          "matched_label_en": "temporal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q16313",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Temporal_bone"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Temporal_bone"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16313",
+        "https://en.wikipedia.org/wiki/Temporal_bone"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_sphenoidale",
+      "name_da": "Kilebenet",
+      "name_la_ta2": "Os sphenoidale",
+      "ta2_id": "584",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "sella turcica",
+        "ala major/minor",
+        "processus pterygoideus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os sphenoidale",
+          "matched_label_en": "sphenoid bone",
+          "wikidata": "http://www.wikidata.org/entity/Q16321",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16321"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_ethmoidale",
+      "name_da": "Si-ben",
+      "name_la_ta2": "Os ethmoidale",
+      "ta2_id": "721",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "lamina cribrosa",
+        "crista galli"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os ethmoidale",
+          "matched_label_en": "ethmoid bone",
+          "wikidata": "http://www.wikidata.org/entity/Q16331",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16331"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_maxilla",
+      "name_da": "Overkæbe",
+      "name_la_ta2": "Maxilla",
+      "ta2_id": "756",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [
+        "processus alveolaris",
+        "sinus maxillaris"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Maxilla",
+          "matched_label_en": "maxilla",
+          "wikidata": "http://www.wikidata.org/entity/Q182895",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q182895"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_mandibula",
+      "name_da": "Underkæbe",
+      "name_la_ta2": "Mandibula",
+      "ta2_id": "835",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "processus condylaris",
+        "processus coronoideus",
+        "angulus",
+        "foramen mentale"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Mandibula",
+          "matched_label_en": "human mandible",
+          "wikidata": "http://www.wikidata.org/entity/Q5283631",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5283631"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_zygomaticum",
+      "name_da": "Kindben",
+      "name_la_ta2": "Os zygomaticum",
+      "ta2_id": "818",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "os zygomaticum",
+          "matched_label_en": "zygomatic bone",
+          "wikidata": "http://www.wikidata.org/entity/Q186102",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q186102"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_nasale",
+      "name_da": "Næseben",
+      "name_la_ta2": "Os nasale",
+      "ta2_id": "748",
+      "region": "hoved",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os nasale",
+          "matched_label_en": "nasal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q38155",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q38155"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_lacrimale",
+      "name_da": "Tårebenet",
+      "name_la_ta2": "Os lacrimale",
+      "ta2_id": "744",
+      "region": "hoved",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os lacrimale",
+          "matched_label_en": "lacrimal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q212721",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q212721"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_palatinum",
+      "name_da": "Ganeben",
+      "name_la_ta2": "Os palatinum",
+      "ta2_id": "798",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os palatinum",
+          "matched_label_en": "palatine bone",
+          "wikidata": "http://www.wikidata.org/entity/Q237632",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q237632"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_vomer",
+      "name_da": "Plovskærsbenet",
+      "name_la_ta2": "Vomer",
+      "ta2_id": "751",
+      "region": "hoved",
+      "type": "flad",
+      "count_in_body": 1,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Vomer (anatomia)",
+          "matched_label_en": "vomer",
+          "wikidata": "http://www.wikidata.org/entity/Q193527",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q193527"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_concha_nasalis_inferior",
+      "name_da": "Nedre næsemusling",
+      "name_la_ta2": "Concha nasalis inferior",
+      "ta2_id": "740",
+      "region": "hoved",
+      "type": "irregulær",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Concha nasalis inferior",
+          "matched_label_en": "inferior nasal concha",
+          "wikidata": "http://www.wikidata.org/entity/Q552439",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q552439"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_hyoideum",
+      "name_da": "Tungeben",
+      "name_la_ta2": "Os hyoideum",
+      "ta2_id": "876",
+      "region": "hals",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "corpus",
+        "cornu majus/minus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os hyoideum",
+          "matched_label_en": "hyoid bone",
+          "wikidata": "http://www.wikidata.org/entity/Q16332",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q16332"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_metacarpi_i",
+      "name_da": "1. mellemhåndsknogle",
+      "name_la_ta2": "Os metacarpi I",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "First metacarpal bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/First_metacarpal_bone"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/First_metacarpal_bone"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_metatarsi_i",
+      "name_da": "1. mellemfodsknogle",
+      "name_la_ta2": "Os metatarsi I",
+      "ta2_id": "1500",
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "First metatarsal bone",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os metatarsale I",
+          "matched_label_en": "first metatarsal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q5454211",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/First_metatarsal_bone"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/First_metatarsal_bone"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5454211",
+        "https://en.wikipedia.org/wiki/First_metatarsal_bone"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_metacarpi_ii",
+      "name_da": "2. mellemhåndsknogle",
+      "name_la_ta2": "Os metacarpi II",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Second metacarpal bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Second_metacarpal_bone"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Second_metacarpal_bone"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_metatarsi_ii",
+      "name_da": "2. mellemfodsknogle",
+      "name_la_ta2": "Os metatarsi II",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Second metatarsal bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Second_metatarsal_bone"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Second_metatarsal_bone"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_metacarpi_iii",
+      "name_da": "3. mellemhåndsknogle",
+      "name_la_ta2": "Os metacarpi III",
+      "ta2_id": "1269",
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Third metacarpal bone",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "third metacarpal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q836581",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Third_metacarpal_bone"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Third_metacarpal_bone"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q836581",
+        "https://en.wikipedia.org/wiki/Third_metacarpal_bone"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_os_metatarsi_iii",
+      "name_da": "3. mellemfodsknogle",
+      "name_la_ta2": "Os metatarsi III",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Third metatarsal bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Third_metatarsal_bone"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Third_metatarsal_bone"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_metacarpi_iv",
+      "name_da": "4. mellemhåndsknogle",
+      "name_la_ta2": "Os metacarpi IV",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Fourth metacarpal bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fourth_metacarpal_bone"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fourth_metacarpal_bone"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_metatarsi_iv",
+      "name_da": "4. mellemfodsknogle",
+      "name_la_ta2": "Os metatarsi IV",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Fourth metatarsal bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fourth_metatarsal_bone"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fourth_metatarsal_bone"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_metacarpi_v",
+      "name_da": "5. mellemhåndsknogle",
+      "name_la_ta2": "Os metacarpi V",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Fifth metacarpal bone",
+      "source_check": {
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fifth_metacarpal_bone"
+        }
+      },
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Fifth_metacarpal_bone"
+      ],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_os_metatarsi_v",
+      "name_da": "5. mellemfodsknogle",
+      "name_la_ta2": "Os metatarsi V",
+      "ta2_id": "1502",
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 2,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput",
+        "tuberositas ossis metatarsi quinti"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Fifth metatarsal bone",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Os metatarsale V",
+          "matched_label_en": "fifth metatarsal bone",
+          "wikidata": "http://www.wikidata.org/entity/Q5447591",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Fifth_metatarsal_bone"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fifth_metatarsal_bone"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q5447591",
+        "https://en.wikipedia.org/wiki/Fifth_metatarsal_bone"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_phalanx_proximalis_manus",
+      "name_da": "Grundled (finger)",
+      "name_la_ta2": "Phalanx proximalis manus",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 10,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput/trochlea"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Proximal phalanx of finger",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_phalanx_proximalis_pedis",
+      "name_da": "Grundled (tå)",
+      "name_la_ta2": "Phalanx proximalis pedis",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 10,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Proximal phalanx of foot",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_phalanx_media_manus",
+      "name_da": "Mellemled (finger)",
+      "name_la_ta2": "Phalanx media manus",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 8,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput/trochlea"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Middle phalanx of finger",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_phalanx_media_pedis",
+      "name_da": "Mellemled (tå)",
+      "name_la_ta2": "Phalanx media pedis",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 8,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Middle phalanx of foot",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_phalanx_distalis_manus",
+      "name_da": "Yderled (finger)",
+      "name_la_ta2": "Phalanx distalis manus",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "lang",
+      "count_in_body": 10,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput/trochlea"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Distal phalanx of finger",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_phalanx_distalis_pedis",
+      "name_da": "Yderled (tå)",
+      "name_la_ta2": "Phalanx distalis pedis",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "lang",
+      "count_in_body": 10,
+      "landmarks": [
+        "basis",
+        "corpus",
+        "caput"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Distal phalanx of foot",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_cervicalis_3",
+      "name_da": "3. halshvirvel (C3)",
+      "name_la_ta2": "Vertebra cervicalis 3",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foramen transversarium",
+        "processus spinosus (bifidus)"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "C3 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_cervicalis_4",
+      "name_da": "4. halshvirvel (C4)",
+      "name_la_ta2": "Vertebra cervicalis 4",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foramen transversarium",
+        "processus spinosus (bifidus)"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "C4 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_cervicalis_5",
+      "name_da": "5. halshvirvel (C5)",
+      "name_la_ta2": "Vertebra cervicalis 5",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foramen transversarium",
+        "processus spinosus (bifidus)"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "C5 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_cervicalis_6",
+      "name_da": "6. halshvirvel (C6)",
+      "name_la_ta2": "Vertebra cervicalis 6",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foramen transversarium",
+        "processus spinosus (bifidus)"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "C6 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_prominens",
+      "name_da": "7. halshvirvel (C7)",
+      "name_la_ta2": "Vertebra prominens",
+      "ta2_id": "1032",
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foramen transversarium",
+        "processus spinosus (lang)"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "C7 vertebra",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Vertebrae cervicales",
+          "matched_label_en": "cervical vertebra",
+          "wikidata": "http://www.wikidata.org/entity/Q900457",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Cervical_vertebrae"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Cervical_vertebrae"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q900457",
+        "https://en.wikipedia.org/wiki/Cervical_vertebrae"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_vertebra_thoracica_1",
+      "name_da": "1. brysthvirvel (T1)",
+      "name_la_ta2": "Vertebra thoracica 1",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T1 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_2",
+      "name_da": "2. brysthvirvel (T2)",
+      "name_la_ta2": "Vertebra thoracica 2",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T2 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_3",
+      "name_da": "3. brysthvirvel (T3)",
+      "name_la_ta2": "Vertebra thoracica 3",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T3 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_4",
+      "name_da": "4. brysthvirvel (T4)",
+      "name_la_ta2": "Vertebra thoracica 4",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T4 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_5",
+      "name_da": "5. brysthvirvel (T5)",
+      "name_la_ta2": "Vertebra thoracica 5",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T5 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_6",
+      "name_da": "6. brysthvirvel (T6)",
+      "name_la_ta2": "Vertebra thoracica 6",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T6 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_7",
+      "name_da": "7. brysthvirvel (T7)",
+      "name_la_ta2": "Vertebra thoracica 7",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T7 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_8",
+      "name_da": "8. brysthvirvel (T8)",
+      "name_la_ta2": "Vertebra thoracica 8",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T8 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_9",
+      "name_da": "9. brysthvirvel (T9)",
+      "name_la_ta2": "Vertebra thoracica 9",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T9 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_10",
+      "name_da": "10. brysthvirvel (T10)",
+      "name_la_ta2": "Vertebra thoracica 10",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T10 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_11",
+      "name_da": "11. brysthvirvel (T11)",
+      "name_la_ta2": "Vertebra thoracica 11",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T11 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_thoracica_12",
+      "name_da": "12. brysthvirvel (T12)",
+      "name_la_ta2": "Vertebra thoracica 12",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "foveae costales",
+        "processus spinosus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "T12 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_lumbalis_1",
+      "name_da": "1. lændehvirvel (L1)",
+      "name_la_ta2": "Vertebra lumbalis 1",
+      "ta2_id": "1068",
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "processus mammillaris",
+        "processus accessorius"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "L1 vertebra",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Vertebrae lumbales",
+          "matched_label_en": "lumbar vertebrae",
+          "wikidata": "http://www.wikidata.org/entity/Q405478",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Lumbar_vertebrae"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Lumbar_vertebrae"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q405478",
+        "https://en.wikipedia.org/wiki/Lumbar_vertebrae"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_vertebra_lumbalis_2",
+      "name_da": "2. lændehvirvel (L2)",
+      "name_la_ta2": "Vertebra lumbalis 2",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "processus mammillaris",
+        "processus accessorius"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "L2 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_lumbalis_3",
+      "name_da": "3. lændehvirvel (L3)",
+      "name_la_ta2": "Vertebra lumbalis 3",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "processus mammillaris",
+        "processus accessorius"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "L3 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_lumbalis_4",
+      "name_da": "4. lændehvirvel (L4)",
+      "name_la_ta2": "Vertebra lumbalis 4",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "processus mammillaris",
+        "processus accessorius"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "L4 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_vertebra_lumbalis_5",
+      "name_da": "5. lændehvirvel (L5)",
+      "name_la_ta2": "Vertebra lumbalis 5",
+      "ta2_id": null,
+      "region": "ryg",
+      "type": "irregulær",
+      "count_in_body": 1,
+      "landmarks": [
+        "processus mammillaris",
+        "processus accessorius"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "L5 vertebra",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_costa_1",
+      "name_da": "1. ribben",
+      "name_la_ta2": "Costa 1",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus",
+        "sulcus a. subclaviae",
+        "tuberculum m. scaleni anterioris"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_2",
+      "name_da": "2. ribben",
+      "name_la_ta2": "Costa 2",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_3",
+      "name_da": "3. ribben",
+      "name_la_ta2": "Costa 3",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_4",
+      "name_da": "4. ribben",
+      "name_la_ta2": "Costa 4",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_5",
+      "name_da": "5. ribben",
+      "name_la_ta2": "Costa 5",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_6",
+      "name_da": "6. ribben",
+      "name_la_ta2": "Costa 6",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_7",
+      "name_da": "7. ribben",
+      "name_la_ta2": "Costa 7",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_8",
+      "name_da": "8. ribben",
+      "name_la_ta2": "Costa 8",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_9",
+      "name_da": "9. ribben",
+      "name_la_ta2": "Costa 9",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_10",
+      "name_da": "10. ribben",
+      "name_la_ta2": "Costa 10",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_11",
+      "name_da": "11. ribben",
+      "name_la_ta2": "Costa 11",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_costa_12",
+      "name_da": "12. ribben",
+      "name_la_ta2": "Costa 12",
+      "ta2_id": "1105",
+      "region": "brystkasse",
+      "type": "flad",
+      "count_in_body": 2,
+      "landmarks": [
+        "caput",
+        "collum",
+        "tuberculum",
+        "angulus"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "costa",
+          "matched_label_en": "rib",
+          "wikidata": "http://www.wikidata.org/entity/Q196672",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q196672"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_malleus",
+      "name_da": "Hammeren",
+      "name_la_ta2": "Malleus",
+      "ta2_id": "881",
+      "region": "hoved",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Malleus",
+          "matched_label_en": "malleus",
+          "wikidata": "http://www.wikidata.org/entity/Q319636",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q319636"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_incus",
+      "name_da": "Ambolten",
+      "name_la_ta2": "Incus",
+      "ta2_id": "888",
+      "region": "hoved",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Incus",
+          "matched_label_en": "incus",
+          "wikidata": "http://www.wikidata.org/entity/Q497385",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q497385"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_stapes",
+      "name_da": "Stigbøjlen",
+      "name_la_ta2": "Stapes",
+      "ta2_id": "895",
+      "region": "hoved",
+      "type": "kort",
+      "count_in_body": 2,
+      "landmarks": [],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": null,
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Stapes",
+          "matched_label_en": "stapes",
+          "wikidata": "http://www.wikidata.org/entity/Q499897",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q499897"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    },
+    {
+      "id": "bone_ossa_sesamoidea_manus",
+      "name_da": "Sesamknogler (hånd)",
+      "name_la_ta2": "Ossa sesamoidea manus",
+      "ta2_id": null,
+      "region": "øvre ekstremitet",
+      "type": "sesamknogle",
+      "count_in_body": 4,
+      "landmarks": [
+        "typisk 2 ved tommelens MCP-led; varierende ved 2. og 5. finger"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Sesamoid bones of hand",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_ossa_sesamoidea_pedis",
+      "name_da": "Sesamknogler (fod)",
+      "name_la_ta2": "Ossa sesamoidea pedis",
+      "ta2_id": null,
+      "region": "nedre ekstremitet",
+      "type": "sesamknogle",
+      "count_in_body": 4,
+      "landmarks": [
+        "mediale og laterale sesamknogle under 1. metatarsalhoved (i senen fra m. flexor hallucis brevis)"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "needs_review",
+      "name_en": "Sesamoid bones of foot",
+      "source_check": {},
+      "source_urls": [],
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+    },
+    {
+      "id": "bone_fabella",
+      "name_da": "Fabella",
+      "name_la_ta2": "Fabella",
+      "ta2_id": "1395",
+      "region": "nedre ekstremitet",
+      "type": "sesamknogle",
+      "count_in_body": 0,
+      "landmarks": [
+        "variabel sesamknogle i caput laterale m. gastrocnemii"
+      ],
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "name_en": "Fabella",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "",
+          "matched_label_en": "",
+          "wikidata": "http://www.wikidata.org/entity/Q574978",
+          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)",
+          "via": "https://en.wikipedia.org/wiki/Fabella"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Fabella"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q574978",
+        "https://en.wikipedia.org/wiki/Fabella"
+      ],
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+    }
+  ]
+}
