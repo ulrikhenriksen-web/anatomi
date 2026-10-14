@@ -143,7 +143,8 @@ test('branding: user-visible copy says Anatomi, not Knoglequiz', () => {
   const html = readFileSync(new URL('../src/index.html', import.meta.url), 'utf8');
   const app = readFileSync(new URL('../src/app.js', import.meta.url), 'utf8');
   assert.match(html, /<title>Anatomi/); assert.match(html, /og:site_name" content="Anatomi"/);
-  const visibleHtml = html.replace(/https:\/\/knoglequiz\.emiltram\.dk\//g, '');
-  assert.ok(!/knoglequiz/i.test(visibleHtml));
+  assert.ok(!/knoglequiz/i.test(html));
+  assert.match(html, /canonical" href="https:\/\/anatomi\.emiltram\.dk\/"/);
+  assert.match(readFileSync(new URL('../src/.htaccess', import.meta.url), 'utf8'), /knoglequiz\\\.emiltram\\\.dk\$ \[NC\][\s\S]*https:\/\/anatomi\.emiltram\.dk%\{REQUEST_URI\} \[L,R=301/);
   assert.ok(!/Knoglequiz/.test(app));
 });

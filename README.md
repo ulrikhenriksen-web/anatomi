@@ -1,6 +1,6 @@
 # Anatomi
 
-(Produktnavn: **Anatomi**. Repo, pakkenavn og domæne `knoglequiz.emiltram.dk` hedder fortsat knoglequiz.)
+(Produktnavn: **Anatomi**. Repo: `ulrikhenriksen-web/anatomi`. Domæne: https://anatomi.emiltram.dk – `knoglequiz.emiltram.dk` 301-redirecter dertil. Servermappen på Simply er fortsat `/knoglequiz`; interne identifikatorer/pakkenavn hedder fortsat knoglequiz.)
 
 Anatomiquiz for fysioterapeutstuderende: knogler, muskler, sener og ledbånd.
 Statisk frontend (vanilla JS-moduler, ingen build-afhængigheder) + lille PHP-endpoint til "Rapportér fejl".
@@ -28,11 +28,11 @@ cd dist && php -S localhost:8080
 ```
 
 ## Deploy (Simply.com)
-1. Opret subdomænet `knoglequiz.emiltram.dk` i Simply-kontrolpanelet (peger på en mappe), aktivér Let's Encrypt SSL.
+1. Subdomænet `anatomi.emiltram.dk` (og det gamle `knoglequiz.emiltram.dk`, som redirecter) skal pege på mappen `/knoglequiz` i Simply-kontrolpanelet med Let's Encrypt SSL på begge.
 2. Læg `api/config.php` (se `api/config.sample.php`) på serveren. SQLite-filen ligger under `_data/` (deny-all via `.htaccess`).
 3. Google Cloud (kun hvis login skal slåes til):
    - Opret et OAuth 2.0 **Web application**-client i Google Cloud Console (APIs & Services → Credentials).
-   - **Authorized JavaScript origins**: `https://knoglequiz.emiltram.dk` (og `http://localhost:8080` til lokal udvikling).
+   - **Authorized JavaScript origins**: `https://anatomi.emiltram.dk` og `http://localhost:8080` (lokal udvikling). Det gamle domæne behøver ikke stå der, da det redirecter.
    - **Authorized redirect URIs**: ikke nødvendige for GIS ID-token / popup-flow (lad dem være tomme, medmindre du tilføjer et redirect-flow senere).
    - Sæt `google_client_id` i `api/config.php` til client ID'et (`….apps.googleusercontent.com`). Tom = gæstetilstand.
    - Domænebekræftelse / OAuth-consent: sæt appen til *External* (eller *Internal* hvis Workspace-only), tilføj scopes `openid email profile`, tilføj dig selv som testbruger mens status er *Testing*.

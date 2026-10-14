@@ -1,5 +1,8 @@
 Options -Indexes
 RewriteEngine On
+# Old domain -> new primary domain (301, path + query preserved)
+RewriteCond %{HTTP_HOST} ^knoglequiz\.emiltram\.dk$ [NC]
+RewriteRule ^ https://anatomi.emiltram.dk%{REQUEST_URI} [L,R=301,NE]
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 <IfModule mod_headers.c>

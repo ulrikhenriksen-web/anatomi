@@ -2,7 +2,7 @@
 # Network: needs outbound TCP 21 + passive ports (FTPS explicit). EXTRA_DIR (optional) holds server-only api/config.php + _data/.htaccess.
 # Deploy dist/ to Simply.com via FTPS (lftp). Requires real credentials in env:
 #   SIMPLY_FTP_HOST (e.g. linux123.unoeuro.com), SIMPLY_FTP_USER, SIMPLY_FTP_PASSWORD,
-#   SIMPLY_REMOTE_DIR (web root for knoglequiz.emiltram.dk, e.g. /public_html or the subdomain folder)
+#   SIMPLY_REMOTE_DIR (web root for anatomi.emiltram.dk (/knoglequiz), e.g. /public_html or the subdomain folder)
 set -euo pipefail
 cd "$(dirname "$0")/.."
 : "${SIMPLY_FTP_HOST:?missing SIMPLY_FTP_HOST}" "${SIMPLY_FTP_USER:?missing SIMPLY_FTP_USER}" "${SIMPLY_FTP_PASSWORD:?missing SIMPLY_FTP_PASSWORD}" "${SIMPLY_REMOTE_DIR:?missing SIMPLY_REMOTE_DIR}"
@@ -16,4 +16,4 @@ lftp -u "$SIMPLY_FTP_USER","$SIMPLY_FTP_PASSWORD" "ftp://$SIMPLY_FTP_HOST:${SIMP
   ${EXTRA_DIR:+put -O $SIMPLY_REMOTE_DIR/api $EXTRA_DIR/api/config.php; }
   mirror -R --delete --verbose $DRY --exclude-glob api/config.php --exclude-glob '_data/*.sqlite*' dist/ $SIMPLY_REMOTE_DIR/;
   cls -lR $SIMPLY_REMOTE_DIR; bye"
-echo "Deployed. Smoke test:"; curl -fsS -o /dev/null -w "%{http_code}\n" "https://knoglequiz.emiltram.dk/" || true
+echo "Deployed. Smoke test:"; curl -fsS -o /dev/null -w "%{http_code}\n" "https://anatomi.emiltram.dk/" || true
