@@ -266,7 +266,7 @@ function testSetup() {
 }
 
 function accountHtml() {
-  if (!auth.clientId) return '<p class="muted">Login er ikke slået til endnu – du bruger Knoglequiz som gæst.</p>';
+  if (!auth.clientId) return '<p class="muted">Login er ikke slået til endnu – du bruger Anatomi som gæst.</p>';
   if (!auth.user) return '<p>Log ind for at gemme dit fremskridt på tværs af enheder. Dit nuværende fremskridt flyttes med første gang.</p><div id="gbtn"></div>';
   const u = auth.user;
   return `<div class="account">${u.picture && /^https:\/\//.test(u.picture) ? `<img src="${esc(u.picture)}" alt="" referrerpolicy="no-referrer">` : ''}<div><b>${esc(u.name || '')}</b><br><span class="muted">${esc(u.email || '')}</span></div></div>
@@ -284,7 +284,7 @@ function profile() {
     <div class="card stack"><h2>Fremskridt</h2><p class="muted">${auth.user ? 'Gemmes på din konto og i browseren (offline).' : 'Gemmes lokalt i denne browser.'} ${pending ? `${pending} fejlrapport(er) venter på at blive sendt.` : ''}</p>
       <div class="row"><button class="btn secondary" id="export">Eksportér</button><button class="btn ghost" id="reset">Nulstil fremskridt</button></div></div>
     <div class="card"><h2>Hvad betyder mestret?</h2><p>En facet er mestret, når intervallet er mindst 7 dage, og du har svaret rigtigt 3 gange i træk fordelt på mindst 2 dage.</p></div>
-    <p class="muted">Data: Knoglequiz research v0.3 · ${ITEMS.length} strukturer.</p></div>`;
+    <p class="muted">Data: Anatomi research v0.3 · ${ITEMS.length} strukturer.</p></div>`;
   const gb = document.getElementById('gbtn'); if (gb) renderGoogleButton(gb);
   const lo = document.getElementById('logout'); if (lo) lo.onclick = logout;
   const sn = document.getElementById('syncnow'); if (sn) sn.onclick = async () => { await pushProgress(); profile(); };
@@ -295,7 +295,7 @@ function profile() {
   document.getElementById('export').onclick = () => {
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([JSON.stringify({ progress, meta, settings }, null, 2)], { type: 'application/json' }));
-    a.download = 'knoglequiz-fremskridt.json'; a.click();
+    a.download = 'anatomi-fremskridt.json'; a.click();
   };
   document.getElementById('reset').onclick = () => { if (confirm(auth.user ? 'Nulstil fremskridt på denne enhed? (Kontoens fremskridt hentes igen ved næste login.)' : 'Slet alt fremskridt på denne enhed?')) { progress = {}; meta = { xp: 0, streak: 0, lastDay: null, tests: [] }; save(LS.progress, progress); save(LS.meta, meta); toast('Fremskridt nulstillet'); } };
 }

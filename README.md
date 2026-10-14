@@ -1,4 +1,6 @@
-# Knoglequiz
+# Anatomi
+
+(Produktnavn: **Anatomi**. Repo, pakkenavn og domæne `knoglequiz.emiltram.dk` hedder fortsat knoglequiz.)
 
 Anatomiquiz for fysioterapeutstuderende: knogler, muskler, sener og ledbånd.
 Statisk frontend (vanilla JS-moduler, ingen build-afhængigheder) + lille PHP-endpoint til "Rapportér fejl".

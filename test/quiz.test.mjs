@@ -139,3 +139,11 @@ test('mediaOf: v2 hotspot schema normalisation', () => {
   assert.equal(m.image, 'https://x/y.png'); assert.equal(m.hotspots.length, 1); assert.equal(m.hotspots[0].r, 0.04);
   assert.equal(Q.mediaOf({ image: 'javascript:alert(1)' }).image, null);
 });
+test('branding: user-visible copy says Anatomi, not Knoglequiz', () => {
+  const html = readFileSync(new URL('../src/index.html', import.meta.url), 'utf8');
+  const app = readFileSync(new URL('../src/app.js', import.meta.url), 'utf8');
+  assert.match(html, /<title>Anatomi/); assert.match(html, /og:site_name" content="Anatomi"/);
+  const visibleHtml = html.replace(/https:\/\/knoglequiz\.emiltram\.dk\//g, '');
+  assert.ok(!/knoglequiz/i.test(visibleHtml));
+  assert.ok(!/Knoglequiz/.test(app));
+});
