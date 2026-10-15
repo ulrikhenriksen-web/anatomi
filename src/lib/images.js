@@ -16,6 +16,10 @@ export function normalizeImages(raw, knownIds = null) {
     rejected.push({ id: '*', why: 'schema_version must be 1 with an images object' });
     return { images, rejected, schema_version: raw.schema_version ?? null };
   }
+  for (const list of Object.values(raw.images)) for (const v of Array.isArray(list) ? list : []) {
+    // Auto-upgrade http license links (e.g. http://creativecommons.org/...) to https
+    if (v && typeof v.license_url === 'string' && /^http:\/\//.test(v.license_url)) v.license_url = v.license_url.replace(/^http:/, 'https:');
+  }
   for (const [itemId, list] of Object.entries(raw.images)) {
     if (!/^[a-z0-9_]{1,120}$/.test(itemId)) { rejected.push({ id: itemId, why: 'bad item id' }); continue; }
     if (knownIds && !knownIds.has(itemId)) { rejected.push({ id: itemId, why: 'unknown item id' }); continue; }
