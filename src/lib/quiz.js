@@ -28,7 +28,8 @@ export function normalize(raw) {
     for (const it of items) {
       if (!it || !it.id || !it.name_da) continue;
       const { source_check, ...rest } = it; // not shown to students
-      out.push({ ...rest, topic, needs_review: it.verification === 'needs_review' });
+      const imgs = raw.images?.[it.id];
+      out.push({ ...rest, topic, needs_review: it.verification === 'needs_review', images: Array.isArray(imgs) ? imgs : [] });
     }
   }
   return out;
@@ -161,15 +162,22 @@ export function validateReport(r) {
   return errors;
 }
 
-// ---- v2 image hotspots (schema reserved, no feature yet) ----
-/** Normalised media: { image: url|null, hotspots: [{id, item_id, x, y, r}] } with x/y/r in 0..1. */
+// ---- Images (images.json v1). First image is primary. ----
+/** { image: primary url|null, primary: image|null, images: [], hotspots: [] } */
 export function mediaOf(item) {
-  const hs = Array.isArray(item?.hotspots) ? item.hotspots : [];
-  const ok = (n) => typeof n === 'number' && n >= 0 && n <= 1;
-  return {
-    image: typeof item?.image === 'string' && /^(https:\/\/|\/|[\w-]+\/)/.test(item.image) ? item.image : null,
-    hotspots: hs.filter((h) => h && typeof h.item_id === 'string' && ok(h.x) && ok(h.y)).map((h, i) => ({ id: h.id || `h${i}`, item_id: h.item_id, x: h.x, y: h.y, r: ok(h.r) ? h.r : 0.04 })),
-  };
+  const images = Array.isArray(item?.images) ? item.images : [];
+  const primary = images[0] || null;
+  return { image: primary ? primary.url : null, primary, images, hotspots: primary ? primary.hotspots || [] : [] };
+}
+export const hasImage = (item) => mediaOf(item).image !== null;
+/** Alt text: Udforsk may name the structure; games must use the neutral text. */
+export function altFor(img, item, context) {
+  if (!img) return '';
+  if (context === 'game') return img.alt_neutral || '';
+  return img.alt_naming || `Illustration af ${item?.name_da || 'strukturen'}`;
+}
+export function creditLine(img) {
+  return img ? { text: `Kilde: ${img.credit}`, license: img.license, license_url: img.license_url, source_url: img.source_url } : null;
 }
 
 // ---- Server sync: merge progress (per card: newest `last` wins) ----
