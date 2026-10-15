@@ -4,16 +4,18 @@ import { execFileSync, spawn } from 'node:child_process';
 import { mkdtempSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { normalizeImages } from '../src/lib/images.js';
-import { normalize } from '../src/lib/quiz.js';
+import { buildData } from '../scripts/build.mjs';
+import { normalize, FACETS } from '../src/lib/quiz.js';
 
 const hasPhp = (() => { try { return execFileSync('php', ['-m']).toString().includes('pdo_sqlite'); } catch { return false; } })();
 const root = new URL('..', import.meta.url).pathname;
 const dir = mkdtempSync(join(tmpdir(), 'kqh-'));
+const db = join(dir, 'kq.sqlite');
 const port = 20000 + Math.floor(Math.random() * 500); const fport = port + 600;
 const base = `http://127.0.0.1:${port}/api`;
-let srv, fake;
+let srv, fake, items;
 const wait = async (u) => { for (let i = 0; i < 40; i++) { try { await fetch(u); return; } catch { await new Promise((r) => setTimeout(r, 100)); } } };
+const sql = (q) => execFileSync('php', ['-r', `$p=new PDO('sqlite:${db}');$p->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);$s=$p->query(${JSON.stringify(q).replace(/\$/g, '\\$')});echo json_encode($s?$s->fetchAll(PDO::FETCH_ASSOC):[]);`]).toString();
 function client() {
   let cookie = '';
   const call = async (path, { method = 'GET', body, xhr = true } = {}) => {
@@ -23,95 +25,137 @@ function client() {
   };
   return { call, login: (t) => call('/auth.php?action=login', { method: 'POST', body: { credential: t } }) };
 }
-const sub = (c, o) => c.call('/score.php', { method: 'POST', body: { category: 'muskler', mode: 'test', correct: 8, total: 10, duration_ms: 60000, ...o } });
+let sidN = 0;
+const sid = () => `sess-${Date.now()}-${++sidN}`;
+const now = () => Date.now();
+const verified = (topic) => items.filter((i) => !i.needs_review && (!topic || i.topic === topic));
+const ev = (it, facet, { wrong = false, ms = 3000, ts = now() } = {}) => ({ item_id: it.id, facet, answer: wrong ? 'forkert' : (facet === 'naming' ? it.name_da : FACETS[facet].get(it)), ts, ms });
+const submit = (c, mode, events, extra = {}) => c.call('/score.php', { method: 'POST', body: { session_id: sid(), mode, events, ...extra } });
 
 before(async () => {
+  items = normalize(await buildData(join(root, 'data/research')));
   if (!hasPhp) return;
+  const dataPath = join(dir, 'data.json'); writeFileSync(dataPath, JSON.stringify(await buildData(join(root, 'data/research'))));
   const cfg = join(dir, 'config.php');
-  writeFileSync(cfg, `<?php return ['sqlite_path' => '${join(dir, 'kq.sqlite')}', 'google_client_id' => 'test-client.apps.googleusercontent.com', 'google_tokeninfo_url' => 'http://127.0.0.1:${fport}/tokeninfo.php', 'score_limits' => ['min_gap_s' => 0, 'per_hour' => 6]];`);
+  writeFileSync(cfg, `<?php return ['sqlite_path' => '${db}', 'data_path' => '${dataPath}', 'salt' => 't', 'google_client_id' => 'test-client.apps.googleusercontent.com', 'google_tokeninfo_url' => 'http://127.0.0.1:${fport}/tokeninfo.php', 'score_limits' => ['parallel' => 1000]];`);
+  // legacy DB with columns that must be removed by the migration
+  execFileSync('php', ['-r', `$p=new PDO('sqlite:${db}');$p->exec("CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, google_sub TEXT UNIQUE NOT NULL, email TEXT, name TEXT, picture TEXT, created_at TEXT NOT NULL, last_login TEXT NOT NULL)");$p->exec("INSERT INTO users (google_sub,email,name,picture,created_at,last_login) VALUES ('old','o@x.dk','Old','https://pic','x','x')");$p->exec("CREATE TABLE reports (id INTEGER PRIMARY KEY AUTOINCREMENT, created_at VARCHAR(25) NOT NULL, item_id VARCHAR(120) NOT NULL, field VARCHAR(60) NULL, message TEXT NOT NULL, page VARCHAR(255) NULL, data_version VARCHAR(20) NULL, ip_hash CHAR(64) NOT NULL, user_agent VARCHAR(255) NULL, status VARCHAR(20) NOT NULL DEFAULT 'new')");$p->exec("INSERT INTO reports (created_at,item_id,message,ip_hash,user_agent) VALUES ('x','bone_femur','m','abc','UA')");`]);
   fake = spawn('php', ['-S', `127.0.0.1:${fport}`, '-t', join(root, 'test/fixtures')], { stdio: 'ignore' });
   srv = spawn('php', ['-S', `127.0.0.1:${port}`, '-t', root], { env: { ...process.env, KQ_CONFIG: cfg }, stdio: 'ignore' });
   await wait(`http://127.0.0.1:${fport}/tokeninfo.php`); await wait(`${base}/auth.php?action=config`);
 });
 after(() => { srv?.kill(); fake?.kill(); });
 
-test('leaderboard/profile/score require login; score requires CSRF header', { skip: !hasPhp }, async () => {
+test('migration drops picture, ip_hash, user_agent; reports store only text/time/page/version', { skip: !hasPhp }, async () => {
+  const a = client(); const r = await a.login('h.p.alice');
+  assert.equal(r.status, 200); assert.ok(!('picture' in r.body.user));
+  const ucols = JSON.parse(sql('PRAGMA table_info(users)')).map((c) => c.name);
+  const rcols = JSON.parse(sql('PRAGMA table_info(reports)')).map((c) => c.name);
+  assert.ok(!ucols.includes('picture'), ucols.join());
+  assert.ok(!rcols.includes('ip_hash') && !rcols.includes('user_agent'), rcols.join());
+  assert.equal(JSON.parse(sql("SELECT message FROM reports"))[0].message, 'm', 'existing reports kept');
+  const rep = await fetch(`${base}/report.php`, { method: 'POST', headers: { 'User-Agent': 'SecretUA/1.0' }, body: JSON.stringify({ item_id: 'bone_femur', message: 'Test', page: '#/udforsk/bone_femur', data_version: '0.3' }) });
+  assert.equal(rep.status, 201);
+  const row = JSON.parse(sql('SELECT * FROM reports ORDER BY id DESC LIMIT 1'))[0];
+  assert.deepEqual(Object.keys(row).sort(), ['created_at', 'data_version', 'field', 'id', 'item_id', 'message', 'page', 'status']);
+  assert.ok(!sql('SELECT * FROM reports').includes('SecretUA') && !sql('SELECT * FROM users').includes('googleusercontent'));
+});
+test('endpoints require login; score requires CSRF header', { skip: !hasPhp }, async () => {
   const g = client();
-  assert.equal((await g.call('/leaderboard.php')).status, 401);
-  assert.equal((await g.call('/profile.php')).status, 401);
-  assert.equal((await sub(g)).status, 401);
+  for (const p of ['/leaderboard.php', '/profile.php']) assert.equal((await g.call(p)).status, 401);
+  assert.equal((await submit(g, 'naming', [ev(verified()[0], 'naming')])).status, 401);
   const a = client(); await a.login('h.p.alice');
-  assert.equal((await a.call('/score.php', { method: 'POST', body: { category: 'muskler', mode: 'test', correct: 1, total: 1, duration_ms: 5000 }, xhr: false })).status, 403);
+  assert.equal((await a.call('/score.php', { method: 'POST', xhr: false, body: { session_id: sid(), mode: 'naming', events: [ev(verified()[0], 'naming')] } })).status, 403);
 });
-test('profile: default first name, opt-out by default, validation, reset', { skip: !hasPhp }, async () => {
+test('points: server-side from answer events, 5/10/20/5, verified-only, answers validated, client points ignored', { skip: !hasPhp }, async () => {
+  const c = client(); await c.login('h.p.bob');
+  const [m1, m2, m3] = verified('muscles'); const nr = items.find((i) => i.needs_review);
+  let r = await submit(c, 'naming', [ev(m1, 'naming'), ev(m2, 'naming', { wrong: true }), ev(nr, 'naming'), { ...ev(m3, 'naming'), points: 9999 }]);
+  assert.equal(r.status, 201); assert.equal(r.body.counted, 2); assert.equal(r.body.points, 10);
+  assert.deepEqual(r.body.rejected.map((x) => x.reason), ['incorrect', 'not_verified']);
+  r = await submit(c, 'drill', [ev(m1, 'innervation'), ev(m2, 'udspring')]); assert.equal(r.body.points, 20);
+  r = await submit(c, 'test', [ev(m1, 'haefte'), ev(m2, 'navn')]); assert.equal(r.body.points, 40);
+  r = await submit(c, 'test', [ev(m2, 'navn'), ev(m1, 'haefte')]); assert.equal(r.body.points, 0); assert.ok(r.body.reasons.includes('test_set_already_counted'));
+  r = await submit(c, 'memory', verified('bones').slice(0, 6).map((it) => ({ item_id: it.id, facet: 'pair', ts: now(), ms: 2000 })), { memory: { difficulty: 'let', pairs: 6, moves: 9, seconds: 40 } });
+  assert.equal(r.status, 201); assert.equal(r.body.points, 30);
+  assert.equal(r.body.totals.all_time, 100); assert.equal(r.body.tier.name, 'Celle'); assert.equal(r.body.tier.next.to_go, 150);
+  const cats = JSON.parse(sql("SELECT category, SUM(points) p FROM score_events GROUP BY category ORDER BY category"));
+  assert.deepEqual(cats.map((x) => x.category), ['knogler', 'muskler']);
+});
+test('validation + plausibility: future ts, too fast, old events, caps, rate limits', { skip: !hasPhp }, async () => {
   const c = client(); await c.login('h.p.carol');
-  let p = (await c.call('/profile.php')).body;
-  assert.deepEqual(p, { display_name: 'Carol', display_name_is_default: true, highscore_opt_in: false });
-  for (const bad of ['x', 'a'.repeat(25), 'carol@example.com', '<script>', 'www.carol', 42]) {
-    assert.equal((await c.call('/profile.php', { method: 'PUT', body: { display_name: bad } })).status, 400, String(bad));
+  const v = verified('bones');
+  for (const body of [{ mode: 'cheat' }, { events: [] }, { session_id: 'x' }, { mode: 'memory', memory: { pairs: 7, moves: 7, seconds: 30 } }]) {
+    const r = await c.call('/score.php', { method: 'POST', body: { session_id: sid(), mode: 'naming', events: [ev(v[0], 'naming')], ...body } });
+    assert.equal(r.status, 400, JSON.stringify(body));
   }
-  assert.equal((await c.call('/profile.php', { method: 'PUT', body: { highscore_opt_in: 'yes' } })).status, 400);
-  p = (await c.call('/profile.php', { method: 'PUT', body: { display_name: '  Captain   Marvel ' } })).body;
-  assert.equal(p.display_name, 'Captain Marvel'); assert.equal(p.highscore_opt_in, false);
-  p = (await c.call('/profile.php', { method: 'PUT', body: { display_name: null } })).body;
-  assert.equal(p.display_name, 'Carol'); assert.equal(p.display_name_is_default, true);
-});
-test('score sanity checks: categories, modes incl. memory, ranges, duration, server-side points', { skip: !hasPhp }, async () => {
+  let r = await submit(c, 'naming', [ev(v[0], 'naming', { ts: now() + 3600e3 })]);
+  assert.equal(r.body.counted, 0); assert.ok(r.body.reasons.includes('future_timestamp'));
+  r = await submit(c, 'naming', v.slice(0, 4).map((it) => ev(it, 'naming', { ms: 150 })));
+  assert.equal(r.body.counted, 0); assert.ok(r.body.reasons.includes('too_fast'));
+  assert.equal(JSON.parse(sql("SELECT flagged FROM user_profile p JOIN users u ON u.id=p.user_id WHERE u.email='carol@example.com'"))[0].flagged, 1);
+  r = await submit(c, 'naming', [ev(v[1], 'naming', { ts: now() - 8 * 864e5 })]);
+  assert.deepEqual(r.body.rejected.map((x) => x.reason), ['too_old']);
+  // naming cap 100 answers/day
   const d = client(); await d.login('h.p.dave');
-  for (const o of [{ category: 'hjerne' }, { mode: 'cheat' }, { total: 0 }, { total: 51 }, { correct: 11 }, { correct: -1 }, { correct: 5.5 }, { duration_ms: 1000 }, { duration_ms: 9e9 }, { points: 99999 }]) {
-    const r = await sub(d, o);
-    if ('points' in o) { assert.equal(r.status, 201); assert.equal(r.body.points, 160, 'client points ignored'); } else assert.equal(r.status, 400, JSON.stringify(o));
+  const pool = verified();
+  let counted = 0;
+  for (let k = 0; k < 3; k++) counted += (await submit(d, 'naming', pool.slice(k * 50, k * 50 + 50).map((it) => ev(it, 'naming')))).body.counted;
+  assert.equal(counted, 100);
+  // memory: 5 games/day
+  const mem = () => submit(d, 'memory', pool.slice(0, 6).map((it) => ({ item_id: it.id, facet: 'pair', ts: now(), ms: 2000 })), { memory: { difficulty: 'let', pairs: 6, moves: 8, seconds: 30 } });
+  const pts = []; for (let k = 0; k < 6; k++) pts.push((await mem()).body.points);
+  assert.deepEqual(pts, [30, 30, 30, 30, 30, 0]);
+});
+test('profile: no public name by default; 3–20 chars, unique, filtered, 30-day change limit; opt-in needs name', { skip: !hasPhp }, async () => {
+  const e = client(); await e.login('h.p.erin');
+  let p = (await e.call('/profile.php')).body;
+  assert.equal(p.display_name, null); assert.equal(p.highscore_opt_in, false); assert.match(p.suggested_display_name, /^Erin\d{2}$/);
+  assert.equal((await e.call('/profile.php', { method: 'PUT', body: { highscore_opt_in: true } })).status, 409);
+  for (const bad of ['ab', 'a'.repeat(21), 'erin@example.com', '<b>x</b>', 'www.erin', 'Fuck you', 7]) {
+    assert.equal((await e.call('/profile.php', { method: 'PUT', body: { display_name: bad } })).status, 400, String(bad));
   }
-  const m = await sub(d, { mode: 'memory', category: 'knogler', correct: 6, total: 6, duration_ms: 30000 });
-  assert.equal(m.status, 201); assert.equal(m.body.points, 30);
-  assert.equal(m.body.totals.overall, 190);
+  p = (await e.call('/profile.php', { method: 'PUT', body: { display_name: '  Erin   Fys ', highscore_opt_in: true } })).body;
+  assert.equal(p.display_name, 'Erin Fys'); assert.equal(p.highscore_opt_in, true);
+  assert.equal((await e.call('/profile.php', { method: 'PUT', body: { display_name: 'Erin Nyt' } })).status, 429, '30-day limit');
+  const f = client(); await f.login('h.p.frank');
+  assert.equal((await f.call('/profile.php', { method: 'PUT', body: { display_name: 'erin fys' } })).status, 409, 'unique, case-insensitive');
 });
-test('rate limit per hour', { skip: !hasPhp }, async () => {
-  const d = client(); await d.login('h.p.dave'); // dave already has 2 events; limit 6
-  const codes = []; for (let i = 0; i < 6; i++) codes.push((await sub(d, { correct: 1 })).status);
-  assert.deepEqual(codes, [201, 201, 201, 201, 429, 429]);
-});
-test('leaderboard: opted-out excluded and names never returned; ranks with ties; own rank', { skip: !hasPhp }, async () => {
+test('leaderboard: opt-in only, names hidden otherwise, ties, own (hypothetical) rank, filters, tiers', { skip: !hasPhp }, async () => {
   const a = client(); await a.login('h.p.alice');
   const b = client(); await b.login('h.p.bob');
-  const c = client(); await c.login('h.p.carol');
-  await sub(a, { correct: 10 }); await sub(b, { correct: 10 }); await sub(c, { correct: 5 });
-  // nobody opted in yet (dave has scores too) -> empty boards, but own rank null
-  let lb = (await a.call('/leaderboard.php')).body;
-  assert.equal(lb.opted_in, false); assert.deepEqual(lb.categories.muskler.top, []); assert.equal(lb.categories.muskler.me, null);
-  for (const x of [a, b, c]) await x.call('/profile.php', { method: 'PUT', body: { highscore_opt_in: true } });
-  await b.call('/profile.php', { method: 'PUT', body: { display_name: 'Bobby' } });
-  lb = (await c.call('/leaderboard.php?limit=2')).body;
-  const mu = lb.categories.muskler;
-  assert.equal(mu.participants, 3);
-  assert.deepEqual(mu.top.map((t) => [t.rank, t.score]), [[1, 200], [1, 200]]);
-  assert.deepEqual(mu.top.map((t) => t.display_name).sort(), ['Alice', 'Bobby']);
-  assert.deepEqual(mu.me, { rank: 3, score: 100 });
-  assert.ok(mu.top.every((t) => !('user_id' in t) && !('email' in t)));
+  const f = client(); await f.login('h.p.frank');
+  await a.call('/profile.php', { method: 'PUT', body: { display_name: 'Alice A', highscore_opt_in: true } });
+  await b.call('/profile.php', { method: 'PUT', body: { display_name: 'Bobby', highscore_opt_in: true } });
+  const m = verified('muscles');
+  await submit(a, 'drill', m.slice(10, 17).map((it) => ev(it, 'navn'))); // 70 pts muskler (= bob)
+  await submit(f, 'drill', m.slice(20, 35).map((it) => ev(it, 'navn'))); // frank 150, not opted in
+  let lb = (await a.call('/leaderboard.php?period=all&category=muskler')).body;
+  assert.deepEqual(lb.top.map((t) => [t.rank, t.display_name, t.points]), [[1, 'Alice A', 70], [1, 'Bobby', 70]]);
+  assert.ok(lb.top.every((t) => Object.keys(t).sort().join() === 'display_name,initial,is_me,points,rank,tier'));
+  assert.equal(lb.top[0].initial, 'A'); assert.equal(lb.top[0].tier, 'Celle');
+  assert.deepEqual(lb.me, { rank: 1, points: 70, public: true, to_next: null });
   const raw = JSON.stringify(lb);
-  assert.ok(!raw.includes('Dave') && !raw.includes('dave@'), 'opted-out user never returned');
-  assert.deepEqual(Object.keys(lb.categories).sort(), ['knogler', 'ledbaand', 'muskler', 'overall', 'sener']);
-  assert.equal(lb.categories.overall.top[0].score, 200);
-  // opting out removes from boards immediately
+  for (const s of ['Frank', 'frank@', 'Erin Fys', '@example.com', 'googleusercontent']) assert.ok(!raw.includes(s), s);
+  const fl = (await f.call('/leaderboard.php?period=all&category=muskler')).body;
+  assert.deepEqual(fl.me, { rank: 1, points: 150, public: false, to_next: null }, 'hypothetical rank for opted-out user');
+  assert.equal(fl.participants, 2);
+  lb = (await b.call('/leaderboard.php?period=week&category=muskler&mode=drill')).body;
+  assert.equal(lb.me.points, 20);
+  assert.deepEqual(lb.me.to_next, { rank: 1, points: 50 });
+  assert.equal((await b.call('/leaderboard.php?period=year')).status, 400);
+  lb = (await b.call('/leaderboard.php?period=all&category=knogler&mode=memory')).body;
+  assert.equal(lb.top[0].points, 30);
+  // opt-out removes immediately; admin hide
   await a.call('/profile.php', { method: 'PUT', body: { highscore_opt_in: false } });
-  lb = (await b.call('/leaderboard.php')).body;
-  assert.ok(!JSON.stringify(lb).includes('Alice'));
-  assert.deepEqual(lb.categories.muskler.me, { rank: 1, score: 200 });
-  assert.equal((await a.call('/leaderboard.php')).body.categories.muskler.me, null, 'opted-out caller has no rank');
+  assert.ok(!JSON.stringify((await b.call('/leaderboard.php?period=all')).body.top).includes('Alice'));
+  sql("UPDATE user_profile SET hidden=1 WHERE display_name='Bobby'");
+  assert.deepEqual((await f.call('/leaderboard.php?period=all')).body.top, []);
 });
-
-test('images.json: validation and loader attach without touching image/hotspots', () => {
-  const ids = new Set(['bone_femur', 'muscle_x']);
-  const { images, rejected } = normalizeImages({
-    bone_femur: { url: 'https://upload.wikimedia.org/f.png', alt: 'Lårben forfra', credit: 'Gray', license: 'Public domain' },
-    muscle_x: { url: 'javascript:alert(1)', alt: 'x', license: 'CC0' },
-    ghost: { url: 'https://x/y.png', alt: 'a', license: 'CC0' },
-    'Bad Id': {},
-  }, ids);
-  assert.deepEqual(Object.keys(images), ['bone_femur']);
-  assert.deepEqual(rejected.map((r) => r.why).sort(), ['bad id', 'unknown id', 'url must be https:// or images/…']);
-  const items = normalize({ bones: { items: [{ id: 'bone_femur', name_da: 'Lårben', verification: 'verified' }] }, images });
-  assert.equal(items[0].media_image.alt, 'Lårben forfra');
-  assert.equal(items[0].image, undefined);
-  assert.deepEqual(normalizeImages(null), { images: {}, rejected: [] });
+test('account deletion removes user data', { skip: !hasPhp }, async () => {
+  const f = client(); await f.login('h.p.frank');
+  assert.equal((await f.call('/account.php', { method: 'DELETE' })).status, 200);
+  assert.equal(JSON.parse(sql("SELECT COUNT(*) n FROM users WHERE email='frank@example.com'"))[0].n, 0);
+  assert.equal(JSON.parse(sql("SELECT COUNT(*) n FROM score_events e LEFT JOIN users u ON u.id=e.user_id WHERE u.id IS NULL"))[0].n, 0);
+  assert.equal((await f.call('/profile.php')).status, 401);
 });

@@ -20,14 +20,15 @@ try {
     $claims = is_string($in['credential'] ?? null) ? kq_verify_google_token($in['credential']) : null;
     if (!$claims) kq_json(401, ['error' => 'invalid_token']);
     $db = kq_db(); $now = gmdate('c');
-    $db->prepare('INSERT INTO users (google_sub,email,name,picture,created_at,last_login) VALUES (?,?,?,?,?,?)
-      ON CONFLICT(google_sub) DO UPDATE SET email=excluded.email,name=excluded.name,picture=excluded.picture,last_login=excluded.last_login')
-      ->execute([$claims['sub'], $claims['email'] ?? null, $claims['name'] ?? null, $claims['picture'] ?? null, $now, $now]);
+    // Data minimisation: only sub, name, e-mail (no profile picture).
+    $db->prepare('INSERT INTO users (google_sub,email,name,created_at,last_login) VALUES (?,?,?,?,?)
+      ON CONFLICT(google_sub) DO UPDATE SET email=excluded.email,name=excluded.name,last_login=excluded.last_login')
+      ->execute([$claims['sub'], $claims['email'] ?? null, $claims['name'] ?? null, $now, $now]);
     $s = $db->prepare('SELECT id FROM users WHERE google_sub=?'); $s->execute([$claims['sub']]);
     $uid = (int)$s->fetchColumn();
     kq_start_session($uid);
     $m = $db->prepare('SELECT merged_local FROM progress WHERE user_id=?'); $m->execute([$uid]);
-    $user = ['id' => $uid, 'email' => $claims['email'] ?? null, 'name' => $claims['name'] ?? null, 'picture' => $claims['picture'] ?? null];
+    $user = ['id' => $uid, 'email' => $claims['email'] ?? null, 'name' => $claims['name'] ?? null];
     kq_json(200, ['user' => $user, 'merged_local' => (bool)$m->fetchColumn()]);
   }
   if ($action === 'logout' && $method === 'POST') { kq_require_xhr(); kq_end_session(); kq_json(200, ['ok' => true]); }
