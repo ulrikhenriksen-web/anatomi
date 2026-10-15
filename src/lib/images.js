@@ -40,7 +40,7 @@ export function normalizeImages(raw, knownIds = null) {
         id: str(v.id, 120), url: v.url, width: dim(v.width), height: dim(v.height),
         credit: str(v.credit, 300), license: str(v.license, 120), license_url: v.license_url || null, source_url: v.source_url,
         alt_naming: str(v.alt_naming, 300), alt_neutral: str(v.alt_neutral, 300),
-        view: str(v.view, 40) || null, side: str(v.side, 20) || null,
+        view: str(v.view, 40) || null, memory_ok: v.memory_ok === true, visual_check: str(v.visual_check, 300) || null, side: str(v.side, 20) || null,
         hotspots: (Array.isArray(v.hotspots) ? v.hotspots : [])
           .filter((h) => h && typeof h.item_id === 'string' && (!knownIds || knownIds.has(h.item_id)) && unit(h.x) && unit(h.y))
           .map((h) => ({ item_id: h.item_id, x: h.x, y: h.y, r: unit(h.r) ? h.r : 0.04 })),

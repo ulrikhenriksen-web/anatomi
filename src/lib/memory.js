@@ -15,10 +15,16 @@ export function gridFor(difficulty, width, landscapePhone = false) {
 /** Hard does not fit on tiny screens (< 360 × 640) -> suggest Mellem. */
 export const tooSmallForHard = (w, h) => w < 360 || h < 640;
 
+/** Memory image: primary if memory_ok, else first memory_ok image; must have neutral alt. */
+export function memoryImage(it) {
+  const ok = (im) => im && im.memory_ok === true && im.alt_neutral;
+  const imgs = it.images || [];
+  return ok(imgs[0]) ? imgs[0] : imgs.find(ok) || null;
+}
 /** Eligible items: verified only; image variant also needs an image with neutral alt text. */
 export function eligible(items, variant) {
   return items.filter((i) => !i.needs_review && i.name_la_ta2 && i.name_da
-    && (variant !== 'image' || (hasImage(i) && i.images[0].alt_neutral)));
+    && (variant !== 'image' || memoryImage(i)));
 }
 /** Variant availability for a pool: image needs >= pairs eligible items. Text (da ↔ la) is always possible if enough items. */
 export function variantsFor(items, pairs) {
@@ -42,7 +48,7 @@ export function buildDeck(items, { pairs, variant = 'text' }, rnd = Math.random)
   const cards = [];
   for (const it of chosen) {
     if (variant === 'image') {
-      const img = it.images[0];
+      const img = memoryImage(it);
       cards.push({ key: `${it.id}:img`, pair: it.id, kind: 'image', url: img.url, alt: altFor(img, it, 'game') });
       cards.push({ key: `${it.id}:name`, pair: it.id, kind: 'name', da: it.name_da, la: it.name_la_ta2 });
     } else {
