@@ -16,7 +16,13 @@ export async function buildData(dir = research) {
   const imgPath = resolve(dir, 'images.json');
   if (await access(imgPath).then(() => true, () => false)) {
     const ids = new Set(['bones', 'muscles', 'tendons', 'ligaments'].flatMap((t) => out[t].items.map((i) => i.id)));
-    const { images, rejected } = normalizeImages(JSON.parse(await readFile(imgPath, 'utf8')), ids);
+    const rawImages = JSON.parse(await readFile(imgPath, 'utf8'));
+    // Rewrite local Research files to the converted WebP copies (scripts/convert-images.py -> data/images/manifest.json)
+    const manifest = await readFile(resolve(root, 'data/images/manifest.json'), 'utf8').then(JSON.parse, () => ({}));
+    for (const list of Object.values(rawImages.images || {})) for (const im of Array.isArray(list) ? list : []) {
+      const m = manifest[im?.url]; if (m) Object.assign(im, { url: m.url, width: m.width, height: m.height, animated: m.animated });
+    }
+    const { images, rejected } = normalizeImages(rawImages, ids);
     out.images_schema_version = 1;
     out.images = images;
     if (rejected.length) console.warn(`images.json: ${rejected.length} entries rejected:`, rejected.slice(0, 10));
@@ -30,6 +36,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   for (const f of ['report.php', 'auth.php', 'progress.php', 'lib.php', 'leaderboard.php', 'score.php', 'profile.php', 'account.php']) await cp(resolve(root, 'api', f), resolve(dist, 'api', f));
   await cp(resolve(root, 'api/.htaccess'), resolve(dist, 'api/.htaccess'));
   await mkdir(resolve(dist, 'data'), { recursive: true });
+  // Converted images (WebP) only; originals are never shipped.
+  const imgDir = resolve(root, 'data/images');
+  if (await access(resolve(imgDir, 'manifest.json')).then(() => true, () => false)) {
+    await cp(imgDir, resolve(dist, 'images'), { recursive: true, filter: (f) => !f.endsWith('manifest.json') });
+  }
   const data = await buildData();
   await writeFile(resolve(dist, 'data/knoglequiz.json'), JSON.stringify(data));
   const n = ['bones', 'muscles', 'tendons', 'ligaments'].map((t) => `${t}=${data[t].items.length}`).join(' ');

@@ -11,6 +11,15 @@ const items = Q.normalize(await buildData(new URL('../data/research', import.met
 let seed = 7; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
 const img = (o = {}) => ({ id: 'i1', url: 'https://upload.wikimedia.org/a.png', credit: 'Gray 1918', license: 'Public domain', source_url: 'https://commons.wikimedia.org/x', alt_naming: 'Lårben (femur) forfra', alt_neutral: 'Lang knogle i låret, set forfra', ...o });
 
+test('images.json: http license_url upgraded; real Research file loads with WebP urls', async () => {
+  const { images } = normalizeImages({ schema_version: 1, images: { bone_femur: [img({ license_url: 'http://creativecommons.org/licenses/by-sa/3.0/' })] } });
+  assert.equal(images.bone_femur[0].license_url, 'https://creativecommons.org/licenses/by-sa/3.0/');
+  const withImgs = items.filter((i) => i.images.length);
+  if (withImgs.length) {
+    assert.ok(withImgs.every((i) => i.images.every((m) => /^images\/[\w.-]+\.webp$/.test(m.url) && m.credit && m.license && /^https:/.test(m.source_url))));
+    assert.ok(withImgs.every((i) => i.images.every((m) => !m.license_url || m.license_url.startsWith('https://'))));
+  }
+});
 test('images.json v1: schema, required fields, URLs, primary first, hotspots', () => {
   const ids = new Set(['bone_femur', 'bone_tibia']);
   const { images, rejected } = normalizeImages({ schema_version: 1, images: {
@@ -50,8 +59,12 @@ test('memory: text deck excludes needs_review, unambiguous pairs; image variant 
   assert.equal(ids.size, 12);
   assert.ok([...ids].every((id) => !items.find((i) => i.id === id).needs_review));
   assert.equal(new Set(deck.map((c) => (c.da || c.la).toLowerCase())).size, 24);
-  assert.equal(M.variantsFor(items, 6).image, false);
-  assert.equal(M.buildDeck(items, { pairs: 6, variant: 'image' }, rnd), null);
+  const noImg = items.map((i) => ({ ...i, images: [] }));
+  assert.equal(M.variantsFor(noImg, 6).image, false);
+  assert.equal(M.buildDeck(noImg, { pairs: 6, variant: 'image' }, rnd), null);
+  // real data: every verified item with an image (with neutral alt) is eligible
+  const real = M.eligible(items, 'image');
+  assert.deepEqual(real.map((i) => i.id).sort(), items.filter((i) => !i.needs_review && i.images.length && i.images[0].alt_neutral).map((i) => i.id).sort());
   const withImg = items.slice(0, 30).map((i) => ({ ...i, images: [img({ id: i.id })] }));
   const ideck = M.buildDeck(withImg, { pairs: 6, variant: 'image' }, rnd);
   assert.ok(ideck.filter((c) => c.kind === 'image').every((c) => c.alt === 'Lang knogle i låret, set forfra'));

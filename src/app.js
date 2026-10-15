@@ -491,7 +491,7 @@ function imageBlock(it) {
   if (!hasImage(it)) return '';
   const n = it.images.length;
   return `<figure class="media" id="media" data-i="0">
-    <div class="media-frame" aria-busy="true"><button class="media-open" type="button" aria-label="Åbn billede i galleri"><img id="media-img" alt="${esc(altFor(it.images[0], it, 'explore'))}" decoding="async"></button>
+    <div class="media-frame" aria-busy="true"><button class="media-open" type="button" aria-label="Åbn billede i galleri"><span class="media-canvas"><img id="media-img" alt="${esc(altFor(it.images[0], it, 'explore'))}" decoding="async"><span class="hotspots" id="media-hs" aria-hidden="true"></span></span></button>
       <div class="media-error" hidden><span aria-hidden="true">🖼️</span><p>Billedet kunne ikke hentes</p><button class="btn secondary" type="button" id="media-retry">Prøv igen</button></div></div>
     ${n > 1 ? `<div class="media-nav"><button class="btn ghost" type="button" id="media-prev" aria-label="Forrige billede">←</button>
       <span class="dots" aria-hidden="true">${it.images.map((_, i) => `<i data-dot="${i}"></i>`).join('')}</span><span id="media-count">1/${n}</span>
@@ -509,6 +509,8 @@ function bindImageBlock(it) {
     img.onerror = () => { frame.classList.remove('loading'); frame.setAttribute('aria-busy', 'false'); img.hidden = true; err.hidden = false; };
     img.alt = altFor(m, it, 'explore'); img.src = m.url;
     document.getElementById('media-credit').innerHTML = creditHtml(m);
+    // Hotspots: display-only overlays (no interaction in v2)
+    document.getElementById('media-hs').innerHTML = (m.hotspots || []).map((h) => `<i class="hotspot" style="left:${h.x * 100}%;top:${h.y * 100}%;width:${h.r * 200}%"></i>`).join('');
     const c = document.getElementById('media-count'); if (c) c.textContent = `${i + 1}/${it.images.length}`;
     fig.querySelectorAll('[data-dot]').forEach((d) => d.classList.toggle('on', Number(d.dataset.dot) === i));
   };

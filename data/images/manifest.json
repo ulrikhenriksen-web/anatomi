@@ -1,0 +1,1172 @@
+{
+ "images/files/bone_atlas.png": {
+  "url": "images/bone_atlas.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 30984,
+  "orig_bytes": 439931
+ },
+ "images/files/bone_axis.png": {
+  "url": "images/bone_axis.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 35450,
+  "orig_bytes": 339877
+ },
+ "images/files/bone_calcaneus.png": {
+  "url": "images/bone_calcaneus.webp",
+  "width": 960,
+  "height": 740,
+  "animated": false,
+  "note": null,
+  "bytes": 36104,
+  "orig_bytes": 82052
+ },
+ "images/files/bone_clavicula.png": {
+  "url": "images/bone_clavicula.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 54582,
+  "orig_bytes": 432455
+ },
+ "images/files/bone_costa_1.gif": {
+  "url": "images/bone_costa_1.webp",
+  "width": 494,
+  "height": 464,
+  "animated": false,
+  "note": null,
+  "bytes": 22310,
+  "orig_bytes": 30741
+ },
+ "images/files/bone_femur.png": {
+  "url": "images/bone_femur.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 27014,
+  "orig_bytes": 327576
+ },
+ "images/files/bone_fibula.png": {
+  "url": "images/bone_fibula.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 25638,
+  "orig_bytes": 324998
+ },
+ "images/files/bone_humerus.png": {
+  "url": "images/bone_humerus.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 45186,
+  "orig_bytes": 515437
+ },
+ "images/files/bone_mandibula.gif": {
+  "url": "images/bone_mandibula.webp",
+  "width": 600,
+  "height": 600,
+  "animated": false,
+  "note": "animated GIF (180 frames) -> static first frame (animated WebP was too large)",
+  "bytes": 22138,
+  "orig_bytes": 22967814
+ },
+ "images/files/bone_maxilla.png": {
+  "url": "images/bone_maxilla.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 30470,
+  "orig_bytes": 189185
+ },
+ "images/files/bone_os_capitatum.png": {
+  "url": "images/bone_os_capitatum.webp",
+  "width": 500,
+  "height": 209,
+  "animated": false,
+  "note": null,
+  "bytes": 17516,
+  "orig_bytes": 66682
+ },
+ "images/files/bone_os_coccygis.png": {
+  "url": "images/bone_os_coccygis.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 16906,
+  "orig_bytes": 210260
+ },
+ "images/files/bone_os_coxae.jpg": {
+  "url": "images/bone_os_coxae.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 57530,
+  "orig_bytes": 113491
+ },
+ "images/files/bone_os_cuboideum.png": {
+  "url": "images/bone_os_cuboideum.webp",
+  "width": 357,
+  "height": 205,
+  "animated": false,
+  "note": null,
+  "bytes": 9700,
+  "orig_bytes": 75215
+ },
+ "images/files/bone_os_ethmoidale.png": {
+  "url": "images/bone_os_ethmoidale.webp",
+  "width": 350,
+  "height": 350,
+  "animated": false,
+  "note": null,
+  "bytes": 14656,
+  "orig_bytes": 106835
+ },
+ "images/files/bone_os_frontale.png": {
+  "url": "images/bone_os_frontale.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 26646,
+  "orig_bytes": 261207
+ },
+ "images/files/bone_os_hamatum.jpg": {
+  "url": "images/bone_os_hamatum.webp",
+  "width": 677,
+  "height": 354,
+  "animated": false,
+  "note": null,
+  "bytes": 18180,
+  "orig_bytes": 73886
+ },
+ "images/files/bone_os_hyoideum.jpg": {
+  "url": "images/bone_os_hyoideum.webp",
+  "width": 545,
+  "height": 847,
+  "animated": false,
+  "note": null,
+  "bytes": 34720,
+  "orig_bytes": 184708
+ },
+ "images/files/bone_os_ilium.png": {
+  "url": "images/bone_os_ilium.webp",
+  "width": 960,
+  "height": 718,
+  "animated": false,
+  "note": null,
+  "bytes": 26610,
+  "orig_bytes": 289861
+ },
+ "images/files/bone_os_ischii.png": {
+  "url": "images/bone_os_ischii.webp",
+  "width": 960,
+  "height": 691,
+  "animated": false,
+  "note": null,
+  "bytes": 50966,
+  "orig_bytes": 120147
+ },
+ "images/files/bone_os_lunatum.png": {
+  "url": "images/bone_os_lunatum.webp",
+  "width": 408,
+  "height": 174,
+  "animated": false,
+  "note": null,
+  "bytes": 10512,
+  "orig_bytes": 39296
+ },
+ "images/files/bone_os_occipitale.png": {
+  "url": "images/bone_os_occipitale.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 29560,
+  "orig_bytes": 196479
+ },
+ "images/files/bone_os_parietale.png": {
+  "url": "images/bone_os_parietale.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 25482,
+  "orig_bytes": 168048
+ },
+ "images/files/bone_os_pisiforme.jpg": {
+  "url": "images/bone_os_pisiforme.webp",
+  "width": 631,
+  "height": 863,
+  "animated": false,
+  "note": null,
+  "bytes": 20058,
+  "orig_bytes": 89191
+ },
+ "images/files/bone_os_pubis.png": {
+  "url": "images/bone_os_pubis.webp",
+  "width": 960,
+  "height": 691,
+  "animated": false,
+  "note": null,
+  "bytes": 50966,
+  "orig_bytes": 120147
+ },
+ "images/files/bone_os_sacrum.png": {
+  "url": "images/bone_os_sacrum.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 23196,
+  "orig_bytes": 296814
+ },
+ "images/files/bone_os_scaphoideum.jpg": {
+  "url": "images/bone_os_scaphoideum.webp",
+  "width": 612,
+  "height": 362,
+  "animated": false,
+  "note": null,
+  "bytes": 18384,
+  "orig_bytes": 67044
+ },
+ "images/files/bone_os_sphenoidale.png": {
+  "url": "images/bone_os_sphenoidale.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 23738,
+  "orig_bytes": 144828
+ },
+ "images/files/bone_os_temporale.png": {
+  "url": "images/bone_os_temporale.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 33166,
+  "orig_bytes": 224631
+ },
+ "images/files/bone_os_zygomaticum.png": {
+  "url": "images/bone_os_zygomaticum.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 29796,
+  "orig_bytes": 185319
+ },
+ "images/files/bone_patella.png": {
+  "url": "images/bone_patella.webp",
+  "width": 960,
+  "height": 875,
+  "animated": false,
+  "note": null,
+  "bytes": 62454,
+  "orig_bytes": 190361
+ },
+ "images/files/bone_radius.png": {
+  "url": "images/bone_radius.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 51388,
+  "orig_bytes": 681786
+ },
+ "images/files/bone_scapula.png": {
+  "url": "images/bone_scapula.webp",
+  "width": 960,
+  "height": 755,
+  "animated": false,
+  "note": null,
+  "bytes": 80224,
+  "orig_bytes": 261729
+ },
+ "images/files/bone_sternum.png": {
+  "url": "images/bone_sternum.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 60172,
+  "orig_bytes": 515417
+ },
+ "images/files/bone_talus.png": {
+  "url": "images/bone_talus.webp",
+  "width": 960,
+  "height": 740,
+  "animated": false,
+  "note": null,
+  "bytes": 36104,
+  "orig_bytes": 82052
+ },
+ "images/files/bone_tibia.png": {
+  "url": "images/bone_tibia.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 26138,
+  "orig_bytes": 325966
+ },
+ "images/files/bone_ulna.png": {
+  "url": "images/bone_ulna.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 49438,
+  "orig_bytes": 633893
+ },
+ "images/files/bone_vertebra_prominens.png": {
+  "url": "images/bone_vertebra_prominens.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 32240,
+  "orig_bytes": 437187
+ },
+ "images/files/ligament_ligamenta_alaria.png": {
+  "url": "images/ligament_ligamenta_alaria.webp",
+  "width": 600,
+  "height": 416,
+  "animated": false,
+  "note": null,
+  "bytes": 52536,
+  "orig_bytes": 53926
+ },
+ "images/files/ligament_ligamenta_glenohumeralia.png": {
+  "url": "images/ligament_ligamenta_glenohumeralia.webp",
+  "width": 452,
+  "height": 500,
+  "animated": false,
+  "note": null,
+  "bytes": 50762,
+  "orig_bytes": 53788
+ },
+ "images/files/ligament_ligamentum_acromioclaviculare.png": {
+  "url": "images/ligament_ligamentum_acromioclaviculare.webp",
+  "width": 452,
+  "height": 500,
+  "animated": false,
+  "note": null,
+  "bytes": 50762,
+  "orig_bytes": 53788
+ },
+ "images/files/ligament_ligamentum_anulare_radii.png": {
+  "url": "images/ligament_ligamentum_anulare_radii.webp",
+  "width": 404,
+  "height": 388,
+  "animated": false,
+  "note": null,
+  "bytes": 38432,
+  "orig_bytes": 36032
+ },
+ "images/files/ligament_ligamentum_calcaneofibulare.png": {
+  "url": "images/ligament_ligamentum_calcaneofibulare.webp",
+  "width": 600,
+  "height": 487,
+  "animated": false,
+  "note": null,
+  "bytes": 58796,
+  "orig_bytes": 58632
+ },
+ "images/files/ligament_ligamentum_calcaneonaviculare_plantare.png": {
+  "url": "images/ligament_ligamentum_calcaneonaviculare_plantare.webp",
+  "width": 550,
+  "height": 424,
+  "animated": false,
+  "note": null,
+  "bytes": 38996,
+  "orig_bytes": 40103
+ },
+ "images/files/ligament_ligamentum_capitis_femoris.png": {
+  "url": "images/ligament_ligamentum_capitis_femoris.webp",
+  "width": 512,
+  "height": 500,
+  "animated": false,
+  "note": null,
+  "bytes": 43556,
+  "orig_bytes": 47735
+ },
+ "images/files/ligament_ligamentum_carpi_transversum.png": {
+  "url": "images/ligament_ligamentum_carpi_transversum.webp",
+  "width": 516,
+  "height": 700,
+  "animated": false,
+  "note": null,
+  "bytes": 66722,
+  "orig_bytes": 67194
+ },
+ "images/files/ligament_ligamentum_collaterale_fibulare.png": {
+  "url": "images/ligament_ligamentum_collaterale_fibulare.webp",
+  "width": 500,
+  "height": 454,
+  "animated": false,
+  "note": null,
+  "bytes": 40588,
+  "orig_bytes": 43059
+ },
+ "images/files/ligament_ligamentum_collaterale_mediale_articulationis_talocruralis.png": {
+  "url": "images/ligament_ligamentum_collaterale_mediale_articulationis_talocruralis.webp",
+  "width": 550,
+  "height": 424,
+  "animated": false,
+  "note": null,
+  "bytes": 38996,
+  "orig_bytes": 40103
+ },
+ "images/files/ligament_ligamentum_collaterale_radiale.jpg": {
+  "url": "images/ligament_ligamentum_collaterale_radiale.webp",
+  "width": 798,
+  "height": 560,
+  "animated": false,
+  "note": null,
+  "bytes": 44504,
+  "orig_bytes": 126057
+ },
+ "images/files/ligament_ligamentum_collaterale_tibiale.gif": {
+  "url": "images/ligament_ligamentum_collaterale_tibiale.webp",
+  "width": 444,
+  "height": 469,
+  "animated": false,
+  "note": null,
+  "bytes": 24962,
+  "orig_bytes": 21739
+ },
+ "images/files/ligament_ligamentum_collaterale_ulnare.png": {
+  "url": "images/ligament_ligamentum_collaterale_ulnare.webp",
+  "width": 313,
+  "height": 650,
+  "animated": false,
+  "note": null,
+  "bytes": 48712,
+  "orig_bytes": 157958
+ },
+ "images/files/ligament_ligamentum_coracoacromiale.png": {
+  "url": "images/ligament_ligamentum_coracoacromiale.webp",
+  "width": 452,
+  "height": 500,
+  "animated": false,
+  "note": null,
+  "bytes": 50762,
+  "orig_bytes": 53788
+ },
+ "images/files/ligament_ligamentum_coracoclaviculare.png": {
+  "url": "images/ligament_ligamentum_coracoclaviculare.webp",
+  "width": 452,
+  "height": 500,
+  "animated": false,
+  "note": null,
+  "bytes": 50762,
+  "orig_bytes": 53788
+ },
+ "images/files/ligament_ligamentum_costoclaviculare.png": {
+  "url": "images/ligament_ligamentum_costoclaviculare.webp",
+  "width": 600,
+  "height": 327,
+  "animated": false,
+  "note": null,
+  "bytes": 37368,
+  "orig_bytes": 40073
+ },
+ "images/files/ligament_ligamentum_cruciatum_anterius.png": {
+  "url": "images/ligament_ligamentum_cruciatum_anterius.webp",
+  "width": 960,
+  "height": 875,
+  "animated": false,
+  "note": null,
+  "bytes": 62454,
+  "orig_bytes": 190361
+ },
+ "images/files/ligament_ligamentum_cruciatum_posterius.png": {
+  "url": "images/ligament_ligamentum_cruciatum_posterius.webp",
+  "width": 960,
+  "height": 875,
+  "animated": false,
+  "note": null,
+  "bytes": 62454,
+  "orig_bytes": 190361
+ },
+ "images/files/ligament_ligamentum_flavum.png": {
+  "url": "images/ligament_ligamentum_flavum.webp",
+  "width": 349,
+  "height": 350,
+  "animated": false,
+  "note": null,
+  "bytes": 23456,
+  "orig_bytes": 24481
+ },
+ "images/files/ligament_ligamentum_iliofemorale.png": {
+  "url": "images/ligament_ligamentum_iliofemorale.webp",
+  "width": 461,
+  "height": 500,
+  "animated": false,
+  "note": null,
+  "bytes": 41356,
+  "orig_bytes": 47236
+ },
+ "images/files/ligament_ligamentum_iliolumbale.png": {
+  "url": "images/ligament_ligamentum_iliolumbale.webp",
+  "width": 526,
+  "height": 677,
+  "animated": false,
+  "note": null,
+  "bytes": 85294,
+  "orig_bytes": 100662
+ },
+ "images/files/ligament_ligamentum_inguinale.png": {
+  "url": "images/ligament_ligamentum_inguinale.webp",
+  "width": 428,
+  "height": 650,
+  "animated": false,
+  "note": null,
+  "bytes": 33278,
+  "orig_bytes": 118441
+ },
+ "images/files/ligament_ligamentum_interspinale.png": {
+  "url": "images/ligament_ligamentum_interspinale.webp",
+  "width": 492,
+  "height": 409,
+  "animated": false,
+  "note": null,
+  "bytes": 65898,
+  "orig_bytes": 64444
+ },
+ "images/files/ligament_ligamentum_ischiofemorale.png": {
+  "url": "images/ligament_ligamentum_ischiofemorale.webp",
+  "width": 528,
+  "height": 600,
+  "animated": false,
+  "note": null,
+  "bytes": 53404,
+  "orig_bytes": 65943
+ },
+ "images/files/ligament_ligamentum_longitudinale_anterius.png": {
+  "url": "images/ligament_ligamentum_longitudinale_anterius.webp",
+  "width": 492,
+  "height": 409,
+  "animated": false,
+  "note": null,
+  "bytes": 65898,
+  "orig_bytes": 64444
+ },
+ "images/files/ligament_ligamentum_longitudinale_posterius.png": {
+  "url": "images/ligament_ligamentum_longitudinale_posterius.webp",
+  "width": 244,
+  "height": 300,
+  "animated": false,
+  "note": null,
+  "bytes": 19292,
+  "orig_bytes": 19012
+ },
+ "images/files/ligament_ligamentum_nuchae.png": {
+  "url": "images/ligament_ligamentum_nuchae.webp",
+  "width": 539,
+  "height": 520,
+  "animated": false,
+  "note": null,
+  "bytes": 90146,
+  "orig_bytes": 130305
+ },
+ "images/files/ligament_ligamentum_patellae.png": {
+  "url": "images/ligament_ligamentum_patellae.webp",
+  "width": 276,
+  "height": 575,
+  "animated": false,
+  "note": null,
+  "bytes": 39952,
+  "orig_bytes": 40861
+ },
+ "images/files/ligament_ligamentum_plantare_longum.png": {
+  "url": "images/ligament_ligamentum_plantare_longum.webp",
+  "width": 621,
+  "height": 700,
+  "animated": false,
+  "note": null,
+  "bytes": 75204,
+  "orig_bytes": 68588
+ },
+ "images/files/ligament_ligamentum_pubofemorale.png": {
+  "url": "images/ligament_ligamentum_pubofemorale.webp",
+  "width": 461,
+  "height": 500,
+  "animated": false,
+  "note": null,
+  "bytes": 41356,
+  "orig_bytes": 47236
+ },
+ "images/files/ligament_ligamentum_sacroiliacum_posterius.png": {
+  "url": "images/ligament_ligamentum_sacroiliacum_posterius.webp",
+  "width": 559,
+  "height": 700,
+  "animated": false,
+  "note": null,
+  "bytes": 81516,
+  "orig_bytes": 97465
+ },
+ "images/files/ligament_ligamentum_sacrospinale.png": {
+  "url": "images/ligament_ligamentum_sacrospinale.webp",
+  "width": 500,
+  "height": 600,
+  "animated": false,
+  "note": null,
+  "bytes": 59772,
+  "orig_bytes": 467199
+ },
+ "images/files/ligament_ligamentum_sacrotuberale.png": {
+  "url": "images/ligament_ligamentum_sacrotuberale.webp",
+  "width": 500,
+  "height": 600,
+  "animated": false,
+  "note": null,
+  "bytes": 59772,
+  "orig_bytes": 467199
+ },
+ "images/files/ligament_ligamentum_scapholunatum_interosseum.png": {
+  "url": "images/ligament_ligamentum_scapholunatum_interosseum.webp",
+  "width": 501,
+  "height": 521,
+  "animated": false,
+  "note": null,
+  "bytes": 16772,
+  "orig_bytes": 180798
+ },
+ "images/files/ligament_ligamentum_supraspinale.png": {
+  "url": "images/ligament_ligamentum_supraspinale.webp",
+  "width": 492,
+  "height": 409,
+  "animated": false,
+  "note": null,
+  "bytes": 65898,
+  "orig_bytes": 64444
+ },
+ "images/files/ligament_ligamentum_talofibulare_anterius.png": {
+  "url": "images/ligament_ligamentum_talofibulare_anterius.webp",
+  "width": 600,
+  "height": 487,
+  "animated": false,
+  "note": null,
+  "bytes": 58796,
+  "orig_bytes": 58632
+ },
+ "images/files/ligament_ligamentum_talofibulare_posterius.png": {
+  "url": "images/ligament_ligamentum_talofibulare_posterius.webp",
+  "width": 600,
+  "height": 487,
+  "animated": false,
+  "note": null,
+  "bytes": 58796,
+  "orig_bytes": 58632
+ },
+ "images/files/ligament_ligamentum_transversum_atlantis.png": {
+  "url": "images/ligament_ligamentum_transversum_atlantis.webp",
+  "width": 450,
+  "height": 250,
+  "animated": false,
+  "note": null,
+  "bytes": 18144,
+  "orig_bytes": 18507
+ },
+ "images/files/muscle_adductor_longus.png": {
+  "url": "images/muscle_adductor_longus.webp",
+  "width": 408,
+  "height": 612,
+  "animated": false,
+  "note": null,
+  "bytes": 33038,
+  "orig_bytes": 100297
+ },
+ "images/files/muscle_adductor_magnus.png": {
+  "url": "images/muscle_adductor_magnus.webp",
+  "width": 408,
+  "height": 612,
+  "animated": false,
+  "note": null,
+  "bytes": 33038,
+  "orig_bytes": 100297
+ },
+ "images/files/muscle_biceps_brachii.png": {
+  "url": "images/muscle_biceps_brachii.webp",
+  "width": 960,
+  "height": 849,
+  "animated": false,
+  "note": null,
+  "bytes": 50930,
+  "orig_bytes": 558672
+ },
+ "images/files/muscle_brachialis.jpg": {
+  "url": "images/muscle_brachialis.webp",
+  "width": 720,
+  "height": 1135,
+  "animated": false,
+  "note": null,
+  "bytes": 100164,
+  "orig_bytes": 342781
+ },
+ "images/files/muscle_brachioradialis.png": {
+  "url": "images/muscle_brachioradialis.webp",
+  "width": 550,
+  "height": 422,
+  "animated": false,
+  "note": null,
+  "bytes": 36704,
+  "orig_bytes": 73945
+ },
+ "images/files/muscle_coracobrachialis.png": {
+  "url": "images/muscle_coracobrachialis.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 50572,
+  "orig_bytes": 378375
+ },
+ "images/files/muscle_deltoideus.png": {
+  "url": "images/muscle_deltoideus.webp",
+  "width": 510,
+  "height": 502,
+  "animated": false,
+  "note": null,
+  "bytes": 31834,
+  "orig_bytes": 137158
+ },
+ "images/files/muscle_diaphragma.png": {
+  "url": "images/muscle_diaphragma.webp",
+  "width": 960,
+  "height": 1046,
+  "animated": false,
+  "note": null,
+  "bytes": 49956,
+  "orig_bytes": 387290
+ },
+ "images/files/muscle_erector_spinae.png": {
+  "url": "images/muscle_erector_spinae.webp",
+  "width": 625,
+  "height": 1179,
+  "animated": false,
+  "note": null,
+  "bytes": 141654,
+  "orig_bytes": 457546
+ },
+ "images/files/muscle_extensor_digitorum.png": {
+  "url": "images/muscle_extensor_digitorum.webp",
+  "width": 960,
+  "height": 587,
+  "animated": false,
+  "note": null,
+  "bytes": 88546,
+  "orig_bytes": 355695
+ },
+ "images/files/muscle_fibularis_longus.gif": {
+  "url": "images/muscle_fibularis_longus.webp",
+  "width": 600,
+  "height": 600,
+  "animated": false,
+  "note": "animated GIF (180 frames) -> static first frame (animated WebP was too large)",
+  "bytes": 18294,
+  "orig_bytes": 16991943
+ },
+ "images/files/muscle_flexor_carpi_radialis.png": {
+  "url": "images/muscle_flexor_carpi_radialis.webp",
+  "width": 600,
+  "height": 299,
+  "animated": false,
+  "note": null,
+  "bytes": 22256,
+  "orig_bytes": 53518
+ },
+ "images/files/muscle_gastrocnemius.jpg": {
+  "url": "images/muscle_gastrocnemius.webp",
+  "width": 960,
+  "height": 540,
+  "animated": false,
+  "note": null,
+  "bytes": 43424,
+  "orig_bytes": 91500
+ },
+ "images/files/muscle_gluteus_maximus.gif": {
+  "url": "images/muscle_gluteus_maximus.webp",
+  "width": 640,
+  "height": 640,
+  "animated": true,
+  "note": "animated GIF (60 frames) -> animated WebP",
+  "bytes": 1419890,
+  "orig_bytes": 2181137
+ },
+ "images/files/muscle_gluteus_medius.png": {
+  "url": "images/muscle_gluteus_medius.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 58504,
+  "orig_bytes": 418632
+ },
+ "images/files/muscle_gluteus_minimus.png": {
+  "url": "images/muscle_gluteus_minimus.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 58648,
+  "orig_bytes": 418457
+ },
+ "images/files/muscle_gracilis.png": {
+  "url": "images/muscle_gracilis.webp",
+  "width": 408,
+  "height": 612,
+  "animated": false,
+  "note": null,
+  "bytes": 33038,
+  "orig_bytes": 100297
+ },
+ "images/files/muscle_iliacus.png": {
+  "url": "images/muscle_iliacus.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 47534,
+  "orig_bytes": 334973
+ },
+ "images/files/muscle_iliopsoas.png": {
+  "url": "images/muscle_iliopsoas.webp",
+  "width": 960,
+  "height": 1689,
+  "animated": false,
+  "note": null,
+  "bytes": 236156,
+  "orig_bytes": 1276507
+ },
+ "images/files/muscle_infraspinatus.png": {
+  "url": "images/muscle_infraspinatus.webp",
+  "width": 733,
+  "height": 1156,
+  "animated": false,
+  "note": null,
+  "bytes": 201516,
+  "orig_bytes": 317042
+ },
+ "images/files/muscle_latissimus_dorsi.jpg": {
+  "url": "images/muscle_latissimus_dorsi.webp",
+  "width": 720,
+  "height": 1047,
+  "animated": false,
+  "note": null,
+  "bytes": 121748,
+  "orig_bytes": 463088
+ },
+ "images/files/muscle_levator_scapulae.png": {
+  "url": "images/muscle_levator_scapulae.webp",
+  "width": 733,
+  "height": 1156,
+  "animated": false,
+  "note": null,
+  "bytes": 193844,
+  "orig_bytes": 579307
+ },
+ "images/files/muscle_masseter.png": {
+  "url": "images/muscle_masseter.webp",
+  "width": 423,
+  "height": 403,
+  "animated": false,
+  "note": null,
+  "bytes": 47692,
+  "orig_bytes": 281344
+ },
+ "images/files/muscle_obliquus_externus_abdominis.jpg": {
+  "url": "images/muscle_obliquus_externus_abdominis.webp",
+  "width": 520,
+  "height": 307,
+  "animated": false,
+  "note": null,
+  "bytes": 18632,
+  "orig_bytes": 36931
+ },
+ "images/files/muscle_orbicularis_oculi.png": {
+  "url": "images/muscle_orbicularis_oculi.webp",
+  "width": 535,
+  "height": 450,
+  "animated": false,
+  "note": null,
+  "bytes": 55242,
+  "orig_bytes": 85233
+ },
+ "images/files/muscle_pectoralis_major.png": {
+  "url": "images/muscle_pectoralis_major.webp",
+  "width": 531,
+  "height": 650,
+  "animated": false,
+  "note": null,
+  "bytes": 74696,
+  "orig_bytes": 128491
+ },
+ "images/files/muscle_pectoralis_minor.png": {
+  "url": "images/muscle_pectoralis_minor.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 60150,
+  "orig_bytes": 317587
+ },
+ "images/files/muscle_piriformis.jpg": {
+  "url": "images/muscle_piriformis.webp",
+  "width": 960,
+  "height": 1130,
+  "animated": false,
+  "note": null,
+  "bytes": 152118,
+  "orig_bytes": 251169
+ },
+ "images/files/muscle_platysma.png": {
+  "url": "images/muscle_platysma.webp",
+  "width": 960,
+  "height": 1316,
+  "animated": false,
+  "note": null,
+  "bytes": 98452,
+  "orig_bytes": 1313389
+ },
+ "images/files/muscle_popliteus.png": {
+  "url": "images/muscle_popliteus.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 22194,
+  "orig_bytes": 540593
+ },
+ "images/files/muscle_psoas_major.png": {
+  "url": "images/muscle_psoas_major.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 56748,
+  "orig_bytes": 399297
+ },
+ "images/files/muscle_quadratus_lumborum.png": {
+  "url": "images/muscle_quadratus_lumborum.webp",
+  "width": 462,
+  "height": 476,
+  "animated": false,
+  "note": null,
+  "bytes": 56918,
+  "orig_bytes": 152955
+ },
+ "images/files/muscle_rectus_abdominis.png": {
+  "url": "images/muscle_rectus_abdominis.webp",
+  "width": 510,
+  "height": 510,
+  "animated": false,
+  "note": null,
+  "bytes": 33636,
+  "orig_bytes": 150906
+ },
+ "images/files/muscle_rhomboideus_major.png": {
+  "url": "images/muscle_rhomboideus_major.webp",
+  "width": 733,
+  "height": 1156,
+  "animated": false,
+  "note": null,
+  "bytes": 193326,
+  "orig_bytes": 585526
+ },
+ "images/files/muscle_sartorius.png": {
+  "url": "images/muscle_sartorius.webp",
+  "width": 330,
+  "height": 412,
+  "animated": false,
+  "note": null,
+  "bytes": 11234,
+  "orig_bytes": 57392
+ },
+ "images/files/muscle_scalenus_anterior.png": {
+  "url": "images/muscle_scalenus_anterior.webp",
+  "width": 450,
+  "height": 600,
+  "animated": false,
+  "note": null,
+  "bytes": 63074,
+  "orig_bytes": 100156
+ },
+ "images/files/muscle_semitendinosus.png": {
+  "url": "images/muscle_semitendinosus.webp",
+  "width": 683,
+  "height": 700,
+  "animated": false,
+  "note": null,
+  "bytes": 63836,
+  "orig_bytes": 172044
+ },
+ "images/files/muscle_serratus_anterior.jpg": {
+  "url": "images/muscle_serratus_anterior.webp",
+  "width": 716,
+  "height": 877,
+  "animated": false,
+  "note": null,
+  "bytes": 51746,
+  "orig_bytes": 300874
+ },
+ "images/files/muscle_soleus.jpg": {
+  "url": "images/muscle_soleus.webp",
+  "width": 626,
+  "height": 603,
+  "animated": false,
+  "note": null,
+  "bytes": 35244,
+  "orig_bytes": 193104
+ },
+ "images/files/muscle_sternocleidomastoideus.png": {
+  "url": "images/muscle_sternocleidomastoideus.webp",
+  "width": 536,
+  "height": 568,
+  "animated": false,
+  "note": null,
+  "bytes": 73672,
+  "orig_bytes": 201901
+ },
+ "images/files/muscle_subscapularis.png": {
+  "url": "images/muscle_subscapularis.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 60710,
+  "orig_bytes": 369181
+ },
+ "images/files/muscle_supinator.jpg": {
+  "url": "images/muscle_supinator.webp",
+  "width": 720,
+  "height": 809,
+  "animated": false,
+  "note": null,
+  "bytes": 32040,
+  "orig_bytes": 217415
+ },
+ "images/files/muscle_supraspinatus.png": {
+  "url": "images/muscle_supraspinatus.webp",
+  "width": 960,
+  "height": 960,
+  "animated": false,
+  "note": null,
+  "bytes": 59886,
+  "orig_bytes": 454067
+ },
+ "images/files/muscle_temporalis.png": {
+  "url": "images/muscle_temporalis.webp",
+  "width": 500,
+  "height": 405,
+  "animated": false,
+  "note": null,
+  "bytes": 53068,
+  "orig_bytes": 48440
+ },
+ "images/files/muscle_tensor_fasciae_latae.png": {
+  "url": "images/muscle_tensor_fasciae_latae.webp",
+  "width": 960,
+  "height": 1689,
+  "animated": false,
+  "note": null,
+  "bytes": 236938,
+  "orig_bytes": 1276080
+ },
+ "images/files/muscle_teres_major.png": {
+  "url": "images/muscle_teres_major.webp",
+  "width": 733,
+  "height": 1156,
+  "animated": false,
+  "note": null,
+  "bytes": 201192,
+  "orig_bytes": 313160
+ },
+ "images/files/muscle_teres_minor.png": {
+  "url": "images/muscle_teres_minor.webp",
+  "width": 900,
+  "height": 900,
+  "animated": false,
+  "note": null,
+  "bytes": 65458,
+  "orig_bytes": 577254
+ },
+ "images/files/muscle_tibialis_anterior.png": {
+  "url": "images/muscle_tibialis_anterior.webp",
+  "width": 510,
+  "height": 510,
+  "animated": false,
+  "note": null,
+  "bytes": 27942,
+  "orig_bytes": 126625
+ },
+ "images/files/muscle_tibialis_posterior.png": {
+  "url": "images/muscle_tibialis_posterior.webp",
+  "width": 700,
+  "height": 436,
+  "animated": false,
+  "note": null,
+  "bytes": 54930,
+  "orig_bytes": 65698
+ },
+ "images/files/muscle_transversus_abdominis.jpg": {
+  "url": "images/muscle_transversus_abdominis.webp",
+  "width": 520,
+  "height": 307,
+  "animated": false,
+  "note": null,
+  "bytes": 18632,
+  "orig_bytes": 36931
+ },
+ "images/files/muscle_trapezius.png": {
+  "url": "images/muscle_trapezius.webp",
+  "width": 510,
+  "height": 504,
+  "animated": false,
+  "note": null,
+  "bytes": 30298,
+  "orig_bytes": 141438
+ },
+ "images/files/muscle_triceps_brachii.png": {
+  "url": "images/muscle_triceps_brachii.webp",
+  "width": 510,
+  "height": 514,
+  "animated": false,
+  "note": null,
+  "bytes": 32074,
+  "orig_bytes": 145080
+ },
+ "images/files/muscle_vastus_lateralis.jpg": {
+  "url": "images/muscle_vastus_lateralis.webp",
+  "width": 330,
+  "height": 412,
+  "animated": false,
+  "note": null,
+  "bytes": 12996,
+  "orig_bytes": 31526
+ },
+ "images/files/muscle_vastus_medialis.jpg": {
+  "url": "images/muscle_vastus_medialis.webp",
+  "width": 330,
+  "height": 412,
+  "animated": false,
+  "note": null,
+  "bytes": 12996,
+  "orig_bytes": 31526
+ }
+}
