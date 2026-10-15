@@ -12,11 +12,12 @@ export async function buildData(dir = research) {
     const j = JSON.parse(await readFile(resolve(dir, `${t}.json`), 'utf8'));
     out[t] = { schema_version: j.schema_version, items: j.items.map(({ source_check, ...r }) => r) };
   }
-  // Optional images.json from Research: { "<item id>": { url, alt, credit, license } }
+  // Optional images.json from Research (schema v1, see src/lib/images.js)
   const imgPath = resolve(dir, 'images.json');
   if (await access(imgPath).then(() => true, () => false)) {
     const ids = new Set(['bones', 'muscles', 'tendons', 'ligaments'].flatMap((t) => out[t].items.map((i) => i.id)));
     const { images, rejected } = normalizeImages(JSON.parse(await readFile(imgPath, 'utf8')), ids);
+    out.images_schema_version = 1;
     out.images = images;
     if (rejected.length) console.warn(`images.json: ${rejected.length} entries rejected:`, rejected.slice(0, 10));
   }

@@ -16,7 +16,7 @@ try {
   if ($field !== null && (!is_string($field) || ulen($field) > 60)) $errors[] = 'field';
   if ($errors) kq_json(400, ['error' => 'validation', 'fields' => $errors]);
   // Ephemeral rate limits (in-memory/temp, nothing persisted with the report): 10/h per client, 300/h global.
-  if (!kq_ephemeral_hit('report', 10, 3600)) kq_json(429, ['error' => 'rate_limited']);
+  if (!kq_ephemeral_hit('report', (int)(kq_config()['report_per_hour'] ?? 10), 3600)) kq_json(429, ['error' => 'rate_limited']);
   $db = kq_db();
   $c = $db->prepare('SELECT COUNT(*) FROM reports WHERE created_at > ?'); $c->execute([gmdate('Y-m-d\TH:i:s\Z', time() - 3600)]);
   if ((int)$c->fetchColumn() >= (int)(kq_config()['report_global_per_hour'] ?? 300)) kq_json(429, ['error' => 'rate_limited']);

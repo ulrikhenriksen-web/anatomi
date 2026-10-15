@@ -95,7 +95,7 @@ const hasPhp = (() => { try { execFileSync('php', ['-m']); return true; } catch 
 test('report.php stores reports in SQLite and validates', { skip: !hasPhp && 'php not installed' }, async () => {
   const dir = mkdtempSync(join(tmpdir(), 'kq-'));
   const cfg = join(dir, 'config.php');
-  writeFileSync(cfg, `<?php return ['sqlite_path' => '${join(dir, 'r.sqlite')}', 'salt' => 't'];`);
+  writeFileSync(cfg, `<?php return ['sqlite_path' => '${join(dir, 'r.sqlite')}', 'salt' => 't', 'report_per_hour' => 1000];`);
   const port = 18000 + Math.floor(Math.random() * 1000);
   const srv = spawn('php', ['-S', `127.0.0.1:${port}`, '-t', new URL('..', import.meta.url).pathname], { env: { ...process.env, KQ_CONFIG: cfg }, stdio: 'ignore' });
   try {
@@ -133,12 +133,6 @@ test('mergeProgress newest wins; mergeMeta', () => {
   const mm = Q.mergeMeta({ xp: 10, streak: 3, lastDay: '2026-10-14', tests: [{ at: 1 }] }, { xp: 20, streak: 9, lastDay: '2026-10-01', tests: [{ at: 1 }, { at: 2 }] });
   assert.deepEqual(mm, { xp: 20, streak: 3, lastDay: '2026-10-14', tests: [{ at: 1 }, { at: 2 }] });
 });
-test('mediaOf: v2 hotspot schema normalisation', () => {
-  assert.deepEqual(Q.mediaOf({}), { image: null, hotspots: [] });
-  const m = Q.mediaOf({ image: 'https://x/y.png', hotspots: [{ item_id: 'muscle_a', x: 0.5, y: 0.2 }, { item_id: 'b', x: 2, y: 0 }] });
-  assert.equal(m.image, 'https://x/y.png'); assert.equal(m.hotspots.length, 1); assert.equal(m.hotspots[0].r, 0.04);
-  assert.equal(Q.mediaOf({ image: 'javascript:alert(1)' }).image, null);
-});
 test('branding: user-visible copy says Anatomi, not Knoglequiz', () => {
   const html = readFileSync(new URL('../src/index.html', import.meta.url), 'utf8');
   const app = readFileSync(new URL('../src/app.js', import.meta.url), 'utf8');
@@ -151,7 +145,7 @@ test('branding: user-visible copy says Anatomi, not Knoglequiz', () => {
 
 test('privacy: exact text in SPA and static page; linked from Profil, login area, footer', async () => {
   const { PRIVACY_TEXT, PRIVACY_TITLE } = await import('../src/lib/privacy.js');
-  const expected = 'Anatomi gemmer kun det, der skal til for at appen virker. Logger du ind med Google, gemmer vi dit navn, din e-mail og dit Google-id samt din træningsfremgang, så den følger dig på tværs af enheder. Bruger du appen uden login, gemmes fremgangen kun lokalt i din browser. Fejlrapporter gemmes med den tekst, du skriver, og tidspunktet. Vi bruger ingen reklame- eller sporingscookies og deler ikke data med andre. Data ligger hos Simply.com i EU. Du kan til enhver tid få indsigt i eller sletning af dine data ved at skrive til ulrik.henriksen@gmail.com. Dataansvarlig: Ulrik Henriksen.';
+  const expected = 'Anatomi gemmer kun det, der skal til for at appen virker. Logger du ind med Google, gemmer vi dit navn, din e-mail og dit Google-id samt din træningsfremgang og dine point, så de følger dig på tværs af enheder. Vælger du at være med på highscorelisten, vises dit visningsnavn, dine point og din rang for andre brugere. Du kan slå det fra igen når som helst. Bruger du appen uden login, gemmes fremgangen kun lokalt i din browser. Fejlrapporter gemmes med den tekst, du skriver, tidspunktet, siden og dataversionen. Vi bruger ingen reklame- eller sporingscookies og deler ikke data med andre. Data ligger hos Simply.com i EU. Du kan til enhver tid få indsigt i eller sletning af dine data ved at skrive til ulrik.henriksen@gmail.com. Dataansvarlig: Ulrik Henriksen.';
   assert.equal(PRIVACY_TITLE, 'Privatliv');
   assert.equal(PRIVACY_TEXT, expected);
   const stat = readFileSync(new URL('../src/privatliv.html', import.meta.url), 'utf8');

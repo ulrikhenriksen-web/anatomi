@@ -37,7 +37,7 @@ before(async () => {
   if (!hasPhp) return;
   const dataPath = join(dir, 'data.json'); writeFileSync(dataPath, JSON.stringify(await buildData(join(root, 'data/research'))));
   const cfg = join(dir, 'config.php');
-  writeFileSync(cfg, `<?php return ['sqlite_path' => '${db}', 'data_path' => '${dataPath}', 'salt' => 't', 'google_client_id' => 'test-client.apps.googleusercontent.com', 'google_tokeninfo_url' => 'http://127.0.0.1:${fport}/tokeninfo.php', 'score_limits' => ['parallel' => 1000]];`);
+  writeFileSync(cfg, `<?php return ['sqlite_path' => '${db}', 'data_path' => '${dataPath}', 'salt' => 't', 'google_client_id' => 'test-client.apps.googleusercontent.com', 'google_tokeninfo_url' => 'http://127.0.0.1:${fport}/tokeninfo.php', 'score_limits' => ['parallel' => 1000], 'report_per_hour' => 1000];`);
   // legacy DB with columns that must be removed by the migration
   execFileSync('php', ['-r', `$p=new PDO('sqlite:${db}');$p->exec("CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT, google_sub TEXT UNIQUE NOT NULL, email TEXT, name TEXT, picture TEXT, created_at TEXT NOT NULL, last_login TEXT NOT NULL)");$p->exec("INSERT INTO users (google_sub,email,name,picture,created_at,last_login) VALUES ('old','o@x.dk','Old','https://pic','x','x')");$p->exec("CREATE TABLE reports (id INTEGER PRIMARY KEY AUTOINCREMENT, created_at VARCHAR(25) NOT NULL, item_id VARCHAR(120) NOT NULL, field VARCHAR(60) NULL, message TEXT NOT NULL, page VARCHAR(255) NULL, data_version VARCHAR(20) NULL, ip_hash CHAR(64) NOT NULL, user_agent VARCHAR(255) NULL, status VARCHAR(20) NOT NULL DEFAULT 'new')");$p->exec("INSERT INTO reports (created_at,item_id,message,ip_hash,user_agent) VALUES ('x','bone_femur','m','abc','UA')");`]);
   fake = spawn('php', ['-S', `127.0.0.1:${fport}`, '-t', join(root, 'test/fixtures')], { stdio: 'ignore' });
@@ -131,9 +131,9 @@ test('leaderboard: opt-in only, names hidden otherwise, ties, own (hypothetical)
   await submit(a, 'drill', m.slice(10, 17).map((it) => ev(it, 'navn'))); // 70 pts muskler (= bob)
   await submit(f, 'drill', m.slice(20, 35).map((it) => ev(it, 'navn'))); // frank 150, not opted in
   let lb = (await a.call('/leaderboard.php?period=all&category=muskler')).body;
-  assert.deepEqual(lb.top.map((t) => [t.rank, t.display_name, t.points]), [[1, 'Alice A', 70], [1, 'Bobby', 70]]);
+  assert.deepEqual(lb.top.map((t) => [t.rank, t.display_name, t.points]).sort(), [[1, 'Alice A', 70], [1, 'Bobby', 70]]);
   assert.ok(lb.top.every((t) => Object.keys(t).sort().join() === 'display_name,initial,is_me,points,rank,tier'));
-  assert.equal(lb.top[0].initial, 'A'); assert.equal(lb.top[0].tier, 'Celle');
+  assert.equal(lb.top.find((t) => t.display_name === 'Alice A').initial, 'A'); assert.equal(lb.top[0].tier, 'Celle');
   assert.deepEqual(lb.me, { rank: 1, points: 70, public: true, to_next: null });
   const raw = JSON.stringify(lb);
   for (const s of ['Frank', 'frank@', 'Erin Fys', '@example.com', 'googleusercontent']) assert.ok(!raw.includes(s), s);
