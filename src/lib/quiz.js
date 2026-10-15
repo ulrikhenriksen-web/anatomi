@@ -28,7 +28,9 @@ export function normalize(raw) {
     for (const it of items) {
       if (!it || !it.id || !it.name_da) continue;
       const { source_check, ...rest } = it; // not shown to students
-      out.push({ ...rest, topic, needs_review: it.verification === 'needs_review' });
+      const img = raw.images?.[it.id];
+      // images.json is loaded but not rendered yet (UI comes with the UX spec). Kept off `image` so mediaOf() stays unchanged.
+      out.push({ ...rest, topic, needs_review: it.verification === 'needs_review', ...(img ? { media_image: img } : {}) });
     }
   }
   return out;

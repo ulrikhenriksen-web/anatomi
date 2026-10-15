@@ -5,6 +5,8 @@ $base = ['iss' => 'https://accounts.google.com', 'aud' => 'test-client.apps.goog
 $map = [
   'h.p.alice' => $base + ['sub' => '111', 'email' => 'alice@example.com', 'name' => 'Alice'],
   'h.p.bob' => $base + ['sub' => '222', 'email' => 'bob@example.com', 'name' => 'Bob'],
+  'h.p.carol' => $base + ['sub' => '666', 'email' => 'carol@example.com', 'name' => 'Carol Danvers'],
+  'h.p.dave' => $base + ['sub' => '777', 'email' => 'dave@example.com', 'name' => 'Dave'],
   'h.p.wrongaud' => ['aud' => 'evil.apps.googleusercontent.com'] + $base + ['sub' => '333'],
   'h.p.expired' => ['exp' => (string)(time() - 10)] + $base + ['sub' => '444'],
   'h.p.badiss' => ['iss' => 'evil.com'] + $base + ['sub' => '555'],

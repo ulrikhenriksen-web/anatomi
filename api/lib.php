@@ -31,6 +31,7 @@ function kq_db(): PDO {
     expires_at INTEGER NOT NULL, created_at TEXT NOT NULL)');
   $pdo->exec('CREATE TABLE IF NOT EXISTS progress (user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
     progress TEXT NOT NULL, meta TEXT NOT NULL, merged_local INTEGER NOT NULL DEFAULT 0, updated_at TEXT NOT NULL)');
+  kq_migrate_highscore($pdo);
   return $pdo;
 }
 function kq_input(int $max = 1048576): array {
@@ -120,4 +121,79 @@ function kq_merge_meta(array $a, array $b): array {
   usort($tests, fn($x, $y) => $x['at'] <=> $y['at']);
   return ['xp' => max((int)($a['xp'] ?? 0), (int)($b['xp'] ?? 0)), 'streak' => (int)($newer['streak'] ?? 0),
     'lastDay' => $newer['lastDay'] ?? null, 'tests' => array_slice(array_values($tests), -20)];
+}
+
+// ---- Highscore ----
+const KQ_CATEGORIES = ['knogler', 'muskler', 'sener', 'ledbaand'];
+const KQ_MODES = ['naming', 'drill', 'test', 'memory'];
+// points per correct answer, by mode (server decides points; client never sends points)
+const KQ_MODE_POINTS = ['naming' => 5, 'drill' => 10, 'test' => 20, 'memory' => 5];
+const KQ_LIMITS = ['max_total' => 50, 'min_ms_per_item' => 1200, 'max_ms' => 7200000, 'per_hour' => 60, 'min_gap_s' => 10];
+
+function kq_limit(string $k): int { return (int)((kq_config()['score_limits'] ?? [])[$k] ?? KQ_LIMITS[$k]); }
+function kq_migrate_highscore(PDO $pdo): void {
+  $pdo->exec('CREATE TABLE IF NOT EXISTS user_profile (user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+    display_name TEXT NULL, highscore_opt_in INTEGER NOT NULL DEFAULT 0, updated_at TEXT NOT NULL)');
+  $pdo->exec('CREATE TABLE IF NOT EXISTS score_events (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    category TEXT NOT NULL, mode TEXT NOT NULL, correct INTEGER NOT NULL, total INTEGER NOT NULL, duration_ms INTEGER NOT NULL,
+    points INTEGER NOT NULL, created_at INTEGER NOT NULL)');
+  $pdo->exec('CREATE INDEX IF NOT EXISTS score_events_user_time ON score_events(user_id, created_at)');
+  $pdo->exec('CREATE TABLE IF NOT EXISTS scores (user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    category TEXT NOT NULL, mode TEXT NOT NULL, points INTEGER NOT NULL DEFAULT 0, sessions INTEGER NOT NULL DEFAULT 0,
+    best_pct INTEGER NOT NULL DEFAULT 0, updated_at TEXT NOT NULL, PRIMARY KEY (user_id, category, mode))');
+  $pdo->exec('CREATE INDEX IF NOT EXISTS scores_cat ON scores(category, points)');
+}
+function kq_require_user(): array {
+  $u = kq_current_user();
+  if (!$u) kq_json(401, ['error' => 'unauthenticated']);
+  return $u;
+}
+/** Default display name = first name from Google profile. */
+function kq_default_display_name(?string $fullName): string {
+  $first = preg_split('/\s+/u', trim((string)$fullName))[0] ?? '';
+  $v = kq_validate_display_name($first);
+  return $v['ok'] ? $v['value'] : 'Bruger';
+}
+/** 2–24 chars; letters (any script), digits, space, . - _ '; no e-mail/URL; collapses whitespace. */
+function kq_validate_display_name($name): array {
+  if (!is_string($name)) return ['ok' => false, 'error' => 'type'];
+  $n = preg_replace('/\s+/u', ' ', trim($name));
+  if ($n === null || !preg_match('//u', $n)) return ['ok' => false, 'error' => 'encoding'];
+  $len = preg_match_all('/./us', $n);
+  if ($len < 2) return ['ok' => false, 'error' => 'too_short'];
+  if ($len > 24) return ['ok' => false, 'error' => 'too_long'];
+  if (!preg_match("/^[\\p{L}\\p{M}\\p{N} .\\-_']+$/u", $n)) return ['ok' => false, 'error' => 'chars'];
+  if (preg_match('/@|https?|www\\.|\\.(dk|com|net|org)\\b/i', $n)) return ['ok' => false, 'error' => 'contact_info'];
+  return ['ok' => true, 'value' => $n];
+}
+function kq_profile(int $uid): array {
+  $db = kq_db();
+  $s = $db->prepare('SELECT p.display_name, p.highscore_opt_in, u.name FROM users u LEFT JOIN user_profile p ON p.user_id=u.id WHERE u.id=?');
+  $s->execute([$uid]); $r = $s->fetch() ?: [];
+  return ['display_name' => $r['display_name'] ?? kq_default_display_name($r['name'] ?? ''),
+    'display_name_is_default' => empty($r['display_name']), 'highscore_opt_in' => (bool)($r['highscore_opt_in'] ?? 0)];
+}
+/** Standard competition ranking (1,1,3) over opted-in users. Returns ['top'=>[], 'me'=>?]. */
+function kq_leaderboard(string $category, int $uid, int $limit): array {
+  $db = kq_db();
+  $where = $category === 'overall' ? '' : 'WHERE s.category = :cat';
+  $sql = "SELECT s.user_id, SUM(s.points) AS score FROM scores s JOIN user_profile p ON p.user_id = s.user_id AND p.highscore_opt_in = 1
+    $where GROUP BY s.user_id HAVING score > 0 ORDER BY score DESC, MIN(s.updated_at) ASC";
+  $st = $db->prepare($sql); if ($category !== 'overall') $st->bindValue(':cat', $category); $st->execute();
+  $rows = $st->fetchAll(); $top = []; $me = null; $rank = 0; $prev = null;
+  foreach ($rows as $i => $r) {
+    if ($prev === null || (int)$r['score'] !== $prev) { $rank = $i + 1; $prev = (int)$r['score']; }
+    $isMe = (int)$r['user_id'] === $uid;
+    if ($i < $limit) $top[] = ['rank' => $rank, 'user_id' => (int)$r['user_id'], 'score' => (int)$r['score'], 'is_me' => $isMe];
+    if ($isMe) $me = ['rank' => $rank, 'score' => (int)$r['score']];
+  }
+  // names only for listed, opted-in users
+  if ($top) {
+    $ids = array_column($top, 'user_id');
+    $q = $db->prepare('SELECT u.id, u.name, p.display_name FROM users u JOIN user_profile p ON p.user_id=u.id WHERE u.id IN (' . implode(',', array_fill(0, count($ids), '?')) . ')');
+    $q->execute($ids); $names = [];
+    foreach ($q->fetchAll() as $n) $names[(int)$n['id']] = $n['display_name'] ?: kq_default_display_name($n['name']);
+    foreach ($top as &$t) { $t['display_name'] = $names[$t['user_id']] ?? 'Bruger'; unset($t['user_id']); }
+  }
+  return ['top' => $top, 'me' => $me, 'participants' => count($rows)];
 }
