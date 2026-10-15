@@ -135,7 +135,10 @@ function route() {
       const navKey = nav === 'session' ? (session?.mode === 'test' ? 'test' : 'traen') : nav === 'memory' ? 'traen' : nav === 'highscore' ? 'home' : nav;
       const cur = document.querySelector(`[data-nav="${navKey}"]`);
       if (cur) cur.setAttribute('aria-current', 'page');
-      fn(m[1], params);
+      try { fn(m[1], params); } catch (err) {
+        console.error(err);
+        $main.innerHTML = '<div class="empty card"><h1>Noget gik galt</h1><p>Siden kunne ikke vises. Prøv at genindlæse.</p><button class="btn" type="button" onclick="location.reload()">Genindlæs</button></div>';
+      }
       window.scrollTo(0, 0);
       return;
     }
@@ -681,11 +684,17 @@ async function deleteAccount() {
 // ---------- Memory (M1–M5) ----------
 let memCfg = load('kq.memCfg.v1', { topic: '', region: '', difficulty: 'let', timed: false, variant: 'text', autoFlip: false });
 let mem = null;
-function memorySetup() {
+function memVariants() {
   const pool = filterItems(QUIZ_ITEMS, { topic: memCfg.topic, region: memCfg.region });
-  const pairs = MEM.DIFFICULTY[memCfg.difficulty].pairs;
-  const v = MEM.variantsFor(pool, pairs);
-  const anyImages = QUIZ_ITEMS.some(hasImage);
+  return MEM.variantsFor(pool, MEM.DIFFICULTY[memCfg.difficulty].pairs);
+}
+function memorySetup() {
+  const v = memVariants();
+  const anyImages = QUIZ_ITEMS.some((i) => MEM.memoryImage(i));
+  const variantHtml = () => { const w = memVariants(); return `<legend><b>Kort</b></legend>${radio('variant', [['text', 'Dansk ↔ latin'], ['image', anyImages ? 'Billede ↔ navn' : 'Billede ↔ navn · kommer snart', !w.image]], w.image ? memCfg.variant : 'text')}
+        ${anyImages && !w.image ? `<p class="muted">Kun ${w.imageCount} kort med billede her – vælg færre par eller tekst-varianten.</p>` : ''}`; };
+  const hintsHtml = () => `${MEM.tooSmallForHard(innerWidth, innerHeight) && memCfg.difficulty === 'svaer' ? '<p class="muted">Svær passer bedst på en større skærm – prøv Mellem.</p>' : ''}
+      ${memVariants().text ? '' : '<p class="err">For få kort i dette udvalg – vælg et andet emne eller færre par.</p>'}`;
   const regions = [...new Set(ITEMS.flatMap(regionsOf))].sort((a, b) => a.localeCompare(b, 'da'));
   const radio = (name, opts, cur) => `<div class="chips" role="radiogroup" aria-label="${name}">${opts.map(([val, label, dis]) => `<label class="chip radio${dis ? ' dis' : ''}"><input type="radio" name="${name}" value="${val}" ${String(cur) === String(val) ? 'checked' : ''} ${dis ? 'disabled' : ''}> ${label}</label>`).join('')}</div>`;
   $main.innerHTML = `<div class="stack"><h1>Memory</h1><p class="muted">Find parrene. Kun fagligt gennemgåede kort indgår.</p>
@@ -694,15 +703,20 @@ function memorySetup() {
       <label class="field">Region<select name="region"><option value="">Alle regioner</option>${regions.map((r) => `<option ${memCfg.region === r ? 'selected' : ''}>${esc(r)}</option>`).join('')}</select></label>
       <fieldset><legend><b>Sværhed</b></legend>${radio('difficulty', Object.entries(MEM.DIFFICULTY).map(([k, d]) => [k, `${d.label} · ${d.pairs} par`]), memCfg.difficulty)}</fieldset>
       <fieldset><legend><b>Tilstand</b></legend>${radio('timed', [[false, 'Afslappet'], [true, 'På tid']], memCfg.timed)}</fieldset>
-      <fieldset><legend><b>Kort</b></legend>${radio('variant', [['text', 'Dansk ↔ latin'], ['image', anyImages ? 'Billede ↔ navn' : 'Billede ↔ navn · kommer snart', !v.image]], v.image ? memCfg.variant : 'text')}
-        ${anyImages && !v.image ? `<p class="muted">Kun ${v.imageCount} kort med billede her – vælg færre par eller tekst-varianten.</p>` : ''}</fieldset>
+      <fieldset data-dyn="variant">${variantHtml()}</fieldset>
       <label class="row"><input type="checkbox" name="autoFlip" ${memCfg.autoFlip ? 'checked' : ''} style="width:24px;height:24px"> Vend automatisk tilbage efter 1,5 s</label>
-      ${MEM.tooSmallForHard(innerWidth, innerHeight) && memCfg.difficulty === 'svaer' ? '<p class="muted">Svær passer bedst på en større skærm – prøv Mellem.</p>' : ''}
-      ${v.text ? '' : '<p class="err">For få kort i dette udvalg – vælg et andet emne eller færre par.</p>'}
+      <div data-dyn="hints">${hintsHtml()}</div>
       <button class="btn block" ${v.text ? '' : 'disabled'}>Start</button></form></div>`;
   const form = document.getElementById('mf');
   const read = () => { const fd = new FormData(form); memCfg = { topic: fd.get('topic') || '', region: fd.get('region') || '', difficulty: fd.get('difficulty') || 'let', timed: fd.get('timed') === 'true', variant: fd.get('variant') || 'text', autoFlip: fd.get('autoFlip') === 'on' }; save('kq.memCfg.v1', memCfg); };
-  form.addEventListener('change', () => { read(); memorySetup(); });
+  // Update only the dependent parts in place – never replace the form/Start button,
+  // otherwise a tap on Start that blurs a select (change) gets lost.
+  form.addEventListener('change', () => {
+    read();
+    form.querySelector('[data-dyn="variant"]').innerHTML = variantHtml();
+    form.querySelector('[data-dyn="hints"]').innerHTML = hintsHtml();
+    form.querySelector('button.btn').disabled = !memVariants().text;
+  });
   form.onsubmit = (e) => { e.preventDefault(); read(); mem = null; location.hash = '#/memory/spil'; };
 }
 function memoryPlay() {
@@ -712,6 +726,7 @@ function memoryPlay() {
     const variant = memCfg.variant === 'image' && MEM.variantsFor(pool, pairs).image ? 'image' : 'text';
     const deck = MEM.buildDeck(pool, { pairs, variant });
     if (!deck) { $main.innerHTML = '<div class="empty card"><h1>For få kort</h1><p>Vælg et andet emne, en anden region eller færre par.</p><a class="btn" href="#/memory">Tilbage</a></div>'; return; }
+    preloadDeck(deck);
     mem = { g: MEM.newGame(deck), cfg: { ...memCfg, variant }, sid: sessionId(), start: Date.now(), last: Date.now(), events: [], busy: false, focus: 0 };
   }
   renderMemory();
@@ -779,19 +794,33 @@ function memTap(i) {
   if (res.result === 'match') {
     const it = BY_ID.get(res.pair);
     mem.events.push({ item_id: it.id, facet: 'pair', ts: Date.now(), ms: Date.now() - mem.last, correct: true }); mem.last = Date.now();
-    ov().innerHTML = `<div class="mem-ov two" role="dialog" aria-label="Sammenligning">${pair.map((c) => memPanel(c, 'ok')).join('')}<p class="mem-msg ok">✓ Par! ${nameHtml(it)}</p></div>`;
+    showOverlay(ov(), `<div class="mem-ov two" role="dialog" aria-label="Sammenligning">${pair.map((c) => memPanel(c, 'ok')).join('')}<p class="mem-msg ok">✓ Par! ${nameHtml(it)}</p></div>`);
     announce(`Par fundet: ${it.name_da}, ${it.name_la_ta2}. ${mem.g.found} af ${mem.g.pairs} par.`);
     mem.busy = true;
     setTimeout(() => { mem.busy = false; ov().innerHTML = ''; if (mem.g.finished) memoryResult(); else { renderMemory(); memFocus(nextHidden(i)); } }, 900);
     return;
   }
-  ov().innerHTML = `<div class="mem-ov two" role="dialog" aria-label="Sammenligning">${pair.map((c) => memPanel(c, 'no')).join('')}<p class="mem-msg">Ikke et par</p><button class="btn block" id="mem-back">Vend tilbage</button></div>`;
+  showOverlay(ov(), `<div class="mem-ov two" role="dialog" aria-label="Sammenligning">${pair.map((c) => memPanel(c, 'no')).join('')}<p class="mem-msg">Ikke et par</p><button class="btn block" id="mem-back">Vend tilbage</button></div>`);
   announce('Ikke et par.');
   const back = () => { clearTimeout(mem.auto); document.removeEventListener('keydown', esc1); mem.g = MEM.flipBack(mem.g); ov().innerHTML = ''; renderMemory(); memFocus(nextHidden(i)); };
   const esc1 = (e) => { if (e.key === 'Escape') back(); };
   document.addEventListener('keydown', esc1);
   document.getElementById('mem-back').onclick = back; document.getElementById('mem-back').focus();
   if (mem.cfg.autoFlip) mem.auto = setTimeout(back, 1500);
+}
+/** Insert overlay hidden, reveal only once its images are decoded (max 600 ms) – no half-blank images. */
+function showOverlay(el, html) {
+  el.innerHTML = html;
+  const box = el.firstElementChild; const imgs = [...el.querySelectorAll('img')];
+  if (!box || !imgs.length) return;
+  box.style.visibility = 'hidden';
+  const ready = Promise.all(imgs.map((im) => (im.decode ? im.decode().catch(() => {}) : Promise.resolve())));
+  Promise.race([ready, new Promise((r) => setTimeout(r, 600))]).then(() => { box.style.visibility = ''; });
+}
+/** Preload + decode all deck images at game start so flips/overlays render from cache. */
+const memImgCache = new Map();
+function preloadDeck(deck) {
+  for (const c of deck) if (c.kind === 'image' && !memImgCache.has(c.url)) { const im = new Image(); im.decoding = 'async'; im.src = c.url; im.decode?.().catch(() => {}); memImgCache.set(c.url, im); }
 }
 function nextHidden(from) { const d = mem.g.deck; for (let k = 1; k <= d.length; k++) { const c = d[(from + k) % d.length]; if (c.state === 'hidden') return c.index; } return from; }
 async function memoryResult() {
