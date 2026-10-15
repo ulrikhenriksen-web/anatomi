@@ -29,6 +29,27 @@ export async function buildData(dir = research) {
   }
   return out;
 }
+/**
+ * Cache-busting: one content hash for the whole build, appended as ?v=… to every
+ * module import, app.js/styles.css in HTML and the data fetch. Prevents browsers from
+ * mixing a new app.js with stale cached lib/*.js (JS is cached 1 h by .htaccess).
+ */
+export function versionText(text, v) {
+  return text
+    .replace(/(from\s+['"])(\.\/[\w./-]+\.js)(['"])/g, `$1$2?v=${v}$3`)
+    .replace(/((?:src|href)=")((?:app\.js|styles\.css))(")/g, `$1$2?v=${v}$3`)
+    .replace(/(['"])(data\/knoglequiz\.json)(['"])/g, `$1$2?v=${v}$3`);
+}
+async function versionAssets(dist, data) {
+  const { createHash } = await import('node:crypto');
+  const files = ['app.js', 'styles.css', 'index.html', 'privatliv.html', 'vilkaar.html', ...['quiz', 'memory', 'images', 'highscore', 'privacy'].map((f) => `lib/${f}.js`)];
+  const h = createHash('sha256');
+  for (const f of files) h.update(await readFile(resolve(dist, f)));
+  h.update(JSON.stringify(data));
+  const v = h.digest('hex').slice(0, 10);
+  for (const f of files) await writeFile(resolve(dist, f), versionText(await readFile(resolve(dist, f), 'utf8'), v));
+  return v;
+}
 if (import.meta.url === `file://${process.argv[1]}`) {
   await rm(dist, { recursive: true, force: true });
   await cp(resolve(root, 'src'), dist, { recursive: true });
@@ -43,6 +64,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   }
   const data = await buildData();
   await writeFile(resolve(dist, 'data/knoglequiz.json'), JSON.stringify(data));
+  const ver = await versionAssets(dist, data);
   const n = ['bones', 'muscles', 'tendons', 'ligaments'].map((t) => `${t}=${data[t].items.length}`).join(' ');
-  console.log(`built dist/ (${n})`);
+  console.log(`built dist/ (${n}) v=${ver}`);
 }
