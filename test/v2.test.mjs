@@ -64,10 +64,18 @@ test('memory: text deck excludes needs_review, unambiguous pairs; image variant 
   assert.equal(M.buildDeck(noImg, { pairs: 6, variant: 'image' }, rnd), null);
   // real data: every verified item with an image (with neutral alt) is eligible
   const real = M.eligible(items, 'image');
-  assert.deepEqual(real.map((i) => i.id).sort(), items.filter((i) => !i.needs_review && i.images.length && i.images[0].alt_neutral).map((i) => i.id).sort());
-  const withImg = items.slice(0, 30).map((i) => ({ ...i, images: [img({ id: i.id })] }));
+  assert.deepEqual(real.map((i) => i.id).sort(), items.filter((i) => !i.needs_review && i.images.some((m) => m.memory_ok && m.alt_neutral)).map((i) => i.id).sort());
+  const withImg = items.slice(0, 30).map((i) => ({ ...i, images: [img({ id: i.id, memory_ok: true })] }));
   const ideck = M.buildDeck(withImg, { pairs: 6, variant: 'image' }, rnd);
   assert.ok(ideck.filter((c) => c.kind === 'image').every((c) => c.alt === 'Lang knogle i låret, set forfra'));
+});
+test('memory: only memory_ok images; primary first, else first memory_ok', () => {
+  const base = items.find((i) => !i.needs_review);
+  const a = img({ id: 'a', url: 'images/a.webp' }), b = img({ id: 'b', url: 'images/b.webp', memory_ok: true }), c = img({ id: 'c', url: 'images/c.webp', memory_ok: true });
+  assert.equal(M.memoryImage({ ...base, images: [a, b, c] }).id, 'b');
+  assert.equal(M.memoryImage({ ...base, images: [{ ...a, memory_ok: true }, b] }).id, 'a');
+  assert.equal(M.memoryImage({ ...base, images: [a] }), null);
+  assert.equal(M.eligible([{ ...base, images: [a] }], 'image').length, 0);
 });
 test('memory: game flow — flip, match, no match, flip back, moves, finish', () => {
   const deck = M.buildDeck(items, { pairs: 6, variant: 'text' }, rnd);

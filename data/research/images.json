@@ -21,7 +21,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_scapula": [
@@ -44,7 +46,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Skulderbladet fremhævet gult, ingen navnelabel (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_humerus": [
@@ -67,7 +71,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_radius": [
@@ -90,7 +96,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_ulna": [
@@ -113,7 +121,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_scaphoideum": [
@@ -136,7 +146,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Isoleret knogle, kun ledflade-labels (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_lunatum": [
@@ -159,7 +171,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Isoleret knogle, kun ledflade-labels (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_pisiforme": [
@@ -182,7 +196,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Isoleret knogle (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_hamatum": [
@@ -205,7 +221,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Isoleret knogle, kun ledflade-labels (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_capitatum": [
@@ -228,7 +246,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Isoleret knogle, kun ledflade-labels (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_coxae": [
@@ -251,12 +271,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_ilium": [
       {
         "id": "img_bone_os_ilium_1",
+        "url": "images/files/bone_os_ilium_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Ilium_00_anterior_view.png/960px-Ilium_00_anterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Ilium_00_anterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "BodyParts3D is made by DBCLS – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ilium_00_anterior_view.png",
+        "author": "BodyParts3D is made by DBCLS",
+        "alt_naming": "Tarmben (Os ilium) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en knogle, hvor strukturen er fremhævet.",
+        "view": "anterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: tarmbenet rødt (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_os_ilium_2",
         "url": "images/files/bone_os_ilium.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pelvis_diagram.png/960px-Pelvis_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Pelvis_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -274,12 +319,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_os_ischii": [
       {
         "id": "img_bone_os_ischii_1",
+        "url": "images/files/bone_os_ischii_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Ischium_01_anterior_view.png/960px-Ischium_01_anterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ischium_01_anterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "BodyParts3D is made by DBCLS – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ischium_01_anterior_view.png",
+        "author": "BodyParts3D is made by DBCLS",
+        "alt_naming": "Sædeben (Os ischii) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en knogle, hvor strukturen er fremhævet.",
+        "view": "anterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: sædebenet rødt (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_os_ischii_2",
         "url": "images/files/bone_os_ischii.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Pelvic_girdle_illustration.svg/960px-Pelvic_girdle_illustration.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pelvic_girdle_illustration.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -297,12 +367,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_os_pubis": [
       {
         "id": "img_bone_os_pubis_1",
+        "url": "images/files/bone_os_pubis_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pubis_01_anterior_view.png/960px-Pubis_01_anterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Pubis_01_anterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "BodyParts3D is made by DBCLS – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pubis_01_anterior_view.png",
+        "author": "BodyParts3D is made by DBCLS",
+        "alt_naming": "Skamben (Os pubis) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en knogle, hvor strukturen er fremhævet.",
+        "view": "anterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: skambenet rødt (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_os_pubis_2",
         "url": "images/files/bone_os_pubis.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Pelvic_girdle_illustration.svg/960px-Pelvic_girdle_illustration.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pelvic_girdle_illustration.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -320,7 +415,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_os_sacrum": [
@@ -343,7 +440,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_coccygis": [
@@ -366,7 +465,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_femur": [
@@ -389,12 +490,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_patella": [
       {
         "id": "img_bone_patella_1",
+        "url": "images/files/bone_patella_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Patella_-_facies_posterior_patellae_detail.jpg/960px-Patella_-_facies_posterior_patellae_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Patella_-_facies_posterior_patellae_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 720,
+        "credit": "MAKY.OREL – CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en), via Wikimedia Commons",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Patella_-_facies_posterior_patellae_detail.jpg",
+        "author": "MAKY.OREL",
+        "alt_naming": "Knæskal (Patella) – anatomisk illustration, fremhævet.",
+        "alt_neutral": "Anatomisk illustration af en knogle, hvor strukturen er fremhævet.",
+        "view": "posterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Foto af isoleret knæskal (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_patella_2",
         "url": "images/files/bone_patella.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Knee_diagram.svg/960px-Knee_diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Knee_diagram.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -412,7 +538,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_tibia": [
@@ -435,7 +563,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_fibula": [
@@ -458,12 +588,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_talus": [
       {
         "id": "img_bone_talus_1",
+        "url": "images/files/bone_talus_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Talus%2C_lateral_face_Testut.ro.jpg/960px-Talus%2C_lateral_face_Testut.ro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Talus%2C_lateral_face_Testut.ro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 663,
+        "credit": "L. Testut – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Talus,_lateral_face_Testut.ro.jpg",
+        "author": "L. Testut",
+        "alt_naming": "Springben (Talus) – anatomisk illustration, fremhævet.",
+        "alt_neutral": "Anatomisk illustration af en knogle, hvor strukturen er fremhævet.",
+        "view": "lateral",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Isoleret springben, kun numre (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_talus_2",
         "url": "images/files/bone_talus.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Subtalar_Joint.svg/960px-Subtalar_Joint.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Subtalar_Joint.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -481,12 +636,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_calcaneus": [
       {
         "id": "img_bone_calcaneus_1",
+        "url": "images/files/bone_calcaneus_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Calcaneus02_anterolateral_view.png/960px-Calcaneus02_anterolateral_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Calcaneus02_anterolateral_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "BodyParts3D is made by DBCLS. – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Calcaneus02_anterolateral_view.png",
+        "author": "BodyParts3D is made by DBCLS.",
+        "alt_naming": "Hælben (Calcaneus) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en knogle, hvor strukturen er fremhævet.",
+        "view": "lateral",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: hælbenet rødt (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_calcaneus_2",
         "url": "images/files/bone_calcaneus.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Subtalar_Joint.svg/960px-Subtalar_Joint.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Subtalar_Joint.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -504,7 +684,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_os_cuboideum": [
@@ -527,7 +709,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Isoleret knogle, kun ledflade-labels (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_atlas": [
@@ -550,7 +734,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_axis": [
@@ -573,7 +759,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_sternum": [
@@ -596,7 +784,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_frontale": [
@@ -619,7 +809,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_parietale": [
@@ -642,7 +834,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_occipitale": [
@@ -665,7 +859,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_temporale": [
@@ -688,7 +884,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_sphenoidale": [
@@ -711,18 +909,20 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_mandibula": [
       {
         "id": "img_bone_mandibula_1",
-        "url": "images/files/bone_mandibula.gif",
+        "url": "images/files/bone_mandibula.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mandible_bone_-_animation_02.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mandible_bone_-_animation_02.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "width": 800,
-        "height": 800,
-        "credit": "Polygon data were generated by Database Center for Life Science (DBCLS) – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "width": 600,
+        "height": 600,
+        "credit": "Polygon data were generated by Database Center for Life Science (DBCLS) – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons (stillbillede: første frame af animation)",
         "license": "CC BY-SA 2.1 jp",
         "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
         "source_url": "https://commons.wikimedia.org/wiki/File:Mandible_bone_-_animation_02.gif",
@@ -733,8 +933,10 @@
         "side": null,
         "hotspots": [],
         "highlighted": true,
-        "animated": true,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). Animeret GIF (roterende), ikke egnet til hotspots. View/side udledt automatisk fra filnavn."
+        "animated": false,
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn. Stillbillede: første frame af den animerede GIF (afledt værk, samme licens).",
+        "memory_ok": true,
+        "visual_check": "Underkæben fremhævet hvid i transparent kranie (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_maxilla": [
@@ -757,7 +959,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_zygomaticum": [
@@ -780,12 +984,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_os_hyoideum": [
       {
         "id": "img_bone_os_hyoideum_1",
+        "url": "images/files/bone_os_hyoideum_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Gray186.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Gray186.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 468,
+        "height": 321,
+        "credit": "Henry Vandyke Carter – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gray186.png",
+        "author": "Henry Vandyke Carter",
+        "alt_naming": "Tungeben (Os hyoideum) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en knogle, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade: isoleret tungeben med muskelhæfter (ingen knoglenavn) (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_os_hyoideum_2",
         "url": "images/files/bone_os_hyoideum.jpg",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/712_Hyoid_Bone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/712_Hyoid_Bone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -803,7 +1032,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_os_ethmoidale": [
@@ -826,18 +1057,43 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Flere knogler farvet i orbita – uklart hvilken (visuelt tjekket 2026-10-15)"
       }
     ],
     "bone_costa_1": [
       {
         "id": "img_bone_costa_1_1",
-        "url": "images/files/bone_costa_1.gif",
+        "url": "images/files/bone_costa_1_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/First_rib_lateral.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/First_rib_lateral.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 900,
+        "height": 900,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:First_rib_lateral.png",
+        "author": "Anatomography",
+        "alt_naming": "1. ribben (Costa 1) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en knogle, hvor strukturen er fremhævet.",
+        "view": "lateral",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: 1. ribben rødt (stillbillede erstatter GIF) (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_bone_costa_1_2",
+        "url": "images/files/bone_costa_1_frame.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rib_cage.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rib_cage.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "width": 800,
-        "height": 751,
-        "credit": "Mikael Häggström – Public domain, via Wikimedia Commons",
+        "width": 494,
+        "height": 464,
+        "credit": "Mikael Häggström – Public domain, via Wikimedia Commons (stillbillede: første frame af animation)",
         "license": "Public domain",
         "license_url": null,
         "source_url": "https://commons.wikimedia.org/wiki/File:Rib_cage.gif",
@@ -848,8 +1104,10 @@
         "side": null,
         "hotspots": [],
         "highlighted": false,
-        "animated": true,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. Animeret GIF (roterende), ikke egnet til hotspots. View/side udledt automatisk fra filnavn."
+        "animated": false,
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. Animeret GIF (roterende), ikke egnet til hotspots. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "bone_vertebra_prominens": [
@@ -872,12 +1130,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Hele halshvirvelsøjlen fremhævet, ikke kun C7 (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_trapezius": [
       {
         "id": "img_muscle_trapezius_1",
+        "url": "images/files/muscle_trapezius_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Trapezius_back2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Trapezius_back2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 900,
+        "height": 900,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Trapezius_back2.png",
+        "author": "Anatomography",
+        "alt_naming": "Kappemusklen (Musculus trapezius) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "posterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_trapezius_2",
         "url": "images/files/muscle_trapezius.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Trapezius.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Trapezius.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -895,7 +1178,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_latissimus_dorsi": [
@@ -918,7 +1203,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Gray-plade med musklen som hovedmotiv, kun numre (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_pectoralis_major": [
@@ -941,7 +1228,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen isoleret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_pectoralis_minor": [
@@ -964,7 +1253,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_serratus_anterior": [
@@ -987,12 +1278,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Gray-plade med musklen som hovedmotiv, kun numre (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_deltoideus": [
       {
         "id": "img_muscle_deltoideus_1",
+        "url": "images/files/muscle_deltoideus_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Deltoid_muscle_back.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Deltoid_muscle_back.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 900,
+        "height": 900,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Deltoid_muscle_back.png",
+        "author": "Anatomography",
+        "alt_naming": "Deltamusklen (Musculus deltoideus) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "posterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_deltoideus_2",
         "url": "images/files/muscle_deltoideus.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Deltoideus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Deltoideus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1010,7 +1326,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_supraspinatus": [
@@ -1033,7 +1351,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_infraspinatus": [
@@ -1056,7 +1376,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_teres_minor": [
@@ -1079,7 +1401,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_teres_major": [
@@ -1102,7 +1426,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_subscapularis": [
@@ -1125,12 +1451,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_biceps_brachii": [
       {
         "id": "img_muscle_biceps_brachii_1",
+        "url": "images/files/muscle_biceps_brachii_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Biceps_brachii_muscle01.png/960px-Biceps_brachii_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Biceps_brachii_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Biceps_brachii_muscle01.png",
+        "author": "Anatomography",
+        "alt_naming": "Tohovedet overarmsmuskel (Musculus biceps brachii) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_biceps_brachii_2",
         "url": "images/files/muscle_biceps_brachii.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/1120_Muscles_that_Move_the_Forearm_Humerus_Flex_Sin.png/960px-1120_Muscles_that_Move_the_Forearm_Humerus_Flex_Sin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/1120_Muscles_that_Move_the_Forearm_Humerus_Flex_Sin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1148,12 +1499,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_brachialis": [
       {
         "id": "img_muscle_brachialis_1",
+        "url": "images/files/muscle_brachialis_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Brachialis_muscle01.png/960px-Brachialis_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Brachialis_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Brachialis_muscle01.png",
+        "author": "Anatomography",
+        "alt_naming": "Overarmsmusklen (Musculus brachialis) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_brachialis_2",
         "url": "images/files/muscle_brachialis.jpg",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/MusclesAnt%C3%A9rieuresDuBras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/MusclesAnt%C3%A9rieuresDuBras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1171,12 +1547,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_triceps_brachii": [
       {
         "id": "img_muscle_triceps_brachii_1",
+        "url": "images/files/muscle_triceps_brachii_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Triceps_brachii_muscle01.png/960px-Triceps_brachii_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Triceps_brachii_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle01.png",
+        "author": "Anatomography",
+        "alt_naming": "Trehovedet overarmsmuskel (Musculus triceps brachii) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: hovederne farvet (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_triceps_brachii_2",
         "url": "images/files/muscle_triceps_brachii.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Triceps_brachii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Triceps_brachii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1194,7 +1595,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_brachioradialis": [
@@ -1217,7 +1620,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_coracobrachialis": [
@@ -1240,7 +1645,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_flexor_carpi_radialis": [
@@ -1263,7 +1670,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_extensor_digitorum": [
@@ -1286,7 +1695,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_rhomboideus_major": [
@@ -1309,7 +1720,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_levator_scapulae": [
@@ -1332,12 +1745,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_diaphragma": [
       {
         "id": "img_muscle_diaphragma_1",
+        "url": "images/files/muscle_diaphragma_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/1113_The_Diaphragm.jpg/960px-1113_The_Diaphragm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/1113_The_Diaphragm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 585,
+        "credit": "OpenStax – CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:1113_The_Diaphragm.jpg",
+        "author": "OpenStax",
+        "alt_naming": "Mellemgulvet (Musculus diaphragma) – anatomisk illustration.",
+        "alt_neutral": "Anatomisk illustration af en muskel.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": false,
+        "animated": false,
+        "memory_ok": false,
+        "visual_check": "Diagram set nedefra, med labels (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_diaphragma_2",
         "url": "images/files/muscle_diaphragma.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Respiratory_system.svg/960px-Respiratory_system.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Respiratory_system.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1355,7 +1793,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_rectus_abdominis": [
@@ -1378,12 +1818,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_obliquus_externus_abdominis": [
       {
         "id": "img_muscle_obliquus_externus_abdominis_1",
+        "url": "images/files/muscle_obliquus_externus_abdominis_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gray392.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gray392.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 519,
+        "height": 650,
+        "credit": "Henry Vandyke Carter – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gray392.png",
+        "author": "Henry Vandyke Carter",
+        "alt_naming": "Ydre skrå bugmuskel (Musculus obliquus externus abdominis) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade med musklen som hovedmotiv (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_obliquus_externus_abdominis_2",
         "url": "images/files/muscle_obliquus_externus_abdominis.jpg",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Illu_trunk_muscles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Illu_trunk_muscles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1401,7 +1866,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_transversus_abdominis": [
@@ -1424,7 +1891,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_erector_spinae": [
@@ -1447,7 +1916,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_sternocleidomastoideus": [
@@ -1470,7 +1941,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_masseter": [
@@ -1493,7 +1966,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Gray-plade med navnelabels (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_temporalis": [
@@ -1516,7 +1991,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen hovedmotiv (knoglenavne ses) (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_orbicularis_oculi": [
@@ -1539,18 +2016,43 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_gluteus_maximus": [
       {
         "id": "img_muscle_gluteus_maximus_1",
-        "url": "images/files/muscle_gluteus_maximus.gif",
+        "url": "images/files/muscle_gluteus_maximus_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gluteus_maximus_muscle.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gluteus_maximus_muscle.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 294,
+        "height": 800,
+        "credit": "Mikael Häggström.\n\nWhen using this image in external works, it may be cited as:\nHäggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.\nor\nBy Mikael Häggström, used with permission. – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gluteus_maximus_muscle.PNG",
+        "author": "Mikael Häggström.\n\nWhen using this image in external works, it may be cited as:\nHäggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.\nor\nBy Mikael Häggström, used with permission.",
+        "alt_naming": "Store sædemuskel (Musculus gluteus maximus) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen rød (stillbillede erstatter GIF) (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_gluteus_maximus_2",
+        "url": "images/files/muscle_gluteus_maximus_frame.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gluteus_maximus_3D.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gluteus_maximus_3D.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "width": 800,
-        "height": 800,
-        "credit": "BodyParts3D/Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "width": 640,
+        "height": 640,
+        "credit": "BodyParts3D/Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons (stillbillede: første frame af animation)",
         "license": "CC BY-SA 2.1 jp",
         "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
         "source_url": "https://commons.wikimedia.org/wiki/File:Gluteus_maximus_3D.gif",
@@ -1561,8 +2063,10 @@
         "side": null,
         "hotspots": [],
         "highlighted": true,
-        "animated": true,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). Animeret GIF (roterende), ikke egnet til hotspots. View/side udledt automatisk fra filnavn."
+        "animated": false,
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). Animeret GIF (roterende), ikke egnet til hotspots. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_gluteus_medius": [
@@ -1585,7 +2089,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_gluteus_minimus": [
@@ -1608,7 +2114,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_piriformis": [
@@ -1631,12 +2139,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Gray-plade med navnelabels (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_iliopsoas": [
       {
         "id": "img_muscle_iliopsoas_1",
+        "url": "images/files/muscle_iliopsoas_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Psoas_major_muscle01.png/960px-Psoas_major_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Psoas_major_muscle01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Psoas_major_muscle01.png",
+        "author": "Anatomography",
+        "alt_naming": "Hoftebøjeren (Musculus iliopsoas) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_iliopsoas_2",
         "url": "images/files/muscle_iliopsoas.png",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gray430-en.svg/960px-Gray430-en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Gray430-en.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1654,7 +2187,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_psoas_major": [
@@ -1677,7 +2212,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_iliacus": [
@@ -1700,7 +2237,9 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_tensor_fasciae_latae": [
@@ -1723,7 +2262,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_sartorius": [
@@ -1746,12 +2287,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_vastus_lateralis": [
       {
         "id": "img_muscle_vastus_lateralis_1",
+        "url": "images/files/muscle_vastus_lateralis_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Vastus_lateralis_muscle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Vastus_lateralis_muscle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 324,
+        "height": 926,
+        "credit": "modified by Uwe Gille – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vastus_lateralis_muscle.png",
+        "author": "modified by Uwe Gille",
+        "alt_naming": "Yderste lårmuskel (Musculus vastus lateralis) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "lateral",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen rød, ingen label (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_vastus_lateralis_2",
         "url": "images/files/muscle_vastus_lateralis.jpg",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Illu_lower_extremity_muscles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Illu_lower_extremity_muscles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1769,12 +2335,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_vastus_medialis": [
       {
         "id": "img_muscle_vastus_medialis_1",
+        "url": "images/files/muscle_vastus_medialis_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Vastus_medialis_muscle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Vastus_medialis_muscle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 324,
+        "height": 926,
+        "credit": "modified by Uwe Gille – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Vastus_medialis_muscle.png",
+        "author": "modified by Uwe Gille",
+        "alt_naming": "Inderste lårmuskel (Musculus vastus medialis) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "medial",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_vastus_medialis_2",
         "url": "images/files/muscle_vastus_medialis.jpg",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Illu_lower_extremity_muscles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Illu_lower_extremity_muscles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1792,7 +2383,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_adductor_longus": [
@@ -1815,7 +2408,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_adductor_magnus": [
@@ -1838,7 +2433,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_gracilis": [
@@ -1861,12 +2458,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_semitendinosus": [
       {
         "id": "img_muscle_semitendinosus_1",
+        "url": "images/files/muscle_semitendinosus_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Semitendinosus_muscle.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Semitendinosus_muscle.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 294,
+        "height": 800,
+        "credit": "Mikael Häggström.\n\nWhen using this image in external works, it may be cited as:\nHäggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.\nor\nBy Mikael Häggström, used with permission. – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Semitendinosus_muscle.PNG",
+        "author": "Mikael Häggström.\n\nWhen using this image in external works, it may be cited as:\nHäggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.\nor\nBy Mikael Häggström, used with permission.",
+        "alt_naming": "Den halvsenede muskel (Musculus semitendinosus) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_semitendinosus_2",
         "url": "images/files/muscle_semitendinosus.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gray432_color.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Gray432_color.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1884,12 +2506,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_tibialis_anterior": [
       {
         "id": "img_muscle_tibialis_anterior_1",
+        "url": "images/files/muscle_tibialis_anterior_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tibialis_anterior_muscle_-_anteriror_view.png/960px-Tibialis_anterior_muscle_-_anteriror_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tibialis_anterior_muscle_-_anteriror_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Polygon data were generated by Database Center for Life Science (DBCLS) – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tibialis_anterior_muscle_-_anteriror_view.png",
+        "author": "Polygon data were generated by Database Center for Life Science (DBCLS)",
+        "alt_naming": "Forreste skinnebensmuskel (Musculus tibialis anterior) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "anterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_tibialis_anterior_2",
         "url": "images/files/muscle_tibialis_anterior.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tibialis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tibialis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1907,12 +2554,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_gastrocnemius": [
       {
         "id": "img_muscle_gastrocnemius_1",
+        "url": "images/files/muscle_gastrocnemius_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gastrocnemius_muscle_-_posterior_view.png/960px-Gastrocnemius_muscle_-_posterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Gastrocnemius_muscle_-_posterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Polygon data were generated by Database Center for Life Science (DBCLS) – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gastrocnemius_muscle_-_posterior_view.png",
+        "author": "Polygon data were generated by Database Center for Life Science (DBCLS)",
+        "alt_naming": "Tvillingelægmusklen (Musculus gastrocnemius) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "posterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_gastrocnemius_2",
         "url": "images/files/muscle_gastrocnemius.jpg",
         "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gastrocnemius_muscle_by_Sanjoy_Sanyal_2018-06-02.webm/960px--Gastrocnemius_muscle_by_Sanjoy_Sanyal_2018-06-02.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Gastrocnemius_muscle_by_Sanjoy_Sanyal_2018-06-02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1930,12 +2602,37 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_soleus": [
       {
         "id": "img_muscle_soleus_1",
+        "url": "images/files/muscle_soleus_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Soleus_muscle_-_posterior_view.png/960px-Soleus_muscle_-_posterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Soleus_muscle_-_posterior_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Polygon data is generated by Database Center for Life Science (DBCLS) – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Soleus_muscle_-_posterior_view.png",
+        "author": "Polygon data is generated by Database Center for Life Science (DBCLS)",
+        "alt_naming": "Dybe lægmuskel (fladfiskemusklen) (Musculus soleus) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "posterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "3D: musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_soleus_2",
         "url": "images/files/muscle_soleus.jpg",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/SoleusAndArch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/SoleusAndArch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1953,18 +2650,20 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_fibularis_longus": [
       {
         "id": "img_muscle_fibularis_longus_1",
-        "url": "images/files/muscle_fibularis_longus.gif",
+        "url": "images/files/muscle_fibularis_longus.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Inferior_view_fibularis_longus_muscle_-_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Inferior_view_fibularis_longus_muscle_-_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "width": 800,
-        "height": 800,
-        "credit": "Polygon data were generated by Database Center for Life Science (DBCLS) – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "width": 600,
+        "height": 600,
+        "credit": "Polygon data were generated by Database Center for Life Science (DBCLS) – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons (stillbillede: første frame af animation)",
         "license": "CC BY-SA 2.1 jp",
         "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
         "source_url": "https://commons.wikimedia.org/wiki/File:Inferior_view_fibularis_longus_muscle_-_animation.gif",
@@ -1975,13 +2674,38 @@
         "side": null,
         "hotspots": [],
         "highlighted": true,
-        "animated": true,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). Animeret GIF (roterende), ikke egnet til hotspots. View/side udledt automatisk fra filnavn."
+        "animated": false,
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn. Stillbillede: første frame af den animerede GIF (afledt værk, samme licens).",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt (3D) (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_tibialis_posterior": [
       {
         "id": "img_muscle_tibialis_posterior_1",
+        "url": "images/files/muscle_tibialis_posterior_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tibialis_posterior.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tibialis_posterior.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 222,
+        "height": 900,
+        "credit": "modified by Uwe Gille – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tibialis_posterior.png",
+        "author": "modified by Uwe Gille",
+        "alt_naming": "Bageste skinnebensmuskel (Musculus tibialis posterior) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "posterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_tibialis_posterior_2",
         "url": "images/files/muscle_tibialis_posterior.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gray442.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gray442.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1999,7 +2723,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_popliteus": [
@@ -2022,12 +2748,37 @@
         "hotspots": [],
         "highlighted": true,
         "animated": false,
-        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn."
+        "notes": "Strukturen er fremhævet (BodyParts3D farvemarkering eller angivet i fil/beskrivelse). View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Strukturen tydeligt farvemarkeret (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_scalenus_anterior": [
       {
         "id": "img_muscle_scalenus_anterior_1",
+        "url": "images/files/muscle_scalenus_anterior_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Scalenus_anterior02.png/960px-Scalenus_anterior02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Scalenus_anterior02.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "Anatomography – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Scalenus_anterior02.png",
+        "author": "Anatomography",
+        "alt_naming": "Forreste trappemuskel (Musculus scalenus anterior) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en muskel, hvor strukturen er fremhævet.",
+        "view": "anterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: scalenus rød (kan omfatte flere scalener – tjek) (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      },
+      {
+        "id": "img_muscle_scalenus_anterior_2",
         "url": "images/files/muscle_scalenus_anterior.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Scalenus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Scalenus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2045,7 +2796,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Tidligere primærbillede; erstattet som primært pga. utydelig fremhævning/labels"
       }
     ],
     "muscle_quadratus_lumborum": [
@@ -2068,7 +2821,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet rødt, kun L1/S1-labels (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_platysma": [
@@ -2091,7 +2846,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Musklen fremhævet (visuelt tjekket 2026-10-15)"
       }
     ],
     "muscle_supinator": [
@@ -2114,7 +2871,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_cruciatum_anterius": [
@@ -2137,7 +2896,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_cruciatum_posterius": [
@@ -2160,18 +2921,20 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_collaterale_tibiale": [
       {
         "id": "img_ligament_ligamentum_collaterale_tibiale_1",
-        "url": "images/files/ligament_ligamentum_collaterale_tibiale.gif",
+        "url": "images/files/ligament_ligamentum_collaterale_tibiale.png",
         "commons_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Knee_medial_view.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Knee_medial_view.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "width": 800,
-        "height": 845,
-        "credit": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) – Public domain, via Wikimedia Commons",
+        "width": 444,
+        "height": 469,
+        "credit": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS) – Public domain, via Wikimedia Commons (stillbillede: første frame af animation)",
         "license": "Public domain",
         "license_url": null,
         "source_url": "https://commons.wikimedia.org/wiki/File:Knee_medial_view.gif",
@@ -2182,8 +2945,10 @@
         "side": null,
         "hotspots": [],
         "highlighted": false,
-        "animated": true,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. Animeret GIF (roterende), ikke egnet til hotspots. View/side udledt automatisk fra filnavn."
+        "animated": false,
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn. Stillbillede: første frame af den animerede GIF (afledt værk, samme licens).",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_collaterale_fibulare": [
@@ -2206,7 +2971,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_patellae": [
@@ -2229,7 +2996,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_iliofemorale": [
@@ -2252,7 +3021,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_pubofemorale": [
@@ -2275,7 +3046,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_ischiofemorale": [
@@ -2298,7 +3071,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_capitis_femoris": [
@@ -2321,7 +3096,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_talofibulare_anterius": [
@@ -2344,7 +3121,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_talofibulare_posterius": [
@@ -2367,7 +3146,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_calcaneofibulare": [
@@ -2390,7 +3171,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_collaterale_mediale_articulationis_talocruralis": [
@@ -2413,7 +3196,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_calcaneonaviculare_plantare": [
@@ -2436,7 +3221,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_plantare_longum": [
@@ -2459,7 +3246,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_sacrotuberale": [
@@ -2482,7 +3271,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_sacrospinale": [
@@ -2505,7 +3296,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_inguinale": [
@@ -2528,7 +3321,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_iliolumbale": [
@@ -2551,7 +3346,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_longitudinale_anterius": [
@@ -2574,7 +3371,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_longitudinale_posterius": [
@@ -2597,7 +3396,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_flavum": [
@@ -2620,7 +3421,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_supraspinale": [
@@ -2643,7 +3446,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_interspinale": [
@@ -2666,7 +3471,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_nuchae": [
@@ -2689,7 +3496,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_transversum_atlantis": [
@@ -2712,7 +3521,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamenta_alaria": [
@@ -2735,7 +3546,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_coracoclaviculare": [
@@ -2758,7 +3571,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_acromioclaviculare": [
@@ -2781,7 +3596,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_coracoacromiale": [
@@ -2804,7 +3621,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamenta_glenohumeralia": [
@@ -2827,7 +3646,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_collaterale_ulnare": [
@@ -2850,7 +3671,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Pile markerer ligamentet, ingen navnelabel (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_collaterale_radiale": [
@@ -2873,7 +3696,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_anulare_radii": [
@@ -2896,7 +3721,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_carpi_transversum": [
@@ -2919,7 +3746,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_scapholunatum_interosseum": [
@@ -2942,7 +3771,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": true,
+        "visual_check": "Røntgen med pil, ingen navnelabel (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_costoclaviculare": [
@@ -2965,7 +3796,9 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
       }
     ],
     "ligament_ligamentum_sacroiliacum_posterius": [
@@ -2988,7 +3821,184 @@
         "hotspots": [],
         "highlighted": false,
         "animated": false,
-        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn."
+        "notes": "Generel plade/illustration – strukturen er ikke nødvendigvis fremhævet; tjek visuelt før brug i Memory. View/side udledt automatisk fra filnavn.",
+        "memory_ok": false,
+        "visual_check": "Generel plade/diagram, strukturen ikke fremhævet og/eller navnelabels synlige; ingen bedre fri erstatning fundet (visuelt tjekket 2026-10-15)"
+      }
+    ],
+    "bone_os_trapezium": [
+      {
+        "id": "img_bone_os_trapezium_1",
+        "url": "images/files/bone_os_trapezium_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Trapezium_bone_%28left%2901_palmar_view.png/960px-Trapezium_bone_%28left%2901_palmar_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Trapezium_bone_%28left%2901_palmar_view.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "BodyParts3D is made by DBCLS. – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Trapezium_bone_(left)01_palmar_view.png",
+        "author": "BodyParts3D is made by DBCLS.",
+        "alt_naming": "Store mangekantben (Os trapezium) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en knogle, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: knoglen rød i håndskelet (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      }
+    ],
+    "bone_os_naviculare": [
+      {
+        "id": "img_bone_os_naviculare_1",
+        "url": "images/files/bone_os_naviculare_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Navicular_bone01.png/960px-Navicular_bone01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Navicular_bone01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 960,
+        "height": 960,
+        "credit": "BodyParts3D is made by DBCLS. – CC BY-SA 2.1 jp (https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en), via Wikimedia Commons",
+        "license": "CC BY-SA 2.1 jp",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Navicular_bone01.png",
+        "author": "BodyParts3D is made by DBCLS.",
+        "alt_naming": "Bådben (fod) (Os naviculare) – 3D-model (BodyParts3D/Anatomography), fremhævet.",
+        "alt_neutral": "3D-model (BodyParts3D/Anatomography) af en knogle, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "BodyParts3D: knoglen grøn i fodskelet (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      }
+    ],
+    "muscle_rectus_femoris": [
+      {
+        "id": "img_muscle_rectus_femoris_1",
+        "url": "images/files/muscle_rectus_femoris_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Rectus_femoris.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Rectus_femoris.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 269,
+        "height": 800,
+        "credit": "modified by Uwe Gille – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Rectus_femoris.png",
+        "author": "modified by Uwe Gille",
+        "alt_naming": "Lige lårmuskel (Musculus rectus femoris) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      }
+    ],
+    "muscle_semimembranosus": [
+      {
+        "id": "img_muscle_semimembranosus_1",
+        "url": "images/files/muscle_semimembranosus_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Semimembranosus_muscle.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Semimembranosus_muscle.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 294,
+        "height": 800,
+        "credit": "Mikael Häggström.\n\nWhen using this image in external works, it may be cited as:\nHäggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.\nor\nBy Mikael Häggström, used with permission. – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Semimembranosus_muscle.PNG",
+        "author": "Mikael Häggström.\n\nWhen using this image in external works, it may be cited as:\nHäggström, Mikael (2014). \"Medical gallery of Mikael Häggström 2014\". WikiJournal of Medicine 1 (2). DOI:10.15347/wjm/2014.008. ISSN 2002-4436. Public Domain.\nor\nBy Mikael Häggström, used with permission.",
+        "alt_naming": "Den halvhindede muskel (Musculus semimembranosus) – illustration fra Gray's Anatomy (1918), fremhævet.",
+        "alt_neutral": "Illustration fra Gray's Anatomy (1918) af en muskel, hvor strukturen er fremhævet.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": true,
+        "animated": false,
+        "memory_ok": true,
+        "visual_check": "Gray-plade, musklen rød (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      }
+    ],
+    "muscle_levator_ani": [
+      {
+        "id": "img_muscle_levator_ani_1",
+        "url": "images/files/muscle_levator_ani_r2.png",
+        "commons_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/1115_Muscles_of_the_Pelvic_Floor.jpg/960px-1115_Muscles_of_the_Pelvic_Floor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/1115_Muscles_of_the_Pelvic_Floor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 800,
+        "height": 583,
+        "credit": "OpenStax – CC BY 4.0 (https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source_url": "https://commons.wikimedia.org/wiki/File:1115_Muscles_of_the_Pelvic_Floor.jpg",
+        "author": "OpenStax",
+        "alt_naming": "Endetarmsløfteren (Musculus levator ani) – anatomisk illustration.",
+        "alt_neutral": "Anatomisk illustration af en muskel.",
+        "view": "other",
+        "side": null,
+        "hotspots": [],
+        "highlighted": false,
+        "animated": false,
+        "memory_ok": false,
+        "visual_check": "Bækkenbundsdiagram med labels (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      }
+    ],
+    "muscle_pronator_teres": [
+      {
+        "id": "img_muscle_pronator_teres_1",
+        "url": "images/files/muscle_pronator_teres_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/MusclesOfFrontOfRightForearm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/MusclesOfFrontOfRightForearm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 257,
+        "height": 800,
+        "credit": "Frederic H. Gerrish – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:MusclesOfFrontOfRightForearm.jpg",
+        "author": "Frederic H. Gerrish",
+        "alt_naming": "Runde pronator (Musculus pronator teres) – anatomisk illustration.",
+        "alt_neutral": "Anatomisk illustration af en muskel.",
+        "view": "anterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": false,
+        "animated": false,
+        "memory_ok": false,
+        "visual_check": "Gray-plade af underarm, musklen ikke fremhævet (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
+      }
+    ],
+    "muscle_flexor_carpi_ulnaris": [
+      {
+        "id": "img_muscle_flexor_carpi_ulnaris_1",
+        "url": "images/files/muscle_flexor_carpi_ulnaris_r2.png",
+        "commons_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/SuperficialMuscularLayerOfPosteriorForearm%26Hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/SuperficialMuscularLayerOfPosteriorForearm%26Hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 351,
+        "height": 800,
+        "credit": "George A. Piersol – Public domain, via Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:SuperficialMuscularLayerOfPosteriorForearm%26Hand.jpg",
+        "author": "George A. Piersol",
+        "alt_naming": "Ulnare håndledsbøjer (Musculus flexor carpi ulnaris) – anatomisk illustration.",
+        "alt_neutral": "Anatomisk illustration af en muskel.",
+        "view": "posterior",
+        "side": null,
+        "hotspots": [],
+        "highlighted": false,
+        "animated": false,
+        "memory_ok": false,
+        "visual_check": "Underarmsplade, musklen ikke fremhævet (visuelt tjekket 2026-10-15)",
+        "notes": "Erstatning i runde 2, valgt efter visuel gennemgang."
       }
     ]
   }
