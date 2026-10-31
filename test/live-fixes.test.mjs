@@ -31,3 +31,16 @@ test('memory overlay: revealed only after image decode, deck images preloaded', 
   assert.doesNotMatch(app, /ov\(\)\.innerHTML = `<div class="mem-ov/);
   assert.match(app, /preloadDeck\(deck\)/);
 });
+test('hero: webp + srcset, explicit size, fetchpriority, alt with Latin terms, reduced motion', async () => {
+  const { existsSync } = await import('node:fs');
+  const css = readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
+  const h = app.slice(app.indexOf('<section class="hero hero-anatomi"'), app.indexOf('</section>', app.indexOf('hero-anatomi')));
+  assert.match(h, /srcset="img\/hero-anatomi-640\.webp 640w, img\/hero-anatomi-1280\.webp 1280w"/);
+  assert.match(h, /width="1280" height="720"/);
+  assert.match(h, /fetchpriority="high"/);
+  assert.match(h, /alt="[^"]{40,}\(clavicula\)[^"]*"/);
+  assert.match(h, /knogler \(ossa\), muskler \(musculi\)/);
+  assert.match(h, /Start træning/);
+  for (const f of ['hero-anatomi-640.webp', 'hero-anatomi-1280.webp']) assert.ok(existsSync(new URL(`../src/img/${f}`, import.meta.url)));
+  assert.match(css, /prefers-reduced-motion:no-preference\)\{:root:not\(\[data-motion=reduce\]\) \.hero-anatomi/);
+});
