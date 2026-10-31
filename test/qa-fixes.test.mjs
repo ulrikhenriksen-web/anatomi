@@ -17,9 +17,9 @@ test('K1: naming never offers a distractor with the same description', () => {
     assert.equal(fits.length, 1, `${it.id}: ${fits.map((f) => f.id)}`);
   }
 });
-test('H1: costae 11–12 have no tuberculum/angulus listed as present', () => {
-  for (const n of ['Costa 11', 'Costa 12']) assert.ok(byLa(n).landmarks.some((l) => /ingen tuberculum/.test(l)), n);
-  assert.ok(byLa('Costa 12').landmarks.includes('ingen angulus costae'));
+test('H1 (v0.4 source): costae 11–12 without tuberculum; costa 12 without angulus', () => {
+  for (const n of ['Costa 11', 'Costa 12']) assert.ok(!byLa(n).landmarks.some((l) => /tuberculum/.test(l)), n);
+  assert.ok(!byLa('Costa 12').landmarks.some((l) => /angulus/.test(l)));
 });
 test('H4: each structure belongs to one topic only', () => {
   const seen = new Map();
@@ -63,4 +63,35 @@ test('landmark reveal field: none/mask/hide honoured, auto-mask fallback', () =>
   assert.deepEqual(Q.maskLandmarks(it), ['hamulus ossis hamati', 'x ___', 'hamulus ossis ___']);
   assert.equal(Q.landmarkLabel({ la: 'a' }), 'a');
   assert.match(Q.maskLandmarks({ name_la_ta2: 'Os metatarsi V', landmarks: ['tuberositas ossis metatarsi quinti'] })[0], /___ ___$/);
+});
+
+const lmOf = (n) => Q.describe(byLa(n)).find((p) => p.label === 'Landemærker')?.value || '';
+test('v0.4: quiz_group items never appear together in any question', () => {
+  for (const it of quiz.filter((i) => i.quiz_group)) for (const kind of ['naming', ...Q.facetsFor(it)]) {
+    const q = Q.makeQuestion(it, kind, quiz, rnd); if (!q) continue;
+    const g = getterIds(q, it, kind);
+    assert.ok(g.every((o) => o.id === it.id || o.quiz_group !== it.quiz_group), `${it.id}/${kind}`);
+  }
+});
+function getterIds(q, it, kind) {
+  const get = kind === 'naming' ? Q.FACETS.navn.get : Q.FACETS[kind].get;
+  const wrong = q.options.filter((v) => v !== q.correct);
+  return quiz.filter((o) => o.topic === it.topic && o.quiz_group === it.quiz_group && o.id !== it.id && wrong.includes(get(o)) && get(o) !== q.correct);
+}
+test('v0.4: data-driven masking wins, per-item scope, dens hidden, Udforsk unchanged', () => {
+  assert.match(lmOf('Os hamatum'), /hamulus ossis ___/);
+  assert.doesNotMatch(lmOf('Axis'), /dens/);
+  assert.ok(byLa('Axis').landmarks.some((l) => /dens/.test(String(l))), 'Udforsk keeps landmarks');
+  assert.match(lmOf('Femur'), /caput femoris/, 'data reveal:none wins over auto-blank');
+  const am = items.find((i) => i.id === 'muscle_adductor_magnus');
+  if (am?.quiz_mask && Object.keys(am.quiz_mask).length) assert.ok(Q.describe(am).some((p) => /___/.test(p.value)));
+  const pl = items.find((i) => i.id === 'muscle_palmaris_longus');
+  assert.equal(Q.describe(pl).find((p) => p.label === 'Hæfte').value, pl.quiz_mask.insertion_da.masked_da);
+  assert.ok(!items.some((i) => i.id.startsWith('tendon_ligamentum_')));
+  assert.ok(items.some((i) => i.id === 'muscle_arytenoideus_obliquus'));
+});
+test('v0.4: accepted_names feed the answer matcher', () => {
+  const lp = items.find((i) => i.id === 'ligament_ligamentum_patellae');
+  assert.ok(Q.answersMatch('patellasenen', lp.name_da, lp));
+  assert.ok(Q.answersMatch('x', 'y', { name_da: 'y', accepted_names: [{ name: 'x', lang: 'da' }] }));
 });

@@ -37,11 +37,11 @@ export function variantsFor(items, pairs) {
  */
 export function buildDeck(items, { pairs, variant = 'text' }, rnd = Math.random) {
   const pool = shuffle(eligible(items, variant), rnd);
-  const chosen = []; const da = new Set(); const la = new Set();
+  const chosen = []; const da = new Set(); const la = new Set(); const groups = new Set();
   for (const it of pool) {
     const d = it.name_da.toLowerCase(); const l = it.name_la_ta2.toLowerCase();
-    if (da.has(d) || la.has(l) || d === l) continue;
-    da.add(d); la.add(l); chosen.push(it);
+    if (da.has(d) || la.has(l) || d === l || (it.quiz_group && groups.has(it.quiz_group))) continue;
+    da.add(d); la.add(l); if (it.quiz_group) groups.add(it.quiz_group); chosen.push(it);
     if (chosen.length === pairs) break;
   }
   if (chosen.length < pairs) return null;

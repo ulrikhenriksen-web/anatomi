@@ -57,13 +57,14 @@ export function describe(item) {
   if (item.topic === 'bones') {
     add('Type', item.type);
     if (item.count_in_body) add('Antal i kroppen', item.count_in_body);
-    if (item.landmarks?.length) add('Landemærker', maskLandmarks(item).join(', '));
+    if (item.landmarks?.length || item.landmarks_quiz?.length) add('Landemærker', maskLandmarks(item).join(', '));
   } else {
-    add('Udspring', FACETS.udspring.get(item));
-    add('Hæfte', FACETS.haefte.get(item));
+    add('Udspring', quizField(item, ['origin_da', 'attachment_from_da'], FACETS.udspring.get(item)));
+    add('Hæfte', quizField(item, ['insertion_da', 'attachment_da', 'attachment_to_da'], FACETS.haefte.get(item)));
     add('Innervation', FACETS.innervation.get(item));
     add('Funktion', item.function_da);
   }
+  add('Kendetegn', item.distinguishing_da);
   add('Region', item.region);
   return parts;
 }
@@ -87,20 +88,35 @@ export const landmarkLabel = lmText;
  * Quiz-mode landmarks (ux/landmark-reveal-rule.md): per landmark `reveal: none|mask|hide`, optional masked_la/masked_da.
  * Explicit field wins; without it, words echoing the structure's own name are masked as ___ (automatic fallback).
  */
+/** Research v0.4 quiz_mask for muscles/tendons: {field: {reveal, masked_da}} – quiz modes only. */
+export function quizField(item, fields, value) {
+  for (const f of fields) {
+    const m = item.quiz_mask?.[f];
+    if (m && item[f] && item[f] === value) return m.reveal === 'hide' ? null : m.reveal === 'mask' && m.masked_da ? m.masked_da : value;
+  }
+  return value;
+}
 export function maskLandmarks(item) {
-  const nameWords = [item.name_la_ta2, item.name_en].flatMap(words);
-  const names = nameWords.filter((n) => !GENERIC.has(n) && !/^\d+$|^[ivx]+$/.test(n));
-  const ords = nameWords.filter((n) => ORDINALS[n]).map((n) => ORDINALS[n]);
+  if (Array.isArray(item.landmarks_quiz) && item.landmarks_quiz.length) {
+    return item.landmarks_quiz.filter((l) => l.reveal !== 'hide')
+      .map((l) => (l.reveal === 'mask' ? l.masked_la || autoMask(item, l.la) : l.la));
+  }
   const out = [];
   for (const l of item.landmarks || []) {
     const reveal = l && typeof l === 'object' ? l.reveal : undefined;
     const text = lmText(l);
     if (reveal === 'hide') continue;
     if (reveal === 'none') { out.push(text); continue; }
-    if (reveal === 'mask' && (l.masked_la || l.masked_da)) { out.push(l.masked_la || l.masked_da); continue; }
-    out.push(text.replace(/[\p{L}]+/gu, (w) => (names.some((n) => sameStem(fold(w), n)) || ords.includes(fold(w)) ? '___' : w)));
+    if (reveal === 'mask' && l.masked_la) { out.push(l.masked_la); continue; }
+    out.push(autoMask(item, text));
   }
   return out;
+}
+function autoMask(item, text) {
+  const nameWords = [item.name_la_ta2, item.name_en].flatMap(words);
+  const names = nameWords.filter((n) => !GENERIC.has(n) && !/^\d+$|^[ivx]+$/.test(n));
+  const ords = nameWords.filter((n) => ORDINALS[n]).map((n) => ORDINALS[n]);
+  return String(text).replace(/[\p{L}]+/gu, (w) => (names.some((n) => sameStem(fold(w), n)) || ords.includes(fold(w)) ? '___' : w));
 }
 const descKey = (item) => JSON.stringify(describe(item).filter((p) => p.label !== 'Region'));
 /** Normalised main nerve (first "n. xxx" without parentheses/segments) for distractor exclusion (H2). */
@@ -129,7 +145,8 @@ export function makeQuestion(item, kind, pool, rnd = Math.random, nOptions = 4) 
   const dk = kind === 'naming' ? descKey(item) : null;
   const same = (o) => !o.needs_review && o.id !== item.id && o.topic === item.topic && getter(o) && getter(o) !== correct &&
     !answersMatch(getter(o), correct, kind === 'naming' ? item : null) &&
-    (kind !== 'naming' || descKey(o) !== dk) && // K1: never offer a distractor that fits the same description
+    !(item.quiz_group && o.quiz_group === item.quiz_group) && // v0.4: same quiz_group never pitted against each other
+    (kind !== 'naming' || descKey(o) !== dk) && // fallback heuristic // K1: never offer a distractor that fits the same description
     (kind !== 'innervation' || mainNerve(getter(o)) !== mainNerve(correct)); // H2: same main nerve = also correct
   // prefer distractors from the same region for difficulty
   const near = shuffle(pool.filter((o) => same(o) && regionsOf(o).some((r) => regionsOf(item).includes(r))), rnd);
@@ -168,7 +185,8 @@ export function levenshtein(a, b, max = Infinity) {
 const typoBudget = (s) => (s.length <= 4 ? 0 : s.length <= 8 ? 1 : 2);
 /** All accepted names of an item: Danish, Latin, English + optional synonyms/aliases/aka (string or array). */
 export function acceptedNames(item) {
-  const extra = ['synonyms', 'aliases', 'aka', 'alt_names'].flatMap((k) => (Array.isArray(item?.[k]) ? item[k] : item?.[k] ? [item[k]] : []));
+  const extra = ['accepted_names', 'synonyms', 'aliases', 'aka', 'alt_names'].flatMap((k) => (Array.isArray(item?.[k]) ? item[k] : item?.[k] ? [item[k]] : []))
+    .map((x) => (x && typeof x === 'object' ? x.name : x));
   return [item?.name_da, item?.name_la_ta2, item?.name_en, ...extra].filter((x) => typeof x === 'string' && x.trim());
 }
 /** Digits must match exactly (Costa 7 ≠ Costa 1, L2-L4 ≠ L2-L3). */

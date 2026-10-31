@@ -48,7 +48,25 @@
         "http://www.wikidata.org/entity/Q204113",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Trapezmuskel",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q204113 (alias)"
+        },
+        {
+          "name": "Trapezmusklen",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q204113 (alias)"
+        },
+        {
+          "name": "Trapezius",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q204113 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_latissimus_dorsi",
@@ -97,7 +115,15 @@
         "http://www.wikidata.org/entity/Q283673",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Latissimus dorsi",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q283673 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_levator_scapulae",
@@ -146,7 +172,15 @@
         "http://www.wikidata.org/entity/Q755141",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Levator scapulae",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q755141 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rhomboideus_major",
@@ -194,7 +228,15 @@
         "http://www.wikidata.org/entity/Q617389",
         "https://en.wikipedia.org/wiki/Rhomboid_major_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "rhomboideus major",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q617389 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rhomboideus_minor",
@@ -242,7 +284,15 @@
         "http://www.wikidata.org/entity/Q901538",
         "https://en.wikipedia.org/wiki/Rhomboid_minor_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Rhomboideus minor",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q901538 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_serratus_anterior",
@@ -291,7 +341,15 @@
         "http://www.wikidata.org/entity/Q743294",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Serratus anterior",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q743294 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pectoralis_major",
@@ -340,7 +398,15 @@
         "http://www.wikidata.org/entity/Q532798",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "pectoralis major",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q532798 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pectoralis_minor",
@@ -389,7 +455,15 @@
         "http://www.wikidata.org/entity/Q757083",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Pectoralis minor",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q757083 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_subclavius",
@@ -438,7 +512,15 @@
         "http://www.wikidata.org/entity/Q130086",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Subclavius",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q130086 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_deltoideus",
@@ -486,7 +568,15 @@
         "http://www.wikidata.org/entity/Q130243",
         "https://en.wikipedia.org/wiki/Deltoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Deltoideus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q130243 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_supraspinatus",
@@ -535,7 +625,15 @@
         "http://www.wikidata.org/entity/Q74959",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Supraspinatus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q74959 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_infraspinatus",
@@ -584,7 +682,15 @@
         "http://www.wikidata.org/entity/Q19087",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Infraspinatus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q19087 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_teres_minor",
@@ -633,7 +739,15 @@
         "http://www.wikidata.org/entity/Q74963",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Teres minor",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q74963 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_subscapularis",
@@ -682,7 +796,15 @@
         "http://www.wikidata.org/entity/Q130050",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Subscapularis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q130050 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_teres_major",
@@ -731,7 +853,15 @@
         "http://www.wikidata.org/entity/Q56658",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Teres major",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q56658 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_biceps_brachii",
@@ -780,7 +910,15 @@
         "http://www.wikidata.org/entity/Q201363",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Biceps",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q201363 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_coracobrachialis",
@@ -829,7 +967,15 @@
         "http://www.wikidata.org/entity/Q730359",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Coracobrachialis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q730359 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_brachialis",
@@ -878,7 +1024,15 @@
         "http://www.wikidata.org/entity/Q752441",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Brachialis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q752441 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_triceps_brachii",
@@ -927,7 +1081,15 @@
         "http://www.wikidata.org/entity/Q83379",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Triceps",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q83379 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_anconeus",
@@ -976,7 +1138,15 @@
         "http://www.wikidata.org/entity/Q526403",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Anconeus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q526403 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pronator_teres",
@@ -1025,7 +1195,15 @@
         "http://www.wikidata.org/entity/Q828232",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Pronator teres",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q828232 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_carpi_radialis",
@@ -1074,7 +1252,9 @@
         "http://www.wikidata.org/entity/Q914475",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_palmaris_longus",
@@ -1123,7 +1303,14 @@
         "http://www.wikidata.org/entity/Q672854",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "aponeurosis ___, retinaculum flexorum"
+        }
+      }
     },
     {
       "id": "muscle_flexor_carpi_ulnaris",
@@ -1172,7 +1359,9 @@
         "http://www.wikidata.org/entity/Q279039",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_digitorum_superficialis",
@@ -1221,7 +1410,9 @@
         "http://www.wikidata.org/entity/Q847112",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_digitorum_profundus",
@@ -1270,7 +1461,15 @@
         "http://www.wikidata.org/entity/Q840592",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "flexor digitorum communis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q840592 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_pollicis_longus",
@@ -1319,7 +1518,9 @@
         "http://www.wikidata.org/entity/Q901571",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pronator_quadratus",
@@ -1368,7 +1569,9 @@
         "http://www.wikidata.org/entity/Q840572",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_brachioradialis",
@@ -1417,7 +1620,9 @@
         "http://www.wikidata.org/entity/Q385484",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_carpi_radialis_longus",
@@ -1466,7 +1671,9 @@
         "http://www.wikidata.org/entity/Q847092",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_carpi_radialis_brevis",
@@ -1525,7 +1732,9 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Extensor_carpi_radialis_brevis_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_digitorum",
@@ -1574,7 +1783,15 @@
         "http://www.wikidata.org/entity/Q901101",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus extensor digitorum communis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q901101 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_digiti_minimi",
@@ -1623,7 +1840,9 @@
         "http://www.wikidata.org/entity/Q19030",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_carpi_ulnaris",
@@ -1672,7 +1891,9 @@
         "http://www.wikidata.org/entity/Q527634",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_supinator",
@@ -1731,7 +1952,14 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Supinator_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "epicondylus lateralis humeri, lig. collaterale radiale, lig. anulare, crista m. ___ ulnae"
+        }
+      }
     },
     {
       "id": "muscle_abductor_pollicis_longus",
@@ -1780,7 +2008,9 @@
         "http://www.wikidata.org/entity/Q915948",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_pollicis_brevis",
@@ -1829,7 +2059,9 @@
         "http://www.wikidata.org/entity/Q901116",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_pollicis_longus",
@@ -1878,7 +2110,9 @@
         "http://www.wikidata.org/entity/Q574632",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_indicis",
@@ -1927,7 +2161,9 @@
         "http://www.wikidata.org/entity/Q932883",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_abductor_pollicis_brevis",
@@ -1976,7 +2212,9 @@
         "http://www.wikidata.org/entity/Q337824",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_pollicis_brevis",
@@ -2025,7 +2263,9 @@
         "http://www.wikidata.org/entity/Q257609",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_opponens_pollicis",
@@ -2074,7 +2314,9 @@
         "http://www.wikidata.org/entity/Q931622",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_adductor_pollicis",
@@ -2123,7 +2365,9 @@
         "http://www.wikidata.org/entity/Q1065866",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_abductor_digiti_minimi_manus",
@@ -2172,7 +2416,9 @@
         "http://www.wikidata.org/entity/Q659744",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_lumbricales_manus",
@@ -2221,7 +2467,9 @@
         "http://www.wikidata.org/entity/Q1394547",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_interossei_dorsales_manus",
@@ -2270,7 +2518,14 @@
         "http://www.wikidata.org/entity/Q11277687",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "proksimale phalanger og ___ på 2.-4. finger"
+        }
+      }
     },
     {
       "id": "muscle_interossei_palmares",
@@ -2318,7 +2573,9 @@
         "http://www.wikidata.org/entity/Q2608511",
         "https://en.wikipedia.org/wiki/Palmar_interossei_muscles"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_diaphragma",
@@ -2366,7 +2623,15 @@
         "http://www.wikidata.org/entity/Q9654",
         "https://en.wikipedia.org/wiki/Thoracic_diaphragm"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Diaphragma",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q9654 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_intercostales_externi",
@@ -2414,7 +2679,16 @@
         "http://www.wikidata.org/entity/Q834781",
         "https://en.wikipedia.org/wiki/External_intercostal_muscles"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Ydre interkostal",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q834781 (label)"
+        }
+      ],
+      "quiz_mask": {},
+      "quiz_group": "auto_muscle_intercostales_externi"
     },
     {
       "id": "muscle_intercostales_interni",
@@ -2462,7 +2736,16 @@
         "http://www.wikidata.org/entity/Q1954132",
         "https://en.wikipedia.org/wiki/Internal_intercostal_muscles"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Indre interkostal",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1954132 (label)"
+        }
+      ],
+      "quiz_mask": {},
+      "quiz_group": "auto_muscle_intercostales_externi"
     },
     {
       "id": "muscle_rectus_abdominis",
@@ -2521,7 +2804,15 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Rectus_abdominis_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Rectus abdominis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q275150 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obliquus_externus_abdominis",
@@ -2569,7 +2860,25 @@
         "http://www.wikidata.org/entity/Q746123",
         "https://en.wikipedia.org/wiki/Abdominal_external_oblique_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "m. obliquus externus abdominis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q746123 (alias)"
+        },
+        {
+          "name": "obliquus externus abdominis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q746123 (alias)"
+        },
+        {
+          "name": "Skrå ydre bugmuskel",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q746123 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obliquus_internus_abdominis",
@@ -2617,7 +2926,15 @@
         "http://www.wikidata.org/entity/Q1334595",
         "https://en.wikipedia.org/wiki/Abdominal_internal_oblique_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Skrå interne bugmuskel",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1334595 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_transversus_abdominis",
@@ -2666,7 +2983,9 @@
         "http://www.wikidata.org/entity/Q1427665",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_quadratus_lumborum",
@@ -2715,7 +3034,9 @@
         "http://www.wikidata.org/entity/Q1426052",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_erector_spinae",
@@ -2763,7 +3084,15 @@
         "http://www.wikidata.org/entity/Q774933",
         "https://en.wikipedia.org/wiki/Erector_spinae_muscles"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Erector spinae",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q774933 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_iliocostalis",
@@ -2812,7 +3141,15 @@
         "http://www.wikidata.org/entity/Q646925",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Iliocostalis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q646925 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_longissimus",
@@ -2861,7 +3198,15 @@
         "http://www.wikidata.org/entity/Q1085907",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Longissimus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1085907 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_spinalis",
@@ -2910,7 +3255,15 @@
         "http://www.wikidata.org/entity/Q1088104",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Spinalis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1088104 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_multifidus",
@@ -2959,7 +3312,15 @@
         "http://www.wikidata.org/entity/Q371010",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Multifidus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q371010 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_splenius_capitis",
@@ -3008,7 +3369,15 @@
         "http://www.wikidata.org/entity/Q1088126",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Splenius capitis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1088126 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_sternocleidomastoideus",
@@ -3056,7 +3425,9 @@
         "http://www.wikidata.org/entity/Q272830",
         "https://en.wikipedia.org/wiki/Sternocleidomastoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_scalenus_anterior",
@@ -3105,7 +3476,9 @@
         "http://www.wikidata.org/entity/Q914148",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_scalenus_medius",
@@ -3154,7 +3527,9 @@
         "http://www.wikidata.org/entity/Q1088115",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_scalenus_posterior",
@@ -3203,7 +3578,9 @@
         "http://www.wikidata.org/entity/Q955110",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_masseter",
@@ -3252,7 +3629,15 @@
         "http://www.wikidata.org/entity/Q725408",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Masseter",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q725408 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_temporalis",
@@ -3301,7 +3686,9 @@
         "http://www.wikidata.org/entity/Q599406",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pterygoideus_lateralis",
@@ -3349,7 +3736,9 @@
         "http://www.wikidata.org/entity/Q977221",
         "https://en.wikipedia.org/wiki/Lateral_pterygoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pterygoideus_medialis",
@@ -3397,7 +3786,9 @@
         "http://www.wikidata.org/entity/Q643928",
         "https://en.wikipedia.org/wiki/Medial_pterygoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_orbicularis_oculi",
@@ -3446,7 +3837,9 @@
         "http://www.wikidata.org/entity/Q530279",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_orbicularis_oris",
@@ -3495,7 +3888,9 @@
         "http://www.wikidata.org/entity/Q302950",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_buccinator",
@@ -3544,7 +3939,9 @@
         "http://www.wikidata.org/entity/Q846480",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_iliopsoas",
@@ -3592,7 +3989,15 @@
         "http://www.wikidata.org/entity/Q2083654",
         "https://en.wikipedia.org/wiki/Iliopsoas"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Iliopsoas",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q2083654 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_gluteus_maximus",
@@ -3641,7 +4046,20 @@
         "http://www.wikidata.org/entity/Q637545",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Gluteus maximus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q637545 (label)"
+        },
+        {
+          "name": "Musculus glutaeus maximus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q637545 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_gluteus_medius",
@@ -3690,7 +4108,20 @@
         "http://www.wikidata.org/entity/Q1126170",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Den mellemste ballemuskel",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1126170 (label)"
+        },
+        {
+          "name": "Musculus glutaeus medius",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1126170 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_gluteus_minimus",
@@ -3739,7 +4170,15 @@
         "http://www.wikidata.org/entity/Q523799",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus glutaeus minimus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q523799 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_tensor_fasciae_latae",
@@ -3788,7 +4227,9 @@
         "http://www.wikidata.org/entity/Q1429453",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_piriformis",
@@ -3837,7 +4278,9 @@
         "http://www.wikidata.org/entity/Q1144893",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obturatorius_internus",
@@ -3885,7 +4328,9 @@
         "http://www.wikidata.org/entity/Q1500758",
         "https://en.wikipedia.org/wiki/Internal_obturator_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_quadratus_femoris",
@@ -3934,7 +4379,9 @@
         "http://www.wikidata.org/entity/Q1428240",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_sartorius",
@@ -3983,7 +4430,9 @@
         "http://www.wikidata.org/entity/Q740337",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rectus_femoris",
@@ -4032,7 +4481,9 @@
         "http://www.wikidata.org/entity/Q1633822",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_vastus_lateralis",
@@ -4081,7 +4532,9 @@
         "http://www.wikidata.org/entity/Q975459",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_vastus_medialis",
@@ -4130,7 +4583,9 @@
         "http://www.wikidata.org/entity/Q1590935",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_vastus_intermedius",
@@ -4179,7 +4634,9 @@
         "http://www.wikidata.org/entity/Q1812578",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pectineus",
@@ -4228,7 +4685,9 @@
         "http://www.wikidata.org/entity/Q1501677",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_adductor_longus",
@@ -4277,7 +4736,9 @@
         "http://www.wikidata.org/entity/Q1428231",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_adductor_brevis",
@@ -4326,7 +4787,9 @@
         "http://www.wikidata.org/entity/Q1551135",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_adductor_magnus",
@@ -4375,7 +4838,14 @@
         "http://www.wikidata.org/entity/Q478040",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "linea aspera, tuberculum ___"
+        }
+      }
     },
     {
       "id": "muscle_gracilis",
@@ -4424,7 +4894,9 @@
         "http://www.wikidata.org/entity/Q1428669",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_biceps_femoris",
@@ -4473,7 +4945,15 @@
         "http://www.wikidata.org/entity/Q601016",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "overarmsmuskel femoris",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q601016 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_semitendinosus",
@@ -4522,7 +5002,9 @@
         "http://www.wikidata.org/entity/Q1163035",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_semimembranosus",
@@ -4571,7 +5053,9 @@
         "http://www.wikidata.org/entity/Q1270633",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_popliteus",
@@ -4620,7 +5104,9 @@
         "http://www.wikidata.org/entity/Q1308051",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_tibialis_anterior",
@@ -4669,7 +5155,9 @@
         "http://www.wikidata.org/entity/Q975054",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_digitorum_longus",
@@ -4718,7 +5206,9 @@
         "http://www.wikidata.org/entity/Q1684283",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_hallucis_longus",
@@ -4767,7 +5257,9 @@
         "http://www.wikidata.org/entity/Q1446138",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_fibularis_longus",
@@ -4816,7 +5308,15 @@
         "http://www.wikidata.org/entity/Q1386945",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Musculus peronaeus longus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1386945 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_fibularis_brevis",
@@ -4865,7 +5365,15 @@
         "http://www.wikidata.org/entity/Q1723682",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "musculus peronaeus brevis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1723682 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_gastrocnemius",
@@ -4914,7 +5422,9 @@
         "http://www.wikidata.org/entity/Q943203",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_soleus",
@@ -4963,7 +5473,14 @@
         "http://www.wikidata.org/entity/Q1954164",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "caput og bagside af fibula, linea musculi ___ tibiae"
+        }
+      }
     },
     {
       "id": "muscle_plantaris",
@@ -5012,7 +5529,9 @@
         "http://www.wikidata.org/entity/Q526239",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_tibialis_posterior",
@@ -5061,7 +5580,9 @@
         "http://www.wikidata.org/entity/Q1551145",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_digitorum_longus",
@@ -5110,7 +5631,9 @@
         "http://www.wikidata.org/entity/Q1892025",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_hallucis_longus",
@@ -5159,7 +5682,9 @@
         "http://www.wikidata.org/entity/Q1500559",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_digitorum_brevis",
@@ -5208,7 +5733,20 @@
         "http://www.wikidata.org/entity/Q1688555",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus extensor digitorum brevis pedis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1688555 (label)"
+        }
+      ],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "senerne fra m. ___ ___ longus til 2.-4. tå"
+        }
+      }
     },
     {
       "id": "muscle_abductor_hallucis",
@@ -5257,7 +5795,9 @@
         "http://www.wikidata.org/entity/Q1475923",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_digitorum_brevis",
@@ -5306,7 +5846,9 @@
         "http://www.wikidata.org/entity/Q1328793",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_quadratus_plantae",
@@ -5355,7 +5897,9 @@
         "http://www.wikidata.org/entity/Q1665277",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_levator_ani",
@@ -5402,7 +5946,18 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q537123",
         "https://en.wikipedia.org/wiki/Levator_ani"
-      ]
+      ],
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "corpus ossis pubis, arcus tendineus m. ___ ___, spina ischiadica"
+        },
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "corpus perineale, os coccygis, lig. ___"
+        }
+      }
     },
     {
       "id": "muscle_coccygeus",
@@ -5451,7 +6006,15 @@
         "http://www.wikidata.org/entity/Q1059818",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Coccygeus",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1059818 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rectus_capitis_posterior_major",
@@ -5500,7 +6063,9 @@
         "http://www.wikidata.org/entity/Q762258",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rectus_capitis_posterior_minor",
@@ -5549,7 +6114,9 @@
         "http://www.wikidata.org/entity/Q764361",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obliquus_capitis_superior",
@@ -5598,7 +6165,9 @@
         "http://www.wikidata.org/entity/Q1051407",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obliquus_capitis_inferior",
@@ -5647,7 +6216,9 @@
         "http://www.wikidata.org/entity/Q1051430",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_semispinalis",
@@ -5696,7 +6267,9 @@
         "http://www.wikidata.org/entity/Q7449673",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rotatores",
@@ -5745,7 +6318,15 @@
         "http://www.wikidata.org/entity/Q838638",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Rotatorere",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q838638 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_interspinales",
@@ -5794,7 +6375,15 @@
         "http://www.wikidata.org/entity/Q726832",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Interspinales",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q726832 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_intertransversarii",
@@ -5843,7 +6432,15 @@
         "http://www.wikidata.org/entity/Q729294",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Intertransversarii",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q729294 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_splenius_cervicis",
@@ -5902,7 +6499,15 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Splenius_cervicis_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Splenius cervicis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1076423 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_serratus_posterior_superior",
@@ -5951,7 +6556,15 @@
         "http://www.wikidata.org/entity/Q1085940",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Serratus posterior superior",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1085940 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_serratus_posterior_inferior",
@@ -6000,7 +6613,15 @@
         "http://www.wikidata.org/entity/Q920567",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Serratus posterior inferior",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q920567 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_levatores_costarum",
@@ -6049,7 +6670,15 @@
         "http://www.wikidata.org/entity/Q531506",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Levatores costarum",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q531506 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_transversus_thoracis",
@@ -6098,7 +6727,15 @@
         "http://www.wikidata.org/entity/Q936699",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Transversus thoracis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q936699 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_intercostales_intimi",
@@ -6147,7 +6784,21 @@
         "http://www.wikidata.org/entity/Q727342",
         "https://en.wikipedia.org/wiki/Innermost_intercostal_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Inderste interkostal",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q727342 (label)"
+        },
+        {
+          "name": "Musculus intercostalis intimus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q727342 (label)"
+        }
+      ],
+      "quiz_mask": {},
+      "quiz_group": "auto_muscle_intercostales_externi"
     },
     {
       "id": "muscle_subcostalis",
@@ -6195,11 +6846,19 @@
         "http://www.wikidata.org/entity/Q900610",
         "https://en.wikipedia.org/wiki/Subcostalis_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Subcostalis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q900610 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pyramidalis",
-      "name_da": "Pyramidemusklen",
+      "name_da": "Pyramidemusklen (bugvæggen)",
       "name_la_ta2": "Musculus pyramidalis",
       "ta2_id": "2363",
       "region": "bug/bækken",
@@ -6244,7 +6903,16 @@
         "http://www.wikidata.org/entity/Q1756826",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "qa_2026_10_31": "H5: entydigt dansk navn; m. pyramidalis auriculae findes ikke i datasættet",
+      "accepted_names": [
+        {
+          "name": "Pyramidalis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1756826 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_cremaster",
@@ -6293,7 +6961,15 @@
         "http://www.wikidata.org/entity/Q1724194",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Cremaster",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1724194 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_longus_colli",
@@ -6342,7 +7018,9 @@
         "http://www.wikidata.org/entity/Q1055797",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_longus_capitis",
@@ -6391,7 +7069,9 @@
         "http://www.wikidata.org/entity/Q1055786",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_platysma",
@@ -6450,7 +7130,15 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Platysma_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Platysma",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q841422 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_digastricus",
@@ -6498,7 +7186,15 @@
         "http://www.wikidata.org/entity/Q645694",
         "https://en.wikipedia.org/wiki/Digastric_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Den digastriske muskel",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q645694 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_stylohyoideus",
@@ -6546,7 +7242,9 @@
         "http://www.wikidata.org/entity/Q899783",
         "https://en.wikipedia.org/wiki/Stylohyoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_mylohyoideus",
@@ -6594,7 +7292,9 @@
         "http://www.wikidata.org/entity/Q927901",
         "https://en.wikipedia.org/wiki/Mylohyoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_geniohyoideus",
@@ -6642,7 +7342,9 @@
         "http://www.wikidata.org/entity/Q1072007",
         "https://en.wikipedia.org/wiki/Geniohyoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_sternohyoideus",
@@ -6690,7 +7392,9 @@
         "http://www.wikidata.org/entity/Q925888",
         "https://en.wikipedia.org/wiki/Sternohyoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_omohyoideus",
@@ -6738,7 +7442,9 @@
         "http://www.wikidata.org/entity/Q1049279",
         "https://en.wikipedia.org/wiki/Omohyoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_sternothyroideus",
@@ -6787,7 +7493,15 @@
         "http://www.wikidata.org/entity/Q545171",
         "https://en.wikipedia.org/wiki/Sternothyroid_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus sternothyreoideus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q545171 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_thyrohyoideus",
@@ -6836,7 +7550,15 @@
         "http://www.wikidata.org/entity/Q1072039",
         "https://en.wikipedia.org/wiki/Thyrohyoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Musculus thyreohyoideus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1072039 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_occipitofrontalis",
@@ -6884,7 +7606,9 @@
         "http://www.wikidata.org/entity/Q932557",
         "https://en.wikipedia.org/wiki/Occipitofrontalis_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_corrugator_supercilii",
@@ -6933,7 +7657,9 @@
         "http://www.wikidata.org/entity/Q545030",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_zygomaticus_major",
@@ -6982,7 +7708,9 @@
         "http://www.wikidata.org/entity/Q612325",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_zygomaticus_minor",
@@ -7031,7 +7759,9 @@
         "http://www.wikidata.org/entity/Q1073843",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_levator_labii_superioris",
@@ -7080,7 +7810,9 @@
         "http://www.wikidata.org/entity/Q932587",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_levator_anguli_oris",
@@ -7129,7 +7861,14 @@
         "http://www.wikidata.org/entity/Q913958",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "angulus ___"
+        }
+      }
     },
     {
       "id": "muscle_risorius",
@@ -7178,7 +7917,9 @@
         "http://www.wikidata.org/entity/Q841536",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_depressor_anguli_oris",
@@ -7227,7 +7968,14 @@
         "http://www.wikidata.org/entity/Q589085",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "angulus ___"
+        }
+      }
     },
     {
       "id": "muscle_depressor_labii_inferioris",
@@ -7276,7 +8024,9 @@
         "http://www.wikidata.org/entity/Q663261",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_mentalis",
@@ -7325,7 +8075,9 @@
         "http://www.wikidata.org/entity/Q1051688",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_nasalis",
@@ -7373,7 +8125,9 @@
         "http://www.wikidata.org/entity/Q597112",
         "https://en.wikipedia.org/wiki/Nasalis_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_procerus",
@@ -7422,7 +8176,9 @@
         "http://www.wikidata.org/entity/Q636624",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_levator_palpebrae_superioris",
@@ -7471,7 +8227,9 @@
         "http://www.wikidata.org/entity/Q932908",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rectus_superior",
@@ -7520,7 +8278,15 @@
         "http://www.wikidata.org/entity/Q1090548",
         "https://en.wikipedia.org/wiki/Superior_rectus_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus rectus superior bulbi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1090548 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rectus_inferior",
@@ -7569,7 +8335,15 @@
         "http://www.wikidata.org/entity/Q1090267",
         "https://en.wikipedia.org/wiki/Inferior_rectus_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus rectus inferior bulbi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1090267 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rectus_medialis",
@@ -7618,7 +8392,15 @@
         "http://www.wikidata.org/entity/Q1090541",
         "https://en.wikipedia.org/wiki/Medial_rectus_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus rectus medialis bulbi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1090541 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_rectus_lateralis",
@@ -7666,7 +8448,15 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1051835",
         "https://en.wikipedia.org/wiki/Lateral_rectus_muscle"
-      ]
+      ],
+      "accepted_names": [
+        {
+          "name": "Musculus pterygoideus externus\"",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1051835 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obliquus_superior",
@@ -7715,7 +8505,15 @@
         "http://www.wikidata.org/entity/Q913366",
         "https://en.wikipedia.org/wiki/Superior_oblique_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus obliquus superior bulbi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q913366 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obliquus_inferior",
@@ -7764,7 +8562,15 @@
         "http://www.wikidata.org/entity/Q1051437",
         "https://en.wikipedia.org/wiki/Inferior_oblique_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus obliquus inferior bulbi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1051437 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_genioglossus",
@@ -7813,7 +8619,9 @@
         "http://www.wikidata.org/entity/Q580326",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_hyoglossus",
@@ -7862,7 +8670,9 @@
         "http://www.wikidata.org/entity/Q247359",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_styloglossus",
@@ -7911,7 +8721,9 @@
         "http://www.wikidata.org/entity/Q932621",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_palatoglossus",
@@ -7960,7 +8772,9 @@
         "http://www.wikidata.org/entity/Q748180",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_constrictor_pharyngis_superior",
@@ -8008,7 +8822,14 @@
         "http://www.wikidata.org/entity/Q537486",
         "https://en.wikipedia.org/wiki/Superior_pharyngeal_constrictor_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "raphe ___, tuberculum ___"
+        }
+      }
     },
     {
       "id": "muscle_constrictor_pharyngis_medius",
@@ -8056,7 +8877,14 @@
         "http://www.wikidata.org/entity/Q254855",
         "https://en.wikipedia.org/wiki/Middle_pharyngeal_constrictor_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "raphe ___"
+        }
+      }
     },
     {
       "id": "muscle_constrictor_pharyngis_inferior",
@@ -8104,7 +8932,14 @@
         "http://www.wikidata.org/entity/Q569097",
         "https://en.wikipedia.org/wiki/Inferior_pharyngeal_constrictor_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "raphe ___"
+        }
+      }
     },
     {
       "id": "muscle_stylopharyngeus",
@@ -8153,7 +8988,9 @@
         "http://www.wikidata.org/entity/Q579449",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_cricothyroideus",
@@ -8202,7 +9039,15 @@
         "http://www.wikidata.org/entity/Q261411",
         "https://en.wikipedia.org/wiki/Cricothyroid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Musculus cricothyreoideus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q261411 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_cricoarytenoideus_posterior",
@@ -8251,7 +9096,15 @@
         "http://www.wikidata.org/entity/Q379007",
         "https://en.wikipedia.org/wiki/Posterior_cricoarytenoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Musculus cricoarytaenoideus posterior",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q379007 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_cricoarytenoideus_lateralis",
@@ -8300,7 +9153,15 @@
         "http://www.wikidata.org/entity/Q730870",
         "https://en.wikipedia.org/wiki/Lateral_cricoarytenoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Musculus cricoarytaenoideus lateralis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q730870 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_thyroarytenoideus",
@@ -8348,7 +9209,9 @@
         "http://www.wikidata.org/entity/Q932571",
         "https://en.wikipedia.org/wiki/Thyroarytenoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_vocalis",
@@ -8396,16 +9259,23 @@
         "http://www.wikidata.org/entity/Q1180067",
         "https://en.wikipedia.org/wiki/Thyroarytenoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "processus ___ cartilaginis arytenoideae"
+        }
+      }
     },
     {
       "id": "muscle_arytenoideus",
-      "name_da": "Pyramidemusklen (transversus et obliquus)",
-      "name_la_ta2": "Musculus arytenoideus",
+      "name_da": "Tværgående pyramidebruskmuskel",
+      "name_la_ta2": "Musculus arytenoideus transversus",
       "ta2_id": "2205",
       "region": "hals",
-      "origin_da": "cartilago arytenoidea",
-      "insertion_da": "den modsatte cartilago arytenoidea",
+      "origin_da": "bagfladen af den ene cartilago arytenoidea",
+      "insertion_da": "bagfladen af den modsatte cartilago arytenoidea",
       "innervation": {
         "nerve": "n. laryngeus recurrens (CN X)",
         "segments": "CN X"
@@ -8444,7 +9314,79 @@
         "http://www.wikidata.org/entity/Q717887",
         "https://en.wikipedia.org/wiki/Arytenoid_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "qa_2026_10_31": "H5: TA2 2205 = m. arytenoideus transversus (Wikidata Q717887); skrå del udskilt som muscle_arytenoideus_obliquus",
+      "accepted_names": [
+        {
+          "name": "Musculus arytenoideus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q717887 (label)"
+        }
+      ],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "bagfladen af den ene cartilago ___"
+        },
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "bagfladen af den modsatte cartilago ___"
+        }
+      }
+    },
+    {
+      "id": "muscle_arytenoideus_obliquus",
+      "name_da": "Skrå pyramidebruskmuskel",
+      "name_la_ta2": "Musculus arytenoideus obliquus",
+      "ta2_id": "2203",
+      "region": "hals",
+      "origin_da": "bagfladen af processus muscularis på den ene cartilago arytenoidea",
+      "insertion_da": "apex af den modsatte cartilago arytenoidea; fortsætter i plica aryepiglottica (m. aryepiglotticus)",
+      "innervation": {
+        "nerve": "n. laryngeus recurrens (CN X)",
+        "segments": "CN X"
+      },
+      "function_da": "indsnævrer aditus laryngis og bageste del af rima glottidis",
+      "blood_supply_da": "a. thyroidea superior og inferior (rr. laryngei)",
+      "sources": [
+        "Gray's Anatomy 42. udg.",
+        "Moore Clinically Oriented Anatomy 9. udg.",
+        "Netter Atlas of Human Anatomy 8. udg.",
+        "TA2 (FIPAT 2019)",
+        "Bojsen-Møller: Bevægeapparatets anatomi"
+      ],
+      "verification": "verified",
+      "verification_note": "TA2 2203 (Wikidata Q3867495); udspring/hæfte/innervation/kar læst i Wikipedia-artiklen Oblique arytenoid (infoboks + tekst)",
+      "name_en": "Oblique arytenoid",
+      "source_check": {
+        "ta2": {
+          "matched_label_la": "Musculus arytenoideus obliquus",
+          "wikidata": "http://www.wikidata.org/entity/Q3867495"
+        },
+        "wikipedia_page": {
+          "source": "https://en.wikipedia.org/wiki/Oblique_arytenoid",
+          "origin_en": "Posterior surface of muscular process of arytenoid cartilage",
+          "insertion_en": "Posterior surface of apex of adjacent arytenoid cartilage; extends into aryepiglottic fold",
+          "nerve_en": "recurrent laryngeal branch of vagus nerve [X]"
+        }
+      },
+      "source_urls": [
+        "http://www.wikidata.org/entity/Q3867495",
+        "https://en.wikipedia.org/wiki/Oblique_arytenoid"
+      ],
+      "verification_strength": "strong",
+      "qa_2026_10_31": "H5: ny, udskilt fra m. arytenoideus",
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "bagfladen af processus muscularis på den ene cartilago ___"
+        },
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "apex af den modsatte cartilago ___; fortsætter i plica aryepiglottica (m. aryepiglotticus)"
+        }
+      }
     },
     {
       "id": "muscle_palmaris_brevis",
@@ -8493,7 +9435,14 @@
         "http://www.wikidata.org/entity/Q955788",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "aponeurosis ___, retinaculum flexorum"
+        }
+      }
     },
     {
       "id": "muscle_flexor_digiti_minimi_brevis_manus",
@@ -8542,7 +9491,9 @@
         "http://www.wikidata.org/entity/Q238607",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_opponens_digiti_minimi",
@@ -8602,7 +9553,15 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Opponens_digiti_minimi_muscle_of_hand"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Musculus opponens digiti minimi manus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1064676 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_gemellus_superior",
@@ -8649,7 +9608,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1732695",
         "https://en.wikipedia.org/wiki/Gemelli_muscles"
-      ]
+      ],
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_gemellus_inferior",
@@ -8696,7 +9657,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1892060",
         "https://en.wikipedia.org/wiki/Gemelli_muscles"
-      ]
+      ],
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_obturatorius_externus",
@@ -8744,7 +9707,9 @@
         "http://www.wikidata.org/entity/Q1756762",
         "https://en.wikipedia.org/wiki/External_obturator_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_articularis_genus",
@@ -8793,7 +9758,9 @@
         "http://www.wikidata.org/entity/Q1640816",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_fibularis_tertius",
@@ -8842,7 +9809,15 @@
         "http://www.wikidata.org/entity/Q1757887",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [
+        {
+          "name": "Musculus peroneus tertius",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q1757887 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_extensor_hallucis_brevis",
@@ -8891,7 +9866,9 @@
         "http://www.wikidata.org/entity/Q1330812",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_abductor_digiti_minimi_pedis",
@@ -8940,7 +9917,9 @@
         "http://www.wikidata.org/entity/Q1089155",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_hallucis_brevis",
@@ -8999,7 +9978,9 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Flexor_hallucis_brevis_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_adductor_hallucis",
@@ -9058,7 +10039,9 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Adductor_hallucis_muscle"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_flexor_digiti_minimi_brevis_pedis",
@@ -9107,7 +10090,9 @@
         "http://www.wikidata.org/entity/Q476952",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_lumbricales_pedis",
@@ -9167,7 +10152,15 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Lumbricals_of_the_foot"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "musculus lumbricalis pedis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q44161 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_interossei_dorsales_pedis",
@@ -9216,7 +10209,9 @@
         "http://www.wikidata.org/entity/Q2359065",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_interossei_plantares",
@@ -9264,7 +10259,9 @@
         "http://www.wikidata.org/entity/Q2360339",
         "https://en.wikipedia.org/wiki/Plantar_interossei_muscles"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_sphincter_ani_externus",
@@ -9313,7 +10310,18 @@
         "http://www.wikidata.org/entity/Q2379958",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "corpus perineale, lig. ___"
+        },
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "omkranser canalis ___"
+        }
+      }
     },
     {
       "id": "muscle_sphincter_urethrae_externus",
@@ -9362,7 +10370,20 @@
         "http://www.wikidata.org/entity/Q17001932",
         "https://en.wikipedia.org/wiki/External_sphincter_muscle_of_male_urethra"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus sphincter urethrae externus urethrae masculinae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q17001932 (label)"
+        }
+      ],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "omkranser ___"
+        }
+      }
     },
     {
       "id": "muscle_transversus_perinei_superficialis",
@@ -9402,7 +10423,15 @@
       },
       "source_urls": [
         "https://en.wikipedia.org/wiki/Transverse_perineal_muscles"
-      ]
+      ],
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "corpus ___"
+        }
+      },
+      "quiz_group": "auto_muscle_transversus_perinei_superficialis"
     },
     {
       "id": "muscle_transversus_perinei_profundus",
@@ -9442,7 +10471,15 @@
       },
       "source_urls": [
         "https://en.wikipedia.org/wiki/Transverse_perineal_muscles"
-      ]
+      ],
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "corpus ___"
+        }
+      },
+      "quiz_group": "auto_muscle_transversus_perinei_superficialis"
     },
     {
       "id": "muscle_bulbospongiosus",
@@ -9491,7 +10528,9 @@
         "http://www.wikidata.org/entity/Q1757893",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_ischiocavernosus",
@@ -9540,7 +10579,9 @@
         "http://www.wikidata.org/entity/Q611369",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_levator_veli_palatini",
@@ -9589,7 +10630,9 @@
         "http://www.wikidata.org/entity/Q1091321",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_tensor_veli_palatini",
@@ -9648,7 +10691,9 @@
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body",
         "https://en.wikipedia.org/wiki/Tensor_veli_palatini_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_psoas_major",
@@ -9697,7 +10742,9 @@
         "http://www.wikidata.org/entity/Q1550323",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_iliacus",
@@ -9746,7 +10793,9 @@
         "http://www.wikidata.org/entity/Q1508879",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_psoas_minor",
@@ -9795,7 +10844,9 @@
         "http://www.wikidata.org/entity/Q1850432",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_palatopharyngeus",
@@ -9844,7 +10895,9 @@
         "http://www.wikidata.org/entity/Q932609",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_salpingopharyngeus",
@@ -9893,7 +10946,9 @@
         "http://www.wikidata.org/entity/Q1075747",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_uvulae",
@@ -9942,7 +10997,14 @@
         "http://www.wikidata.org/entity/Q1417662",
         "https://en.wikipedia.org/wiki/Musculus_uvulae"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "insertion_da": {
+          "reveal": "mask",
+          "masked_da": "___ slimhinde"
+        }
+      }
     },
     {
       "id": "muscle_levator_labii_superioris_alaeque_nasi",
@@ -9991,7 +11053,15 @@
         "http://www.wikidata.org/entity/Q301876",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [
+        {
+          "name": "Musculus levator labii superioris alaequae nasi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q301876 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_depressor_septi_nasi",
@@ -10040,7 +11110,9 @@
         "http://www.wikidata.org/entity/Q1091300",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_auricularis_anterior",
@@ -10088,7 +11160,9 @@
         "http://www.wikidata.org/entity/Q665030",
         "https://en.wikipedia.org/wiki/Anterior_auricular_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_auricularis_superior",
@@ -10136,7 +11210,9 @@
         "http://www.wikidata.org/entity/Q923875",
         "https://en.wikipedia.org/wiki/Superior_auricular_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_auricularis_posterior",
@@ -10184,7 +11260,9 @@
         "http://www.wikidata.org/entity/Q926216",
         "https://en.wikipedia.org/wiki/Posterior_auricular_muscle"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_pubococcygeus",
@@ -10233,7 +11311,9 @@
         "http://www.wikidata.org/entity/Q1084757",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_puborectalis",
@@ -10282,7 +11362,9 @@
         "http://www.wikidata.org/entity/Q842547",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_iliococcygeus",
@@ -10331,7 +11413,9 @@
         "http://www.wikidata.org/entity/Q383359",
         "https://en.wikipedia.org/wiki/List_of_skeletal_muscles_of_the_human_body"
       ],
-      "verification_strength": "strong"
+      "verification_strength": "strong",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_aryepiglotticus",
@@ -10378,7 +11462,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q385089",
         "https://en.wikipedia.org/wiki/Aryepiglottic_muscle"
-      ]
+      ],
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "muscle_longitudinalis_superior_linguae",
@@ -10426,7 +11512,14 @@
         "http://www.wikidata.org/entity/Q1048134",
         "https://en.wikipedia.org/wiki/Superior_longitudinal_muscle_of_tongue"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "submukøst bindevæv bagest i tungen, septum ___"
+        }
+      }
     },
     {
       "id": "muscle_transversus_linguae",
@@ -10474,7 +11567,14 @@
         "http://www.wikidata.org/entity/Q1180072",
         "https://en.wikipedia.org/wiki/Transverse_muscle_of_tongue"
       ],
-      "verification_strength": "weak"
+      "verification_strength": "weak",
+      "accepted_names": [],
+      "quiz_mask": {
+        "origin_da": {
+          "reveal": "mask",
+          "masked_da": "septum ___"
+        }
+      }
     }
   ]
 }
