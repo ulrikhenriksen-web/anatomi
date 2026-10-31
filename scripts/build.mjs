@@ -6,12 +6,22 @@ import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const research = resolve(root, process.env.KQ_RESEARCH_DIR || 'data/research');
 const dist = resolve(root, 'dist');
+/** QA corrections: patch fields by id, drop cross-topic duplicates (one category per structure). */
+export function applyCorrections(out, corr = {}) {
+  const drop = new Set(corr.drop || []);
+  for (const t of ['bones', 'muscles', 'tendons', 'ligaments']) {
+    if (!out[t]) continue;
+    out[t].items = out[t].items.filter((i) => !drop.has(i.id)).map((i) => (corr.patch?.[i.id] ? { ...i, ...corr.patch[i.id] } : i));
+  }
+  return out;
+}
 export async function buildData(dir = research) {
   const out = { generated_at: new Date().toISOString() };
   for (const t of ['bones', 'muscles', 'tendons', 'ligaments']) {
     const j = JSON.parse(await readFile(resolve(dir, `${t}.json`), 'utf8'));
     out[t] = { schema_version: j.schema_version, items: j.items.map(({ source_check, ...r }) => r) };
   }
+  applyCorrections(out, JSON.parse(await readFile(resolve(root, 'data/corrections.json'), 'utf8').catch(() => '{}')));
   // Optional images.json from Research (schema v1, see src/lib/images.js)
   const imgPath = resolve(dir, 'images.json');
   if (await access(imgPath).then(() => true, () => false)) {

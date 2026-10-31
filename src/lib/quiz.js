@@ -57,7 +57,7 @@ export function describe(item) {
   if (item.topic === 'bones') {
     add('Type', item.type);
     if (item.count_in_body) add('Antal i kroppen', item.count_in_body);
-    if (item.landmarks?.length) add('Landemærker', item.landmarks.join(', '));
+    if (item.landmarks?.length) add('Landemærker', maskLandmarks(item).join(', '));
   } else {
     add('Udspring', FACETS.udspring.get(item));
     add('Hæfte', FACETS.haefte.get(item));
@@ -67,6 +67,26 @@ export function describe(item) {
   add('Region', item.region);
   return parts;
 }
+
+// ---- QA: landmarks must not reveal the answer (H3) ----
+const GENERIC = new Set(['os', 'ossis', 'ossa', 'musculus', 'musculi', 'tendo', 'ligamentum', 'lig', 'costa', 'processus', 'tuberculum', 'concha', 'nasalis', 'inferior', 'superior', 'longus', 'brevis', 'major', 'minor']);
+const fold = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/æ/g, 'ae').replace(/ø/g, 'oe').replace(/å/g, 'aa');
+const words = (s) => fold(s).split(/[^a-z0-9]+/).filter(Boolean);
+function cpLen(a, b) { let i = 0; while (i < a.length && i < b.length && a[i] === b[i]) i++; return i; }
+/** Does landmark word `w` derive from name word `n` (e.g. hamati ← hamatum, tali ← talus)? */
+function sameStem(w, n) {
+  if (GENERIC.has(n) || n.length < 4 || w.length < 4) return n === w && !GENERIC.has(n);
+  const cp = cpLen(w, n);
+  return cp >= 5 || (cp >= 4 && cp >= Math.min(w.length, n.length) - 2) || (cp >= 3 && Math.max(w.length, n.length) <= 5 && cp >= Math.min(w.length, n.length) - 1);
+}
+/** Replace words in landmarks that echo the structure's own name with ▢. */
+export function maskLandmarks(item) {
+  const names = [item.name_la_ta2, item.name_en].flatMap(words).filter((n) => !GENERIC.has(n) && !/^\d+$|^[ivx]+$/.test(n));
+  return (item.landmarks || []).map((l) => String(l).replace(/[\p{L}]+/gu, (w) => (names.some((n) => sameStem(fold(w), n)) ? '▢' : w)));
+}
+const descKey = (item) => JSON.stringify(describe(item).filter((p) => p.label !== 'Region'));
+/** Normalised main nerve (first "n. xxx" without parentheses/segments) for distractor exclusion (H2). */
+export function mainNerve(v) { return fold(v).replace(/\(.*?\)/g, ' ').replace(/[^a-z ]+/g, ' ').trim().split(/\s+/).slice(0, 2).join(' '); }
 
 export function shuffle(arr, rnd = Math.random) {
   const a = arr.slice();
@@ -88,14 +108,18 @@ export function makeQuestion(item, kind, pool, rnd = Math.random, nOptions = 4) 
   const getter = kind === 'naming' ? FACETS.navn.get : FACETS[kind].get;
   const correct = getter(item);
   if (!correct) return null;
-  const same = (o) => !o.needs_review && o.id !== item.id && o.topic === item.topic && getter(o) && getter(o) !== correct;
+  const dk = kind === 'naming' ? descKey(item) : null;
+  const same = (o) => !o.needs_review && o.id !== item.id && o.topic === item.topic && getter(o) && getter(o) !== correct &&
+    !answersMatch(getter(o), correct, kind === 'naming' ? item : null) &&
+    (kind !== 'naming' || descKey(o) !== dk) && // K1: never offer a distractor that fits the same description
+    (kind !== 'innervation' || mainNerve(getter(o)) !== mainNerve(correct)); // H2: same main nerve = also correct
   // prefer distractors from the same region for difficulty
   const near = shuffle(pool.filter((o) => same(o) && regionsOf(o).some((r) => regionsOf(item).includes(r))), rnd);
   const far = shuffle(pool.filter((o) => same(o)), rnd);
   const opts = [];
   for (const o of [...near, ...far]) {
     const v = getter(o);
-    if (!opts.includes(v)) opts.push(v);
+    if (!opts.some((x) => answersMatch(x, v))) opts.push(v);
     if (opts.length >= nOptions - 1) break;
   }
   const options = shuffle([correct, ...opts], rnd);
@@ -103,6 +127,49 @@ export function makeQuestion(item, kind, pool, rnd = Math.random, nOptions = 4) 
     itemId: item.id, kind, correct, options,
     prompt: kind === 'naming' ? describe(item) : null,
   };
+}
+
+// ---- Answer comparator: synonyms, Latin/Danish abbreviations, accents, case, punctuation, minor typos ----
+const ABBR = [[/\bmm\b/g, 'musculi'], [/\bm\b/g, 'musculus'], [/\bnn\b/g, 'nervi'], [/\bn\b/g, 'nervus'], [/\bligg\b/g, 'ligamenta'], [/\blig\b/g, 'ligamentum'], [/\baa\b/g, 'arteriae'], [/\ba\b/g, 'arteria'], [/\bproc\b/g, 'processus'], [/\bv\b/g, 'vena']];
+/** Canonical form used for comparisons. */
+export function normAnswer(s) {
+  let t = ' ' + fold(s).replace(/[^a-z0-9]+/g, ' ').trim() + ' ';
+  for (const [re, full] of ABBR) t = t.replace(re, full);
+  return t.replace(/\s+/g, ' ').trim();
+}
+export function levenshtein(a, b, max = Infinity) {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i]; let best = i;
+    for (let j = 1; j <= b.length; j++) { cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); best = Math.min(best, cur[j]); }
+    if (best > max) return max + 1; prev = cur;
+  }
+  return prev[b.length];
+}
+const typoBudget = (s) => (s.length <= 4 ? 0 : s.length <= 8 ? 1 : 2);
+/** All accepted names of an item: Danish, Latin, English + optional synonyms/aliases/aka (string or array). */
+export function acceptedNames(item) {
+  const extra = ['synonyms', 'aliases', 'aka', 'alt_names'].flatMap((k) => (Array.isArray(item?.[k]) ? item[k] : item?.[k] ? [item[k]] : []));
+  return [item?.name_da, item?.name_la_ta2, item?.name_en, ...extra].filter((x) => typeof x === 'string' && x.trim());
+}
+/** Digits must match exactly (Costa 7 ≠ Costa 1, L2-L4 ≠ L2-L3). */
+const digits = (s) => (s.match(/\d+/g) || []).join(',');
+function eqLoose(a, b) {
+  const x = normAnswer(a), y = normAnswer(b);
+  if (!x || !y) return false;
+  if (x === y) return true;
+  if (digits(x) !== digits(y)) return false;
+  return levenshtein(x, y, 2) <= Math.min(typoBudget(x), typoBudget(y));
+}
+/** Is `given` an acceptable answer for `correct`? If `item` is given, any of its names/synonyms also count. */
+export function answersMatch(given, correct, item = null) {
+  if (given == null || correct == null) return false;
+  if (given === correct) return true;
+  const targets = [correct, ...(item ? acceptedNames(item) : [])];
+  // Danish names often carry the Latin in parentheses: "Lyskebåndet (Ligamentum inguinale)"
+  const parts = (s) => [s, ...String(s).split(/[()]/).map((p) => p.trim()).filter((p) => p.length > 3)];
+  return targets.some((t) => eqLoose(given, t)) || (item ? targets.flatMap(parts).some((t) => eqLoose(given, t)) : false);
 }
 
 // ---- Spaced repetition (SM-2, per item+facet) ----
