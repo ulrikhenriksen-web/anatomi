@@ -160,9 +160,15 @@ function home() {
       <div><h3>${def.label}</h3><span class="muted">${done}/${its.length} mestret</span></div></a>`;
   }).join('');
   $main.innerHTML = `<div class="stack">
-    <section class="hero"><h1>Klar til at terpe?</h1>
-      <p>${due ? `Du har <b>${due}</b> kort til repetition i dag.` : 'Start med navngivning, og byg dig op til test.'}</p>
-      <a class="btn" href="#/session?mode=${due ? 'drill' : 'naming'}">${due ? 'Fortsæt terping' : 'Start navngivning'}</a></section>
+    <section class="hero hero-anatomi" aria-labelledby="hero-h">
+      <img class="hero-img" src="img/hero-anatomi-1280.webp" srcset="img/hero-anatomi-640.webp 640w, img/hero-anatomi-1280.webp 1280w" sizes="(min-width: 900px) min(1100px, 100vw), 100vw" width="1280" height="720" fetchpriority="high" decoding="async" alt="Gennemsigtig mandlig overkrop, hvor skelettet og musklerne ses gennem huden – bl.a. kraveben (clavicula), brystkasse (thorax) og brystmuskel (musculus pectoralis major).">
+      <div class="hero-copy">
+        <p class="hero-kicker">Anatomi for fysioterapeutstuderende</p>
+        <h1 id="hero-h">Se kroppen indefra</h1>
+        <p class="hero-sub">Lær knogler (ossa), muskler (musculi), sener (tendines) og ledbånd (ligamenta) – lag for lag, med danske navne og latinske fagtermer.</p>
+        <p class="hero-due">${due ? `Du har <b>${due}</b> kort til repetition i dag.` : 'Start med navngivning, og byg dig op til test.'}</p>
+        <div class="hero-cta"><a class="btn" href="#/session?mode=${due ? 'drill' : 'naming'}">${due ? 'Fortsæt træning' : 'Start træning'}</a><a class="btn ghost" href="#/udforsk">Udforsk kroppen</a></div>
+      </div></section>
     <a class="tile rank-tile" href="#/highscore" id="ranktile">${rankTileHtml()}</a>
     <div class="grid">
       <div class="card stat"><b>🔥 ${meta.streak || 0}</b><span>dages streak</span></div>

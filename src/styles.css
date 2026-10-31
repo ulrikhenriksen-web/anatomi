@@ -237,3 +237,28 @@ dialog.gallery::backdrop{background:#0B0F14}
 .media-canvas{position:relative;display:block;width:100%;height:100%}
 .hotspots{position:absolute;inset:0;pointer-events:none}
 .hotspots .hotspot{position:absolute;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;border:3px solid var(--color-primary);background:color-mix(in srgb,var(--color-primary) 20%,transparent);min-width:16px}
+
+/* Hero (Hjem): dark in both themes; image stacked on mobile, text over negative space on desktop */
+.hero-anatomi{position:relative;overflow:hidden;padding:0;background:#03101F;color:#fff;display:flex;flex-direction:column;isolation:isolate}
+.hero-anatomi .hero-img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:78% 30%}
+.hero-anatomi .hero-copy{position:relative;padding:16px 20px 24px}
+.hero-anatomi .hero-kicker{margin:0 0 .25rem;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:#7FE3D8;font-weight:700}
+.hero-anatomi h1{color:#fff;font-size:clamp(1.9rem,6vw,3.2rem);line-height:1.08;margin:0 0 .5rem}
+.hero-anatomi .hero-sub{color:#DCE7F2;opacity:1;margin:0 0 .5rem;max-width:34em}
+.hero-anatomi .hero-due{color:#B8C7D8;opacity:1;margin:0 0 1rem;font-size:.95rem}
+.hero-anatomi .hero-due b{color:#fff}
+.hero-cta{display:flex;flex-wrap:wrap;gap:10px}
+.hero-anatomi .btn{background:#2EC4B6;color:#03101F;box-shadow:0 4px 0 rgba(0,0,0,.35)}
+.hero-anatomi .btn:hover{background:#5ED6CB}
+.hero-anatomi .btn.ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.55)}
+.hero-anatomi .btn:focus-visible{outline:3px solid #FB923C;outline-offset:3px}
+@media (min-width:760px){
+  .hero-anatomi{display:grid;min-height:min(62vh,520px)}
+  .hero-anatomi>*{grid-area:1/1}
+  .hero-anatomi .hero-img{height:100%;aspect-ratio:auto;object-position:right center}
+  .hero-anatomi .hero-copy{align-self:center;margin:0;padding:40px 44px;max-width:min(52%,560px);background:none}
+  .hero-anatomi::after{content:"";grid-area:1/1;z-index:0;pointer-events:none;background:linear-gradient(90deg,rgba(3,16,31,.92) 0%,rgba(3,16,31,.6) 38%,rgba(3,16,31,0) 58%)}
+  .hero-anatomi .hero-copy{z-index:1}
+}
+@media (prefers-reduced-motion:no-preference){:root:not([data-motion=reduce]) .hero-anatomi .hero-copy{animation:hero-in .5s ease-out both}}
+@keyframes hero-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
