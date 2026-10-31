@@ -28,7 +28,7 @@ test('H4: each structure belongs to one topic only', () => {
 });
 test('H3: landmarks are masked when they echo the name', () => {
   const lm = (n) => Q.describe(byLa(n)).find((p) => p.label === 'Landemærker')?.value || '';
-  assert.match(lm('Os hamatum'), /hamulus ossis ▢/);
+  assert.match(lm('Os hamatum'), /hamulus ossis ___/);
   assert.doesNotMatch(lm('Calcaneus'), /calcane/i);
   assert.doesNotMatch(lm('Axis'), /\baxis\b/i);
   assert.doesNotMatch(lm('Radius'), /radii/i);
@@ -56,4 +56,11 @@ test('comparator: case/accents/abbreviations/typos/synonyms', () => {
   assert.ok(Q.answersMatch('Lig. inguinale', 'Lyskebåndet (Ligamentum inguinale)', { name_da: 'Lyskebåndet (Ligamentum inguinale)', name_la_ta2: 'Ligamentum inguinale' }));
   assert.ok(!Q.answersMatch('x', 'y', { name_da: 'y' }) || true);
   assert.deepEqual(Q.acceptedNames({ name_da: 'a' }), ['a'], 'synonyms optional');
+});
+
+test('landmark reveal field: none/mask/hide honoured, auto-mask fallback', () => {
+  const it = { name_la_ta2: 'Os hamatum', landmarks: [{ la: 'hamulus ossis hamati', reveal: 'none' }, { la: 'x hamati', reveal: 'mask', masked_la: 'x ___' }, { la: 'facies hamati', reveal: 'hide' }, 'hamulus ossis hamati'] };
+  assert.deepEqual(Q.maskLandmarks(it), ['hamulus ossis hamati', 'x ___', 'hamulus ossis ___']);
+  assert.equal(Q.landmarkLabel({ la: 'a' }), 'a');
+  assert.match(Q.maskLandmarks({ name_la_ta2: 'Os metatarsi V', landmarks: ['tuberositas ossis metatarsi quinti'] })[0], /___ ___$/);
 });

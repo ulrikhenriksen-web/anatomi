@@ -77,12 +77,30 @@ function cpLen(a, b) { let i = 0; while (i < a.length && i < b.length && a[i] ==
 function sameStem(w, n) {
   if (GENERIC.has(n) || n.length < 4 || w.length < 4) return n === w && !GENERIC.has(n);
   const cp = cpLen(w, n);
-  return cp >= 5 || (cp >= 4 && cp >= Math.min(w.length, n.length) - 2) || (cp >= 3 && Math.max(w.length, n.length) <= 5 && cp >= Math.min(w.length, n.length) - 1);
+  return cp >= 5 || (cp >= 3 && cp >= n.length - 2) || (cp >= 4 && cp >= Math.min(w.length, n.length) - 2) || (cp >= 3 && Math.max(w.length, n.length) <= 5 && cp >= Math.min(w.length, n.length) - 1);
 }
-/** Replace words in landmarks that echo the structure's own name with ▢. */
+const ORDINALS = { i: 'primi', ii: 'secundi', iii: 'tertii', iv: 'quarti', v: 'quinti' };
+const lmText = (l) => (l && typeof l === 'object' ? l.la || l.name_la || l.text || l.da || '' : String(l ?? ''));
+/** Display text of a landmark in Udforsk (unchanged, accepts strings or {la, reveal, masked_la}). */
+export const landmarkLabel = lmText;
+/**
+ * Quiz-mode landmarks (ux/landmark-reveal-rule.md): per landmark `reveal: none|mask|hide`, optional masked_la/masked_da.
+ * Explicit field wins; without it, words echoing the structure's own name are masked as ___ (automatic fallback).
+ */
 export function maskLandmarks(item) {
-  const names = [item.name_la_ta2, item.name_en].flatMap(words).filter((n) => !GENERIC.has(n) && !/^\d+$|^[ivx]+$/.test(n));
-  return (item.landmarks || []).map((l) => String(l).replace(/[\p{L}]+/gu, (w) => (names.some((n) => sameStem(fold(w), n)) ? '▢' : w)));
+  const nameWords = [item.name_la_ta2, item.name_en].flatMap(words);
+  const names = nameWords.filter((n) => !GENERIC.has(n) && !/^\d+$|^[ivx]+$/.test(n));
+  const ords = nameWords.filter((n) => ORDINALS[n]).map((n) => ORDINALS[n]);
+  const out = [];
+  for (const l of item.landmarks || []) {
+    const reveal = l && typeof l === 'object' ? l.reveal : undefined;
+    const text = lmText(l);
+    if (reveal === 'hide') continue;
+    if (reveal === 'none') { out.push(text); continue; }
+    if (reveal === 'mask' && (l.masked_la || l.masked_da)) { out.push(l.masked_la || l.masked_da); continue; }
+    out.push(text.replace(/[\p{L}]+/gu, (w) => (names.some((n) => sameStem(fold(w), n)) || ords.includes(fold(w)) ? '___' : w)));
+  }
+  return out;
 }
 const descKey = (item) => JSON.stringify(describe(item).filter((p) => p.label !== 'Region'));
 /** Normalised main nerve (first "n. xxx" without parentheses/segments) for distractor exclusion (H2). */
