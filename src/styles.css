@@ -266,6 +266,7 @@ dialog.gallery::backdrop{background:#0B0F14}
 /* Halloween event theme – spec: deliverables/ux/halloween-theme.md. Forced dark tokens (above). */
 [data-theme-event=halloween]{color-scheme:dark}
 [data-theme-event=halloween] body{background:transparent}
+:root[data-theme-event=halloween]{background:#0F141B} /* QA M1: dark canvas under the sky so dimmed decor never blends with white */
 #halloween,#halloween>*{position:fixed;pointer-events:none}
 #halloween{inset:0;z-index:-1;overflow:hidden;transition:opacity .3s}
 [data-hw-dim] #halloween{opacity:.4}
@@ -296,6 +297,20 @@ dialog.gallery::backdrop{background:#0B0F14}
   .hw-ghost.g1{top:auto;bottom:22vh;right:4%;width:40px;height:48px}
 }
 @media (min-width:768px) and (max-width:1023px){.hw-pumpkin.p3{display:none}}
+/* QA: desktop – keep decor in the free right gutter (sidebar left, cards centre) so nothing hides behind content */
+@media (min-width:900px){
+  .hw-moon{top:24px;right:16px;width:60px;height:60px}
+  .hw-ghost.g1{right:20px;top:34%;width:48px;height:58px}
+  .hw-ghost.g2{left:auto;right:20px;top:58%;width:40px;height:48px}
+  .hw-pumpkin{left:auto;right:20px;bottom:4vh}
+  .hw-pumpkin.p2,.hw-pumpkin.p3{display:none}
+}
+@media (min-width:900px) and (max-width:1239px){.hw-moon,.hw-ghost,.hw-pumpkin{display:none}}
+/* QA: mobile – moon sits in the dark top-left of the hero image instead of behind it */
+@media (max-width:899px){
+  .hw-moon{display:none}
+  [data-theme-event=halloween] .hero-anatomi::before{content:"";position:absolute;z-index:2;top:14px;left:16px;width:48px;height:48px;border-radius:50%;background:#F3E9C6;box-shadow:0 0 36px #F3E9C688;pointer-events:none}
+}
 /* Animations: transform/opacity only; off for reduced motion (system or app); paused when tab hidden */
 @media (prefers-reduced-motion:no-preference){
   :root:not([data-motion=reduce]) .hw-bat{animation:hw-fly 14s linear infinite}

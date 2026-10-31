@@ -1,6 +1,6 @@
 import {
   TOPICS, FACETS, DEFAULT_FACETS, normalize, regionsOf, filterItems, describe, facetsFor,
-  makeQuestion, answersMatch, mediaOf, hasImage, altFor, mergeProgress, mergeMeta, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
+  makeQuestion, answersMatch, landmarkLabel, mediaOf, hasImage, altFor, mergeProgress, mergeMeta, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
 } from './lib/quiz.js';
 import * as MEM from './lib/memory.js';
 import { halloweenActive, themeOverride, HALLOWEEN_HTML } from './lib/theme.js';
@@ -224,7 +224,7 @@ function detail(id) {
   const rows = [];
   const add = (k, v) => v && rows.push(`<dt>${k}</dt><dd>${v}</dd>`);
   add('Region', esc(it.region));
-  if (it.topic === 'bones') { add('Type', esc(it.type)); add('Antal i kroppen', esc(it.count_in_body)); add('Landemærker', it.landmarks?.length ? `<ul>${it.landmarks.map((l) => `<li>${esc(l)}</li>`).join('')}</ul>` : ''); }
+  if (it.topic === 'bones') { add('Type', esc(it.type)); add('Antal i kroppen', esc(it.count_in_body)); add('Landemærker', it.landmarks?.length ? `<ul>${it.landmarks.map((l) => `<li>${esc(landmarkLabel(l))}</li>`).join('')}</ul>` : ''); }
   add('Udspring', esc(FACETS.udspring.get(it))); add('Hæfte', esc(FACETS.haefte.get(it))); add('Innervation', esc(FACETS.innervation.get(it)));
   add('Funktion', esc(it.function_da)); add('Blodforsyning', esc(it.blood_supply_da));
   if (it.associated_muscles?.length) add('Muskler', it.associated_muscles.map((m) => BY_ID.get(m) ? `<a href="#/udforsk/${esc(m)}">${esc(BY_ID.get(m).name_da)}</a>` : esc(m)).join(', '));
@@ -392,7 +392,7 @@ function renderQuestion() {
       <div class="progress" style="flex:1" role="progressbar" aria-label="Fremskridt" aria-valuemin="0" aria-valuemax="${s.questions.length}" aria-valuenow="${s.i}"><i style="width:${pct}%"></i></div>
       ${s.timer ? `<span class="timer" id="timer" role="timer" aria-live="off">${s.timer}</span>` : `<span class="badge">${modeLabel[s.mode]}</span>`}</div>
     ${q.kind === 'naming' ? gameImage(it) : ''}
-    ${q.kind === 'naming' ? `<ul class="clue">${q.prompt.map((p) => `<li><b>${esc(p.label)}</b>${esc(p.value)}</li>`).join('')}</ul>` : ''}
+    ${q.kind === 'naming' ? `<ul class="clue">${q.prompt.map((p) => `<li><b>${esc(p.label)}</b>${esc(p.value).replace(/___/g, '<span aria-label="udeladt" role="img">___</span>')}</li>`).join('')}</ul>` : ''}
     <fieldset><legend id="qlegend">${legend} ${reviewIcon(it)}</legend>
       <div class="options">${q.options.map((o, k) => `<button class="opt" data-k="${k}" aria-describedby="qlegend"><span class="n" aria-hidden="true">${k + 1}</span><span>${optLabel(q, o)}</span></button>`).join('')}</div></fieldset>
     <div id="fb"></div></div>`;
