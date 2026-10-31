@@ -1,5 +1,5 @@
 <?php
-// GET  ?action=config  -> {google_client_id|null}
+// GET  ?action=config  -> {google_client_id|null, halloween_enabled: bool (default true)}
 // GET  ?action=me      -> {user|null}
 // POST ?action=login   {credential: <GIS ID token>} -> {user, merged_local}
 // POST ?action=logout
@@ -10,7 +10,7 @@ $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
 try {
   if ($action === 'config' && $method === 'GET') {
     $id = kq_config()['google_client_id'] ?? '';
-    kq_json(200, ['google_client_id' => $id !== '' ? $id : null]);
+    kq_json(200, ['google_client_id' => $id !== '' ? $id : null, 'halloween_enabled' => (kq_config()['halloween_enabled'] ?? true) !== false]);
   }
   if ($action === 'me' && $method === 'GET') kq_json(200, ['user' => kq_current_user()]);
   if ($action === 'login' && $method === 'POST') {

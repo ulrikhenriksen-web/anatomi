@@ -17,7 +17,7 @@
   --color-primary-press:#3B7DAE;--color-on-primary:#0B1520;--color-success:#6FD495;--color-success-bg:#12301F;--color-error:#FF8A80;
   --color-error-bg:#3A1714;--color-warning:#F2C46B;--color-warning-bg:#33270F;--color-review:#C3B3F2;--color-review-bg:#2A2440;
   --color-focus:#FB923C;--shadow-1:0 1px 2px rgba(0,0,0,.4);--shadow-2:0 8px 28px rgba(0,0,0,.5);color-scheme:dark}}
-:root[data-theme=dark]{
+:root[data-theme=dark],:root[data-theme-event=halloween]{
   --color-canvas:#0F141B;--color-surface:#171E28;--color-surface-2:#1C2531;--color-ink:#E8ECF2;--color-muted:#A9B4C3;
   --color-divider:#2A3442;--color-border-strong:#7D8899;--color-primary:#6CB4E8;--color-primary-hover:#8AC5EE;
   --color-primary-press:#3B7DAE;--color-on-primary:#0B1520;--color-success:#6FD495;--color-success-bg:#12301F;--color-error:#FF8A80;
@@ -262,3 +262,56 @@ dialog.gallery::backdrop{background:#0B0F14}
 }
 @media (prefers-reduced-motion:no-preference){:root:not([data-motion=reduce]) .hero-anatomi .hero-copy{animation:hero-in .5s ease-out both}}
 @keyframes hero-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* Halloween event theme – spec: deliverables/ux/halloween-theme.md. Forced dark tokens (above). */
+[data-theme-event=halloween]{color-scheme:dark}
+[data-theme-event=halloween] body{background:transparent}
+#halloween,#halloween>*{position:fixed;pointer-events:none}
+#halloween{inset:0;z-index:-1;overflow:hidden;transition:opacity .3s}
+[data-hw-dim] #halloween{opacity:.4}
+.hw-sky{inset:0;z-index:-50;background:linear-gradient(180deg,#0B1020,#1A1533)}
+.hw-moon{top:8%;right:10%;width:120px;height:120px;border-radius:50%;background:#F3E9C6;box-shadow:0 0 60px #F3E9C655;z-index:-40}
+.hw-forest{left:0;right:0;bottom:0;width:100%;height:28vh;z-index:-30}
+.hw-fog{left:-10%;width:120%;bottom:0;height:30vh;z-index:-20;background:radial-gradient(ellipse at 50% 100%,rgba(255,255,255,.10),rgba(255,255,255,0) 70%)}
+.hw-fog.f2{bottom:6vh;height:20vh;opacity:.6}
+.hw-bat,.hw-ghost,.hw-pumpkin{z-index:-10}
+.hw-bat{width:40px;height:16px;fill:#05070D;top:12%;right:22%}
+.hw-bat.b2{top:20%;right:6%;width:30px}.hw-bat.b3{top:6%;right:30%;width:26px}
+.hw-bat.b4{top:30%;left:3%}.hw-bat.b5{top:16%;left:8%;width:28px}.hw-bat.b6{top:40%;right:3%;width:34px}
+.hw-ghost{width:56px;height:68px;fill:#E9ECF5;opacity:.35}
+.hw-ghost.g1{right:2%;top:46%}.hw-ghost.g2{left:2%;top:52%}
+.hw-pumpkin{width:48px;height:42px;bottom:calc(18vh - 8px);left:12px}
+.hw-pumpkin.p2{left:auto;right:2%;bottom:3vh;width:64px;height:56px}
+.hw-pumpkin.p3{left:170px;bottom:3vh;width:56px;height:49px}
+/* Readable content: cards/tiles ≥ .92 opaque + blur (AA on any background) */
+[data-theme-event=halloween] :is(.card,.tile,.opt,.empty,.list,.mem-card .mem-back,.mem-panel){background-color:rgba(23,30,40,.94);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+[data-theme-event=halloween] .nav{background:#0F141B}
+.hw-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(23,30,40,.94);border:1px solid #E8731A;color:var(--color-ink)}
+.hw-chip button{background:none;border:0;color:inherit;min-width:32px;min-height:32px;cursor:pointer}
+.hw-chip-row{margin:0}
+@media (max-width:767px){
+  .hw-moon{width:72px;height:72px;top:2%;right:6%}
+  .hw-forest{height:18vh}
+  .hw-bat.b4,.hw-bat.b5,.hw-bat.b6,.hw-ghost.g2,.hw-pumpkin.p2,.hw-pumpkin.p3{display:none}
+  .hw-ghost.g1{top:auto;bottom:22vh;right:4%;width:40px;height:48px}
+}
+@media (min-width:768px) and (max-width:1023px){.hw-pumpkin.p3{display:none}}
+/* Animations: transform/opacity only; off for reduced motion (system or app); paused when tab hidden */
+@media (prefers-reduced-motion:no-preference){
+  :root:not([data-motion=reduce]) .hw-bat{animation:hw-fly 14s linear infinite}
+  :root:not([data-motion=reduce]) .hw-bat.b2{animation-duration:16s;animation-delay:-3s}
+  :root:not([data-motion=reduce]) .hw-bat.b3{animation-duration:12s;animation-delay:-6s}
+  :root:not([data-motion=reduce]) .hw-bat.b4{animation-duration:18s;animation-delay:-1s}
+  :root:not([data-motion=reduce]) .hw-bat.b5{animation-duration:15s;animation-delay:-8s}
+  :root:not([data-motion=reduce]) .hw-bat.b6{animation-duration:17s;animation-delay:-5s}
+  :root:not([data-motion=reduce]) .hw-ghost{animation:hw-float 6s ease-in-out infinite}
+  :root:not([data-motion=reduce]) .hw-ghost.g2{animation-delay:-3s}
+  :root:not([data-motion=reduce]) .hw-fog{animation:hw-drift 30s ease-in-out infinite alternate}
+  :root:not([data-motion=reduce]) .hw-face{animation:hw-flicker 3s steps(3,end) infinite}
+  :root:not([data-motion=reduce]) .hw-pumpkin.p2 .hw-face{animation-duration:3.7s}
+  :root[data-hw-paused] #halloween *{animation-play-state:paused}
+}
+@keyframes hw-fly{0%{transform:translate(0,0) scale(1)}25%{transform:translate(-60px,-20px) scale(1.1)}50%{transform:translate(-120px,0) scale(.95)}75%{transform:translate(-60px,15px) scale(1.05)}100%{transform:translate(0,0) scale(1)}}
+@keyframes hw-float{0%,100%{transform:translateY(0);opacity:.25}50%{transform:translateY(-12px);opacity:.4}}
+@keyframes hw-drift{from{transform:translateX(-20px)}to{transform:translateX(20px)}}
+@keyframes hw-flicker{0%,100%{opacity:1}40%{opacity:.7}60%{opacity:.9}}
