@@ -1,0 +1,9 @@
+{
+  "_note": "App-side corrections applied at build on top of Research data (qa-rapport.md 31.10.2026). Remove entries once Research has fixed the source.",
+  "patch": {
+    "bone_costa_11": { "landmarks": ["caput (én facet)", "kort collum", "ingen tuberculum costae", "svag angulus costae"] },
+    "bone_costa_12": { "landmarks": ["caput (én facet)", "collum", "ingen tuberculum costae", "ingen angulus costae"] },
+    "ligament_ligamentum_patellae": { "synonyms": ["Patellasenen", "Knæskalssenen"] }
+  },
+  "drop": ["tendon_ligamentum_patellae", "tendon_ligamentum_inguinale", "tendon_ligamentum_nuchae"]
+}

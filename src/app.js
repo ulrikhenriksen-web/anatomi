@@ -1,6 +1,6 @@
 import {
   TOPICS, FACETS, DEFAULT_FACETS, normalize, regionsOf, filterItems, describe, facetsFor,
-  makeQuestion, mediaOf, hasImage, altFor, mergeProgress, mergeMeta, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
+  makeQuestion, answersMatch, mediaOf, hasImage, altFor, mergeProgress, mergeMeta, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
 } from './lib/quiz.js';
 import * as MEM from './lib/memory.js';
 import { halloweenActive, themeOverride, HALLOWEEN_HTML } from './lib/theme.js';
@@ -417,7 +417,7 @@ function startTimer(sec) {
 function answer(k) {
   const s = session; const q = s.questions[s.i]; const it = BY_ID.get(q.itemId);
   if (s.answered === s.i) return; s.answered = s.i; clearInterval(timerId);
-  const chosen = q.options[k]; const ok = chosen === q.correct;
+  const chosen = q.options[k]; const ok = chosen != null && answersMatch(chosen, q.correct, q.kind === 'naming' || q.kind === 'navn' ? it : null);
   $main.querySelectorAll('.opt').forEach((b, j) => {
     b.disabled = true;
     if (q.options[j] === q.correct) { b.classList.add('right'); b.insertAdjacentHTML('beforeend', '<span style="margin-left:auto">✓ <span class="sr-only">Rigtigt svar</span></span>'); }
