@@ -42,7 +42,7 @@ export function versionText(text, v) {
 }
 async function versionAssets(dist, data) {
   const { createHash } = await import('node:crypto');
-  const files = ['app.js', 'styles.css', 'index.html', 'privatliv.html', 'vilkaar.html', ...['quiz', 'memory', 'images', 'highscore', 'privacy'].map((f) => `lib/${f}.js`)];
+  const files = ['app.js', 'styles.css', 'index.html', 'privatliv.html', 'vilkaar.html', ...['quiz', 'memory', 'images', 'highscore', 'privacy', 'theme'].map((f) => `lib/${f}.js`)];
   const h = createHash('sha256');
   for (const f of files) h.update(await readFile(resolve(dist, f)));
   h.update(JSON.stringify(data));

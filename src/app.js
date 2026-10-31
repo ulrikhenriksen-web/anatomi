@@ -3,6 +3,7 @@ import {
   makeQuestion, mediaOf, hasImage, altFor, mergeProgress, mergeMeta, sm2, isMastered, isDue, key, pickDrill, scoreXp, updateStreak, validateReport, shuffle,
 } from './lib/quiz.js';
 import * as MEM from './lib/memory.js';
+import { halloweenActive, themeOverride, HALLOWEEN_HTML } from './lib/theme.js';
 import { tierFor, fmt, medal, MODE_POINTS, CATEGORY_OF_TOPIC, CATEGORY_LABEL, MODE_LABEL, PERIOD_LABEL, sessionId } from './lib/highscore.js';
 import { PRIVACY_TITLE, PRIVACY_TEXT, TERMS_TITLE, TERMS_TEXT } from './lib/privacy.js';
 
@@ -61,8 +62,21 @@ async function afterLogin(mergedBefore) {
   }
   save(LS.owner, auth.user.id);
 }
+function applySeasonTheme(enabled) {
+  const on = halloweenActive({ enabled: enabled !== false, override: themeOverride(location) });
+  const root = document.documentElement; let el = document.getElementById('halloween');
+  if (on) {
+    root.dataset.themeEvent = 'halloween';
+    if (!el) { el = document.createElement('div'); el.id = 'halloween'; el.setAttribute('aria-hidden', 'true'); el.innerHTML = HALLOWEEN_HTML; document.body.prepend(el); }
+    // Pause animations while the tab is hidden
+    document.onvisibilitychange = () => { root.toggleAttribute('data-hw-paused', document.hidden); };
+  } else { delete root.dataset.themeEvent; el?.remove(); }
+}
 async function initAuth() {
-  try { auth.clientId = (await api('api/auth.php?action=config')).google_client_id; } catch { auth.clientId = null; }
+  let cfg = {};
+  try { cfg = await api('api/auth.php?action=config'); } catch { cfg = {}; }
+  auth.clientId = cfg.google_client_id || null;
+  applySeasonTheme(cfg.halloween_enabled);
   if (!auth.clientId) return; // guest mode
   try { auth.user = (await api('api/auth.php?action=me')).user; } catch { auth.user = null; }
   if (auth.user) { try { await afterLogin(true); } catch { /* offline: keep cache */ } }
@@ -126,6 +140,7 @@ function route() {
   document.title = 'Anatomi – anatomiquiz for fysioterapeutstuderende';
   const h = location.hash || '#/';
   const path = h.split('?')[0];
+  document.documentElement.toggleAttribute('data-hw-dim', /^#\/(session|memory\/spil)$/.test(path));
   const params = new URLSearchParams(h.split('?')[1] || '');
   for (const [re, fn] of routes) {
     const m = path.match(re);
@@ -169,6 +184,7 @@ function home() {
         <p class="hero-due">${due ? `Du har <b>${due}</b> kort til repetition i dag.` : 'Start med navngivning, og byg dig op til test.'}</p>
         <div class="hero-cta"><a class="btn" href="#/session?mode=${due ? 'drill' : 'naming'}">${due ? 'Fortsæt træning' : 'Start træning'}</a><a class="btn ghost" href="#/udforsk">Udforsk kroppen</a></div>
       </div></section>
+    ${document.documentElement.dataset.themeEvent === 'halloween' && !localStorage.getItem('kq.hw.chip.2026') ? '<p class="hw-chip-row"><span class="chip hw-chip">Glædelig halloween 🎃 <button type="button" id="hw-chip-x" aria-label="Skjul halloween-hilsen">✕</button></span></p>' : ''}
     <a class="tile rank-tile" href="#/highscore" id="ranktile">${rankTileHtml()}</a>
     <div class="grid">
       <div class="card stat"><b>🔥 ${meta.streak || 0}</b><span>dages streak</span></div>
@@ -177,6 +193,7 @@ function home() {
       <div class="card stat"><b>${last ? `${last.score}/${last.total}` : '–'}</b><span>seneste test</span></div>
     </div>
     <h2>Dine emner</h2><div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">${rings}</div></div>`;
+  document.getElementById('hw-chip-x')?.addEventListener('click', (e) => { localStorage.setItem('kq.hw.chip.2026', '1'); e.target.closest('.hw-chip-row').remove(); });
   refreshRankTile();
 }
 
