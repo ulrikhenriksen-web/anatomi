@@ -227,6 +227,7 @@ function detail(id) {
   if (it.topic === 'bones') { add('Type', esc(it.type)); add('Antal i kroppen', esc(it.count_in_body)); add('Landemærker', it.landmarks?.length ? `<ul>${it.landmarks.map((l) => `<li>${esc(landmarkLabel(l))}</li>`).join('')}</ul>` : ''); }
   add('Udspring', esc(FACETS.udspring.get(it))); add('Hæfte', esc(FACETS.haefte.get(it))); add('Innervation', esc(FACETS.innervation.get(it)));
   add('Funktion', esc(it.function_da)); add('Blodforsyning', esc(it.blood_supply_da));
+  add('Kendetegn', esc(it.distinguishing_da)); add('Bemærk', esc(it.cross_reference_da));
   if (it.associated_muscles?.length) add('Muskler', it.associated_muscles.map((m) => BY_ID.get(m) ? `<a href="#/udforsk/${esc(m)}">${esc(BY_ID.get(m).name_da)}</a>` : esc(m)).join(', '));
   const m = itemMastery(it);
   $main.innerHTML = `<article class="stack">
@@ -432,7 +433,7 @@ function answer(k) {
   meta = updateStreak(meta); meta.xp = (meta.xp || 0) + gained; save(LS.meta, meta);
   const fb = document.getElementById('fb');
   fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'bad'}" role="region" aria-label="Feedback"><h2 tabindex="-1" id="fbh">${ok ? '✓ Rigtigt' : '✕ Forkert'}</h2>
-    <p>${ok ? '' : 'Rigtigt svar: '}${optLabel(q, q.correct)}${q.kind !== 'naming' ? ` · <a href="#/udforsk/${esc(it.id)}">${esc(it.name_da)}</a>` : ''}</p>
+    <p>${ok ? '' : 'Rigtigt svar: '}${optLabel(q, q.correct)}${q.kind !== 'naming' ? ` · <a href="#/udforsk/${esc(it.id)}">${esc(it.name_da)}</a>` : ''}</p>${it.distinguishing_da ? `<p class="muted">Kendetegn: ${esc(it.distinguishing_da)}</p>` : ''}
     <div class="spread"><button class="link" data-report="${esc(it.id)}" data-field="${esc(q.kind)}">Rapportér fejl</button>
       <button class="btn" id="next">${s.i + 1 < s.questions.length ? 'Fortsæt' : 'Se resultat'}</button></div></div>`;
   announce(`${ok ? 'Rigtigt' : 'Forkert. Rigtigt svar'}: ${q.kind === 'naming' ? `${it.name_da}, ${it.name_la_ta2}` : q.correct}`);

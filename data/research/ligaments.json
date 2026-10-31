@@ -30,7 +30,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q611127"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_cruciatum_posterius",
@@ -74,7 +76,15 @@
         "http://www.wikidata.org/entity/Q735353",
         "https://en.wikipedia.org/wiki/Posterior_cruciate_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "Ligamentum decussatum posterius",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q735353 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_collaterale_tibiale",
@@ -118,7 +128,9 @@
         "http://www.wikidata.org/entity/Q3241072",
         "https://en.wikipedia.org/wiki/Medial_collateral_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_collaterale_fibulare",
@@ -162,7 +174,9 @@
         "http://www.wikidata.org/entity/Q3266889",
         "https://en.wikipedia.org/wiki/Fibular_collateral_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_patellae",
@@ -193,7 +207,16 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1172095"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "cross_reference_da": "klinisk ofte kaldt patellasenen; tidligere også under sener (tendon_ligamentum_patellae, fjernet 31.10.2026)",
+      "accepted_names": [
+        {
+          "name": "Patellasenen",
+          "lang": "da",
+          "source": "live-data name_da tendon_ligamentum_patellae; qa-rapport H4"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_iliofemorale",
@@ -237,7 +260,9 @@
         "http://www.wikidata.org/entity/Q5998330",
         "https://en.wikipedia.org/wiki/Iliofemoral_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_pubofemorale",
@@ -279,7 +304,9 @@
         "http://www.wikidata.org/entity/Q7258155",
         "https://en.wikipedia.org/wiki/Pubofemoral_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_ischiofemorale",
@@ -323,7 +350,9 @@
         "http://www.wikidata.org/entity/Q6079266",
         "https://en.wikipedia.org/wiki/Ischiofemoral_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_capitis_femoris",
@@ -365,7 +394,9 @@
         "http://www.wikidata.org/entity/Q6545844",
         "https://en.wikipedia.org/wiki/Ligament_of_head_of_femur"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_talofibulare_anterius",
@@ -396,7 +427,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q3829591"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_talofibulare_posterius",
@@ -436,7 +469,9 @@
         "http://www.wikidata.org/entity/Q7234249",
         "https://en.wikipedia.org/wiki/Posterior_talofibular_ligament"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_calcaneofibulare",
@@ -467,7 +502,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q5018678"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_collaterale_mediale_articulationis_talocruralis",
@@ -511,7 +548,9 @@
         "http://www.wikidata.org/entity/Q288821",
         "https://en.wikipedia.org/wiki/Deltoid_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_calcaneonaviculare_plantare",
@@ -553,7 +592,9 @@
         "http://www.wikidata.org/entity/Q1542293",
         "https://en.wikipedia.org/wiki/Plantar_calcaneonavicular_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_plantare_longum",
@@ -599,7 +640,9 @@
         "http://www.wikidata.org/entity/Q1704861",
         "https://en.wikipedia.org/wiki/Long_plantar_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_sacrotuberale",
@@ -630,7 +673,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1575134"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_sacrospinale",
@@ -678,7 +723,9 @@
         "http://www.wikidata.org/entity/Q2750165",
         "https://en.wikipedia.org/wiki/Sacrospinous_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_inguinale",
@@ -709,7 +756,10 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q285715"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "cross_reference_da": "tidligere også under sener (tendon_ligamentum_inguinale, fjernet 31.10.2026)",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_iliolumbale",
@@ -753,7 +803,9 @@
         "http://www.wikidata.org/entity/Q5998331",
         "https://en.wikipedia.org/wiki/Iliolumbar_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_longitudinale_anterius",
@@ -799,7 +851,9 @@
         "http://www.wikidata.org/entity/Q669260",
         "https://en.wikipedia.org/wiki/Anterior_longitudinal_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_longitudinale_posterius",
@@ -843,7 +897,9 @@
         "http://www.wikidata.org/entity/Q1824647",
         "https://en.wikipedia.org/wiki/Posterior_longitudinal_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_flavum",
@@ -885,7 +941,9 @@
         "http://www.wikidata.org/entity/Q1468271",
         "https://en.wikipedia.org/wiki/Ligamenta_flava"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_supraspinale",
@@ -916,7 +974,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1471133"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_interspinale",
@@ -958,7 +1018,9 @@
         "http://www.wikidata.org/entity/Q1824640",
         "https://en.wikipedia.org/wiki/Interspinous_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_nuchae",
@@ -989,7 +1051,10 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q519216"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "cross_reference_da": "tidligere også under sener (tendon_ligamentum_nuchae, fjernet 31.10.2026)",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_transversum_atlantis",
@@ -1033,7 +1098,9 @@
         "http://www.wikidata.org/entity/Q7835437",
         "https://en.wikipedia.org/wiki/Transverse_ligament_of_atlas"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamenta_alaria",
@@ -1077,7 +1144,9 @@
         "http://www.wikidata.org/entity/Q941241",
         "https://en.wikipedia.org/wiki/Alar_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_coracoclaviculare",
@@ -1125,7 +1194,9 @@
         "http://www.wikidata.org/entity/Q3329123",
         "https://en.wikipedia.org/wiki/Coracoclavicular_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_acromioclaviculare",
@@ -1169,7 +1240,9 @@
         "http://www.wikidata.org/entity/Q4676185",
         "https://en.wikipedia.org/wiki/Acromioclavicular_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_coracoacromiale",
@@ -1215,7 +1288,9 @@
         "http://www.wikidata.org/entity/Q1857678",
         "https://en.wikipedia.org/wiki/Coracoacromial_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamenta_glenohumeralia",
@@ -1257,7 +1332,9 @@
         "http://www.wikidata.org/entity/Q5569232",
         "https://en.wikipedia.org/wiki/Glenohumeral_ligaments"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_collaterale_ulnare",
@@ -1303,7 +1380,9 @@
         "http://www.wikidata.org/entity/Q7879707",
         "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_elbow_joint"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_collaterale_radiale",
@@ -1347,7 +1426,9 @@
         "http://www.wikidata.org/entity/Q7280266",
         "https://en.wikipedia.org/wiki/Radial_collateral_ligament_of_elbow_joint"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_anulare_radii",
@@ -1391,7 +1472,9 @@
         "http://www.wikidata.org/entity/Q4777779",
         "https://en.wikipedia.org/wiki/Annular_ligament_of_radius"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_carpi_transversum",
@@ -1439,7 +1522,20 @@
         "http://www.wikidata.org/entity/Q449457",
         "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_hand"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "ligamentum transversum carpi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q449457 (alias)"
+        },
+        {
+          "name": "retinaculum musculorum flexorum manus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q449457 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_scapholunatum_interosseum",
@@ -1481,7 +1577,9 @@
         "http://www.wikidata.org/entity/Q1130012",
         "https://en.wikipedia.org/wiki/Scapholunate_ligament_injury"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_collaterale_ulnare_articulationis_metacarpophalangeae_pollicis",
@@ -1519,7 +1617,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_of_thumb"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_costoclaviculare",
@@ -1563,7 +1663,9 @@
         "http://www.wikidata.org/entity/Q5175169",
         "https://en.wikipedia.org/wiki/Costoclavicular_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "ligament_ligamentum_sacroiliacum_posterius",
@@ -1607,7 +1709,9 @@
         "http://www.wikidata.org/entity/Q3238429",
         "https://en.wikipedia.org/wiki/Posterior_sacroiliac_ligament"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     }
   ]
 }

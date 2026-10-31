@@ -34,7 +34,22 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16343"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "extremitas sternalis",
+          "reveal": "none"
+        },
+        {
+          "la": "extremitas acromialis",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum conoideum",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_scapula",
@@ -71,7 +86,31 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16336"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "acromion",
+          "reveal": "none"
+        },
+        {
+          "la": "processus coracoideus",
+          "reveal": "none"
+        },
+        {
+          "la": "cavitas glenoidalis",
+          "reveal": "none"
+        },
+        {
+          "la": "spina scapulae",
+          "reveal": "mask",
+          "masked_la": "spina ___"
+        },
+        {
+          "la": "fossa supra-/infraspinata",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_humerus",
@@ -110,7 +149,45 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q162595"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Overarmsknoglen",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q162595 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput humeri",
+          "reveal": "mask",
+          "masked_la": "caput ___"
+        },
+        {
+          "la": "tuberculum majus/minus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus intertubercularis",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberositas deltoidea",
+          "reveal": "none"
+        },
+        {
+          "la": "epicondylus medialis/lateralis",
+          "reveal": "none"
+        },
+        {
+          "la": "trochlea",
+          "reveal": "none"
+        },
+        {
+          "la": "capitulum",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_radius",
@@ -145,7 +222,25 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q178492"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "caput radii",
+          "reveal": "mask",
+          "masked_la": "caput ___"
+        },
+        {
+          "la": "tuberositas radii",
+          "reveal": "mask",
+          "masked_la": "tuberositas ___"
+        },
+        {
+          "la": "processus styloideus radii",
+          "reveal": "mask",
+          "masked_la": "processus styloideus ___"
+        }
+      ]
     },
     {
       "id": "bone_ulna",
@@ -181,7 +276,33 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q199507"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Ulnaris",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q199507 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "olecranon",
+          "reveal": "none"
+        },
+        {
+          "la": "processus coronoideus",
+          "reveal": "none"
+        },
+        {
+          "la": "incisura trochlearis",
+          "reveal": "none"
+        },
+        {
+          "la": "processus styloideus ulnae",
+          "reveal": "mask",
+          "masked_la": "processus styloideus ___"
+        }
+      ]
     },
     {
       "id": "bone_os_scaphoideum",
@@ -212,9 +333,31 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q13143"
+        "http://www.wikidata.org/entity/Q13143",
+        "https://en.wikipedia.org/wiki/Scaphoid_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "største knogle i proksimale række; radiale side; tuberculum palpabelt volart",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "bådbenet",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q13143 (alias)"
+        },
+        {
+          "name": "os naviculare manus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q13143 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "tuberculum ossis scaphoidei",
+          "reveal": "mask",
+          "masked_la": "tuberculum ossis ___"
+        }
+      ]
     },
     {
       "id": "bone_os_lunatum",
@@ -224,7 +367,9 @@
       "region": "øvre ekstremitet",
       "type": "kort",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "halvmåneformet"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -243,9 +388,19 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q13141"
+        "http://www.wikidata.org/entity/Q13141",
+        "https://en.wikipedia.org/wiki/Lunate_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "halvmåneformet; midt i proksimale række mellem os scaphoideum og os triquetrum; den hyppigst luksérede håndrodsknogle",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "halvmåneformet",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_triquetrum",
@@ -255,7 +410,9 @@
       "region": "øvre ekstremitet",
       "type": "kort",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "facies articularis for os pisiforme"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -274,9 +431,30 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q278417"
+        "http://www.wikidata.org/entity/Q278417",
+        "https://en.wikipedia.org/wiki/Triquetral_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "pyramideformet; ulnare side af proksimale række; bærer os pisiforme på volarsiden",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "os pyramidale",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q278417 (alias)"
+        },
+        {
+          "name": "os triangulare",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q278417 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "facies articularis for os pisiforme",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_pisiforme",
@@ -286,7 +464,9 @@
       "region": "øvre ekstremitet",
       "type": "sesamknogle",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "sesamknogle i senen fra m. flexor carpi ulnaris"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -305,9 +485,19 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q691942"
+        "http://www.wikidata.org/entity/Q691942",
+        "https://en.wikipedia.org/wiki/Pisiform_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "sesamknogle i m. flexor carpi ulnaris-senen; ligger volart på os triquetrum",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "sesamknogle i senen fra m. flexor carpi ulnaris",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_trapezium",
@@ -318,7 +508,9 @@
       "type": "kort",
       "count_in_body": 2,
       "landmarks": [
-        "tuberculum ossis trapezii"
+        "tuberculum ossis trapezii",
+        "sadelled mod os metacarpi I",
+        "sulcus for m. flexor carpi radialis-senen"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -338,9 +530,34 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q265617"
+        "http://www.wikidata.org/entity/Q265617",
+        "https://en.wikipedia.org/wiki/Trapezium_(bone)"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "radiale side af distale række; danner sadelleddet med 1. mellemhåndsknogle",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "Os multangulum majus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q265617 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "tuberculum ossis trapezii",
+          "reveal": "mask",
+          "masked_la": "tuberculum ossis ___"
+        },
+        {
+          "la": "sadelled mod os metacarpi I",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus for m. flexor carpi radialis-senen",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_trapezoideum",
@@ -350,7 +567,9 @@
       "region": "øvre ekstremitet",
       "type": "kort",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "artikulerer med os metacarpi II"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -369,9 +588,25 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q847084"
+        "http://www.wikidata.org/entity/Q847084",
+        "https://en.wikipedia.org/wiki/Trapezoid_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "mindste knogle i distale række; kileformet; bærer 2. mellemhåndsknogle",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "os multangulum minus",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q847084 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "artikulerer med os metacarpi II",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_capitatum",
@@ -381,7 +616,10 @@
       "region": "øvre ekstremitet",
       "type": "kort",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "caput (i fordybningen mellem os scaphoideum og os lunatum)",
+        "artikulerer med os metacarpi III"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -400,9 +638,29 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q752369"
+        "http://www.wikidata.org/entity/Q752369",
+        "https://en.wikipedia.org/wiki/Capitate_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "største håndrodsknogle; midt i distale række; bærer 3. mellemhåndsknogle",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "os magnum",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q752369 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (i fordybningen mellem os scaphoideum og os lunatum)",
+          "reveal": "none"
+        },
+        {
+          "la": "artikulerer med os metacarpi III",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_hamatum",
@@ -413,7 +671,8 @@
       "type": "kort",
       "count_in_body": 2,
       "landmarks": [
-        "hamulus ossis hamati"
+        "hamulus ossis hamati",
+        "artikulerer med os metacarpi IV og V"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -433,9 +692,24 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q54393"
+        "http://www.wikidata.org/entity/Q54393",
+        "https://en.wikipedia.org/wiki/Hamate_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "ulnare side af distale række; krogformet udløber (hamulus); bærer 4. og 5. mellemhåndsknogle",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "hamulus ossis hamati",
+          "reveal": "mask",
+          "masked_la": "hamulus ossis ___"
+        },
+        {
+          "la": "artikulerer med os metacarpi IV og V",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_coxae",
@@ -475,7 +749,48 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q3356933"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "os innominatum",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q3356933 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "acetabulum",
+          "reveal": "none"
+        },
+        {
+          "la": "crista iliaca",
+          "reveal": "none"
+        },
+        {
+          "la": "SIAS",
+          "reveal": "none"
+        },
+        {
+          "la": "SIPS",
+          "reveal": "none"
+        },
+        {
+          "la": "tuber ischiadicum",
+          "reveal": "none"
+        },
+        {
+          "la": "spina ischiadica",
+          "reveal": "none"
+        },
+        {
+          "la": "foramen obturatum",
+          "reveal": "none"
+        },
+        {
+          "la": "symphysis-flade",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_ilium",
@@ -510,7 +825,25 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q728889"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "ala ossis ilii",
+          "reveal": "mask",
+          "masked_la": "ala ossis ___"
+        },
+        {
+          "la": "crista iliaca",
+          "reveal": "mask",
+          "masked_la": "crista ___"
+        },
+        {
+          "la": "fossa iliaca",
+          "reveal": "mask",
+          "masked_la": "fossa ___"
+        }
+      ]
     },
     {
       "id": "bone_os_ischii",
@@ -544,7 +877,20 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q531029"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "tuber ischiadicum",
+          "reveal": "mask",
+          "masked_la": "tuber ___"
+        },
+        {
+          "la": "spina ischiadica",
+          "reveal": "mask",
+          "masked_la": "spina ___"
+        }
+      ]
     },
     {
       "id": "bone_os_pubis",
@@ -578,7 +924,31 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q220815"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "skambenet",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q220815 (alias)"
+        },
+        {
+          "name": "kønsben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q220815 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "tuberculum pubicum",
+          "reveal": "mask",
+          "masked_la": "tuberculum ___"
+        },
+        {
+          "la": "pecten ossis pubis",
+          "reveal": "mask",
+          "masked_la": "pecten ossis ___"
+        }
+      ]
     },
     {
       "id": "bone_os_sacrum",
@@ -613,7 +983,34 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q233316"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Korsbenet",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q233316 (label)"
+        },
+        {
+          "name": "Sacrum",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q233316 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "promontorium",
+          "reveal": "none"
+        },
+        {
+          "la": "foramina sacralia",
+          "reveal": "mask",
+          "masked_la": "foramina ___"
+        },
+        {
+          "la": "facies auricularis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_coccygis",
@@ -644,7 +1041,15 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q193176"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Haleben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q193176 (label)"
+        }
+      ],
+      "landmarks_quiz": []
     },
     {
       "id": "bone_femur",
@@ -682,7 +1087,34 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q129757"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "caput femoris",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "trochanter major/minor",
+          "reveal": "none"
+        },
+        {
+          "la": "linea aspera",
+          "reveal": "none"
+        },
+        {
+          "la": "condylus medialis/lateralis",
+          "reveal": "none"
+        },
+        {
+          "la": "epicondyli",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_patella",
@@ -716,7 +1148,18 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q229081"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "apex",
+          "reveal": "none"
+        },
+        {
+          "la": "basis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_tibia",
@@ -751,7 +1194,23 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q178366"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "condyli",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberositas tibiae",
+          "reveal": "mask",
+          "masked_la": "tuberositas ___"
+        },
+        {
+          "la": "malleolus medialis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_fibula",
@@ -785,7 +1244,19 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q302896"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "caput fibulae",
+          "reveal": "mask",
+          "masked_la": "caput ___"
+        },
+        {
+          "la": "malleolus lateralis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_talus",
@@ -820,7 +1291,39 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q174647"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "hæl",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q174647 (label)"
+        },
+        {
+          "name": "heel",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q174647 (alias)"
+        },
+        {
+          "name": "Talo",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q174647 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "trochlea tali",
+          "reveal": "mask",
+          "masked_la": "trochlea ___"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_calcaneus",
@@ -854,7 +1357,19 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q13075"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "tuber calcanei",
+          "reveal": "mask",
+          "masked_la": "tuber ___"
+        },
+        {
+          "la": "sustentaculum tali",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_naviculare",
@@ -887,7 +1402,15 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q958194"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "tuberositas ossis navicularis",
+          "reveal": "mask",
+          "masked_la": "tuberositas ossis ___"
+        }
+      ]
     },
     {
       "id": "bone_os_cuboideum",
@@ -920,7 +1443,20 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q658424"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Cuboideum",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q658424 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "sulcus tendinis m. fibularis longi",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_cuneiforme_mediale",
@@ -948,7 +1484,10 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Cuneiform_bones"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [],
+      "quiz_group": "auto_bone_os_cuneiforme_mediale"
     },
     {
       "id": "bone_os_cuneiforme_intermedium",
@@ -976,7 +1515,10 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Cuneiform_bones"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [],
+      "quiz_group": "auto_bone_os_cuneiforme_mediale"
     },
     {
       "id": "bone_os_cuneiforme_laterale",
@@ -1004,7 +1546,10 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Cuneiform_bones"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [],
+      "quiz_group": "auto_bone_os_cuneiforme_mediale"
     },
     {
       "id": "bone_atlas",
@@ -1038,7 +1583,24 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q655357"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Atlas, vertebra cervicalis I",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q655357 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "arcus anterior/posterior",
+          "reveal": "none"
+        },
+        {
+          "la": "massae laterales",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_axis",
@@ -1071,7 +1633,20 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q792567"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Axis, vertebra cervicalis II",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q792567 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "dens axis",
+          "reveal": "hide"
+        }
+      ]
     },
     {
       "id": "bone_sternum",
@@ -1108,7 +1683,31 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q8481"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "manubrium",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "processus xiphoideus",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus sterni",
+          "reveal": "mask",
+          "masked_la": "angulus ___"
+        },
+        {
+          "la": "incisura jugularis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_frontale",
@@ -1142,7 +1741,19 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16295"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "margo supraorbitalis",
+          "reveal": "none"
+        },
+        {
+          "la": "sinus frontalis",
+          "reveal": "mask",
+          "masked_la": "sinus ___"
+        }
+      ]
     },
     {
       "id": "bone_os_parietale",
@@ -1175,7 +1786,15 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16298"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "tuber parietale",
+          "reveal": "mask",
+          "masked_la": "tuber ___"
+        }
+      ]
     },
     {
       "id": "bone_os_occipitale",
@@ -1210,7 +1829,24 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16317"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foramen magnum",
+          "reveal": "none"
+        },
+        {
+          "la": "condyli occipitales",
+          "reveal": "mask",
+          "masked_la": "condyli ___"
+        },
+        {
+          "la": "protuberantia occipitalis externa",
+          "reveal": "mask",
+          "masked_la": "protuberantia ___ externa"
+        }
+      ]
     },
     {
       "id": "bone_os_temporale",
@@ -1251,7 +1887,32 @@
         "http://www.wikidata.org/entity/Q16313",
         "https://en.wikipedia.org/wiki/Temporal_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Ossa temporalia",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q16313 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "processus mastoideus",
+          "reveal": "none"
+        },
+        {
+          "la": "processus styloideus",
+          "reveal": "none"
+        },
+        {
+          "la": "meatus acusticus externus",
+          "reveal": "none"
+        },
+        {
+          "la": "fossa mandibularis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_sphenoidale",
@@ -1286,7 +1947,28 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16321"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Kileben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q16321 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "sella turcica",
+          "reveal": "none"
+        },
+        {
+          "la": "ala major/minor",
+          "reveal": "none"
+        },
+        {
+          "la": "processus pterygoideus",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_ethmoidale",
@@ -1320,7 +2002,24 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16331"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Sibenet",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q16331 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "lamina cribrosa",
+          "reveal": "none"
+        },
+        {
+          "la": "crista galli",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_maxilla",
@@ -1354,7 +2053,19 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q182895"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "processus alveolaris",
+          "reveal": "none"
+        },
+        {
+          "la": "sinus maxillaris",
+          "reveal": "mask",
+          "masked_la": "sinus ___"
+        }
+      ]
     },
     {
       "id": "bone_mandibula",
@@ -1390,7 +2101,26 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q5283631"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "processus condylaris",
+          "reveal": "none"
+        },
+        {
+          "la": "processus coronoideus",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "foramen mentale",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_zygomaticum",
@@ -1400,7 +2130,10 @@
       "region": "hoved",
       "type": "irregulær",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "processus temporalis (del af arcus zygomaticus)",
+        "facies orbitalis"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1419,9 +2152,30 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q186102"
+        "http://www.wikidata.org/entity/Q186102",
+        "https://en.wikipedia.org/wiki/Zygomatic_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "danner kindbuen (arcus zygomaticus) og lateralvæg/gulv af orbita",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "Zygoma",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q186102 (alias)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "processus temporalis (del af arcus zygomaticus)",
+          "reveal": "mask",
+          "masked_la": "processus temporalis (del af arcus ___)"
+        },
+        {
+          "la": "facies orbitalis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_nasale",
@@ -1431,7 +2185,9 @@
       "region": "hoved",
       "type": "flad",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "danner næseryggen"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1450,9 +2206,19 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q38155"
+        "http://www.wikidata.org/entity/Q38155",
+        "https://en.wikipedia.org/wiki/Nasal_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "parret; danner næseryggen",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "danner næseryggen",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_lacrimale",
@@ -1462,7 +2228,9 @@
       "region": "hoved",
       "type": "flad",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "fossa sacci lacrimalis"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1481,9 +2249,20 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q212721"
+        "http://www.wikidata.org/entity/Q212721",
+        "https://en.wikipedia.org/wiki/Lacrimal_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "mindste ansigtsknogle; medialvæg af orbita; rummer tåresækken",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "fossa sacci lacrimalis",
+          "reveal": "mask",
+          "masked_la": "fossa sacci ___"
+        }
+      ]
     },
     {
       "id": "bone_os_palatinum",
@@ -1493,7 +2272,10 @@
       "region": "hoved",
       "type": "irregulær",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "lamina horizontalis (bageste del af den hårde gane)",
+        "lamina perpendicularis"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1512,9 +2294,23 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q237632"
+        "http://www.wikidata.org/entity/Q237632",
+        "https://en.wikipedia.org/wiki/Palatine_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "L-formet; bageste del af hårde gane",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "lamina horizontalis (bageste del af den hårde gane)",
+          "reveal": "none"
+        },
+        {
+          "la": "lamina perpendicularis",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_vomer",
@@ -1524,7 +2320,9 @@
       "region": "hoved",
       "type": "flad",
       "count_in_body": 1,
-      "landmarks": [],
+      "landmarks": [
+        "bageste/nedre del af septum nasi"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1543,9 +2341,25 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q193527"
+        "http://www.wikidata.org/entity/Q193527",
+        "https://en.wikipedia.org/wiki/Vomer"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "uparret; danner nedre bageste del af næseskillevæggen",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "Vomer (anatomia)",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q193527 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "bageste/nedre del af septum nasi",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_concha_nasalis_inferior",
@@ -1555,7 +2369,10 @@
       "region": "hoved",
       "type": "irregulær",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "processus maxillaris",
+        "på næsehulens laterale væg"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1574,9 +2391,23 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q552439"
+        "http://www.wikidata.org/entity/Q552439",
+        "https://en.wikipedia.org/wiki/Inferior_nasal_concha"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "selvstændig knogle på næsehulens laterale væg",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "processus maxillaris",
+          "reveal": "none"
+        },
+        {
+          "la": "på næsehulens laterale væg",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_hyoideum",
@@ -1610,7 +2441,24 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q16332"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Hyoidben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q16332 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "cornu majus/minus",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_os_metacarpi_i",
@@ -1642,7 +2490,23 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/First_metacarpal_bone"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metacarpi_i"
     },
     {
       "id": "bone_os_metatarsi_i",
@@ -1682,7 +2546,29 @@
         "http://www.wikidata.org/entity/Q5454211",
         "https://en.wikipedia.org/wiki/First_metatarsal_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Os metatarsale I",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q5454211 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metatarsi_i"
     },
     {
       "id": "bone_os_metacarpi_ii",
@@ -1714,7 +2600,23 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Second_metacarpal_bone"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metacarpi_i"
     },
     {
       "id": "bone_os_metatarsi_ii",
@@ -1746,7 +2648,23 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Second_metatarsal_bone"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metatarsi_i"
     },
     {
       "id": "bone_os_metacarpi_iii",
@@ -1786,7 +2704,23 @@
         "http://www.wikidata.org/entity/Q836581",
         "https://en.wikipedia.org/wiki/Third_metacarpal_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metacarpi_i"
     },
     {
       "id": "bone_os_metatarsi_iii",
@@ -1818,7 +2752,23 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Third_metatarsal_bone"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metatarsi_i"
     },
     {
       "id": "bone_os_metacarpi_iv",
@@ -1850,7 +2800,23 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Fourth_metacarpal_bone"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metacarpi_i"
     },
     {
       "id": "bone_os_metatarsi_iv",
@@ -1882,7 +2848,23 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Fourth_metatarsal_bone"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metatarsi_i"
     },
     {
       "id": "bone_os_metacarpi_v",
@@ -1914,7 +2896,23 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Fifth_metacarpal_bone"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_os_metacarpi_i"
     },
     {
       "id": "bone_os_metatarsi_v",
@@ -1955,7 +2953,33 @@
         "http://www.wikidata.org/entity/Q5447591",
         "https://en.wikipedia.org/wiki/Fifth_metatarsal_bone"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Os metatarsale V",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q5447591 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberositas ossis metatarsi quinti",
+          "reveal": "mask",
+          "masked_la": "tuberositas ossis ___ ___"
+        }
+      ]
     },
     {
       "id": "bone_phalanx_proximalis_manus",
@@ -1981,7 +3005,23 @@
       "name_en": "Proximal phalanx of finger",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput/trochlea",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_phalanx_proximalis_manus"
     },
     {
       "id": "bone_phalanx_proximalis_pedis",
@@ -2007,7 +3047,23 @@
       "name_en": "Proximal phalanx of foot",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_phalanx_proximalis_pedis"
     },
     {
       "id": "bone_phalanx_media_manus",
@@ -2033,7 +3089,22 @@
       "name_en": "Middle phalanx of finger",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput/trochlea",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_phalanx_media_pedis",
@@ -2059,7 +3130,22 @@
       "name_en": "Middle phalanx of foot",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_phalanx_distalis_manus",
@@ -2085,7 +3171,23 @@
       "name_en": "Distal phalanx of finger",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput/trochlea",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_phalanx_proximalis_manus"
     },
     {
       "id": "bone_phalanx_distalis_pedis",
@@ -2111,7 +3213,23 @@
       "name_en": "Distal phalanx of foot",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "basis",
+          "reveal": "none"
+        },
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_phalanx_proximalis_pedis"
     },
     {
       "id": "bone_vertebra_cervicalis_3",
@@ -2136,7 +3254,19 @@
       "name_en": "C3 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foramen transversarium",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus (bifidus)",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_cervicalis_3"
     },
     {
       "id": "bone_vertebra_cervicalis_4",
@@ -2161,7 +3291,19 @@
       "name_en": "C4 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foramen transversarium",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus (bifidus)",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_cervicalis_3"
     },
     {
       "id": "bone_vertebra_cervicalis_5",
@@ -2186,7 +3328,19 @@
       "name_en": "C5 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foramen transversarium",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus (bifidus)",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_cervicalis_3"
     },
     {
       "id": "bone_vertebra_cervicalis_6",
@@ -2211,7 +3365,19 @@
       "name_en": "C6 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foramen transversarium",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus (bifidus)",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_cervicalis_3"
     },
     {
       "id": "bone_vertebra_prominens",
@@ -2250,7 +3416,29 @@
         "http://www.wikidata.org/entity/Q900457",
         "https://en.wikipedia.org/wiki/Cervical_vertebrae"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Cervikale vertebrae",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q900457 (label)"
+        },
+        {
+          "name": "Vertebrae cervicales",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q900457 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "foramen transversarium",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus (lang)",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_vertebra_thoracica_1",
@@ -2275,7 +3463,19 @@
       "name_en": "T1 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_2",
@@ -2300,7 +3500,19 @@
       "name_en": "T2 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_3",
@@ -2325,7 +3537,19 @@
       "name_en": "T3 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_4",
@@ -2350,7 +3574,19 @@
       "name_en": "T4 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_5",
@@ -2375,7 +3611,19 @@
       "name_en": "T5 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_6",
@@ -2400,7 +3648,19 @@
       "name_en": "T6 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_7",
@@ -2425,7 +3685,19 @@
       "name_en": "T7 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_8",
@@ -2450,7 +3722,19 @@
       "name_en": "T8 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_9",
@@ -2475,7 +3759,19 @@
       "name_en": "T9 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_10",
@@ -2500,7 +3796,19 @@
       "name_en": "T10 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_11",
@@ -2525,7 +3833,19 @@
       "name_en": "T11 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_thoracica_12",
@@ -2550,7 +3870,19 @@
       "name_en": "T12 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "foveae costales",
+          "reveal": "none"
+        },
+        {
+          "la": "processus spinosus",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_thoracica_1"
     },
     {
       "id": "bone_vertebra_lumbalis_1",
@@ -2589,7 +3921,30 @@
         "http://www.wikidata.org/entity/Q405478",
         "https://en.wikipedia.org/wiki/Lumbar_vertebrae"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [
+        {
+          "name": "Vertebrae lumbales",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q405478 (label)"
+        },
+        {
+          "name": "lændehvirvel",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q405478 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "processus mammillaris",
+          "reveal": "none"
+        },
+        {
+          "la": "processus accessorius",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_lumbalis_1"
     },
     {
       "id": "bone_vertebra_lumbalis_2",
@@ -2614,7 +3969,19 @@
       "name_en": "L2 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "processus mammillaris",
+          "reveal": "none"
+        },
+        {
+          "la": "processus accessorius",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_lumbalis_1"
     },
     {
       "id": "bone_vertebra_lumbalis_3",
@@ -2639,7 +4006,19 @@
       "name_en": "L3 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "processus mammillaris",
+          "reveal": "none"
+        },
+        {
+          "la": "processus accessorius",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_lumbalis_1"
     },
     {
       "id": "bone_vertebra_lumbalis_4",
@@ -2664,7 +4043,19 @@
       "name_en": "L4 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "processus mammillaris",
+          "reveal": "none"
+        },
+        {
+          "la": "processus accessorius",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_lumbalis_1"
     },
     {
       "id": "bone_vertebra_lumbalis_5",
@@ -2689,7 +4080,19 @@
       "name_en": "L5 vertebra",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "processus mammillaris",
+          "reveal": "none"
+        },
+        {
+          "la": "processus accessorius",
+          "reveal": "none"
+        }
+      ],
+      "quiz_group": "auto_bone_vertebra_lumbalis_1"
     },
     {
       "id": "bone_costa_1",
@@ -2727,7 +4130,66 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q196672"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "korteste, bredeste og mest krummede ribben; caput har én facet; sulcus a. subclaviae og tuberculum m. scaleni anterioris",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus a. subclaviae",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum m. scaleni anterioris",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_2",
@@ -2738,10 +4200,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "tuberositas m. serrati anterioris"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -2761,9 +4224,68 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "tyndere og længere end 1. ribben; ru tuberositas for m. serratus anterior; brusk hæfter ved angulus sterni",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberositas m. serrati anterioris",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_3",
@@ -2774,10 +4296,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -2797,9 +4320,69 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "typisk ribben; costa vera (egen brusk direkte til sternum)",
+      "quiz_group": "costae_typicae_3_9",
+      "qa_2026_10_31": "K1: typiske ribben kan ikke skelnes enkeltvis ud fra form; quiz_group tilføjet",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_4",
@@ -2810,10 +4393,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -2833,9 +4417,69 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "typisk ribben; costa vera (egen brusk direkte til sternum)",
+      "quiz_group": "costae_typicae_3_9",
+      "qa_2026_10_31": "K1: typiske ribben kan ikke skelnes enkeltvis ud fra form; quiz_group tilføjet",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_5",
@@ -2846,10 +4490,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -2869,9 +4514,69 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "typisk ribben; costa vera (egen brusk direkte til sternum)",
+      "quiz_group": "costae_typicae_3_9",
+      "qa_2026_10_31": "K1: typiske ribben kan ikke skelnes enkeltvis ud fra form; quiz_group tilføjet",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_6",
@@ -2882,10 +4587,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -2905,9 +4611,69 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "typisk ribben; costa vera (egen brusk direkte til sternum)",
+      "quiz_group": "costae_typicae_3_9",
+      "qa_2026_10_31": "K1: typiske ribben kan ikke skelnes enkeltvis ud fra form; quiz_group tilføjet",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_7",
@@ -2918,10 +4684,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -2941,9 +4708,69 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "typisk ribben; costa vera (egen brusk direkte til sternum)",
+      "quiz_group": "costae_typicae_3_9",
+      "qa_2026_10_31": "K1: typiske ribben kan ikke skelnes enkeltvis ud fra form; quiz_group tilføjet",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_8",
@@ -2954,10 +4781,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -2977,9 +4805,69 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "typisk ribben; costa spuria (brusken hæfter på ribbenet ovenfor)",
+      "quiz_group": "costae_typicae_3_9",
+      "qa_2026_10_31": "K1: typiske ribben kan ikke skelnes enkeltvis ud fra form; quiz_group tilføjet",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_9",
@@ -2990,10 +4878,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (to facetter)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -3013,9 +4902,69 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "typisk ribben; costa spuria (brusken hæfter på ribbenet ovenfor)",
+      "quiz_group": "costae_typicae_3_9",
+      "qa_2026_10_31": "K1: typiske ribben kan ikke skelnes enkeltvis ud fra form; quiz_group tilføjet",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (to facetter)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_10",
@@ -3026,10 +4975,11 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
+        "caput (én facet)",
         "collum",
         "tuberculum",
-        "angulus"
+        "angulus",
+        "sulcus costae"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -3049,9 +4999,68 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "costa spuria; caput har kun én facet (artikulerer kun med T10)",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (én facet)",
+          "reveal": "none"
+        },
+        {
+          "la": "collum",
+          "reveal": "none"
+        },
+        {
+          "la": "tuberculum",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_11",
@@ -3062,10 +5071,9 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
-        "collum",
-        "tuberculum",
-        "angulus"
+        "caput (én stor facet)",
+        "angulus (svag)",
+        "sulcus costae (lavvandet)"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -3085,9 +5093,60 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "costa fluctuans (frit ribben); ingen collum og intet tuberculum; svag angulus; spids forende",
+      "qa_2026_10_31": "H1: tuberculum (og collum) fjernet. Gray's Anatomy 1918 (PD), gengivet i en.wikipedia 'Rib cage' ({{Gray's}}): \"The eleventh and twelfth ribs, the floating ribs, have a single articular facet on the head, which is of rather large size. They have no necks or tubercles, and are pointed at their anterior ends. The eleventh has a slight angle and a shallow costal groove, whereas the twelfth does not.\" Kenhub: 'Ribs eleven and twelve in particular are short and have no necks or tubercles'. TA2: costae fluctuantes = TA2 1114; TA2 opfører tuberculum costae (1125)/angulus costae (1127) generisk uden ribbensspecifik angivelse.",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (én stor facet)",
+          "reveal": "none"
+        },
+        {
+          "la": "angulus (svag)",
+          "reveal": "none"
+        },
+        {
+          "la": "sulcus costae (lavvandet)",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_costa_12",
@@ -3098,10 +5157,7 @@
       "type": "flad",
       "count_in_body": 2,
       "landmarks": [
-        "caput",
-        "collum",
-        "tuberculum",
-        "angulus"
+        "caput (én stor facet)"
       ],
       "sources": [
         "Gray's Anatomy 42. udg.",
@@ -3121,9 +5177,52 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q196672"
+        "http://www.wikidata.org/entity/Q196672",
+        "https://en.wikipedia.org/wiki/Rib_cage",
+        "https://www.kenhub.com/en/library/anatomy/the-ribs",
+        "https://www.wikidata.org/wiki/Q2304654"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "costa fluctuans (frit ribben); korteste nedre ribben (kan være kortere end 1. ribben); ingen collum, intet tuberculum, ingen angulus, ingen sulcus costae",
+      "qa_2026_10_31": "H1: tuberculum, collum og angulus fjernet. Gray's Anatomy 1918 (PD), gengivet i en.wikipedia 'Rib cage' ({{Gray's}}): \"The eleventh and twelfth ribs, the floating ribs, have a single articular facet on the head, which is of rather large size. They have no necks or tubercles, and are pointed at their anterior ends. The eleventh has a slight angle and a shallow costal groove, whereas the twelfth does not.\" Kenhub: 'Ribs eleven and twelve in particular are short and have no necks or tubercles'. TA2: costae fluctuantes = TA2 1114; TA2 opfører tuberculum costae (1125)/angulus costae (1127) generisk uden ribbensspecifik angivelse.",
+      "accepted_names": [
+        {
+          "name": "Costae",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribbenene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "brystkasse",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "Thorax",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (alias)"
+        },
+        {
+          "name": "ribben",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        },
+        {
+          "name": "costa",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q196672 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "caput (én stor facet)",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_malleus",
@@ -3133,7 +5232,10 @@
       "region": "hoved",
       "type": "kort",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "manubrium mallei (hæftet til membrana tympanica)",
+        "caput mallei"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -3152,9 +5254,31 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q319636"
+        "http://www.wikidata.org/entity/Q319636",
+        "https://en.wikipedia.org/wiki/Malleus"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "yderste øreknogle; skaftet sidder fast i trommehinden; caput artikulerer med incus",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "hammer",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q319636 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "manubrium mallei (hæftet til membrana tympanica)",
+          "reveal": "mask",
+          "masked_la": "manubrium ___ (hæftet til membrana tympanica)"
+        },
+        {
+          "la": "caput mallei",
+          "reveal": "mask",
+          "masked_la": "caput ___"
+        }
+      ]
     },
     {
       "id": "bone_incus",
@@ -3164,7 +5288,12 @@
       "region": "hoved",
       "type": "kort",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "corpus",
+        "crus longum",
+        "crus breve",
+        "processus lenticularis (artikulerer med stapes)"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -3183,9 +5312,37 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q497385"
+        "http://www.wikidata.org/entity/Q497385",
+        "https://en.wikipedia.org/wiki/Incus"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "midterste øreknogle; mellem malleus og stapes",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "ambolt",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q497385 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "corpus",
+          "reveal": "none"
+        },
+        {
+          "la": "crus longum",
+          "reveal": "none"
+        },
+        {
+          "la": "crus breve",
+          "reveal": "none"
+        },
+        {
+          "la": "processus lenticularis (artikulerer med stapes)",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_stapes",
@@ -3195,7 +5352,11 @@
       "region": "hoved",
       "type": "kort",
       "count_in_body": 2,
-      "landmarks": [],
+      "landmarks": [
+        "basis stapedis (i fenestra vestibuli/ovale vindue)",
+        "caput",
+        "crus anterius/posterius"
+      ],
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -3214,9 +5375,33 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q499897"
+        "http://www.wikidata.org/entity/Q499897",
+        "https://en.wikipedia.org/wiki/Stapes"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "inderste og mindste knogle i kroppen; fodpladen sidder i det ovale vindue; m. stapedius hæfter",
+      "qa_2026_10_31": "K1: adskillende kendetegn tilføjet fra hentet kilde",
+      "accepted_names": [
+        {
+          "name": "Stigbøjle",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q499897 (label)"
+        }
+      ],
+      "landmarks_quiz": [
+        {
+          "la": "basis stapedis (i fenestra vestibuli/ovale vindue)",
+          "reveal": "none"
+        },
+        {
+          "la": "caput",
+          "reveal": "none"
+        },
+        {
+          "la": "crus anterius/posterius",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_ossa_sesamoidea_manus",
@@ -3240,7 +5425,14 @@
       "name_en": "Sesamoid bones of hand",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "typisk 2 ved tommelens MCP-led; varierende ved 2. og 5. finger",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_ossa_sesamoidea_pedis",
@@ -3264,7 +5456,14 @@
       "name_en": "Sesamoid bones of foot",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "mediale og laterale sesamknogle under 1. metatarsalhoved (i senen fra m. flexor hallucis brevis)",
+          "reveal": "none"
+        }
+      ]
     },
     {
       "id": "bone_fabella",
@@ -3302,7 +5501,14 @@
         "http://www.wikidata.org/entity/Q574978",
         "https://en.wikipedia.org/wiki/Fabella"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "accepted_names": [],
+      "landmarks_quiz": [
+        {
+          "la": "variabel sesamknogle i caput laterale m. gastrocnemii",
+          "reveal": "none"
+        }
+      ]
     }
   ]
 }

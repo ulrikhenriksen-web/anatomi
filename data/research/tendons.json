@@ -44,42 +44,20 @@
         "http://www.wikidata.org/entity/Q223172",
         "https://en.wikipedia.org/wiki/Achilles_tendon"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
-    },
-    {
-      "id": "tendon_ligamentum_patellae",
-      "name_da": "Knæskalsbåndet (patellasenen)",
-      "name_la_ta2": "Ligamentum patellae",
-      "ta2_id": "2622",
-      "region": "nedre ekstremitet",
-      "associated_muscles": [
-        "muscle_rectus_femoris",
-        "muscle_vastus_lateralis",
-        "muscle_vastus_medialis",
-        "muscle_vastus_intermedius"
-      ],
-      "attachment_da": "tuberositas tibiae",
-      "sources": [
-        "Gray's Anatomy 42. udg.",
-        "Moore Clinically Oriented Anatomy 9. udg.",
-        "Netter Atlas of Human Anatomy 8. udg.",
-        "TA2 (FIPAT 2019)",
-        "Bojsen-Møller: Bevægeapparatets anatomi"
-      ],
-      "verification": "verified",
-      "name_en": null,
-      "source_check": {
-        "ta2": {
-          "matched_label_la": "Ligamentum patellae",
-          "matched_label_en": "patellar tendon",
-          "wikidata": "http://www.wikidata.org/entity/Q1172095",
-          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "akillessene",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q223172 (label)"
+        },
+        {
+          "name": "Akillesenen",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q223172 (alias)"
         }
-      },
-      "source_urls": [
-        "http://www.wikidata.org/entity/Q1172095"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_quadricipitis_femoris",
@@ -125,7 +103,9 @@
         "http://www.wikidata.org/entity/Q7268395",
         "https://en.wikipedia.org/wiki/Quadriceps_tendon"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_pes_anserinus",
@@ -159,7 +139,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1640882"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tractus_iliotibialis",
@@ -192,7 +174,14 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q2447635"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {
+        "attachment_da": {
+          "reveal": "mask",
+          "masked_da": "tuberculum ___ ___ (Gerdys tuberkel), tibia"
+        }
+      }
     },
     {
       "id": "tendon_tendo_musculi_tibialis_posterioris",
@@ -228,7 +217,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Tibialis_posterior_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_tibialis_anterioris",
@@ -266,7 +257,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Tibialis_anterior_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_fibularis_longi",
@@ -304,7 +297,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Fibularis_longus"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_fibularis_brevis",
@@ -340,7 +335,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Fibularis_brevis"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_flexoris_hallucis_longi",
@@ -351,7 +348,7 @@
       "associated_muscles": [
         "muscle_flexor_hallucis_longus"
       ],
-      "attachment_da": "distale phalanx på storetåen",
+      "attachment_da": "plantare side af basis phalangis distalis på storetåen",
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -376,7 +373,11 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Flexor_hallucis_longus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "distinguishing_da": "løber plantart, i en fure på talus og under sustentaculum tali",
+      "qa_2026_10_31": "K1: plantar/dorsal-adskillelse",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_aponeurosis_plantaris",
@@ -417,7 +418,9 @@
         "http://www.wikidata.org/entity/Q383204",
         "https://en.wikipedia.org/wiki/Plantar_fascia"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_bicipitis_brachii_caput_longum",
@@ -449,7 +452,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Biceps"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_bicipitis_brachii_distalis",
@@ -485,7 +490,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Biceps"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_aponeurosis_bicipitalis",
@@ -524,7 +531,9 @@
         "http://www.wikidata.org/entity/Q4903640",
         "https://en.wikipedia.org/wiki/Bicipital_aponeurosis"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_tricipitis_brachii",
@@ -560,7 +569,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Triceps"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_cuff_musculotendinea_rotatorum",
@@ -606,7 +617,9 @@
         "http://www.wikidata.org/entity/Q1764136",
         "https://en.wikipedia.org/wiki/Rotator_cuff"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_communis_musculorum_extensorum",
@@ -652,7 +665,9 @@
         "http://www.wikidata.org/entity/Q5153540",
         "https://en.wikipedia.org/wiki/Common_extensor_tendon"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_communis_musculorum_flexorum",
@@ -699,7 +714,9 @@
         "http://www.wikidata.org/entity/Q3512919",
         "https://en.wikipedia.org/wiki/Common_flexor_tendon"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_aponeurosis_palmaris",
@@ -731,7 +748,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1524395"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_aponeurosis_dorsalis_digiti",
@@ -776,7 +795,9 @@
         "http://www.wikidata.org/entity/Q1250448",
         "https://en.wikipedia.org/wiki/Extensor_expansion"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_extensoris_pollicis_longi",
@@ -787,7 +808,7 @@
       "associated_muscles": [
         "muscle_extensor_pollicis_longus"
       ],
-      "attachment_da": "distale phalanx på tommelen",
+      "attachment_da": "dorsale side af basis phalangis distalis på tommelen",
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -812,7 +833,11 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Extensor_pollicis_longus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "distinguishing_da": "løber dorsalt om tuberculum dorsale radii (Listers tuberkel); ulnare afgrænsning af tabatière anatomique",
+      "qa_2026_10_31": "K1: plantar/dorsal-adskillelse",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_centrum_tendineum_diaphragmatis",
@@ -851,7 +876,14 @@
         "http://www.wikidata.org/entity/Q2946092",
         "https://en.wikipedia.org/wiki/Central_tendon_of_diaphragm"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {
+        "attachment_da": {
+          "reveal": "mask",
+          "masked_da": "centralt i ___"
+        }
+      }
     },
     {
       "id": "tendon_linea_alba",
@@ -885,7 +917,15 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q942068"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "Linea alba (abdomen)",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q942068 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_fascia_thoracolumbalis",
@@ -932,7 +972,15 @@
         "http://www.wikidata.org/entity/Q1397352",
         "https://en.wikipedia.org/wiki/Thoracolumbar_fascia"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "Thoracolumbare fascie",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q1397352 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_supraspinati",
@@ -968,7 +1016,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Supraspinatus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_infraspinati",
@@ -1004,7 +1054,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Infraspinatus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_subscapularis",
@@ -1040,7 +1092,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Subscapularis_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_flexoris_digitorum_superficialis",
@@ -1076,7 +1130,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Flexor_digitorum_superficialis_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_flexoris_digitorum_profundi",
@@ -1112,7 +1168,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Flexor_digitorum_profundus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_flexoris_pollicis_longi",
@@ -1123,7 +1181,7 @@
       "associated_muscles": [
         "muscle_flexor_pollicis_longus"
       ],
-      "attachment_da": "distale phalanx på tommelen",
+      "attachment_da": "palmare side af basis phalangis distalis på tommelen",
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1148,7 +1206,11 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Flexor_pollicis_longus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "distinguishing_da": "løber volart gennem canalis carpi",
+      "qa_2026_10_31": "K1: plantar/dorsal-adskillelse",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_abductoris_pollicis_longi",
@@ -1184,7 +1246,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Abductor_pollicis_longus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_extensoris_pollicis_brevis",
@@ -1220,7 +1284,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Extensor_pollicis_brevis_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_extensoris_carpi_ulnaris",
@@ -1256,7 +1322,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Extensor_carpi_ulnaris_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_flexoris_carpi_radialis",
@@ -1292,7 +1360,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Flexor_carpi_radialis_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_palmaris_longi",
@@ -1324,7 +1394,14 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Palmaris_longus_muscle"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {
+        "attachment_da": {
+          "reveal": "mask",
+          "masked_da": "aponeurosis ___"
+        }
+      }
     },
     {
       "id": "tendon_retinaculum_musculorum_flexorum_manus",
@@ -1354,7 +1431,15 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q449457"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "ligamentum transversum carpi",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q449457 (alias)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_retinaculum_musculorum_extensorum_manus",
@@ -1384,7 +1469,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1425589"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_semimembranosi",
@@ -1420,7 +1507,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Semimembranosus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_bicipitis_femoris",
@@ -1456,7 +1545,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Biceps_femoris_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_poplitei",
@@ -1492,7 +1583,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Popliteus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_extensoris_hallucis_longi",
@@ -1503,7 +1596,7 @@
       "associated_muscles": [
         "muscle_extensor_hallucis_longus"
       ],
-      "attachment_da": "distale phalanx på storetåen",
+      "attachment_da": "dorsale side af basis phalangis distalis på storetåen",
       "sources": [
         "Gray's Anatomy 42. udg.",
         "Moore Clinically Oriented Anatomy 9. udg.",
@@ -1528,7 +1621,11 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Extensor_hallucis_longus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "distinguishing_da": "løber dorsalt på foden",
+      "qa_2026_10_31": "K1: plantar/dorsal-adskillelse",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_extensoris_digitorum_longi",
@@ -1560,7 +1657,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Extensor_digitorum_longus_muscle"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_flexoris_digitorum_longi",
@@ -1596,7 +1695,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Flexor_digitorum_longus_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_retinaculum_musculorum_flexorum_pedis",
@@ -1637,7 +1738,15 @@
         "http://www.wikidata.org/entity/Q5459037",
         "https://en.wikipedia.org/wiki/Flexor_retinaculum_of_the_foot"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "retinaculum musculorum flexorum",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q5459037 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_retinaculum_musculorum_extensorum_superius_pedis",
@@ -1680,7 +1789,15 @@
         "http://www.wikidata.org/entity/Q17044312",
         "https://en.wikipedia.org/wiki/Superior_extensor_retinaculum_of_foot"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "retinaculum superius musculorum extensorum",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q17044312 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_retinaculum_musculorum_extensorum_inferius_pedis",
@@ -1721,7 +1838,20 @@
         "http://www.wikidata.org/entity/Q6029317",
         "https://en.wikipedia.org/wiki/Inferior_extensor_retinaculum_of_the_foot"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "retinaculum inferius musculorum extensorum",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q6029317 (alias)"
+        },
+        {
+          "name": "Retinaculum extensorum inferius pedis",
+          "lang": "la",
+          "source": "https://www.wikidata.org/wiki/Q6029317 (label)"
+        }
+      ],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_retinaculum_musculorum_fibularium_superius",
@@ -1742,7 +1872,9 @@
       "name_en": "Superior fibular retinaculum",
       "source_check": {},
       "source_urls": [],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_obturatorii_interni",
@@ -1776,7 +1908,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Internal_obturator_muscle"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_musculi_iliopsoatis",
@@ -1808,7 +1942,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Iliopsoas"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_intermedius_musculi_digastrici",
@@ -1844,7 +1980,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Digastric_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_tendo_intermedius_musculi_omohyoidei",
@@ -1880,7 +2018,9 @@
       "source_urls": [
         "https://en.wikipedia.org/wiki/Omohyoid_muscle"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_galea_aponeurotica",
@@ -1912,7 +2052,9 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q1973755"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [],
+      "quiz_mask": {}
     },
     {
       "id": "tendon_anulus_tendineus_communis",
@@ -1947,39 +2089,15 @@
       "source_urls": [
         "http://www.wikidata.org/entity/Q612431"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
-    },
-    {
-      "id": "tendon_ligamentum_inguinale",
-      "name_da": "Lyskebåndet",
-      "name_la_ta2": "Ligamentum inguinale",
-      "ta2_id": "2365",
-      "region": "bug/bækken",
-      "associated_muscles": [
-        "muscle_obliquus_externus_abdominis"
-      ],
-      "attachment_da": "spina iliaca anterior superior til tuberculum pubicum",
-      "sources": [
-        "Gray's Anatomy 42. udg.",
-        "Moore Clinically Oriented Anatomy 9. udg.",
-        "Netter Atlas of Human Anatomy 8. udg.",
-        "TA2 (FIPAT 2019)",
-        "Bojsen-Møller: Bevægeapparatets anatomi"
-      ],
-      "verification": "verified",
-      "name_en": null,
-      "source_check": {
-        "ta2": {
-          "matched_label_la": "Ligamentum inguinale",
-          "matched_label_en": "inguinal ligament",
-          "wikidata": "http://www.wikidata.org/entity/Q285715",
-          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel",
+      "accepted_names": [
+        {
+          "name": "Annulus tendineus communis",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q612431 (label)"
         }
-      },
-      "source_urls": [
-        "http://www.wikidata.org/entity/Q285715"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "quiz_mask": {}
     },
     {
       "id": "tendon_corpus_perineale",
@@ -2021,41 +2139,30 @@
         "http://www.wikidata.org/entity/Q105499",
         "https://en.wikipedia.org/wiki/Perineum"
       ],
-      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check"
-    },
-    {
-      "id": "tendon_ligamentum_nuchae",
-      "name_da": "Nakkebåndet",
-      "name_la_ta2": "Ligamentum nuchae",
-      "ta2_id": "1678",
-      "region": "ryg",
-      "associated_muscles": [
-        "muscle_trapezius",
-        "muscle_splenius_capitis",
-        "muscle_rhomboideus_minor"
-      ],
-      "attachment_da": "protuberantia occipitalis externa til procc. spinosi C7",
-      "sources": [
-        "Gray's Anatomy 42. udg.",
-        "Moore Clinically Oriented Anatomy 9. udg.",
-        "Netter Atlas of Human Anatomy 8. udg.",
-        "TA2 (FIPAT 2019)",
-        "Bojsen-Møller: Bevægeapparatets anatomi"
-      ],
-      "verification": "verified",
-      "name_en": null,
-      "source_check": {
-        "ta2": {
-          "matched_label_la": "Ligamentum nuchae",
-          "matched_label_en": "nuchal ligament",
-          "wikidata": "http://www.wikidata.org/entity/Q519216",
-          "source": "https://query.wikidata.org (P7173 TA2 ID; same dataset as ta2viewer.openanatomy.org)"
+      "verification_note": "Ikke fuldt bekræftet mod hentet kilde – se source_check",
+      "accepted_names": [
+        {
+          "name": "Mellemkødet",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q105499 (alias)"
+        },
+        {
+          "name": "Perinæum",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q105499 (alias)"
+        },
+        {
+          "name": "Perineum",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q105499 (alias)"
+        },
+        {
+          "name": "Mellemkød",
+          "lang": "da",
+          "source": "https://www.wikidata.org/wiki/Q105499 (label)"
         }
-      },
-      "source_urls": [
-        "http://www.wikidata.org/entity/Q519216"
       ],
-      "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2); hæfter (knoglestikord) fundet i Wikipedia-artikel"
+      "quiz_mask": {}
     }
   ]
 }

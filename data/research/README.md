@@ -74,3 +74,16 @@ Fælles: `id`, `name_da`, `name_la_ta2`, `ta2_id`, `region`, `sources[]` (læreb
 ## Øvrige huller
 - Lærebogshenvisninger er ikke sidespecifikke. Ingen manuel ekspertgennemgang endnu.
 - Ikke medtaget: øvrige indre tungemuskler (longitudinalis inferior, verticalis), m. thyroepiglotticus, m. salpingopharyngeus' varianter, multifidi/rotatores per region, flere ledbånd (fx karpale/tarsale enkeltbånd, menisker), mellemhvirvelskiver.
+
+## QA-runde 31.10.2026 (qa-rapport.md K1, H1, H3, H4, H5) – v0.4
+Pipeline (rebuild-sikker): **`python3 make_all.py`** kører `build.py` → `verify.py` → `apply_strength.py` → `qa_round.py` → `validate.py` → `images/validate_images.py` og stopper ved første fejl. Kør aldrig `build.py` alene som slutsteg – det fjerner QA-rettelserne. `verification_strength` (strong/weak, 207 muskler) er frosset i `verification_strength.json` (oprindeligt ad hoc-beregnet; reglen kunne ikke rekonstrueres entydigt fra source_check) og påføres af `apply_strength.py`. Reproducerbarhed bevist 31.10.2026: fuldt genbyg gav byte-identiske bones/muscles/tendons/ligaments.json, landmark_reveal_final.csv og qa_dups.json. Hentede kilder gemt i `qa_sources/`.
+Nye felter (additive; intet omdøbt/fjernet):
+- `distinguishing_da` (bones, tendons): adskillende kendetegn til navngivning.
+- `quiz_group` (alle filer): elementer der ikke kan skelnes i en quiz; app'en bør ikke bruge et element som distraktor for et andet i samme gruppe.
+- `landmarks_quiz` (bones): parallel liste til `landmarks` (strenge uændret): `[{"la": str, "reveal": "none"|"mask"|"hide", "masked_la"?: str, "masked_da"?: str}]`. Kun quiz-tilstande; Udforsk viser `landmarks`.
+- `quiz_mask` (muscles, tendons; tom for ligaments): `{felt: {"reveal":"mask","masked_da": str}}` for origin_da/insertion_da/attachment_da. Kun elementets eget navn maskeres; knoglenavne/-landemærker bevares (ledbånd: ingen maskering, de er navngivet efter fæster).
+- `accepted_names` (alle): `[{"name","lang":"da"|"la","source"}]` – kun Wikidata da/la-labels+aliases (`wd_names.json`) + eksplicit kildeangivne undtagelser.
+- `cross_reference_da` (ligaments), `qa_2026_10_31` (ændringsnote m. kilde).
+Costae 11–12: Gray's 1918 (via en.wikipedia "Rib cage"): "no necks or tubercles … The eleventh has a slight angle … the twelfth does not"; Kenhub; TA2 1114 (costae fluctuantes).
+Fjernet: tendon_ligamentum_patellae, tendon_ligamentum_inguinale, tendon_ligamentum_nuchae (findes som ligament_*). Ny: muscle_arytenoideus_obliquus (TA2 2203).
+Maskeringsliste til UX: `landmark_reveal_final.csv`.
