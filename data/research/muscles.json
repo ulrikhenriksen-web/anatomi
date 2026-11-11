@@ -6905,11 +6905,17 @@
       ],
       "verification_strength": "weak",
       "qa_2026_10_31": "H5: entydigt dansk navn; m. pyramidalis auriculae findes ikke i datasættet",
+      "qa_2026_11_11": "H5-opfølgning: lex.dk/musculus_pyramidalis: «Også kendt som pyramidemusklen»; «kan på dansk kaldes for pyramidemusklen». Kvalifikationen (bugvæggen) beholdes, så navnet ikke overlapper strubemuskler.",
       "accepted_names": [
         {
           "name": "Pyramidalis",
           "lang": "da",
           "source": "https://www.wikidata.org/wiki/Q1756826 (label)"
+        },
+        {
+          "name": "Pyramidemusklen",
+          "lang": "da",
+          "source": "https://lex.dk/musculus_pyramidalis («Også kendt som pyramidemusklen»; «kan på dansk kaldes for pyramidemusklen»)"
         }
       ],
       "quiz_mask": {}
@@ -9051,7 +9057,7 @@
     },
     {
       "id": "muscle_cricoarytenoideus_posterior",
-      "name_da": "Bageste ringbrusk-pyramidemuskel",
+      "name_da": "Bageste ringbrusk-tudbruskmuskel",
       "name_la_ta2": "Musculus cricoarytenoideus posterior",
       "ta2_id": "2196",
       "region": "hals",
@@ -9094,9 +9100,12 @@
       },
       "source_urls": [
         "http://www.wikidata.org/entity/Q379007",
-        "https://en.wikipedia.org/wiki/Posterior_cricoarytenoid_muscle"
+        "https://en.wikipedia.org/wiki/Posterior_cricoarytenoid_muscle",
+        "https://lex.dk/tudbruskene",
+        "https://lex.dk/strubehovedet"
       ],
       "verification_strength": "strong",
+      "qa_2026_11_11": "H5-opfølgning 11.11.2026: eksakte dublet «Pyramidemusklen» var allerede væk, men seks strubemuskler havde stadig «pyramide»/«pyramidemuskel» i name_da. Dansk bruskterm «tudbrusk» fra lex.dk/tudbruskene; «pyramidebrusk» er dokumenteret synonym (lex.dk/strubehovedet) men bruges ikke i name_da.",
       "accepted_names": [
         {
           "name": "Musculus cricoarytaenoideus posterior",
@@ -9108,7 +9117,7 @@
     },
     {
       "id": "muscle_cricoarytenoideus_lateralis",
-      "name_da": "Laterale ringbrusk-pyramidemuskel",
+      "name_da": "Laterale ringbrusk-tudbruskmuskel",
       "name_la_ta2": "Musculus cricoarytenoideus lateralis",
       "ta2_id": "2198",
       "region": "hals",
@@ -9151,9 +9160,12 @@
       },
       "source_urls": [
         "http://www.wikidata.org/entity/Q730870",
-        "https://en.wikipedia.org/wiki/Lateral_cricoarytenoid_muscle"
+        "https://en.wikipedia.org/wiki/Lateral_cricoarytenoid_muscle",
+        "https://lex.dk/tudbruskene",
+        "https://lex.dk/strubehovedet"
       ],
       "verification_strength": "strong",
+      "qa_2026_11_11": "H5-opfølgning 11.11.2026: eksakte dublet «Pyramidemusklen» var allerede væk, men seks strubemuskler havde stadig «pyramide»/«pyramidemuskel» i name_da. Dansk bruskterm «tudbrusk» fra lex.dk/tudbruskene; «pyramidebrusk» er dokumenteret synonym (lex.dk/strubehovedet) men bruges ikke i name_da.",
       "accepted_names": [
         {
           "name": "Musculus cricoarytaenoideus lateralis",
@@ -9165,7 +9177,7 @@
     },
     {
       "id": "muscle_thyroarytenoideus",
-      "name_da": "Skjoldbrusk-pyramidemusklen",
+      "name_da": "Skjoldbrusk-tudbruskmusklen",
       "name_la_ta2": "Musculus thyroarytenoideus",
       "ta2_id": "2199",
       "region": "hals",
@@ -9207,9 +9219,12 @@
       },
       "source_urls": [
         "http://www.wikidata.org/entity/Q932571",
-        "https://en.wikipedia.org/wiki/Thyroarytenoid_muscle"
+        "https://en.wikipedia.org/wiki/Thyroarytenoid_muscle",
+        "https://lex.dk/tudbruskene",
+        "https://lex.dk/strubehovedet"
       ],
       "verification_strength": "strong",
+      "qa_2026_11_11": "H5-opfølgning 11.11.2026: eksakte dublet «Pyramidemusklen» var allerede væk, men seks strubemuskler havde stadig «pyramide»/«pyramidemuskel» i name_da. Dansk bruskterm «tudbrusk» fra lex.dk/tudbruskene; «pyramidebrusk» er dokumenteret synonym (lex.dk/strubehovedet) men bruges ikke i name_da.",
       "accepted_names": [],
       "quiz_mask": {}
     },
@@ -9270,7 +9285,7 @@
     },
     {
       "id": "muscle_arytenoideus",
-      "name_da": "Tværgående pyramidebruskmuskel",
+      "name_da": "Tværgående tudbruskmuskel",
       "name_la_ta2": "Musculus arytenoideus transversus",
       "ta2_id": "2205",
       "region": "hals",
@@ -9312,10 +9327,13 @@
       },
       "source_urls": [
         "http://www.wikidata.org/entity/Q717887",
-        "https://en.wikipedia.org/wiki/Arytenoid_muscle"
+        "https://en.wikipedia.org/wiki/Arytenoid_muscle",
+        "https://lex.dk/tudbruskene",
+        "https://lex.dk/strubehovedet"
       ],
       "verification_strength": "strong",
       "qa_2026_10_31": "H5: TA2 2205 = m. arytenoideus transversus (Wikidata Q717887); skrå del udskilt som muscle_arytenoideus_obliquus",
+      "qa_2026_11_11": "H5-opfølgning 11.11.2026: eksakte dublet «Pyramidemusklen» var allerede væk, men seks strubemuskler havde stadig «pyramide»/«pyramidemuskel» i name_da. Dansk bruskterm «tudbrusk» fra lex.dk/tudbruskene; «pyramidebrusk» er dokumenteret synonym (lex.dk/strubehovedet) men bruges ikke i name_da.",
       "accepted_names": [
         {
           "name": "Musculus arytenoideus",
@@ -9336,7 +9354,7 @@
     },
     {
       "id": "muscle_arytenoideus_obliquus",
-      "name_da": "Skrå pyramidebruskmuskel",
+      "name_da": "Skrå tudbruskmuskel",
       "name_la_ta2": "Musculus arytenoideus obliquus",
       "ta2_id": "2203",
       "region": "hals",
@@ -9372,10 +9390,13 @@
       },
       "source_urls": [
         "http://www.wikidata.org/entity/Q3867495",
-        "https://en.wikipedia.org/wiki/Oblique_arytenoid"
+        "https://en.wikipedia.org/wiki/Oblique_arytenoid",
+        "https://lex.dk/tudbruskene",
+        "https://lex.dk/strubehovedet"
       ],
       "verification_strength": "strong",
       "qa_2026_10_31": "H5: ny, udskilt fra m. arytenoideus",
+      "qa_2026_11_11": "H5-opfølgning 11.11.2026: eksakte dublet «Pyramidemusklen» var allerede væk, men seks strubemuskler havde stadig «pyramide»/«pyramidemuskel» i name_da. Dansk bruskterm «tudbrusk» fra lex.dk/tudbruskene; «pyramidebrusk» er dokumenteret synonym (lex.dk/strubehovedet) men bruges ikke i name_da.",
       "accepted_names": [],
       "quiz_mask": {
         "origin_da": {
@@ -11419,7 +11440,7 @@
     },
     {
       "id": "muscle_aryepiglotticus",
-      "name_da": "Pyramide-strubelågsmusklen",
+      "name_da": "Tudbrusk-strubelågsmusklen",
       "name_la_ta2": "Musculus aryepiglotticus",
       "ta2_id": "2204",
       "region": "hals",
@@ -11461,8 +11482,11 @@
       },
       "source_urls": [
         "http://www.wikidata.org/entity/Q385089",
-        "https://en.wikipedia.org/wiki/Aryepiglottic_muscle"
+        "https://en.wikipedia.org/wiki/Aryepiglottic_muscle",
+        "https://lex.dk/tudbruskene",
+        "https://lex.dk/strubehovedet"
       ],
+      "qa_2026_11_11": "H5-opfølgning 11.11.2026: eksakte dublet «Pyramidemusklen» var allerede væk, men seks strubemuskler havde stadig «pyramide»/«pyramidemuskel» i name_da. Dansk bruskterm «tudbrusk» fra lex.dk/tudbruskene; «pyramidebrusk» er dokumenteret synonym (lex.dk/strubehovedet) men bruges ikke i name_da.",
       "accepted_names": [],
       "quiz_mask": {}
     },

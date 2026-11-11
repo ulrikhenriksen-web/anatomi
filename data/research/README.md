@@ -87,3 +87,8 @@ Nye felter (additive; intet omdøbt/fjernet):
 Costae 11–12: Gray's 1918 (via en.wikipedia "Rib cage"): "no necks or tubercles … The eleventh has a slight angle … the twelfth does not"; Kenhub; TA2 1114 (costae fluctuantes).
 Fjernet: tendon_ligamentum_patellae, tendon_ligamentum_inguinale, tendon_ligamentum_nuchae (findes som ligament_*). Ny: muscle_arytenoideus_obliquus (TA2 2203).
 Maskeringsliste til UX: `landmark_reveal_final.csv`.
+Maskering (31.10.2026): kun latinske stammer bruges; der findes ingen dansk stamme-/ordliste i `qa_round.py` (bl.a. ingen 'hage', indtil 'Hagebenet' er kildebelagt). Hvis danske ord tilføjes, skal hvert have en kilde. UX har godkendt `landmark_reveal_final.csv` som den er.
+
+## Opfølgning 11.11.2026 (Full Stack, data v0.4)
+- `bone_axis` og `bone_atlas` har nu `distinguishing_da` (Gray's Anatomy 1918, archive.org djvu-tekst). Axis-teksten undgår ordene axis/dens, fordi `dens axis` er `reveal: hide`.
+- H5: den eksakte dublet «Pyramidemusklen» var allerede rettet på live (anatomi.emiltram.dk, `generated_at` 2026-10-31T11:11:08Z) og i JSON, men seks strubemuskler havde stadig «pyramide»/«pyramidemuskel» i `name_da`. De er omdøbt til tudbrusk-former (lex.dk/tudbruskene). «Pyramidemusklen» er nu kun `muscle_pyramidalis` (kvalificeret «(bugvæggen)»; kortformen ligger i `accepted_names` fra lex.dk/musculus_pyramidalis). «Pyramidebrusk» er dokumenteret synonym for tudbrusk (lex.dk/strubehovedet) men bruges ikke i `name_da`. Ændringen ligger i `qa_round.py` og overlever `make_all.py`.

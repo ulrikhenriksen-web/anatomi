@@ -1581,9 +1581,13 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q655357"
+        "http://www.wikidata.org/entity/Q655357",
+        "https://archive.org/stream/anatomyofhumanbo1918gray/anatomyofhumanbo1918gray_djvu.txt",
+        "https://en.wikipedia.org/wiki/Atlas_(anatomy)"
       ],
       "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "1. halshvirvel (C1); ringformet uden hvirvellegeme og uden torntap; består af en forreste og en bageste bue samt to sidemasser (massae laterales); de øvre ledflader danner nikkeled med nakkebenets condyli",
+      "qa_2026_11_11": "Gray's Anatomy 1918 (PD, archive.org djvu-tekst): \"The first cervical vertebra (Fig. 86) is named the atlas because it supports the globe of the head. Its chief peculiarity is that it has no body... it has no spinous process, is ring-like, and consists of an anterior and a posterior arch and two lateral masses. ... each forming a cup for the corresponding condyle of the occipital bone, and are admirably adapted to the nodding movements of the head.\"",
       "accepted_names": [
         {
           "name": "Atlas, vertebra cervicalis I",
@@ -1631,9 +1635,13 @@
         }
       },
       "source_urls": [
-        "http://www.wikidata.org/entity/Q792567"
+        "http://www.wikidata.org/entity/Q792567",
+        "https://archive.org/stream/anatomyofhumanbo1918gray/anatomyofhumanbo1918gray_djvu.txt",
+        "https://en.wikipedia.org/wiki/Axis_(anatomy)"
       ],
       "verification_note": "Latinsk navn/TA2-ID matchet i Wikidata (TA2)",
+      "distinguishing_da": "2. halshvirvel (C2); danner drejeleddet, som 1. halshvirvel (med hovedet) drejer om; kendetegnes ved en stærk, tandlignende tap (processus odontoideus), der rejser sig lodret fra hvirvellegemets overside og artikulerer med den forreste bue på 1. halshvirvel",
+      "qa_2026_11_11": "Gray's Anatomy 1918 (PD, archive.org djvu-tekst): \"The second cervical vertebra (Fig. 87 and 88) is named the epistropheus or axis because it forms the pivot upon which the first vertebra, carrying the head, rotates. The most distinctive characteristic of this bone is the strong odontoid process which rises perpendicularly from the upper surface of the body. ... On its anterior surface is an oval or nearly circular facet for articulation with that on the anterior arch of the atlas.\" Ordene axis/dens er bevidst udeladt i distinguishing_da (dens axis er reveal:hide).",
       "accepted_names": [
         {
           "name": "Axis, vertebra cervicalis II",

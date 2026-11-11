@@ -95,3 +95,34 @@ test('v0.4: accepted_names feed the answer matcher', () => {
   assert.ok(Q.answersMatch('patellasenen', lp.name_da, lp));
   assert.ok(Q.answersMatch('x', 'y', { name_da: 'y', accepted_names: [{ name: 'x', lang: 'da' }] }));
 });
+
+test('v0.4 follow-up: atlas/axis have distinguishing_da; axis text avoids axis/dens', () => {
+  const atlas = items.find((i) => i.id === 'bone_atlas');
+  const axis = items.find((i) => i.id === 'bone_axis');
+  assert.ok(atlas.distinguishing_da);
+  assert.ok(axis.distinguishing_da);
+  assert.doesNotMatch(axis.distinguishing_da, /\baxis\b/i);
+  assert.doesNotMatch(axis.distinguishing_da, /\bdens\b/i);
+  assert.equal(Q.describe(axis).find((p) => p.label === 'Kendetegn')?.value, axis.distinguishing_da);
+  assert.equal(Q.describe(atlas).find((p) => p.label === 'Kendetegn')?.value, atlas.distinguishing_da);
+});
+test('v0.4 follow-up: larynx muscles use tudbrusk names; pyramidalis unchanged', () => {
+  const names = {
+    muscle_arytenoideus: 'Tværgående tudbruskmuskel',
+    muscle_arytenoideus_obliquus: 'Skrå tudbruskmuskel',
+    muscle_cricoarytenoideus_posterior: 'Bageste ringbrusk-tudbruskmuskel',
+    muscle_cricoarytenoideus_lateralis: 'Laterale ringbrusk-tudbruskmuskel',
+    muscle_thyroarytenoideus: 'Skjoldbrusk-tudbruskmusklen',
+    muscle_aryepiglotticus: 'Tudbrusk-strubelågsmusklen',
+  };
+  for (const [id, name] of Object.entries(names)) {
+    const it = items.find((i) => i.id === id);
+    assert.equal(it.name_da, name, id);
+    assert.doesNotMatch(it.name_da, /pyramide/i, id);
+  }
+  const py = items.find((i) => i.id === 'muscle_pyramidalis');
+  assert.equal(py.name_da, 'Pyramidemusklen (bugvæggen)');
+  assert.ok(Q.answersMatch('Pyramidemusklen', py.name_da, py));
+  const others = items.filter((i) => i.id !== 'muscle_pyramidalis' && /pyramide/i.test(i.name_da));
+  assert.equal(others.length, 0, others.map((o) => o.id).join(','));
+});
